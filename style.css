@@ -117,3 +117,20 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:22px 14px 4
 .codeblock{white-space:pre-wrap;overflow-wrap:anywhere;background:#f7f3ee;border:1px solid var(--line);border-radius:12px;padding:12px;font-size:.78rem;line-height:1.55}
 code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 @media (max-width:640px){.facts{grid-template-columns:1fr}.facts dt{margin-top:5px}.edge-list{columns:1}.officialgrid{grid-template-columns:1fr}}
+
+.toggle-all{
+  display:inline-block;
+  margin:10px 0 16px;
+  padding:6px 14px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:var(--soft);
+  color:var(--accent);
+  font-size:.82rem;
+  font-weight:700;
+  cursor:pointer;
+}
+.toggle-all:hover{
+  background:var(--accent);
+  color:#fff;
+}
