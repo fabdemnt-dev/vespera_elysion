@@ -97,3 +97,23 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:22px 14px 4
   .links{margin:6px 0 8px}
   .toc a{font-size:.73rem}
 }
+
+/* official settings */
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:7px 14px;margin:12px 0 18px}
+.facts dt{font-weight:700;color:var(--muted)}
+.facts dd{margin:0}
+.callout{padding:10px 12px;border-left:4px solid var(--accent2);background:#f3f7f3;border-radius:8px}
+.officialgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:14px 0 20px}
+.settingbox{border:1px solid var(--line);border-radius:14px;padding:14px;background:#fff}
+.settingbox h3{margin:0 0 4px;font-size:1rem}
+.meta,.mini{color:var(--muted);font-size:.82rem}
+.edge-list{columns:2;column-gap:28px;padding-left:1.25rem}
+.edge-list li{break-inside:avoid;margin:0 0 10px}
+.settingdetail{border:1px solid var(--line);border-radius:14px;background:#fff;margin:10px 0;overflow:hidden}
+.settingdetail summary{cursor:pointer;padding:12px 14px;background:#fffaf7}
+.settingdetail[open] summary{border-bottom:1px solid var(--line)}
+.detailbody{padding:12px 14px}
+.detailbody h4{margin:14px 0 4px;color:var(--accent)}
+.codeblock{white-space:pre-wrap;overflow-wrap:anywhere;background:#f7f3ee;border:1px solid var(--line);border-radius:12px;padding:12px;font-size:.78rem;line-height:1.55}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+@media (max-width:640px){.facts{grid-template-columns:1fr}.facts dt{margin-top:5px}.edge-list{columns:1}.officialgrid{grid-template-columns:1fr}}
