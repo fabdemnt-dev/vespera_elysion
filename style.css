@@ -1,0 +1,99 @@
+:root{
+  --bg:#fffaf3;
+  --paper:#fffefb;
+  --ink:#493b36;
+  --muted:#7c6a62;
+  --line:#eadfd2;
+  --accent:#b86b77;
+  --accent2:#6f8f78;
+  --soft:#f8ede8;
+  --shadow:0 8px 24px rgba(73,59,54,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#fffaf3 0%,#fffdf9 50%,#f9f4ed 100%);
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+  line-height:1.75;
+}
+a{color:inherit}
+.sitehead{
+  position:sticky;top:0;z-index:10;
+  padding:16px max(18px,calc((100% - 980px)/2));
+  background:rgba(255,250,243,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.sitehead h1{margin:2px 0 10px;font-size:clamp(1.5rem,5vw,2.2rem)}
+.eyebrow,.eyebrow2{font-size:.78rem;letter-spacing:.12em;color:var(--accent);font-weight:700}
+.nav{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.nav a{
+  flex:0 0 auto;text-decoration:none;padding:7px 11px;border-radius:999px;
+  color:var(--muted);font-size:.88rem;
+}
+.nav a.active,.nav a:hover{background:var(--soft);color:var(--accent);font-weight:700}
+main{width:min(980px,calc(100% - 28px));margin:28px auto 56px}
+.hero,.intro,.card,.pairgroup{
+  background:var(--paper);border:1px solid var(--line);border-radius:18px;
+  box-shadow:var(--shadow);
+}
+.hero,.intro,.card{padding:20px;margin:0 0 18px}
+.hero h2,.card h2,.intro h2{margin-top:0}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:18px 0}
+.biglink{
+  display:block;text-decoration:none;background:var(--paper);border:1px solid var(--line);
+  border-radius:18px;padding:18px;box-shadow:var(--shadow)
+}
+.biglink span{font-size:1.6rem}
+.biglink h3{margin:7px 0 3px}
+.biglink p{margin:0;color:var(--muted);font-size:.9rem}
+.toc{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+.toc a{
+  text-decoration:none;border:1px solid var(--line);background:#fff;padding:6px 9px;
+  border-radius:999px;font-size:.78rem;color:var(--muted)
+}
+.toc a:hover{border-color:var(--accent);color:var(--accent)}
+.cardtop,.pairhead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.cardtop h2{font-size:1.12rem;margin:.1rem 0 .8rem}
+.number{font-size:.75rem;font-weight:800;color:var(--accent)}
+.links{display:flex;gap:6px;flex-wrap:wrap}
+.chip{
+  display:inline-block;text-decoration:none;border:1px solid var(--line);
+  background:#fff;padding:5px 9px;border-radius:999px;font-size:.78rem;color:var(--muted)
+}
+.chip.world{color:var(--accent2)}
+.chip.static{pointer-events:none;vertical-align:baseline}
+.transcript{border-top:1px dashed var(--line);padding-top:12px}
+.transcript .speaker{margin-top:14px;color:var(--accent);font-size:.88rem}
+.transcript p{margin:5px 0 12px;white-space:normal}
+.eventline{
+  margin:15px 0;padding:10px 12px;border-radius:12px;
+  background:#f7f2e8;color:#79644f;font-style:italic;text-align:center
+}
+.cardfoot{border-top:1px dashed var(--line);margin-top:16px;padding-top:10px;text-align:right}
+.cardfoot a{font-size:.78rem;color:var(--muted);text-decoration:none}
+.notecontent ul{padding-left:1.25rem}
+.notecontent li{margin:.45rem 0}
+.pairgroup{padding:18px;margin:0 0 26px}
+.pairhead{
+  position:sticky;top:118px;z-index:5;
+  background:rgba(255,254,251,.96);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);padding:4px 2px 12px;margin-bottom:14px
+}
+.pairhead h2{margin:0;font-size:1.25rem}
+.paircount{font-size:.76rem;padding:4px 9px;background:var(--soft);border-radius:999px;color:var(--accent)}
+.pairnumbers{width:100%;margin:0;color:var(--muted);font-size:.76rem}
+.pairgroup .conversation{box-shadow:none;background:#fff;margin:12px 0;padding:16px}
+.pairtoc{max-height:270px;overflow:auto;padding-right:3px}
+footer{text-align:center;color:var(--muted);font-size:.78rem;padding:22px 14px 40px}
+@media (max-width:640px){
+  .sitehead{position:relative}
+  .pairhead{position:relative;top:auto}
+  main{width:min(100% - 18px,980px);margin-top:16px}
+  .card,.intro,.hero,.pairgroup{border-radius:14px;padding:14px}
+  .cardtop{display:block}
+  .links{margin:6px 0 8px}
+  .toc a{font-size:.73rem}
+}
