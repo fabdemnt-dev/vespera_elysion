@@ -134,3 +134,17 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
   background:var(--accent);
   color:#fff;
 }
+
+
+/* daily summary / newspaper record */
+.tablewrap{overflow-x:auto;margin:12px 0}
+.daily-table{width:100%;border-collapse:collapse;min-width:720px;font-size:.84rem}
+.daily-table th,.daily-table td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+.daily-table th{background:var(--soft);color:var(--accent);white-space:nowrap}
+.newspaper-entry{margin-top:20px;padding-top:6px}
+.newspaper-entry+ .newspaper-entry{border-top:1px dashed var(--line);padding-top:22px}
+.newspaper-entry h4{margin:14px 0 8px;color:var(--accent2)}
+.newspaper{padding:14px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.newspaper h3{margin:14px 0 6px}
+.newspaper h3:first-child{margin-top:0}
+.daybreak{border-left:5px solid var(--accent2)}
