@@ -36,3 +36,7 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - to: `flower_slumber_garden`
 - UI表示: `08/10 14:30 アイリスが花灯りの小路から花眠りの庭へ`
 - #142開始前にworld_state上で初確認。`at`が過去日時で、いつ・なぜ状態へ現れたかは未確定。
+
+## 2026-08-12T12:24:28
+
+- Viola: `belleflora_cloister` → `cafe_fleur`
