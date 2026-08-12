@@ -4,8 +4,8 @@
   --ink:#493b36;
   --muted:#7c6a62;
   --line:#eadfd2;
-  --accent:#b86b77;
-  --accent2:#6f8f78;
+  --accent:#9f5563;
+  --accent2:#56715e;
   --soft:#f8ede8;
   --shadow:0 8px 24px rgba(73,59,54,.08);
 }
@@ -98,6 +98,31 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:22px 14px 4
   .toc a{font-size:.73rem}
 }
 
+
+/* home: current observation status */
+.current-status{border-top:4px solid var(--accent)}
+.current-status h2{margin-bottom:6px}
+.current-lead{margin:0 0 16px}
+.statusgrid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:10px;margin:14px 0
+}
+.statusitem{
+  min-width:0;padding:12px 13px;border:1px solid var(--line);border-radius:13px;
+  background:#fff
+}
+.statusitem strong,.statusitem small{display:block}
+.statusitem strong{margin-top:2px;font-size:.96rem}
+.statusitem small{margin-top:2px;color:var(--muted);font-size:.76rem}
+.statuslabel{
+  display:block;color:var(--accent2);font-size:.72rem;font-weight:800;
+  letter-spacing:.06em
+}
+.current-rule{
+  margin:14px 0 0;padding:10px 12px;border-radius:12px;
+  background:var(--soft);font-size:.88rem
+}
+
 /* official settings */
 .facts{display:grid;grid-template-columns:max-content 1fr;gap:7px 14px;margin:12px 0 18px}
 .facts dt{font-weight:700;color:var(--muted)}
@@ -148,3 +173,222 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 .newspaper h3{margin:14px 0 6px}
 .newspaper h3:first-child{margin-top:0}
 .daybreak{border-left:5px solid var(--accent2)}
+
+
+/* Readability step 2: round-based conversation table of contents */
+.round-toc-list{display:grid;gap:10px;margin:16px 0 12px}
+.round-toc{border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.46);overflow:hidden}
+.round-toc summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;padding:13px 15px;font-weight:700;color:var(--ink);list-style:none;touch-action:manipulation}
+.round-toc summary::-webkit-details-marker{display:none}
+.round-toc summary::after{content:"＋";flex:0 0 auto;font-size:1.05rem;color:var(--accent)}
+.round-toc[open] summary::after{content:"−"}
+.round-toc-title{font-size:1rem}
+.round-toc-meta{font-size:.82rem;font-weight:600;color:var(--muted);text-align:right}
+.round-toc .round-links{margin:0;padding:0 12px 13px;border-top:1px solid var(--line)}
+.round-toc .round-links a{margin-top:10px}
+.toc-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:12px}
+.toc-actions .chip{margin:0}
+.primary-action{font-weight:700}
+@media (max-width:640px){
+  .round-toc summary{padding:12px 13px;align-items:flex-start}
+  .round-toc-meta{font-size:.76rem;line-height:1.35}
+  .toc-actions{display:grid;grid-template-columns:1fr 1fr}
+  .toc-actions .chip{text-align:center}
+}
+
+
+/* Readability step 3: observation status labels */
+.status-legend{
+  display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 2px
+}
+.status-badge{
+  display:inline-flex;align-items:center;gap:4px;vertical-align:middle;
+  padding:3px 8px;border:1px solid var(--line);border-radius:999px;
+  font-size:.74rem;font-weight:800;line-height:1.35;white-space:nowrap
+}
+.status-confirmed{background:#edf5ef;border-color:#bfd2c4;color:#3f614a}
+.status-hypothesis{background:#fff7e7;border-color:#e5c98f;color:#76591d}
+.status-refuted{background:#fbeeee;border-color:#dfb4b7;color:#7b3d45}
+.status-withdrawn{background:#f1eff5;border-color:#c9bfd6;color:#5d4d70}
+.status-note{
+  margin:10px 0 14px;padding:9px 11px;border-radius:11px;
+  border:1px solid var(--line);font-size:.84rem
+}
+.status-note.status-confirmed{border-left:4px solid #527762}
+.status-note.status-hypothesis{border-left:4px solid #9a762c}
+.status-note.status-refuted{border-left:4px solid #98515a}
+.status-note.status-withdrawn{border-left:4px solid #705d84}
+.status-heading{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+@media (max-width:640px){
+  .status-legend{gap:6px}
+  .status-badge{font-size:.7rem;padding:3px 7px}
+}
+
+/* Readability step 4: current world vs archived observations */
+.world-group-heading{
+  margin:18px 0 8px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;
+  background:var(--soft)
+}
+.world-group-heading h2{margin:0 0 4px;color:var(--accent2)}
+.world-group-heading p{margin:0}
+.world-archive{
+  margin:18px 0 24px;border:1px solid var(--line);border-radius:16px;
+  background:rgba(255,255,255,.42);overflow:hidden
+}
+.world-archive>summary{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:15px 16px;cursor:pointer;list-style:none;font-weight:800;
+  background:var(--soft);touch-action:manipulation
+}
+.world-archive>summary::-webkit-details-marker{display:none}
+.world-archive>summary::after{content:"＋";color:var(--accent);font-size:1.05rem}
+.world-archive[open]>summary::after{content:"−"}
+.world-archive-title{font-size:1rem}
+.world-archive-meta{margin-left:auto;color:var(--muted);font-size:.78rem;font-weight:600}
+.world-archive-intro{padding:12px 16px 0}
+.world-archive-body{padding:0 12px 12px}
+.world-archive-body>.card{margin-left:0;margin-right:0}
+@media (max-width:640px){
+  .world-archive>summary{align-items:flex-start;padding:13px 14px}
+  .world-archive-meta{font-size:.72rem;text-align:right}
+  .world-archive-body{padding:0 8px 8px}
+}
+
+
+/* Readability step 5: compact conversation results */
+.result-summary-guide{margin:10px 0 0;color:var(--muted)}
+.result-summary{
+  display:flex;flex-wrap:wrap;gap:7px;margin:0 0 12px;padding:9px 10px;
+  border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.48)
+}
+.result-chip{
+  display:inline-flex;align-items:center;min-height:28px;padding:4px 9px;
+  border:1px solid var(--line);border-radius:999px;background:var(--soft);
+  color:var(--ink);font-size:.78rem;font-weight:700;line-height:1.25
+}
+.result-event-yes{border-color:#c79ba2;background:#f8ebed;color:var(--accent)}
+@media (max-width:640px){
+  .result-summary{gap:6px;padding:8px;margin-bottom:10px}
+  .result-chip{font-size:.73rem;min-height:26px;padding:4px 8px}
+}
+
+/* Readability step 6: topic labels for observation notes */
+.topic-legend,
+.note-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+}
+.topic-legend {
+  margin-top: .85rem;
+}
+.note-topics {
+  margin: .2rem 0 .9rem;
+}
+.topic-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.8rem;
+  padding: .18rem .58rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255,255,255,.68);
+  color: var(--ink);
+  font-size: .78rem;
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+.topic-speech { border-color: rgba(137,78,90,.34); }
+.topic-affinity { border-color: rgba(137,78,90,.34); }
+.topic-event { border-color: rgba(84,109,91,.34); }
+.topic-location { border-color: rgba(84,109,91,.34); }
+.topic-world { border-color: rgba(84,109,91,.34); }
+.topic-tech { border-color: rgba(84,84,84,.34); }
+.topic-help { margin-top: .45rem; }
+
+@media (max-width: 640px) {
+  .topic-badge {
+    font-size: .74rem;
+    padding: .16rem .5rem;
+  }
+  .note-topics {
+    margin-bottom: .75rem;
+  }
+}
+
+
+/* Readability step 7: search and filtering */
+.record-filter{
+  margin:16px 0 4px;padding:14px;border:1px solid var(--line);border-radius:16px;
+  background:rgba(255,255,255,.58)
+}
+.record-filter-head{
+  display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px
+}
+.record-filter-head strong{font-size:.96rem;color:var(--accent2)}
+.filter-grid{
+  display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(120px,1fr));gap:10px
+}
+[data-filter-scope="notes"] .filter-grid{grid-template-columns:minmax(220px,2fr) repeat(2,minmax(130px,1fr))}
+.filter-field{display:flex;flex-direction:column;gap:5px;font-size:.76rem;font-weight:800;color:var(--muted)}
+.filter-field input,.filter-field select{
+  width:100%;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;
+  background:#fff;color:var(--ink);font:inherit;font-size:.88rem
+}
+.filter-field input:focus,.filter-field select:focus{
+  outline:2px solid rgba(90,71,76,.22);outline-offset:1px;border-color:var(--accent)
+}
+.filter-reset{
+  min-height:38px;padding:7px 11px;border:1px solid var(--line);border-radius:999px;
+  background:var(--soft);color:var(--ink);font:inherit;font-size:.76rem;font-weight:800;cursor:pointer
+}
+.filter-reset:hover{border-color:var(--accent)}
+.filter-status{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;
+  margin-top:10px;padding-top:9px;border-top:1px dashed var(--line)
+}
+.filter-status [data-filter-count]{font-size:.82rem;font-weight:800;color:var(--accent2)}
+.filter-empty{
+  margin:16px 0;padding:18px;border:1px dashed var(--line);border-radius:14px;
+  background:var(--soft);text-align:center;color:var(--ink);font-weight:700
+}
+body.records-filtering .round-toc-list,
+body.records-filtering .toc-actions,
+body.records-filtering .result-summary-guide{display:none}
+.card[hidden]{display:none!important}
+@media (max-width:820px){
+  .filter-grid{grid-template-columns:1fr 1fr}
+  [data-filter-scope="notes"] .filter-grid{grid-template-columns:1fr 1fr}
+  .filter-query{grid-column:1/-1}
+}
+@media (max-width:520px){
+  .record-filter{padding:12px}
+  .record-filter-head{align-items:stretch;flex-direction:column}
+  .filter-reset{align-self:flex-start}
+  .filter-grid,[data-filter-scope="notes"] .filter-grid{grid-template-columns:1fr}
+  .filter-query{grid-column:auto}
+  .filter-field input,.filter-field select{min-height:44px;font-size:16px}
+  .filter-status{align-items:flex-start;flex-direction:column}
+}
+
+/* Readability step 8: compact long dialogue turns without changing source text */
+.conversation .transcript .speaker{
+  margin-top:11px;
+}
+.conversation .transcript p{
+  margin:4px 0 10px;
+}
+@media (max-width:640px){
+  /* On phones, prose within one turn flows naturally instead of forcing every short sentence onto a new line. */
+  .conversation .transcript p br{
+    display:none;
+  }
+  .conversation .transcript p{
+    line-height:1.68;
+    margin-bottom:9px;
+  }
+  .conversation .transcript .speaker{
+    margin-top:10px;
+  }
+}
