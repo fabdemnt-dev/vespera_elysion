@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>備考・注釈 — 第1周</title>
+<link href="../style.css" rel="stylesheet"/>
+<script defer="" src="../search.js"></script>
+</head>
+<body>
+<header class="sitehead">
+<div class="eyebrow">花咲く街エリュシオン</div>
+<h1>備考・注釈 — 第1周</h1>
+<nav class="nav">
+<a href="../index.html">ホーム</a>
+<a href="../conversations.html">時系列会話</a>
+<a href="../pairs.html">ペア別会話</a>
+<a class="active" href="../notes.html">備考・注釈</a>
+<a href="../world.html">世界記録</a>
+<a href="../official.html">公式設定</a>
+</nav>
+</header>
+<main>
+<section class="intro" id="top">
+<p>採番備考 #1〜#36 を番号順にまとめています。</p>
+<div aria-label="観察結果の状態" class="status-legend">
+<span class="status-badge status-confirmed">✅ 確認済み</span>
+<span class="status-badge status-hypothesis">🔎 仮説</span>
+<span class="status-badge status-refuted">❌ 反証</span>
+<span class="status-badge status-withdrawn">↩️ 撤回</span>
+</div>
+<div aria-label="備考の内容分類" class="topic-legend"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-affinity">💕 好感度</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span><span class="topic-badge topic-tech">⚙️ 技術</span></div>
+<nav aria-label="備考の周別ページ" class="toc round-page-links"><a class="active" aria-current="page" href="round1.html">第1周 #1〜#36</a><a href="round2.html">第2周 #37〜#104</a><a href="round3.html">第3周 #105〜#140</a><a href="round4.html">第4周 #141〜#176</a><a href="round5.html">第5周 #177〜#212</a><a href="round6.html">第6周 #213〜#248</a><a href="supplement.html">未採番補完 1件</a></nav>
+<div class="round-toc-list"><details class="round-toc" open=""><summary><span class="round-toc-title">第1周</span><span class="round-toc-meta">36件</span></summary><div class="toc round-links"><a href="#note-1">#1 アイリス × ミモザ</a><a href="#note-2">#2 アネモネ × エリカ</a><a href="#note-3">#3 ダフネ × カンパニュラ</a><a href="#note-4">#4 ビオラ × ネリネ</a><a href="#note-5">#5 ルピナス × ミモザ</a><a href="#note-6">#6 アイリス × カンパニュラ</a><a href="#note-7">#7 エリカ × ダフネ</a><a href="#note-8">#8 アネモネ × ネリネ</a><a href="#note-9">#9 ビオラ × カンパニュラ</a><a href="#note-10">#10 カンパニュラ × アネモネ</a><a href="#note-11">#11 アイリス × ビオラ</a><a href="#note-12">#12 ダフネ × ミモザ</a><a href="#note-13">#13 ネリネ × ルピナス</a><a href="#note-14">#14 エリカ × ミモザ</a><a href="#note-15">#15 アイリス × ネリネ</a><a href="#note-16">#16 ダフネ × ルピナス</a><a href="#note-17">#17 ビオラ × ミモザ</a><a href="#note-18">#18 エリカ × ビオラ</a><a href="#note-19">#19 アイリス × ダフネ</a><a href="#note-20">#20 アネモネ × ミモザ</a><a href="#note-21">#21 カンパニュラ × ネリネ</a><a href="#note-22">#22 アネモネ × ビオラ</a><a href="#note-23">#23 エリカ × ルピナス</a><a href="#note-24">#24 アイリス × ルピナス</a><a href="#note-25">#25 ダフネ × ネリネ</a><a href="#note-26">#26 ミモザ × ネリネ</a><a href="#note-27">#27 カンパニュラ × エリカ</a><a href="#note-28">#28 ミモザ × カンパニュラ</a><a href="#note-29">#29 アイリス × アネモネ</a><a href="#note-30">#30 ダフネ × ビオラ</a><a href="#note-31">#31 ルピナス × カンパニュラ</a><a href="#note-32">#32 ダフネ × アネモネ</a><a href="#note-33">#33 エリカ × ネリネ</a><a href="#note-34">#34 ルピナス × ビオラ</a><a href="#note-35">#35 ルピナス × アネモネ</a><a href="#note-36">#36 アイリス × エリカ</a></div></details></div>
+<div class="record-filter" data-filter-scope="notes">
+<div class="record-filter-head">
+<div><strong>🔎 このページの備考を検索・絞り込み</strong><div class="mini">キャラクター、場所、観察キーワード、内容ラベルから探せます。</div></div>
+<button class="filter-reset" type="button">条件をクリア</button>
+</div>
+<div class="filter-grid">
+<label class="filter-field filter-query"><span>キーワード</span><input autocomplete="off" data-filter="query" placeholder="例：口調、カフェ、turns_since_event" type="search"/></label>
+<label class="filter-field"><span>キャラクター</span><select data-filter="character"><option value="">全員</option><option>アネモネ</option><option>カンパニュラ</option><option>ダフネ</option><option>エリカ</option><option>アイリス</option><option>ルピナス</option><option>ミモザ</option><option>ネリネ</option><option>ビオラ</option></select></label>
+<label class="filter-field"><span>内容</span><select data-filter="topic"><option value="">すべて</option><option value="speech">🗣️ 口調</option><option value="affinity">💕 好感度</option><option value="event">✨ event</option><option value="location">📍 移動</option><option value="world">🌍 world_state</option><option value="tech">⚙️ 技術</option></select></label>
+</div>
+<div aria-live="polite" class="filter-status"><span data-filter-count="">36 / 36件</span><span class="mini">この周の備考本文・見出し・キャラクター名を検索します。</span></div>
+</div>
+<div class="filter-empty" data-filter-empty="" hidden="">条件に合う備考はありません。</div>
+</section>
+<section class="card note" id="note-1">
+<div class="cardtop">
+<div>
+<span class="number">#1</span>
+<h2>アイリス × ミモザ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-1">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent"><h3>このあと確認できた世界の変化</h3>
+<ul><li>天候が <strong>花曇り</strong></li><li>気温が <strong>27℃</strong></li><li>ワールドマップ上の日付表示は <strong>2026-08-08</strong></li><li>この時点では住民の移動履歴・噂・立ち聞きはまだなし</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-2">
+<div class="cardtop">
+<div>
+<span class="number">#2</span>
+<h2>アネモネ × エリカ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-2">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>起こったこととして記録された内容</h3>
+<div class="speaker"><strong>08/08 15:36</strong></div>
+<p>ささやきの森の風が、銀色の花びらを街へ運んできた。</p>
+<p>参加者：アネモネ、エリカ</p>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-3">
+<div class="cardtop">
+<div>
+<span class="number">#3</span>
+<h2>ダフネ × カンパニュラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-3">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>メモ</h3>
+<ul><li>会話中に特別な出来事は発生しなかった</li><li>カンパニュラはこの回だけ少し丁寧語寄りだったため、今後も続くか様子見</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-4">
+<div class="cardtop">
+<div>
+<span class="number">#4</span>
+<h2>ビオラ × ネリネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-4">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>メモ</h3>
+<ul><li>会話中に特別な出来事は発生しなかった</li><li>ビオラの「嬉しいな」は狙っていた口調に近い</li><li>「安心したわ」は少し上品寄りだが、この回だけなら様子見</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-5">
+<div class="cardtop">
+<div>
+<span class="number">#5</span>
+<h2>ルピナス × ミモザ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-5">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent"><h3>メモ</h3>
+<ul><li>会話中に特別な出来事は発生しなかった</li><li>ルピナスはロマンチックだが、ダフネやカンパニュラとは違う柔らかい雰囲気が出ていた</li><li>ミモザも明るすぎず、人の様子を気にかける性格が自然に出ていた</li></ul>
+<h3>現時点で確認できている「これから起こること」</h3>
+<ol><li><strong>銀色の花びらが置かれた場所に、小さな光の粒が集まった。</strong>   銀の欠片が眠る場所で、光の囁きが語り始めるでしょう。</li></ol>
+<ol><li><strong>図書館の古い記録から、淡い光の粒が零れ落ちた。</strong>   知識の頁が、星屑の記憶をそっと零すでしょう。</li></ol>
+<ol><li><strong>銀色の花びらが、夜の街灯に触れて淡い光を放ち始めた。</strong>   銀の欠片が光を纏い、夜の道標となるでしょう。</li></ol>
+<h3>現時点の観察メモ</h3>
+<ul><li>アクティブ universe は <strong>elysion</strong></li><li>街画面上部の表示だけは、まだ <strong>「黄昏の街ヴェスペラ」</strong> のまま</li><li>ワールドマップや会話内容はエリュシオンの設定を参照している</li><li>本番開始後、世界の天候として <strong>花曇り・27℃</strong> が生成された</li><li>キャラクターの表示上の現在地は、まだ <strong>「不明」</strong></li><li>現在まで、住民の移動履歴・噂・立ち聞きは確認されていない</li><li>world_event を手動登録していなくても、世界の「織り手」が pending_event を生成する</li><li>織り手の指示は、特別な出来事よりも普通の日常を優先する方向へ調整済み</li><li>調整後のルピナス × ミモザでは新しい不思議な出来事が会話中に発生せず、穏やかな日常会話になった</li></ul>
+<p>今後の本番会話も、この記録の続きとして追加していく。</p>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-6">
+<div class="cardtop">
+<div>
+<span class="number">#6</span>
+<h2>アイリス × カンパニュラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-6">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>起こったこととして記録された内容</h3>
+<div class="speaker"><strong>08/08 15:51</strong></div>
+<p>銀色の花びらが置かれた場所に、小さな光の粒が集まった。</p>
+<p>参加者：カンパニュラ、アイリス</p>
+<h3>観察メモ</h3>
+<ul><li>アイリスは「風の違和感」「目の前の光」を直接的に拾い、カンパニュラは「鐘の響き」で同じ出来事を受け取っていた。</li><li>同じ現象に対して感覚の違いが自然に出ており、二人のキャラクター差が分かりやすかった。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-7">
+<div class="cardtop">
+<div>
+<span class="number">#7</span>
+<h2>エリカ × ダフネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-7">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>観察メモ</h3>
+<ul><li>エリカは今回、「〜かしら」「〜だわ」が入り、これまでより少しお姉さんらしい口調になった。</li><li>ただしダフネのほうが「〜わ」「〜かしら」をより自然に多く使い、落ち着いた年長者らしい雰囲気が強いため、二人の差はまだ感じられる。</li><li>エリカはダフネより年下らしい柔らかさが残っており、現時点では修正せず様子を見る。</li><li>特別な出来事は会話中には発生せず、穏やかな日常会話だった。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-8">
+<div class="cardtop">
+<div>
+<span class="number">#8</span>
+<h2>アネモネ × ネリネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-8">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent"><h3>観察メモ</h3>
+<ul><li>会話中に新しい出来事の差し込みはなかった。</li><li>アネモネは駅と遠くへの憧れ、ネリネは花や光への感性が自然に出ていた。</li><li>ネリネは今回は「〜よ」「〜わよね」「〜ところよ」と、やや上品寄りの語尾が多めだったため今後も様子を見る。</li><li>キャラクター欄の現在地は引き続き二人とも「📍 不明」。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-9">
+<div class="cardtop">
+<div>
+<span class="number">#9</span>
+<h2>ビオラ × カンパニュラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-9">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent"><h3>起こったこととして記録された内容</h3>
+<div class="speaker"><strong>08/09 00:11</strong></div>
+<p>図書館の古い記録から、淡い光の粒が零れ落ちた。</p>
+<p>参加者：カンパニュラ、ビオラ</p>
+<h3>観察メモ</h3>
+<ul><li>カンパニュラは今回「大丈夫ですよ」「素敵な理由ですね」「ところなんです」「気づいてくれたのですね」など、以前より丁寧語が増えた。</li><li>初期の本番会話で見られた「大丈夫だよ」「〜気がするんだ」といった少しかっこよく自然体な口調より、今回は柔らかく丁寧な印象。</li><li>ビオラの穏やかで柔らかな話し方や、不思議な出来事の場面に引っ張られた生成の揺れの可能性があるため、現時点では設定を変更せず、次回以降も続くか様子を見る。</li><li>出来事「図書館の古い記録から、淡い光の粒が零れ落ちた」が発火し、「これから起こること」から「起こったこと」へ移動した。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-10">
+<div class="cardtop">
+<div>
+<span class="number">#10</span>
+<h2>カンパニュラ × アネモネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-10">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span></div>
+<div class="notecontent"><h3>観察メモ</h3>
+<ul><li>カンパニュラは今回は「〜かな？」「そうかもしれないね」「〜かもしれない……」など、初期に想定していた自然体で少しかっこいい口調に戻った。</li><li>前回のビオラ相手で丁寧語が増えたのは、カンパニュラ自身の恒常的な変化というより、相手や会話の空気に引っ張られた可能性が高い。</li><li>ビオラとの組み合わせでは、ビオラの柔らかく落ち着いた話し方に対してカンパニュラが丁寧に応じたため、会話上はビオラのほうが少し年上・先輩のように見える余地がある。</li><li>ただし実年齢は設定していないため、「ビオラが必ず年上」と確定するのではなく、二人の関係性としてそう見える程度に留める。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-11">
+<div class="cardtop">
+<div>
+<span class="number">#11</span>
+<h2>アイリス × ビオラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-11">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent"><h3>観察メモ</h3>
+<ul><li>ビオラは今回「今とってもいいわ」「〜かしら」といった上品な語尾が再び出た。</li><li>ただし「〜だったんだろうな」「〜なっちゃった」も混ざっており、ダフネのような落ち着いた年長のお嬢様口調とは異なる。</li><li>ビオラは「年下組」の印象を保ちつつ、少し育ちのよさ・おっとりしたお嬢様らしさを持つキャラクターとして自然に見える可能性がある。</li><li>出来事「銀色の花びらが、夜の街灯に触れて淡い光を放ち始めた」が会話中に発火した。</li><li>ビオラが「今からそちらへ向かってもいいかしら？」と明確に移動を示唆したため、この会話後に world_state の現在地や移動履歴が更新されるか確認すると、現在地システムの手がかりになりそう。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-12">
+<div class="cardtop">
+<div>
+<span class="number">#12</span>
+<h2>ダフネ × ミモザ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-12">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>観察メモ</h3>
+<ul><li>会話中に特別な出来事の差し込みはなく、穏やかな日常会話だった。</li><li>ダフネは「〜かしら」「〜わ」が自然に入り、落ち着いたお姉さんらしい口調が安定している。</li><li>ミモザは「嬉しいな」「〜ところだよ」など親しみやすい話し方を保ちつつ、最後に「新しい出会いが生まれそう」と感じており、人と人のつながりに目を向ける性格がよく出ている。</li><li>二人の口調・性格の差は分かりやすく、現時点で調整の必要はなさそう。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-13">
+<div class="cardtop">
+<div>
+<span class="number">#13</span>
+<h2>ネリネ × ルピナス</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-13">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>観察メモ</h3>
+<ul><li>かなり相性のよい組み合わせ。会話全体が幻想的で、光・鐘・星というモチーフが自然につながっている。</li><li>ネリネは「花眠りの庭の光の粒」を見つめるなど、その場の美しさや繊細なきらめきを感じ取る役割がよく出ている。</li><li>ルピナスはそこから「物語の始まり」「星と庭の光が繋がっているかもしれない」という想像へ広げており、少し夢見がちで女の子らしい柔らかさが自然に出ている。</li><li>ルピナスの口調は「喜んでお話しするわ」「〜だと思わない？」で、上品さはあるがダフネほどお姉さん寄りではなく、以前調整した“ほんの少し女の子らしい”イメージに近い。</li><li>出来事「鐘楼の鐘の音が、光の粒に溶けるように響いた」が会話に綺麗に馴染んでおり、世界全体がゆるやかに連動している感じが強い。</li></ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-14">
+<div class="cardtop">
+<div>
+<span class="number">#14</span>
+<h2>エリカ × ミモザ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-14">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent"><h3>観察メモ</h3>
+<ul><li>会話中に特別な出来事の差し込みはなく、穏やかな日常会話だった。</li><li>エリカは「〜かしら」「〜わね」「〜わ」がやや多めで、今回も少しお姉さん寄りの口調。ただし内容は静かで素直で、ダフネほど年長感は強くない。</li><li>ミモザも今回は「〜のよ」「〜わ」が入り、普段より少し女性的・上品な語尾が増えた。一方で「心がふわっと温かくなっちゃった」「憧れちゃう」といった柔らかく親しみやすい表現はミモザらしい。</li><li>二人とも似た語尾が出たため、相手の話し方に引っ張られた可能性がある。現時点では設定変更せず様子を見る。</li><li>会話開始時に「本日の新聞が発行されました」と表示された。新しい新聞内容は未確認。</li></ul>
+<h3>新聞表示についての訂正</h3>
+<ul><li>エリカ × ミモザの会話開始時に「本日の新聞が発行されました」と表示されたが、確認した新聞本文は前に確認した <strong>2026年8月9日号「銀色の奇跡！ささやきの森から舞い降りた『光の舞』が街を包む」</strong> と同一だった。</li><li>したがって、この表示は「新しい新聞が新規生成された」という意味ではなく、<strong>本日分の既存新聞が発行済み／閲覧可能であることを示す表示</strong>の可能性が高い。</li></ul></div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-15">
+<div class="cardtop">
+<div>
+<span class="number">#15</span>
+<h2>アイリス × ネリネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-15">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>アイリスは「素敵な香りを一緒に楽しみたい」と自然に相手へ共有しようとしていて、明るく社交的な性格がよく出ている。</li>
+<li>ネリネは銀色の花びらを「キラキラ舞っている」「とっても綺麗」と受け取り、美しいものへの感性がはっきり出ている。</li>
+<li>二人とも明るいが、アイリスは「一緒に見たい・会いに行きたい」という行動へつなげ、ネリネは「景色を見せてあげたい」と美しさを共有する方向へ返しており、役割の差が自然。</li>
+<li>ネリネの「〜わ」は今回1か所程度で、上品すぎず自然な女性らしさに収まっている。</li>
+<li>アイリスが「今から会いにいってもいいかな？」、ネリネが「花眠りの庭で待ってる」と明確に移動・合流を示した。これでも現在地や移動履歴が変わるかは重要な観察点。</li>
+</ul>
+</div>
+<div><h3>会話後の確認</h3><ul><li>08/09 00:35、「鐘楼の鐘が、銀色の花びらに触れて澄んだ音を奏でた。」が「起こったこと」に移動した。</li><li>新しい pending_event として「カフェ・フルールの窓辺に、銀色の花びらが舞い降りた。」が追加された。</li><li>アイリスとネリネは明確に合流を約束したが、二人とも表示上の現在地は「📍 不明」のままだった。</li></ul></div><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-16">
+<div class="cardtop">
+<div>
+<span class="number">#16</span>
+<h2>ダフネ × ルピナス</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-16">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事は発生せず、図書館と星待ちの丘をつないだ静かな日常会話になった。</li>
+<li>ダフネは「〜かしら」「〜ところよ」など、落ち着いたお姉さんらしい上品な口調が安定している。</li>
+<li>ルピナスは「喜んで！」「〜なの」「〜かな？」「恋しくなっちゃう」「覗いてみたいな」と、親しみやすく夢見がちな柔らかさがよく出ている。</li>
+<li>一方で「とっても素敵だわ」が1回出た。ルピナスは設定上「〜だわ」を基本的に使わないため、ダフネの口調に少し引っ張られた可能性がある。</li>
+<li>ただし会話全体ではダフネとルピナスの年齢感・雰囲気の差は保たれており、現時点では設定を変えずに継続観察でよさそう。</li>
+<li>ルピナスの「今度は私も一緒に、その物語の世界を覗いてみたいな」は、想像や物語へ関心を広げるキャラクター性にかなり合っている。</li>
+</ul>
+</div>
+<h3>会話後の世界状態</h3><ul><li>新しい出来事は発火しなかった。</li><li>「これから起こること」は前回と同じ3件のまま。</li><li>「起こったこと」も08/09 00:35の鐘楼イベントを最後に変化なし。</li><li>ダフネ・ルピナスともに現在地表示は「📍 不明」のまま。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-17">
+<div class="cardtop">
+<div>
+<span class="number">#17</span>
+<h2>ビオラ × ミモザ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-17">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事は発生せず、穏やかな日常会話だった。</li>
+<li>ビオラは「今、少しいいかな？」「〜なの」「〜かな？」で、設定どおり静かで親しみやすい口調。今回は「〜だわ」「〜かしら」がなく、年下寄りの柔らかさがよく出ている。</li>
+<li>「照れてるミモザもきっと可愛いんだろうな」は、これまでより少し茶目っ気と親しさが見える発言。控えめなビオラにも、心を許した相手にはこうした柔らかな一面があると考えると自然。</li>
+<li>ミモザは相手に合わせて比較的落ち着いたテンションだが、「照れちゃう」「とっても嬉しいな」「賑やかで楽しい雰囲気」と明るさは保たれている。</li>
+<li>ミモザの「広場には新しい出会いを探している人たちがたくさん」という発言は、人を結ぶキャラクター性には合う。一方、街の住民数や未登録の住人がどの程度いる設定かは未確定なので、世界設定上の事実としてはまだ固定せず会話内描写として扱う。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-18">
+<div class="cardtop">
+<div>
+<span class="number">#18</span>
+<h2>エリカ × ビオラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-18">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、静かな日常会話だった。</li>
+<li>エリカは「〜かな？」「〜ね」「〜わ」「〜のよ」が混ざり、静かで柔らかいが少し大人びた女性らしさが出ている。</li>
+<li>ビオラは冒頭こそ「〜の」「〜かしら？」で穏やかだが、後半に「温かいものだわ」とお嬢様寄りの語尾が出た。</li>
+<li>前回のビオラ×ミモザでは「〜だわ」「〜かしら」が出なかったため、今回の上品な語尾はエリカの話し方に引っ張られた可能性が高い。</li>
+<li>ただし「嬉しくなっちゃった」「〜なのかな？」が入っており、ビオラの若く柔らかい印象は残っている。ダフネほど年長には見えない。</li>
+<li>二人とも静かなキャラクターだが、エリカは自分の感覚や居心地を語り、ビオラは相手の状態を気遣って質問を返すため、性格の差は保たれている。</li>
+<li>ビオラが「エテルニテ広場は賑やかそう」と話したが、エリカは実際には花守りの教会にいると返している。相手の現在地を推測して話すことがある点も記録しておく。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-19">
+<div class="cardtop">
+<div>
+<span class="number">#19</span>
+<h2>アイリス × ダフネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-19">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>会話開始直後に「カフェのテラス席に、銀色の花びらが静かに舞い降りた。」が発火した。以前から pending_event にあった出来事。</li>
+<li>アイリスは「今、ちょっと暇だったから」「何かしてた？」とかなり気軽で自然。ダフネの落ち着いた上品さとの対比がはっきりしている。</li>
+<li>ダフネは「嬉しいわ」「〜ところよ」「〜かしら」「〜場所だわ」と、お姉さんらしい口調が安定している。</li>
+<li>アイリスの「〜ところよ」は普段より少し上品寄りで、ダフネの口調に軽く引っ張られた可能性がある。ただし全体のテンポはアイリスらしい。</li>
+<li>イベントの舞台がカフェ・フルールで、アイリス自身も直後に「カフェ・フルールの近く」を歩いていると話したため、出来事と会話の場所が自然に噛み合った。</li>
+</ul>
+</div>
+<h3>会話後の世界状態</h3><ul><li>08/09 00:52、「カフェのテラス席に、銀色の花びらが静かに舞い降りた。」が「起こったこと」に移動した。</li><li>新しい pending_event として「カフェのテラス席に、銀色の花びらが香りを残した。」が追加された。</li><li>天候表示が「2026-08-09・夕立・5℃」に変化。前回の「2026-08-08・花曇り・27℃」から、日付・天気・気温が更新された。</li><li>27℃→5℃は22℃の急低下で、単なる日付更新にしてはかなり大きい。今後も同様の急変が起きるか観察する。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-20">
+<div class="cardtop">
+<div>
+<span class="number">#20</span>
+<h2>アネモネ × ミモザ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-20">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>画面に「ふたりはまだ言葉を交わしていません」と出ており、アネモネ×ミモザは今回が本番での初会話。</li>
+<li>特別な出来事の差し込みはなく、会話だけで4ターン進んだ。</li>
+<li>アネモネは「今、ちょっといいかな？」「使っちゃった」「見たことのない景色」と、自由で好奇心の強い自然な口調がよく出ている。</li>
+<li>能力「万華鏡」が会話の中で自然に使われた。能力が単なる設定欄ではなく、キャラクターの日常行動として会話生成に参照されていることが確認できる。</li>
+<li>ミモザはアネモネの不思議な予感や景色を否定せず、「新しい誰かの物語が始まる合図かも」と人や物語へ結びつけており、花結びらしい発想が出ている。</li>
+<li>二人とも明るめだが、アネモネは外の世界・未知への好奇心、ミモザは誰かとのつながりへ発想が向かうため、性格の差が分かりやすい。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-21">
+<div class="cardtop">
+<div><span class="number">#21</span><h2>カンパニュラ × ネリネ</h2></div>
+<a class="chip" href="../conversations/round1.html#conv-21">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>観察メモ</h3><ul><li>pending_event「丘の上の星が、庭の光と呼応するように瞬いた。」が会話中に発火した。</li><li>カンパニュラは今回「〜かしら」「〜だったわ」「嬉しいわ」とかなり上品寄り。以前のアネモネ相手よりネリネの口調に引っ張られた可能性が高い。</li><li>ネリネは星と庭の光を「内緒のお話」にたとえ、美しい景色を感覚的に捉える個性がよく出ている。</li></ul></div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-22">
+<div class="cardtop">
+<div>
+<span class="number">#22</span>
+<h2>アネモネ × ビオラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-22">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、穏やかな日常会話だった。</li>
+<li>アネモネは「使っちゃった」「どこかへ連れて行かれそう」と、未知や遠くの場所へ気持ちが向く自由な性格がよく出ている。</li>
+<li>ビオラはアネモネの景色の話を受けて「心が洗われる」「遠い記憶の場所へ運ばれそう」と静かにイメージを広げており、相手の気持ちを受け止める役割が自然。</li>
+<li>ビオラは「眺めてみたくなったわ」と一度だけ「〜わ」を使ったが、その後は「〜なのね」「〜かな？」で柔らかく、前回ほどお嬢様寄りではない。</li>
+<li>ビオラが「中庭の静かな場所」にいると話した。ベルフローラ・クロイスターには中庭がある設定と整合するが、会話内では施設名までは明言されていないため、現在地の確定情報としては扱わない。</li>
+<li>二人とも静かな景色を好んでいるが、アネモネは「どこかへ行きたい」方向、ビオラは「記憶や気持ちを静かにたどる」方向へ発想が分かれていて、キャラクター差は保たれている。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-23">
+<div class="cardtop">
+<div>
+<span class="number">#23</span>
+<h2>エリカ × ルピナス</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-23">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、静かな日常会話だった。</li>
+<li>ルピナスは「遠い物語のページ」「素敵な予感」「一緒に香りの正体を探す」と、ひとつの感覚から物語や可能性を広げるキャラクター性がとてもよく出ている。</li>
+<li>今回のルピナスは「〜だよ」「〜するね」「〜なの」「〜かな？」「〜行ってみない？」が中心で、ダフネ寄りのお嬢様語尾にほぼ引っ張られず、理想にかなり近い。</li>
+<li>エリカは冒頭の「大丈夫かな？」が自然体で若めだが、後半に「〜わね」「〜だったわ」が入り、少し大人びた女性らしさも残っている。</li>
+<li>二人とも静かな雰囲気だが、エリカは自分が感じた風や香りをそのまま語り、ルピナスはそこから「物語」「探しに行く」という想像と行動へ広げるため、役割の差が分かりやすい。</li>
+<li>ルピナスの「エリカの聞きたい香りが」は日本語としてやや不自然。「エリカが言っていた香り」「エリカが感じた香り」などを意図した生成ミスの可能性が高く、キャラクター設定というより文章生成上の揺れとして記録。</li>
+</ul>
+</div>
+<h3>会話後の世界状態</h3><ul><li>「これから起こること」3件は前回から変化なし。</li><li>「起こったこと」の最新は08/09 03:51の「丘の上の星が、庭の光と呼応するように瞬いた。」のまま。</li><li>エリカ・ルピナスともに現在地表示は「📍 不明」のまま。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-24">
+<div class="cardtop">
+<div>
+<span class="number">#24</span>
+<h2>アイリス × ルピナス</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-24">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>pending_event「カフェ・フルールの窓辺に、銀色の花びらが舞い降りた。」が会話中に発火した。</li>
+<li>アイリスは冒頭の「今、ちょっといいかな？」「使っちゃった」は自然で、明るく気軽な話し方が出ている。</li>
+<li>ルピナスは「物語の始まり」「誰かの願いを運んでくるものだとしたら」と、出来事から物語や可能性を膨らませるキャラクター性が非常によく出ている。</li>
+<li>一方でルピナスは「今とってもいいわよ」「〜だったのかしら？」「〜詰まっているのかしら？」と、お嬢様寄りの語尾が今回はかなり目立つ。設定上は「〜だわ／〜かしら／〜わよ」を基本的に使わないため、口調の揺れとして要注意。</li>
+<li>アイリスもイベント後に「あら」「見えたわ」と普段より上品な語尾へ寄っているため、この回は二人とも会話の幻想的・上品な雰囲気に引っ張られた可能性がある。</li>
+<li>内容上のキャラクター分担は明確で、アイリスが実際の香り・花びらを拾い、ルピナスがそこから物語や願いへ想像を広げている。</li>
+</ul>
+</div>
+<h3>会話後の世界状態</h3><ul><li>08/09 04:23、「カフェ・フルールの窓辺に、銀色の花びらが舞い降りた。」が「起こったこと」に移動した。</li><li>新しい pending_event として「カフェのテーブルに銀色の花びらが一枚、静かに置かれた。」が追加された。</li><li>pending_event は3件のまま、1件が入れ替わった。</li><li>「起こったこと」は合計9件になった。</li><li>アイリス・ルピナスともに現在地表示は「📍 不明」のまま。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-25">
+<div class="cardtop">
+<div><span class="number">#25</span><h2>ダフネ × ネリネ</h2></div>
+<a class="chip" href="../conversations/round1.html#conv-25">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent"><h3>観察メモ</h3><ul><li>特別な出来事の差し込みはなく、静かな日常会話だった。</li><li>ダフネは上品で落ち着いたお姉さん口調が安定。ネリネは光を「お花の精たちが踊っているみたい」と表現し、感性豊かな個性がよく出ている。</li><li>ネリネの「光の揺らぎを形にしてみる」は能力・創作的な性格が日常会話へ自然に表れた発言として注目。</li></ul></div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-26">
+<div class="cardtop">
+<div><span class="number">#26</span><h2>ミモザ × ネリネ</h2></div>
+<a class="chip" href="../conversations/round1.html#conv-26">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent"><h3>観察メモ</h3><ul><li>pending_event「カフェのテラス席に、銀色の花びらが香りを残した。」が会話開始直後に発火した。</li><li>ミモザは「ねぇねぇ」「お話ししたくなっちゃった」「新しいお友達」と、人やつながりへ自然に意識が向いている。</li><li>ネリネは「光の移ろい」「素敵な景色」「優しい風」と、景色や感覚を柔らかく受け取るキャラクター性が安定。</li><li>二人とも明るいが、ミモザは人・交流へ、ネリネは光・景色へ話題を寄せるため、役割の差が分かりやすい。</li><li>ミモザが「新聞でチェックしてみようかな？」、ネリネも「新聞を覗いてみようかな」と応じ、新聞が住民の日常会話の中で参照されることが確認できた。</li></ul></div>
+<h3>会話後の世界状態</h3><ul><li>08/09 05:46、「カフェのテラス席に、銀色の花びらが香りを残した。」が「起こったこと」に移動した。</li><li>新しい pending_event として「街の広場の掲示板に、新しい季節の花の案内が貼られた。」が追加された。</li><li>pending_event は3件のまま、1件が入れ替わった。</li><li>「起こったこと」は合計10件になった。</li><li>新しい pending は、銀色の花びらそのものではなく『季節の花の案内』で、これまでより日常寄りの出来事。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-27">
+<div class="cardtop">
+<div>
+<span class="number">#27</span>
+<h2>カンパニュラ × エリカ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-27">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、静かな日常会話だった。</li>
+<li>カンパニュラは「〜いいかな？」「大丈夫だよ」「〜気がしただけだから」「〜なのかな？」と、設定どおりの自然体で少し落ち着いた口調。ネリネやビオラ相手で見られたお嬢様・敬語寄りの揺れが今回はほぼない。</li>
+<li>「音の中に、あなたの笑い声のような温かさが混じっている気がした」という表現は、音や空気の変化を感じ取るカンパニュラの個性がよく出ている。</li>
+<li>エリカは「大丈夫よ」「照れちゃうわ」「心が温かくなるわ」「落ち着く場所よ」と、やわらかく女性的で少し大人びた口調が安定している。</li>
+<li>二人とも静かなタイプだが、カンパニュラは外から聞こえる音を手がかりに相手を思い出し、エリカは自分の感情や居心地を素直に返すため、似すぎず役割の差が出ている。</li>
+<li>今回のカンパニュラは、以前のアネモネ相手と同じく理想に近い口調。相手が上品寄りでも必ず引っ張られるわけではないことが分かった。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-28">
+<div class="cardtop">
+<div>
+<span class="number">#28</span>
+<h2>ミモザ × カンパニュラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-28">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>会話中に特別な出来事の差し込みはなく、穏やかな日常会話だった。</li>
+<li>ミモザは「思い出しちゃった」「行き交う人たちを眺めながら」と、人や相手への関心が自然に会話の中心になっており、明るいが騒がしすぎない雰囲気が安定している。</li>
+<li>カンパニュラは前半の「嬉しいな」「今はどこかで、のんびり過ごしているところ？」が自然体で、ミモザ相手でも丁寧語には寄らなかった。</li>
+<li>一方、後半の「心が落ち着くのよ」「気持ちよさそうね」は少し女性的で柔らかい。以前のネリネ相手ほどお嬢様寄りではなく、自然体の範囲に近い。</li>
+<li>「街全体が優しく呼吸しているような」「鐘の音がいつもより少しだけ柔らかい」と、空気や音の微細な変化を拾うカンパニュラらしさがよく出ている。</li>
+<li>画面上部に「本日の新聞が発行されました」と表示されたが、新聞本文は今回まだ開いていないため、内容が更新されたかどうかは未確認。</li>
+</ul>
+</div>
+<h3>新聞確認結果</h3><ul><li>新聞本文は前回と同じ2026年8月9日号で、内容の更新はなかった。</li><li>「本日の新聞が発行されました」と表示されても、新しい新聞が毎回生成されるわけではないことを再確認。</li></ul><h3>出来事一覧確認結果</h3><ul><li>「これから起こること」3件は前回から変化なし。</li><li>「起こったこと」の最新は08/09 05:46の「カフェのテラス席に、銀色の花びらが香りを残した。」のまま。</li><li>今回のミモザ×カンパニュラ会話では、会話中にも会話後にも世界イベントの追加・発火は確認できなかった。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-29">
+<div class="cardtop">
+<div>
+<span class="number">#29</span>
+<h2>アイリス × アネモネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-29">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、軽やかな日常会話だった。</li>
+<li>アイリスは「風が気持ちいい」「風に乗って聞こえてきた面白いお話」と、風囁やきの能力・街の噂を自然に日常会話へ持ち込んでいる。</li>
+<li>アネモネは「駅のベンチ」「これからどこへ行こうかな」と、駅や外の世界への関心が安定して出ている。</li>
+<li>アイリスが街の中で拾った話題を提示し、アネモネが「面白そう」「ワクワク」と未知への好奇心で受け取るため、二人の役割がきれいに噛み合っている。</li>
+<li>口調も二人とも自然。アイリスは明るく社交的、アネモネは自由で好奇心旺盛という差が分かりやすい。</li>
+<li>今回の会話では「風に乗って届くお話」が具体的な噂の内容までは語られず、次の会話への余白を残して終わった。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-30">
+<div class="cardtop">
+<div>
+<span class="number">#30</span>
+<h2>ダフネ × ビオラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-30">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>pending_event「花眠りの庭に、朝露を含んだ小さな虹が架かった。」が会話開始前に発火した。</li>
+<li>ダフネは「〜かしら」「〜わ」「〜の」と、落ち着いたお姉さんらしい上品な口調が安定している。</li>
+<li>ビオラは今回「今とってもいいわ」「心が温かくなるわ」「照れてしまうわ」「〜のかしら？」と、かなりダフネ寄りのお嬢様口調になった。</li>
+<li>以前ミモザ相手では「〜かな？」「〜なの」が中心で年下らしい柔らかさが出ていたため、ビオラは相手の話し方を強く反映する傾向がかなり明確になってきた。</li>
+<li>この組み合わせでは二人の語尾が似ており、ダフネの「お姉さん」とビオラの「年下寄り」の差が口調だけではやや見えにくい。一方、ビオラには「少し照れてしまう」など素直で若い反応が残っている。</li>
+<li>イベント自体は「朝露の虹」という穏やかな小さな不思議で、銀色の花びら連鎖より日常に馴染む雰囲気。</li>
+</ul>
+</div>
+<h3>出来事確定（05:59）</h3><ul><li>「花眠りの庭に、朝露を含んだ小さな虹が架かった。」は08/09 05:59に発生。</li><li>発生キャラクターはダフネ、ビオラ。</li><li>この後の pending に「回廊の石畳に、虹色の雫が静かに並んだ。」が確認された。虹の出来事やビオラのクロイスター回廊の発言を受けた生成の可能性がある。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-31">
+<div class="cardtop">
+<div>
+<span class="number">#31</span>
+<h2>ルピナス × カンパニュラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-31">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、星と風の音を話題にした静かな日常会話だった。</li>
+<li>ルピナスは「〜かな？」「気になっちゃって」「大好きなの」と、設定どおりの柔らかく夢見がちな自然体の口調。今回は「〜だわ」「〜かしら」へのお嬢様寄りの揺れが見られなかった。</li>
+<li>「今夜の星がどんな風に輝くのか」「星待ちの丘」「空がとても近くに感じられる」と、ルピナスの星や未来への感性が自然に出ている。</li>
+<li>カンパニュラも「〜かな？」「風の音が変わったような気がして」と、音や空気の微細な変化を拾う個性が安定している。</li>
+<li>カンパニュラの「いい場所ね」「私も好きよ」「〜いるの」は少し柔らかく女性的だが、ネリネ相手のようなお嬢様口調には寄っておらず、自然体の範囲。</li>
+<li>ルピナスが空そのものへ意識を向け、カンパニュラが地上で聞こえる風の音の変化を拾うため、同じ静かな場面でも感性の方向が分かれている。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-32">
+<div class="cardtop">
+<div>
+<span class="number">#32</span>
+<h2>ダフネ × アネモネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-32">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>pending_event「カフェのテーブルに銀色の花びらが一枚、静かに置かれた。」が会話途中で発火した。</li>
+<li>ダフネは図書館・古い記録・街の歴史という知的な話題が自然に出ており、口調も「〜かしら」「〜なの」で落ち着いたお姉さんらしさが安定。</li>
+<li>「少し古い古い記録」は単純な語の重複で、キャラクター性ではなく生成上の小さな言い間違いとみられる。</li>
+<li>アネモネは「駅のベンチ」「遠くへ続く道」「外の世界」と、街の外や未知への関心が非常に明確。</li>
+<li>最後に「万華鏡で外の世界がどうなってるか、ちょっと覗いてみてもいいかな？」と自分の能力を自発的に会話へ持ち込んだ。能力が単なる設定ではなく、日常の行動候補として扱われている。</li>
+<li>ダフネが街の過去へ、アネモネが街の外・先へ意識を向ける対比がきれいに出ている。</li>
+<li>イベントは発火したが、二人は会話内容として銀色の花びらに反応せず、それぞれの話題を続けた。</li>
+</ul>
+</div>
+<h3>出来事確定（06:08）</h3><ul><li>「カフェのテーブルに銀色の花びらが一枚、静かに置かれた。」は08/09 06:08に発生。</li><li>発生キャラクターはアネモネ、ダフネ。</li><li>この後の pending に「駅のホームに、色とりどりの花模様の列車が到着した。」が確認された。アネモネの『駅』『遠くへ続く道』『外の世界』という会話内容と関連している可能性がある。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-33">
+<div class="cardtop">
+<div>
+<span class="number">#33</span>
+<h2>エリカ × ネリネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-33">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、光と静かな場所を共有する穏やかな日常会話だった。</li>
+<li>エリカは「通話魔法」を自然に使い、花守りの教会の静けさや窓から差す光を好む内向きで落ち着いた性格がよく出ている。</li>
+<li>一方で「いいかしら？」「〜いるのね」「〜でしょうね」「気持ちいいわ」と、今回のエリカはやや女性語・お姉さん寄り。許容範囲ではあるが、若めの自然な口調との差は引き続き観察対象。</li>
+<li>ネリネは「胸の奥がぽかぽか」「ゆらゆら揺れる光」「祈りが形になったみたい」「キラキラと踊っている」と、光景を感覚的・美的に捉える表現が非常に安定している。</li>
+<li>二人とも光を話題にしているが、エリカは教会の静けさ・心地よさとして受け取り、ネリネは動きや美しさとして描写するため、性格の違いは保たれている。</li>
+<li>エリカは花守りの教会、ネリネは花眠りの庭にいると会話内で明言しているが、画面上の現在地表示は引き続き「不明」。</li>
+</ul>
+</div>
+<div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-34">
+<div class="cardtop">
+<div>
+<span class="number">#34</span>
+<h2>ルピナス × ビオラ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-34">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-world">🌍 world_state</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>特別な出来事の差し込みはなく、星と花をめぐる静かな日常会話だった。</li>
+<li>ルピナスは「〜かな？」「〜なんだね」「〜気がして」「もし星たちが地上に舞い降りてきたら」と、夢想的で柔らかな口調がかなり安定している。</li>
+<li>「星が地上に舞い降りてきたら」という想像は、星詠み・未来や可能性を思い描くルピナスらしさがよく出ている。</li>
+<li>ビオラは冒頭の「うん、もちろん」「どうしたの？」は年下らしい自然な口調だが、最後は「素敵な想像ね」「特別な夜なのかもしれないわね」と、少し上品・女性語寄りに寄った。</li>
+<li>ダフネ相手ほど強いお嬢様化ではなく、ビオラの基本の柔らかさは残っている。相手よりも会話テーマの幻想性が語尾を上品に寄せている可能性もある。</li>
+<li>ルピナスとビオラはどちらも柔らかいが、ルピナスは想像を広げる側、ビオラはその想像を受け止めて感情に寄せる側として差が出ている。</li>
+</ul>
+</div>
+<h3>天候との整合性</h3><ul><li>世界の天候表示は「夕立」だが、ルピナスは星待ちの丘で星がキラキラ見えると話している。天候情報が会話生成に強く参照されていない可能性があるため、今後も観察する。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-35">
+<div class="cardtop">
+<div>
+<span class="number">#35</span>
+<h2>ルピナス × アネモネ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-35">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>pending_event「街の広場の掲示板に、新しい季節の花の案内が貼られた。」が会話開始時に発火した。</li>
+<li>今回はイベントが会話の主題に直接取り込まれ、ルピナスが「さっき広場を通ったら」と出来事を自分の体験として話している。</li>
+<li>ルピナスは「わくわくしちゃうね」「もし夜になると淡く光りだしたら……」と、現実の出来事から想像を広げる個性が非常に自然。</li>
+<li>アネモネも「どんな色の花たちが街をいっぱいにしてくれるのかな？」と興味を広げ、最後は淡いブルーや紫という自分の好みを具体的に答えている。</li>
+<li>二人とも好奇心が強いが、ルピナスは幻想・可能性へ膨らませ、アネモネは色や景色として具体化するため、似すぎず違いが出ている。</li>
+<li>口調は両者ともかなり自然。ルピナスは「〜だね／〜かな／〜しちゃう」、アネモネは「〜だよ／〜だね／〜かな」で、今回お嬢様口調への揺れは見られない。</li>
+<li>前回のpendingで日常寄りだった「季節の花の案内」が、実際の会話でも自然な日常話題として機能した。</li>
+</ul>
+</div>
+<h3>出来事確定（06:18）</h3><ul><li>「街の広場の掲示板に、新しい季節の花の案内が貼られた。」は08/09 06:18に発生。発生キャラクターはアネモネ、ルピナス。</li><li>新しい pending_event は「花屋の店頭に、淡いブルーのアネモネが並び始めた。」。</li><li>直前にアネモネが「淡いブルーや紫の花が咲いてくれたら嬉しい」と発言しており、新しい出来事が会話内容をかなり直接的に拾っている。</li><li>さらに『アネモネ』というキャラクター名と同名の花が選ばれており、話者の固有名も生成に影響している可能性がある。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section><section class="card note" id="note-36">
+<div class="cardtop">
+<div>
+<span class="number">#36</span>
+<h2>アイリス × エリカ</h2>
+</div>
+<a class="chip" href="../conversations/round1.html#conv-36">💬 会話へ戻る</a>
+</div><div aria-label="この備考の内容" class="note-topics"><span class="topic-badge topic-speech">🗣️ 口調</span><span class="topic-badge topic-event">✨ event</span><span class="topic-badge topic-location">📍 移動</span></div>
+<div class="notecontent">
+<h3>観察メモ</h3>
+<ul>
+<li>これで9人の全36通りの組み合わせが一周した。</li>
+<li>pending_event「回廊の石畳に、虹色の雫が静かに並んだ。」が会話途中で発火した。</li>
+<li>アイリスは「手持ち無沙汰だから通話魔法で呼び出す」「風が甘い花の香りを運んできた」と、社交性と風にまつわる感覚が自然に出ている。</li>
+<li>エリカは教会の近くで静かな風を感じて過ごしており、落ち着いた内向きの性格が安定。</li>
+<li>一方でエリカは「嬉しいわ」「いいわね」「見えないかしら？」と、今回も少しお姉さん・女性語寄りの語尾が目立つ。エリカの口調調整候補として継続観察。</li>
+<li>アイリスにも「とっても素敵ね」「〜ところなの」と少し上品寄りの揺れがあるが、全体としては明るく自然。</li>
+<li>イベント発火後、エリカが「何か不思議なものは見えないかしら？」と不思議な現象を探す方向へ会話を接続している。イベントそのものの場所は回廊で、二人の現在地とは一致しないため、直接見た反応かどうかは不明。</li>
+<li>画面上部が「続きから会話を始められます」、タブ内に「これまでの会話」と表示されていた。通常の新規会話画面と表示が異なるため、UI/会話履歴状態として記録。</li>
+</ul>
+</div>
+<h3>出来事確定（06:22）</h3><ul><li>「回廊の石畳に、虹色の雫が静かに並んだ。」は08/09 06:22:07に発生。参加者はエリカ、アイリス。</li><li>新しい pending_event「カフェのテラスに、透き通ったティーカップが運ばれてきた。」は06:22:09に作成された。</li><li>直前の会話でアイリスがカフェ・フルールのテラスと甘い花の香りを話しており、新pendingは会話内容と過去の銀色モチーフを混ぜて生成したように見える。</li></ul><div class="cardfoot"><a href="#top">↑ 一覧へ</a></div></section></main>
+<footer>エリュシオン観察記録 — 本番会話と世界の変化を分けて保存</footer>
+</body>
+</html>
