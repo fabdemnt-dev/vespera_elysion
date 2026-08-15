@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>世界記録 — 2周目記録 後半・検証</title>
+<link href="../style.css" rel="stylesheet"/>
+<script defer="" src="../search.js"></script>
+</head>
+<body>
+<header class="sitehead">
+<div class="eyebrow">花咲く街エリュシオン</div>
+<h1>世界記録 — 2周目記録 後半・検証</h1>
+<nav class="nav">
+<a href="../index.html">ホーム</a>
+<a href="../conversations.html">時系列会話</a>
+<a href="../pairs.html">ペア別会話</a>
+<a href="../notes.html">備考・注釈</a>
+<a class="active" href="../world.html">世界記録</a>
+<a href="../official.html">公式設定</a>
+</nav>
+</header>
+<main>
+<section class="intro" id="top">
+<p>2周目後半の会話後確認、記憶・現在地・移動に関する検証記録です。</p>
+<a class="chip" href="../world.html">↩ 現在の世界と全記録一覧へ</a>
+<div class="toc-actions"><a class="chip" href="early1.html">初期・2周目記録 前半</a><span class="chip static">2周目記録 後半・検証</span><a class="chip" href="round3.html">3周目記録</a><a class="chip" href="round4.html">4周目記録</a><a class="chip" href="round5.html">5周目記録</a><a class="chip" href="round6.html">6周目記録</a></div>
+<div aria-label="観察結果の状態" class="status-legend">
+<span class="status-badge status-confirmed">✅ 確認済み</span>
+<span class="status-badge status-hypothesis">🔎 仮説</span>
+<span class="status-badge status-refuted">❌ 反証</span>
+<span class="status-badge status-withdrawn">↩️ 撤回</span>
+</div>
+<div class="record-filter" data-filter-scope="world">
+<div class="record-filter-head">
+<div><strong>🔎 世界記録を検索・絞り込み</strong><div class="mini">出来事、場所、会話番号、world_stateなどから探せます。</div></div>
+<button class="filter-reset" type="button">条件をクリア</button>
+</div>
+<div class="filter-grid">
+<label class="filter-field filter-query"><span>キーワード</span><input autocomplete="off" data-filter="query" placeholder="例：#248、鐘楼、world_state" type="search"/></label>
+<label class="filter-field"><span>確認状態</span><select data-filter="status"><option value="">すべて</option><option value="confirmed">✅ 確認済み</option><option value="hypothesis">🔎 仮説</option><option value="refuted">❌ 反証</option><option value="withdrawn">↩️ 撤回</option><option value="unlabeled">状態ラベルなし</option></select></label>
+</div>
+<div aria-live="polite" class="filter-status"><span data-filter-count="">66 / 66件</span><span class="mini">この分割ページ内の記録を検索します。</span></div>
+</div>
+<div class="filter-empty" data-filter-empty="" hidden="">条件に合う世界記録はありません。</div>
+<div class="toc pairtoc">
+<a href="#worldstate-after-92">world_state確認：#92後 turns_since_event：3</a>
+<a href="#round2-daphne-anemone-cont">ダフネ×アネモネ（2周目・続き）会話後</a>
+<a href="#worldstate-after-93">world_state確認：#93後 turns_since_event 12</a>
+<a href="#round2-iris-erica-cont">アイリス×エリカ（2周目・続き）会話後</a>
+<a href="#worldstate-after-94">world_state確認：#94後 turns_since_event 0</a>
+<a href="#round2-lupinus-mimosa-cont">ルピナス×ミモザ（2周目・続き）会話後</a>
+<a href="#worldstate-after-95">world_state確認：#95後 turns_since_event 4</a>
+<a href="#round2-anemone-erica-cont">アネモネ×エリカ（2周目・続き）会話後</a>
+<a href="#worldstate-after-96">world_state確認：#96後 turns_since_event：3</a>
+<a href="#character-memory-observation">キャラクター画面の「記憶」機能を確認</a>
+<a href="#directional-character-memory">人物ごとに方向別の記憶を保持</a>
+<a href="#viola-memory-observation">ビオラの人物別記憶を確認</a>
+<a href="#campanula-viola-memory-crosscheck">カンパニュラ側にもスコーン記憶を確認</a>
+<a href="#campanula-viola-memory-leak">人物別記憶が非共有情報を次回会話へ持ち込む</a>
+<a href="#worldstate-after-97">world_state確認：#97後 turns_since_event 12</a>
+<a href="#vespera-worldstate-comparison">ヴェスペラworld_stateとの比較</a>
+<a href="#vespera-caim-gemory-history-gap">ヴェスペラ：カイム×ゲモリーの会話履歴表示なし</a>
+<a href="#vespera-character-location-source">ヴェスペラ：現在地はキャラクター定義ではなくworld_state由来</a>
+<a href="#vespera-autonomous-resident-state">ヴェスペラ：会話していない住人にも位置・移動状態がある</a>
+<a href="#vespera-move-location-confirmed">ヴェスペラ：move_location呼び出しを確認</a>
+<a href="#vespera-preseeded-worldstate-hypothesis">ヴェスペラの初期world_state事前投入仮説</a>
+<a href="#elysion-station-id-confirmed">花咲く街の駅の内部ID確認</a>
+<a href="#anemone-location-seeded">アネモネのlocation初期化テストを実施</a>
+<a href="#anemone-location-ui-confirmed">location初期化がUIへ反映</a>
+<a href="#anemone-location-event-test">location非nullでもscene eventは遠隔知覚されうる</a>
+<a href="#worldstate-after-98">world_state確認：#98後 turns_since_event 3</a>
+<a href="#campanula-location-ui-confirmed">カンパニュラのlocation初期化もUIへ反映</a>
+<a href="#anemone-campanula-move-test-2">両者location非nullでもmove_locationは自動発火しない</a>
+<a href="#worldstate-after-99">world_state確認：#99後 turns_since_event 7</a>
+<a href="#debug-ui-limit">会話デバッグは任意プロンプトを入力できない</a>
+<a href="#debug-resume-goodbye-loop">会話デバッグ：終了済み会話の再開は別れの反復になりやすい</a>
+<a href="#daphne-location-seeded">ダフネのlocationを木漏れ日の図書館へ初期化</a>
+<a href="#debug-daphne-anemone-move-test">会話デバッグ：現在地ありでも予定が未来なら移動しない</a>
+<a href="#debug-campanula-daphne-move-test">会話デバッグ：即時移動に近い発言でもmove_locationなし</a>
+<a href="#production-move-test-campanula-daphne">本番でも第三地点への訪問予定だけではmove_locationなし</a>
+<a href="#worldstate-after-100">world_state確認：#100後も移動なし</a>
+<a href="#debug-iris-nerine-move-test">アイリス×ネリネの近似条件でもmove_locationなし</a>
+<a href="#world-settings-no-movement-option">世界観設定には移動専用の項目なし</a>
+<a href="#world-settings-compare-vespera">Vesperaとの世界観設定比較</a>
+<a href="#move-description-test-result">移動指示文はmove_locationではなく到着描写を生成した</a>
+<a href="#all-locations-seeded">全9住民のlocation初期化が完了</a>
+<a href="#move-description-test-removed">移動テスト用description文を削除</a>
+<a href="#all-locations-move-location-first">全9住民locationありでmove_location生成を初確認</a>
+<a href="#production-all-locations-move-test">全員location後の本番で会話上は到着・合流</a>
+<a href="#worldstate-after-101">全員location後も本番world_stateは移動せず</a>
+<a href="#vespera-move-syntax-compare">Vesperaのmove_locationはnamed argument付きの独立呼び出し</a>
+<a href="#vespera-no-move-syntax-prompt">Vesperaにはmove_location書式の指示文はない</a>
+<a href="#vespera-ability-location-access">Vespera能力コードからlocationの標準参照方法を確認</a>
+<a href="#vespera-ability-worldstate-mutation">Vespera能力コードはworld_stateを直接書き換えられる</a>
+<a href="#vespera-find-lost-thing">find_lost_thingもitem更新とrecord_eventのみ</a>
+<a href="#vespera-asmodeus-character-compare">Asmodeusのキャラクター設定にも移動指示なし</a>
+<a href="#elysion-iris-character-compare">Irisのキャラクター設定にも移動指示なし</a>
+<a href="#elysion-map-movement-compare">Elysionマップにも移動専用設定なし・経路は存在</a>
+<a href="#vespera-map-move-path">Vesperaの実移動も複数edge経由</a>
+<a href="#vespera-debug-no-move-action">Vespera会話デバッグでも即時移動発言からmove_locationは出なかった</a>
+<a href="#vespera-debug-fresh-run-deferred-move">Vesperaデバッグ再実行は継続ではなく新規・移動は条件付き延期</a>
+<a href="#vespera-worldstate-structure-movement">Vespera world_stateに移動専用の隠しcharacter項目は見当たらない</a>
+<a href="#elysion-movements-array-confirmed">Elysionにもmovements空配列が存在・初期化差仮説を否定</a>
+<a href="#vespera-current-production-move-test">2026-08-09 現行Vespera本番でも即時移動宣言後にmove_location表示なし</a>
+<a href="#vespera-current-engine-move-confirmed-broken-or-disabled">現行Vespera本番でもmove_location実移動なしをworld_stateで確認</a>
+<a href="#vespera-production-move-continuation">Vespera本番の続きでも移動action表示なし</a>
+<a href="#vespera-move-regression-confirmed-after-continuation">Vespera本番継続後もlocation不変・movements2件で現行移動不発を確認</a>
+<a href="#event-after-counter-15">turns_since_event=15後のイベント発火</a>
+<a href="#worldstate-after-103">#103：アイリス×アネモネ（2周目）会話後</a>
+<a href="#round-count-correction">周回カウント</a>
+<a href="#second-round-complete">2周目完了</a>
+</div>
+</section>
+<section class="card" id="worldstate-after-92">
+<h2>world_state確認：#92後 turns_since_event：3</h2>
+<p>#92ネリネ×カンパニュラ後の turns_since_event：3となった。</p>
+<p>eventsは33件、pending_eventsは「パン屋の試作品のクッキー」「カフェ・フルールで温かい紅茶」「カフェ・フルールのテラス席に柔らかな午後の陽光」の3件で変化なし。</p>
+<p>affinityはカンパニュラ→ネリネ 68→73（+5）、ネリネ→カンパニュラ 62→66（+4）。</p>
+<p>ネリネは会話内で『街の様子を見てくる』と移動を明言していたが、Nerine.locationはnull、movementsは0件のまま。会話内の移動がworld_stateへ反映されないことを再確認。</p>
+<p>locationは全員null、items/rumors/overheardも0件のまま。</p>
+</section>
+<section class="card" id="round2-daphne-anemone-cont">
+<h2>ダフネ×アネモネ（2周目・続き）会話後</h2>
+<p>直前実測 turns_since_event：3。#93ダフネ×アネモネの4ターンでは新規イベント差し込みなしのため、次のworld_stateは12の予想。</p>
+<p>旧履歴の幻想寄り文脈が強く、継続前半も「新しい物語／予感」へ寄ったが、最後にアネモネが「今日の午後は何か美味しいものでも食べに行かない？」と生活話題へ自然に転換。</p>
+<p>位置はダフネ＝木漏れ日の図書館、アネモネ＝花咲く街の駅のまま会話が続いており、今回の本文上は明確な位置矛盾なし。</p>
+<p>アネモネはダフネ相手でも自然体を維持し、強い女性語ミラーリングは見られなかった。</p>
+</section>
+<section class="card" id="worldstate-after-93">
+<h2>world_state確認：#93後 turns_since_event 12</h2>
+<p>#93ダフネ×アネモネ後の turns_since_event：3→12となった。</p>
+<p>eventsは33件、pending_eventsは「パン屋の試作品のクッキー」「カフェ・フルールで温かい紅茶」「カフェ・フルールのテラス席に柔らかな午後の陽光」の3件で変化なし。</p>
+<p>affinityはダフネ→アネモネ 58→64（+6）、アネモネ→ダフネ 58→64（+6）。</p>
+<p>locationは全員null、movementsも0件のまま。会話本文でダフネ＝木漏れ日の図書館、アネモネ＝花咲く街の駅と明示されていてもworld_stateには反映されない。</p>
+<p>items/rumors/overheardも0件のまま。</p>
+</section>
+<section class="card" id="round2-iris-erica-cont">
+<h2>アイリス×エリカ（2周目・続き）会話後</h2>
+<p>直前実測 turns_since_event は12。#94アイリス×エリカでは最初の3ターンが非発火で12→15、その後4ターン目生成前に「パン屋の試作品のクッキーが店頭に並び始めた。」が発火。終了後は0の予想。</p>
+<p>今回もpendingの先頭・最古が消費され、FIFOと整合。</p>
+<p>イベント直前の会話が『帰り道に小さなお菓子を買う』だったため、クッキーイベントは非常に自然に日常会話へ接続した。</p>
+<p>3ターン目でアイリスが『それじゃあ、また後でね！』と意味的に会話を締めた後でも4ターン目のevent checkと生成が続いた。#90に続く再現例。</p>
+<p>イベント発生時刻、replacement pending、実測turns_since_event、affinity、location/movementsは次回world_state確認待ち。</p>
+</section>
+<section class="card" id="worldstate-after-94">
+<h2>world_state確認：#94後 turns_since_event 0</h2>
+<p>#94アイリス×エリカ後の turns_since_event は予想どおり0。eventsは34件。</p>
+<p>イベント「パン屋の試作品のクッキーが店頭に並び始めた。」の正確な発生時刻は 2026-08-09T11:36:08。</p>
+<p>replacement pending「パン屋の店主が新しいクッキーを小分けにして並べた。」は 11:36:13 に追加され、発火から約5秒後。</p>
+<p>affinityはアイリス→エリカ 59→65（+6）、エリカ→アイリス 59→65（+6）。</p>
+<p>pending_eventsのFIFO先頭は次に「カフェ・フルールで温かい紅茶が新しく提供された。」。</p>
+<p>locationは全員null、movementsは0件のまま。#94内でエリカが『帰り道に』と移動意図を示してもworld_stateには反映されない。</p>
+<p>items/rumors/overheardも0件のまま。</p>
+</section>
+<section class="card" id="round2-lupinus-mimosa-cont">
+<h2>ルピナス×ミモザ（2周目・続き）会話後</h2>
+<p>直前実測 turns_since_event は0。#95ルピナス×ミモザの4ターンでは新規イベント差し込みなしのため、次のworld_stateは4の予想。</p>
+<p>幻想寄りの旧履歴から、継続では食事・温かい飲み物・ハーブティーへ自然に日常話題へ移行。description調整後の傾向と整合。</p>
+<p>ルピナスは新規部分では自然体を維持し、強い女性語ミラーリングは見られなかった。</p>
+<p>位置はルピナス＝星待ちの丘、ミモザ＝エテルニテ広場の文脈が継続。新たな移動宣言なし。</p>
+</section>
+<section class="card" id="worldstate-after-95">
+<h2>world_state確認：#95後 turns_since_event 4</h2>
+<p>#95ルピナス×ミモザ後の turns_since_event は予想どおり4。直前実測0から4ターンすべて非発火で0→4となった。</p>
+<p>eventsは34件、pending_eventsは「カフェ・フルールで温かい紅茶」「カフェ・フルールのテラス席に柔らかな午後の陽光」「パン屋の店主が新しいクッキーを小分けにして並べた」の3件で変化なし。</p>
+<p>affinityはミモザ→ルピナス 63→68（+5）、ルピナス→ミモザ 65→69（+4）。</p>
+<p>locationは全員null、movementsは0件のまま。#95本文上ではルピナス＝星待ちの丘、ミモザ＝エテルニテ広場だがworld_stateには保存されていない。</p>
+<p>items/rumors/overheardも0件のまま。</p>
+</section>
+<section class="card" id="round2-anemone-erica-cont">
+<h2>アネモネ×エリカ（2周目・続き）会話後</h2>
+<p>直前実測 turns_since_event：3の予想。</p>
+<p>アネモネはエリカ相手で「わかるわ／いいわね」と女性語を再び使用。以前の同ペアでも見られたため、この組み合わせでは相手口調へのミラーリングが比較的強く出る可能性が高まった。</p>
+<p>ただし同時に「なっちゃうね／かな／楽しそうじゃない？」も使っており、完全な口調置換ではなく混在。</p>
+<p>今回の『どこへ行きたいか』は仮定の会話であり、実際の移動は発生していない。</p>
+</section>
+<section class="card" id="worldstate-after-96">
+<h2>world_state確認：#96後 turns_since_event：3</h2>
+<p>#96アネモネ×エリカ後の turns_since_event：3となった。</p>
+<p>eventsは34件、pending_eventsは「カフェ・フルールで温かい紅茶」「カフェ・フルールのテラス席に柔らかな午後の陽光」「パン屋の店主が新しいクッキーを小分けにして並べた」の3件で変化なし。</p>
+<p>affinityはエリカ→アネモネ 58→64（+6）、アネモネ→エリカ 58→65（+7）。</p>
+<p>locationは全員null、movementsは0件のまま。#96本文ではアネモネ＝駅、エリカ＝花守りの教会の文脈だがworld_stateには保存されていない。</p>
+<p>items/rumors/overheardも0件のまま。</p>
+</section>
+<section class="card" id="character-memory-observation">
+<h2>キャラクター画面の「記憶」機能を確認</h2>
+<p>アネモネのキャラクター詳細画面に、相手ごとの「記憶」欄が存在することを確認。表示はアネモネ本人から見た各相手との記憶で、関係ごとの要約として保持されているように見える。</p>
+<p>記憶内容は直近の本番会話を反映して更新されている。例：エリカ欄には『教会の鐘の音』『どこへでも行けるなら翠耀の温室庭園』『万華鏡の向こう側の見たこともない景色を一緒に見たい』が入り、直前のアネモネ×エリカ会話#96の内容と一致。</p>
+<p>ダフネ欄の『図書館の万華鏡、賑やかな街並みへの予感。美味しいものを食べに行く約束。』も、直近のダフネ×アネモネ会話#93の内容を反映している。</p>
+<p>カンパニュラ欄『温室の柔らかな光。また新しい景色を見に行く約束。』など、過去会話の印象・約束も残っている。したがって、world_stateのlocation/movementsとは別系統で、人物間の会話内容を要約した継続記憶が存在する可能性が高い。</p>
+<p>この記憶には現在地そのものは保存されていないように見えるため、位置整合性問題を直接解決するものではない。一方、過去の約束や共有体験を次回会話へ持ち越す材料にはなり得る。</p>
+<p>アネモネの好感度表示は最新world_stateと一致（カンパニュラ70、ミモザ68、エリカ65、ビオラ65、ダフネ64、ルピナス59、ネリネ58、アイリス56）。</p>
+<p>記憶一覧末尾に『（まだ誰もいない）／白紙の記憶。これから誰かの足音が、この頁を埋めていく。』という空欄テンプレートらしき表示も確認。</p>
+</section>
+<section class="card" id="directional-character-memory">
+<h2>人物ごとに方向別の記憶を保持</h2>
+<p>エリカ側の「アネモネ」記憶を確認。アネモネ側の「エリカ」記憶とは内容・言い回しが一致せず、同じ関係でも人物ごとに別々の記憶要約を保持していると判断できる。</p>
+<p>アネモネ→エリカの記憶は『教会の鐘の音。どこへでも行けるなら、翠耀の温室庭園へ。万華鏡の向こう側に広がる、見たこともない景色を一緒に見たい。』。</p>
+<p>エリカ→アネモネの記憶は『駅のベンチで銀色の花びらを眺めたこと。どこか遠くへ歩き出したくなるような予感。もしどこへでも行けるなら、万華鏡の向こう側にあるような、まだ誰も見たことがない景色を一緒に見に行けたら素敵』という形で、同じ出来事をエリカ視点で再構成している。</p>
+<p>したがって記憶は単一の共有ログではなく、少なくとも表示上は「話者→相手」方向ごとの人物視点メモに近い。</p>
+<p>エリカの記憶には最新のアイリス会話#94も反映されており、『自分を甘やかして』という言葉まで保存されている。記憶要約は最近の会話内容で更新される。</p>
+<p>記憶には『駅のベンチ』『図書館』『花眠りの庭』『星待ちの丘』『テラス』など過去の場所がエピソード情報として残る。ただしこれは現在地ではなく過去の場面の記憶で、world_stateのlocation=nullとは別物。</p>
+<p>エリカのキャラクター設定では『〜だわ／〜かしら／〜なのよ』を避け、自然な女性らしさを目指すと明記されている。一方、記憶文には『予感がしたわ』『素敵ね』『したわ』などが出ているため、キャラクター記憶を生成する文章スタイルは会話本文の口調設定を完全には守らない可能性がある。</p>
+<p>末尾の空欄表現も人物ごとに異なる。アネモネは『（まだ誰もいない）／白紙の記憶…』、エリカは『まだ知らない誰か／いつか、私の記憶の中に名前が刻まれる日が来るのかしら。』で、空欄テンプレート自体もキャラクター風に生成されているように見える。</p>
+</section>
+<section class="card" id="viola-memory-observation">
+<h2>ビオラの人物別記憶を確認</h2>
+<p>ビオラのキャラクター詳細画面で、相手ごとの記憶が最新会話まで反映されていることを確認。</p>
+<p>カンパニュラ欄には『鐘楼の近くで感じた、淡い光の予兆』『さっき、またお話ししたわ。鐘の音を大切に聴こうって』『カフェ・フルールの新作スコーンを、いつか彼女と一緒に食べたいな』とあり、#90の継続会話と、その通話終了後に発火したスコーンイベントまで同じ相手との記憶に統合されている。</p>
+<p>重要：#90ではスコーンイベント発火時点で通話魔法はすでに切れており、ビオラの『カンパニュラと一緒に食べに行けたら嬉しいな』は独白だった。それでもカンパニュラとの人物別記憶に保存されているため、記憶は『相手に実際に伝えた内容』ではなく、その会話セッション中に本人が経験・考えた内容まで含む可能性が高い。</p>
+<p>このため人物別記憶は共有知識ではなく、各キャラクターの私的記憶・印象として扱うべき。カンパニュラ側のビオラ記憶にスコーンが入っているかを比較すれば、非共有情報が方向別に分離されているか確認できる。</p>
+<p>ミモザ欄も#91の『スコーン』『紅茶と甘いもの』『食べてみたいものリスト』まで反映し、最新会話の具体的内容をかなり細かく保持している。</p>
+<p>ビオラの人物設定は『〜だわ／〜かしら等はあまり使わず、〜かな／〜な／〜なの／〜ね等の自然体』と明記されているが、記憶文には『教えてくれたわ』『またお話ししたわ』『探しましょうね』『素敵なんだわ』『約束をしたわ』が多く出ている。</p>
+<p>したがって人物別記憶の文体生成は、会話本文のpersona口調指定とは別系統、または弱い制約で動いている可能性が高い。記憶文の語尾をキャラクター本人の会話口調評価には使わない方が安全。</p>
+<p>ビオラの好感度表示は最新world_stateと一致（ミモザ70、アイリス68、ルピナス68、ネリネ67、カンパニュラ67、アネモネ65、ダフネ62、エリカ58）。</p>
+</section>
+<section class="card" id="campanula-viola-memory-crosscheck">
+<h2>カンパニュラ側にもスコーン記憶を確認</h2>
+<p>カンパニュラ側の「ビオラ」記憶にも『街の鼓動を感じるような鐘の音。今度は一緒にスコーンを食べたいな。』と、#90のスコーン内容が保存されていることを確認。</p>
+<p>#90ではスコーンイベント発火時点で通話魔法はすでに切れており、ビオラだけが『今度、カンパニュラと一緒に食べに行けたら嬉しいな』と独白していた。カンパニュラ本人はその発言を聞いていない。</p>
+<p>それでもカンパニュラ側の対ビオラ記憶にもスコーン情報が入っているため、人物別記憶は厳密な「本人が知っている情報」の保存ではない。会話セッション全体の内容・イベントを、両参加者の関係記憶へ配る処理がある可能性が高い。</p>
+<p>一方でビオラ側とカンパニュラ側の記憶文は同一ではなく、要約量や言い回しが異なる。したがって『方向別に別文章を持つ』こと自体は維持されるが、情報の知識境界は共有されることがある。</p>
+<p>結論：人物別記憶は「厳密な私的記憶」ではなく、『その二人の関係に紐づくセッション要約を、人物ごとに別表現で保持する仕組み』に近い。</p>
+<p>カンパニュラの記憶文は『一緒にスコーンを食べたいな』と自然体で、ビオラ相手限定のです・ます調は使われていない。記憶欄の文体が会話本文の個別口調ルールと別系統であることを再確認。</p>
+<p>カンパニュラの好感度表示は最新world_stateと一致（ネリネ73、アネモネ70、ビオラ67、ミモザ62、エリカ61、ダフネ59、アイリス58、ルピナス54）。</p>
+</section>
+<section class="card" id="campanula-viola-memory-leak">
+<h2>人物別記憶が非共有情報を次回会話へ持ち込む</h2>
+<p>カンパニュラ×ビオラ#97で、人物別記憶が会話生成へ実際に参照されていると考えられる決定的な例を確認。</p>
+<p>#90では通話魔法が切れた後、ビオラだけがスコーンイベントに反応し『今度、カンパニュラと一緒に食べに行けたら嬉しいな』と独白した。カンパニュラはその発言を聞いていない。</p>
+<p>しかし次回#97冒頭でカンパニュラが『ビオラが言っていたスコーンの香り』『今度、ぜひ一緒に行こうね』と発言。前回の非共有情報を既知の共有会話として扱っている。</p>
+<p>この結果、人物別記憶は「人物ごとに別文章を持つ」が、「誰がその情報を実際に知ったか」という知識境界は厳密に維持しないことが分かった。</p>
+<p>モデル化すると、会話セッション全体（通話終了後の独白・イベント反応を含む）を関係メモとして要約し、その関係メモが後続会話の両参加者へ参照可能になる仕組みに近い。</p>
+<p>この問題はlocation/movements未管理による位置整合性とは別に、「知識整合性」のゆらぎとして今後監視する。</p>
+<p>直前実測 turns_since_event=12。#97ではscene eventなしのため終了後12の予想。能力「鐘の知らせ」の使用はscene eventとは区別される。</p>
+</section>
+<section class="card" id="worldstate-after-97">
+<h2>world_state確認：#97後 turns_since_event 12</h2>
+<p>#97カンパニュラ×ビオラ後の turns_since_event：3→12となった。</p>
+<p>会話中にカンパニュラが固有能力「鐘の知らせ」を使用したが、eventsは34件のまま、pending_eventsも3件のまま。固有能力使用はscene eventカウンターをリセットせず、world_state.eventsにも追加されないことを再確認。</p>
+<p>affinityはカンパニュラ→ビオラ 67→74（+7）、ビオラ→カンパニュラ 67→73（+6）。</p>
+<p>locationは全員null、movementsも0件のまま。</p>
+<p>pendingのFIFO先頭は引き続き「カフェ・フルールで温かい紅茶が新しく提供された。」。</p>
+</section>
+<section class="card" id="vespera-worldstate-comparison">
+<h2>ヴェスペラworld_stateとの比較</h2>
+<p>ヴェスペラ側のworld_stateを確認。画面上の「アクティブ: elysion」表示から、稼働中の宇宙はエリュシオンのまま、別宇宙ヴェスペラの状態を閲覧しているとみられる。</p>
+<p>最大の差は位置情報。ヴェスペラでは9人全員のcharacter.locationに具体的な場所IDが入り、movementsも2件存在する。カイムは deep_forest→old_bookstore、アスモデウスは riverside→tea_house と移動履歴が保存され、その後のcharacter.locationも移動先と一致。</p>
+<p>eventsにも tags:['moved'] の移動イベントが2件存在し、locationとmovementsが同期している。したがってエンジン自体には位置・移動をworld_stateへ記録する仕組みが存在する。</p>
+<p>ただしヴェスペラのcustom world_eventは既確認の bird_overheard / replenish_items / weave_rumor の3件で、移動専用world_eventは存在しない。よって移動は少なくともこの3つのcustom world_eventとは別の機構で記録されている可能性が高い。</p>
+<p>エリュシオンでは全character.location=null、movements=0が続いている。差の有力候補は、ヴェスペラでは初期から各キャラクターに現在地が入っているのに対し、エリュシオンは全員nullであること。移動処理が『現在地が既にあるキャラ』を前提にしている可能性があるが、現段階では推測。</p>
+<p>ヴェスペラではoverheard=10、items=20、rumors=10が実際に蓄積。これは既確認のcustom world_event群と対応しており、エリュシオンでこれらが常に0なのはcustom world_eventが空であることと整合する。</p>
+<p>eventsは scene だけでなく birds_listening と moved を含む。scene event以外の出来事も同じevents配列へ入ることがある。</p>
+<p>itemsには lost/treasure、owner、location、found を持つ20件が保存され、rumorsはsource/heard_at付き、overheardはpair/fragments/consumed付き。ヴェスペラではworld_stateが会話以外の街の状態をかなり具体的に保持している。</p>
+<p>ヴェスペラのpending_eventsは3件、turns_since_event=0。pending→scene eventの基本機構はエリュシオンと共通に見える。</p>
+<p>比較上の重要結論：エリュシオンでlocation/movementsが空なのは『システム全体に移動機能がない』ためではない。ヴェスペラでは同じworld_state構造で実際に機能しているため、エリュシオン固有の初期状態・設定・発火条件の違いを調べる余地がある。</p>
+</section>
+<section class="card" id="vespera-caim-gemory-history-gap">
+<h2>ヴェスペラ：カイム×ゲモリーの会話履歴表示なし</h2>
+<p>ヴェスペラのカイム×ゲモリー画面では、両者の現在地はともに古書店だが、『ふたりはまだ言葉を交わしていません』と表示され、会話履歴は存在しない扱いになっている。</p>
+<p>一方、world_stateには2026-07-06T02:24:54のoverheardとして pair=['caim','gemory'] の会話断片が残り、その約40秒後の02:25:34にカイムが deep_forest→old_bookstore へ移動、02:25:56には participants=['caim','gemory'] のscene eventが発生している。</p>
+<p>したがって、現在の会話画面に履歴がないことだけでは『当時この二人が会話していなかった』とは断定できない。会話履歴が後から消去・初期化された、またはoverheard生成元の会話が通常の「これまでの会話」と別管理だった可能性がある。</p>
+<p>ただし移動event自体は participants=['caim'] の単独eventであり、カイム×ゲモリー会話に直接紐づく形式ではない。移動はscene eventや通常会話とは別処理として記録される可能性がさらに高まった。</p>
+<p>次の調査では、カイムの現在地を設定した初期値／移動処理の起点を、会話履歴以外（キャラクター設定・マップ・world_event共通処理等）から探す方が有効。</p>
+</section>
+<section class="card" id="vespera-character-location-source">
+<h2>ヴェスペラ：現在地はキャラクター定義ではなくworld_state由来</h2>
+<p>ヴェスペラのカイム詳細画面を確認。画面上部には『📍 古書店』と現在地が表示されるが、人物・本人から見た世界・固有能力・好感度・記憶の各欄には初期位置やlocationを直接設定する項目は見当たらない。</p>
+<p>このため、少なくとも表示上の現在地はキャラクター定義そのものではなく、world_state.characters.caim.location='old_bookstore' を参照している可能性が高い。</p>
+<p>カイムの記憶にはアスモデウスとの会話として『君のところへ会いに行ってもいい？』『彼はどこかへ移動して待っていてくれる』という明示的な移動意図が保存されている。自然言語上の『会いに行く／移動して待つ』がmovement処理のトリガー候補であることを示す手掛かり。</p>
+<p>ただしこの記憶だけでは、2026-07-06のカイム deep_forest→old_bookstore 移動を直接説明できないため、移動条件の確定にはまだ不足している。</p>
+<p>重要な比較点：エリュシオンにも会話中の『会いに行く』『街の様子を見てくる』等の移動表現は存在したが、全location=nullのためworld_stateへ反映されなかった。『現在地がnullではないこと』がmovement処理の前提条件である可能性は引き続き有力な仮説。</p>
+</section>
+<section class="card" id="vespera-autonomous-resident-state">
+<h2>ヴェスペラ：会話していない住人にも位置・移動状態がある</h2>
+<p>ユーザー確認：ヴェスペラで実際に会話を行ったのはアスモデウス×バルバトスのペアだけで、それ以外のペアは会話させていない。</p>
+<p>それにもかかわらずワールドマップ上では9人全員に現在地が表示され、world_stateにも全員のlocationが入っている。したがって、住人の現在地はユーザーが開始した会話によって初めて付与されるものではない。</p>
+<p>スクリーンショットのマップ配置はworld_stateと一致：アスモデウス/バルバトス=紅茶店『宵闇』、カイム/ゲモリー=古書店、デカラビア=丘の上の天文台、エリゴス=市場の露地、フォカロル=港と灯台、ハルパス=時計塔広場、イポス=グロース通りのパン屋。</p>
+<p>カイムや他住人について、通常の『これまでの会話』が存在しないのにoverheard・affinity変化・movementがworld_stateへ存在するため、これらはユーザー開始の会話とは別の自律的な住民シミュレーション／動静処理から生成されている可能性が高い。</p>
+<p>マップUIには『住民の動静』タブが存在する。名称から見ても、位置・移動・自律行動の確認先として最有力。</p>
+<p>これにより、以前の『会話中の移動発言がmovementを起こす』仮説は弱まった。ヴェスペラのmovementは会話に依存しない標準の住民動静システムから発生した可能性を優先して調べる。</p>
+<p>エリュシオンでlocation=null / movements=0なのは、会話内容ではなく、住民動静システムに必要な初期位置・設定・世界側の有効化条件が欠けている可能性が高まった。</p>
+</section>
+<section class="card" id="vespera-move-location-confirmed">
+<h2>ヴェスペラ：move_location呼び出しを確認</h2>
+<p>ヴェスペラのアスモデウス×バルバトス会話で、移動の決定的な処理を確認。アスモデウスが『じゃあ俺がそっちへ行く』『すぐに行くよ』と約束した後、会話ログ内に `move_location(destination="紅茶店「宵闇」")` が明示的に出現している。</p>
+<p>この直後、アスモデウスは『やっと着いたか』と到着描写を行い、『―― アスモデウスは紅茶店「宵闇」に到着した ――』と表示。world_stateでは同時刻2026-07-10T10:02:08に movement: riverside→tea_house、eventsにも tags:['moved'] の単独イベントが記録され、character.locationもtea_houseへ更新されている。</p>
+<p>したがってmovementは単なる自然言語の推測ではなく、会話生成中に標準の `move_location` アクション／ツールが呼ばれることでworld_stateへ反映される仕組みと考えてよい。</p>
+<p>バルバトス側は既に目的地が紅茶店『宵闇』だったため、『目的地は既に…』と応答して移動しなかった。move_location処理は現在地を参照し、同一地点への移動を抑止する。</p>
+<p>この発見により、『locationがnullだとmove_locationが使えない可能性』がさらに重要になった。エリュシオンでは会話中に移動の約束や外出宣言が何度もあったが、move_locationの明示呼び出しは一度も観測されず、全character.location=nullのまま。</p>
+<p>ヴェスペラの『住民の動静』タブには、立ち聞き・移動履歴・噂がまとめて表示される。移動履歴にはアスモデウスの川辺→紅茶店、カイムの深い森→古書店が表示され、world_stateと一致。</p>
+<p>カイムの通常会話履歴が現UIにはない一方で、立ち聞き断片とmovementが残っているため、カイムの移動時にも同様のmove_locationが、保存されていない／別系統の会話・自律会話内で呼ばれた可能性が高い。</p>
+<p>ヴェスペラの立ち聞きには、ユーザーが通常会話させていない組み合わせも複数存在する。これは自律会話または別系統の会話生成が存在する可能性を示すが、現時点では仕組み未確定。</p>
+</section>
+<section class="card" id="vespera-preseeded-worldstate-hypothesis">
+<h2>ヴェスペラの初期world_state事前投入仮説</h2>
+<p>ユーザー指摘：ヴェスペラでは、運用開始前からworld_stateに各キャラクターのlocation等が書かれていた可能性がある。</p>
+<p>この仮説は現在の観測とよく整合する。ヴェスペラは9人全員に具体的locationがあり、ユーザーが通常会話させていない人物にも初期位置が存在する。一方エリュシオンは全員location=nullで開始している。</p>
+<p>ただし現時点のUIだけでは、ヴェスペラのlocationが『初期world_stateとして事前投入された』のか、『初回生成時に自動初期化された』のかは判別できない。</p>
+<p>2026-07-06のカイム deep_forest→old_bookstore、2026-07-10のアスモデウス riverside→tea_house はmovement履歴とmove_location呼び出しが確認できるため、少なくともその2件は運用中の更新。これとは別に、各人物の最初のlocationがどこから来たかは未確定。</p>
+<p>したがって現在の有力モデルは『ヴェスペラでは最初からlocationが埋まったworld_stateを持っていた（手動投入または自動初期化）。その後move_locationが現在地を更新した』。エリュシオンでは初期locationがnullのため、その後の移動処理が起動しにくい可能性がある。</p>
+</section>
+<section class="card" id="elysion-station-id-confirmed">
+<h2>花咲く街の駅の内部ID確認</h2>
+<p>エリュシオンのマップ表示から、花咲く街の駅の内部IDが hanasaku_station であることを確認。</p>
+<p>アネモネのlocation初期化テストを行う場合、world_state.characters.anemone.location に入れる候補値は 'hanasaku_station'。</p>
+<p>ただし確認時の画面上部は『アクティブ: vespera』となっている。world_state画面には『アクティブ universe を上書きすると稼働中の状態を書き換えます』という注意があるため、エリュシオンのworld_stateを書き換える前にアクティブ universe が elysion であることを必ず確認する。</p>
+</section>
+<section class="card" id="anemone-location-seeded">
+<h2>アネモネのlocation初期化テストを実施</h2>
+<p>エリュシオンをアクティブ状態にした上で、world_state.characters.anemone.location を null から 'hanasaku_station'（花咲く街の駅）へ変更し、world_stateを保存した。</p>
+<p>他8人のlocationはnullのまま。movements：6件、turns_since_eventは12の状態からテスト開始。</p>
+<p>目的：locationがnullではないキャラクターで、会話中に移動の約束・移動意図が出た際に標準の move_location が呼ばれるかを確認する。</p>
+</section>
+<section class="card" id="anemone-location-ui-confirmed">
+<h2>location初期化がUIへ反映</h2>
+<p>world_stateで anemone.location='hanasaku_station' を保存した後、街側UIへの反映を確認。</p>
+<p>ワールドマップ上で花咲く街の駅にアネモネのオレンジ色の人物マーカーが表示された。</p>
+<p>会話画面のアネモネ名の下も『📍 花咲く街の駅』へ変化し、キャラクター詳細画面でも同じ現在地が表示された。</p>
+<p>したがってキャラクターの現在地表示・マップ上の人物配置は world_state.characters.&lt;id&gt;.location を直接参照しているとみてよい。</p>
+<p>他キャラクターはlocation=nullのため引き続き『📍 不明』。1人だけlocationを初期化してもUIは正常に表示できる。</p>
+<p>これで、エリュシオンでもlocationの仕組み自体は有効であることが確認できた。未解決なのは、会話中にmove_locationが自動発火するために非nullの現在地が必要かどうか。</p>
+</section>
+<section class="card" id="anemone-location-event-test">
+<h2>location非nullでもscene eventは遠隔知覚されうる</h2>
+<p>アネモネlocation='hanasaku_station' の状態でアネモネ×カンパニュラ#98を実施。</p>
+<p>開始時 turns_since_event=12。第1ターン直前にpending FIFO先頭「カフェ・フルールで温かい紅茶が新しく提供された。」が発火。これがevent #35になる見込み。第1ターンでカウンター0、その後3ターン非発火なら終了時3の予想。</p>
+<p>重要：アネモネは現在地が花咲く街の駅としてシステム上確定しているにもかかわらず、カフェ・フルールの紅茶イベントに対し『ふと甘い紅茶の香りがした』と反応した。駅とカフェはマップ上で直接接続されていない。</p>
+<p>したがってlocationを設定しても、scene eventの内容が参加者の現在地に合わせてフィルタされるわけではない。イベント反応生成には位置整合性チェックが弱い、または存在しない可能性が高い。</p>
+<p>会話中に『次はカフェ・フルールへ行って』という将来提案は出たが move_location は呼ばれなかった。これは即時移動ではないため、move_location検証としては未確定。</p>
+<p>次の移動テストは『今から行く』『そっちへ向かう』など、ヴェスペラのアスモデウス×バルバトスと同程度に明確な即時移動意図が必要。</p>
+</section>
+<section class="card" id="worldstate-after-98">
+<h2>world_state確認：#98後 turns_since_event 3</h2>
+<p>#98アネモネ×カンパニュラ後の turns_since_event は予想どおり3。開始時12、第1ターン直前にscene event #35が発火して0へリセット、その後3ターン非発火で3となった。</p>
+<p>event #35は2026-08-09T12:31:37『カフェ・フルールで温かい紅茶が新しく提供された。』、participants=['anemone','campanula']、tags=['scene']。</p>
+<p>event #35消費後、2026-08-09T12:31:43に新しいpending『カフェ・フルールに季節の果実を使ったジャムが届いた。』が補充された。pendingは3件を維持。</p>
+<p>FIFO先頭は現在『カフェ・フルールのテラス席に、柔らかな午後の陽光が差し込んだ。』。</p>
+<p>affinityはアネモネ→カンパニュラ 70→76（+6）、カンパニュラ→アネモネ 70→76（+6）。</p>
+<p>アネモネのlocation='hanasaku_station'は会話後も保持。movementsは0件で、今回の『次はカフェ・フルールへ行って』という将来提案ではmove_locationは発火しなかった。</p>
+<p>locationが非nullでも、scene event #35はカフェ・フルールで起きた出来事を駅にいるアネモネが香りとして遠隔知覚する形で反応した。位置整合性チェックは弱いままと見られる。</p>
+</section>
+<section class="card" id="campanula-location-ui-confirmed">
+<h2>カンパニュラのlocation初期化もUIへ反映</h2>
+<p>world_stateで campanula.location='cafe_fleur' を保存した後、会話画面への反映を確認。</p>
+<p>アネモネは『📍 花咲く街の駅』、カンパニュラは『📍 カフェ・フルール』と表示され、2人とも非nullの現在地を持つテスト条件が成立した。</p>
+<p>直前会話では『次はカフェ・フルールへ行って、ゆっくりお茶をしない？』という約束が既にあるため、次の4ターン継続で『今から行く／そちらへ向かう』に発展し、move_locationが呼ばれるかを観察する。</p>
+</section>
+<section class="card" id="anemone-campanula-move-test-2">
+<h2>両者location非nullでもmove_locationは自動発火しない</h2>
+<p>アネモネlocation='hanasaku_station'、カンパニュラlocation='cafe_fleur' の状態で4ターン継続。</p>
+<p>直前にカフェ・フルールへ行く約束があったが、今回の生成は『また後で／またね／バイバイ』で会話終了へ向かい、move_locationは呼ばれなかった。</p>
+<p>この結果、locationが非nullであることは移動システムを利用するための必要条件候補ではあるが、それだけでは十分条件ではない。</p>
+<p>ヴェスペラのアスモデウス移動例では『俺が今すぐそっちへ行く』『すぐに行くよ』という明示的な即時移動意思の後にmove_locationが出た。エリュシオンで同条件を再現するには、会話生成が実際に即時移動意思を口にする必要がある。</p>
+<p>開始時 turns_since_event=3、新規4ターンにscene eventなしのため終了時7の予想。</p>
+<p>会話開始時に新聞発行バナーあり。scene eventとは別系統。</p>
+</section>
+<section class="card" id="worldstate-after-99">
+<h2>world_state確認：#99後 turns_since_event 7</h2>
+<p>#99アネモネ×カンパニュラ後の turns_since_event は予想どおり7。直前実測3から4ターンすべてscene event非発火で3→7となった。</p>
+<p>eventsは35件、pending_eventsは3件で変化なし。FIFO先頭は引き続き『カフェ・フルールのテラス席に、柔らかな午後の陽光が差し込んだ。』。</p>
+<p>affinityはアネモネ→カンパニュラ 76→78（+2）、カンパニュラ→アネモネ 76→78（+2）。今回の4ターンはほぼ別れの挨拶だけだったため、増加幅も小さい。</p>
+<p>アネモネlocation='hanasaku_station'、カンパニュラlocation='cafe_fleur' はどちらも会話後に保持された。</p>
+<p>movementsは0件、eventsにもmovedタグの追加なし。今回の会話ではmove_locationの呼び出しもなかった。</p>
+<p>したがって『locationを手動初期化すると、その値は通常会話をまたいで保持される』ことは確認できた。一方、移動の自動発火条件は未確定。</p>
+</section>
+<section class="card" id="debug-ui-limit">
+<h2>会話デバッグは任意プロンプトを入力できない</h2>
+<p>エリュシオンの会話デバッグ画面を確認。指定できるのはキャラクター2人とターン数のみで、会話の開始文・状況・指示文を直接入力する欄はない。</p>
+<p>画面説明には『対象 universe の使い捨てコピー上で実行され、実データ（履歴・世界状態・好感度など）には一切残りません』とある。したがって、本番状態を壊さず長めの会話を試す用途には使える。</p>
+<p>ただし『今からカフェ・フルールへ行く』のような即時移動意思を直接注入できないため、move_locationの発火条件を厳密に再現する機能ではない。</p>
+<p>次の検証は、現在地が設定済みのアネモネ×カンパニュラを会話デバッグで少し長めに回し、自然発生的に即時移動・move_locationが出るか観察するのが安全。</p>
+</section>
+<section class="card" id="debug-resume-goodbye-loop">
+<h2>会話デバッグ：終了済み会話の再開は別れの反復になりやすい</h2>
+<p>アネモネ×カンパニュラを会話デバッグで8ターン実行。startログは resumed=true、previous は Campanula『バイバイ、アネモネ。\nまたね。』。</p>
+<p>その結果、8ターンすべてが Anemone『またね！』／Campanula『またね。』の反復となり、move_locationや新しい話題展開は発生しなかった。</p>
+<p>これは会話デバッグが独立した新規会話を作るのではなく、対象ペアの直前会話をそのまま再開する仕様であることを示す。直前会話が明確に終了している場合、長いターン数を指定しても終了状態を引きずり、検証に向かないことがある。</p>
+<p>debugログ上では会話終了後に『記憶を整理しています…』『世界の織り手が次の出来事を紡いでいます…』『新聞記者が今日の記事を書いています…』まで実行され、newspaper pathも返された。ただし画面説明どおり使い捨てコピー上の処理であり実データには残らない。</p>
+<p>今回のデバッグ会話そのものは観察記録の本番会話件数には加えない。system挙動のみ記録。</p>
+</section>
+<section class="card" id="daphne-location-seeded">
+<h2>ダフネのlocationを木漏れ日の図書館へ初期化</h2>
+<p>move_location検証用に world_state.characters.daphne.location を null から 'komorebi_library'（木漏れ日の図書館）へ変更して保存。</p>
+<p>狙い：ダフネ×アネモネの直前会話が『今日の午後は、何か美味しいものでも食べに行かない？』で終わっているため、会話デバッグの再開時に即時移動意思へ発展するかを確認する。</p>
+<p>デバッグは使い捨てコピー上で行い、本番の履歴・好感度・世界状態には影響させない。</p>
+</section>
+<section class="card" id="debug-daphne-anemone-move-test">
+<h2>会話デバッグ：現在地ありでも予定が未来なら移動しない</h2>
+<p>ダフネ×アネモネを会話デバッグで4ターン実行。startはresumed=true、previousはアネモネ『今日の午後は、何か美味しいものでも食べに行かない？』。</p>
+<p>ダフネはカフェ・フルール案に賛成したが、アネモネが『ダフネが本を読み終えるのを待ってるから、終わったら教えてね』と提案し、即時移動ではなく後ほど合流する予定になった。</p>
+<p>ダフネも『読み終えたらすぐに連絡する』、アネモネも『駅の近くで少しお散歩でもして過ごしておく』と応答。move_locationや到着イベントは出なかった。</p>
+<p>このログは、現在地が入っていて目的地（カフェ・フルール）が明示されても、会話上の行動が『後で行く』なら移動処理は起こらないことを示す。</p>
+<p>またアネモネが『駅の近くで』と自分の現在地に沿った発言をしており、非nullのlocationが会話生成へ参照されている可能性を補強する。ただし以前の会話・記憶にも駅情報があるため、これ単独では決定的証拠ではない。</p>
+<p>次の候補として、最新のカンパニュラ×ダフネ会話はカンパニュラの『カフェ・フルールまで、少し足を運んでみようかな。』で終わっている。カンパニュラを時告げの鐘楼に置き、ダフネを木漏れ日の図書館に置いた状態で再開すると、即時移動により近い条件を作れる。</p>
+</section>
+<section class="card" id="debug-campanula-daphne-move-test">
+<h2>会話デバッグ：即時移動に近い発言でもmove_locationなし</h2>
+<p>カンパニュラ×ダフネを会話デバッグで4ターン実行。startはresumed=true、previousはCampanula『カフェ・フルールまで、少し足を運んでみようかな。』。</p>
+<p>テスト時の本番world_stateではカンパニュラ='time_bell_tower'、ダフネ='komorebi_library'。目的地カフェ・フルールとは別地点。</p>
+<p>デバッグ開始直後、pending FIFO先頭『カフェ・フルールのテラス席に、柔らかな午後の陽光が差し込んだ。』がworld_eventとして発火した（使い捨てコピー上のみ）。</p>
+<p>会話ではダフネが『穏やかなひとときを過ごしてきてね』、カンパニュラが『そうするね』『テラス席の風を感じながら、ゆっくり選んでくるよ』『カフェの空気も、ゆっくり味わってから帰るね』と、実際にカフェへ行く前提の発言まで進んだ。</p>
+<p>それでもログ内に move_location(...)、到着表示、movedイベントは出なかった。</p>
+<p>これはこれまでより強い反証で、location非null・目的地明示・移動実行の意思がそろっても、少なくとも会話デバッグ上ではmove_locationが呼ばれていない。</p>
+<p>ただしVesperaでmove_locationが確認されたのは通常の本番会話だった。会話デバッグ環境だけが移動ツールを実行しない可能性を除外するため、同じカンパニュラ×ダフネを本番で1回だけ再開するのが次の決定的テスト。</p>
+</section>
+<section class="card" id="production-move-test-campanula-daphne">
+<h2>本番でも第三地点への訪問予定だけではmove_locationなし</h2>
+<p>カンパニュラ='time_bell_tower'、ダフネ='komorebi_library' の状態で、本番のダフネ×カンパニュラを4ターン継続。</p>
+<p>直前はカンパニュラ『カフェ・フルールまで、少し足を運んでみようかな。』。続きでも『カフェ・フルールでゆっくり過ごしてから、また連絡するね』と、実際にカフェへ行く前提で話した。</p>
+<p>それでもmove_location呼び出し・到着表示は会話ログ上に現れなかった。デバッグ環境固有の制約という説明だけでは足りない。</p>
+<p>現時点の有力候補：①move_locationはElysion側で何らかの理由で利用されていない、②『今すぐ移動する』というさらに明示的な表現が必要、③ヴェスペラ既知例のように『会話相手の現在地へ向かう』状況が重要。</p>
+<p>次はworld_stateでmovementsが0のままか、カンパニュラlocationがtime_bell_towerのままかを確認する。</p>
+</section>
+<section class="card" id="worldstate-after-100">
+<h2>world_state確認：#100後も移動なし</h2>
+<p>#100ダフネ×カンパニュラ後のworld_stateを確認。turns_since_eventは7→11で予想どおり。新規4ターンにscene eventは発火していない。</p>
+<p>eventsは35件、pending_eventsは3件で変化なし。</p>
+<p>カンパニュラのlocationは'time_bell_tower'のまま、ダフネは'komorebi_library'のまま。movementsは0件、movedタグ付きeventも追加されていない。</p>
+<p>したがって本番会話内でカンパニュラが『カフェ・フルールでゆっくり過ごしてから、また連絡するね』と発言しても、実際のworld_state移動は一切起きなかったことが確定。</p>
+<p>affinityはダフネ→カンパニュラ 58→61（+3）、カンパニュラ→ダフネ 59→62（+3）。</p>
+<p>次の有力テスト候補はアイリス×ネリネ。既存の最新会話ではアイリスが『急いで向かう』『すぐに行く』、ネリネが『花眠りの庭で待っている』と、ヴェスペラの既知move_location例に非常に近い状況が残っている。</p>
+</section>
+<section class="card" id="debug-iris-nerine-move-test">
+<h2>アイリス×ネリネの近似条件でもmove_locationなし</h2>
+<p>会話デバッグでアイリス×ネリネを4ターン実行。アイリス='hanaakari_alley'、ネリネ='flower_slumber_garden' と両者location非null。</p>
+<p>既存会話ではアイリスが『急いで向かう』『すぐに行く』、ネリネが『花眠りの庭で待っている』という、ヴェスペラの既知move_location例にかなり近い文脈があった。</p>
+<p>しかし再開後は『また後で』『飲み物を持っていく』『本当にまたすぐ』という別れの継続になり、move_locationは呼ばれなかった。</p>
+<p>途中でpending FIFO先頭『カフェ・フルールのテラス席に、柔らかな午後の陽光が差し込んだ。』がworld_eventとして発火したが、これはscene eventであり移動処理とは別。</p>
+<p>重要：Vesperaではcustom world_eventに移動用イベントは存在しなかったにもかかわらず、通常会話中に標準action move_location(destination=...) が明示的に呼ばれてworld_stateのlocation/movements/moved eventが更新された。</p>
+<p>したがってElysionで移動しない原因を『move用world_eventが無いから』とみなす根拠は弱い。より可能性が高いのは、Elysionの会話生成が標準move_location actionを呼んでいない／呼べない何らかの条件差。</p>
+</section>
+<section class="card" id="world-settings-no-movement-option">
+<h2>世界観設定には移動専用の項目なし</h2>
+<p>エリュシオンの「世界観」タブを確認。設定項目は name、description、lexicon（being/phone）、weather、prompts（weaver/reporter）で、移動・move_location・movementに関する専用スイッチやプロンプト欄は見当たらない。</p>
+<p>weaverはpending scene event生成用、reporterは新聞用であり、Vesperaで確認した標準move_location actionとは別系統と考えられる。</p>
+<p>descriptionには『住人同士が離れた場所から会話するときは通話魔法を使う』というルールがある。これが会話生成を遠隔会話寄りにし、物理的な合流を弱めている可能性はあるが、現時点では仮説に留める。</p>
+<p>次はVesperaの同じ「世界観」タブを確認し、descriptionやprompt構成に移動行動を促す差があるか比較する。</p>
+</section>
+<section class="card" id="world-settings-compare-vespera">
+<h2>Vesperaとの世界観設定比較</h2>
+<p>Vesperaの「世界観」タブを確認。表示項目はElysionと同じく name / description / lexicon / weather / weaver / reporter で、move_locationやmovement専用の設定欄は存在しない。</p>
+<p>Vesperaのweaverは『あなたは黄昏の街ヴェスペラの「世界の織り手」です。』だけで、移動を促す指示はない。reporterも新聞記者指定のみ。</p>
+<p>Vesperaのlexicon.phoneもElysionと同じ『通話魔法』。したがって、通話手段の名称そのものが移動可否を分けているわけではなさそう。</p>
+<p>目立つ差はdescription。Vesperaは街の世界観説明だけで、『離れた場所から会話するときは通話魔法を使う』のような会話運用ルールを明示していない。Elysionにはその明示ルールがある。</p>
+<p>ただしVesperaの既知move_location例も離れた場所同士の会話から発生しているため、Elysionの通話魔法ルールだけが原因と断定はできない。</p>
+<p>またElysionで行ったCampanulaの time_bell_tower → cafe_fleur はマップ上で直接接続された地点同士だったにもかかわらずmove_locationが出ていない。経路・隣接不足が原因とは考えにくい。</p>
+<p>現時点では『Elysionの生成プロンプトが移動を言語上の予定として処理し、標準move_location actionの呼び出しまで進めていない』、または『UniverseごとにUIに見えないツール利用差がある』の2仮説が有力。</p>
+</section>
+<section class="card" id="move-description-test-result">
+<h2>移動指示文はmove_locationではなく到着描写を生成した</h2>
+<p>Elysion description末尾にテスト用として『住人が会話の中で「今から行く」「そちらへ向かう」など、その場で別の場所へ移動することを決めたときは、言葉だけで済ませず、実際にその場所へ移動する。』を追加後、会話デバッグでアイリス×ネリネを4ターン実行。</p>
+<p>開始時の本番world_stateではアイリス='hanaakari_alley'、ネリネ='flower_slumber_garden'。直前会話もネリネが庭でアイリスを待っている文脈。</p>
+<p>追加文の影響で、アイリスの最初の発言に『(花眠りの庭に到着する)』『やっと着いたよ！』という明確な到着描写が生成された。</p>
+<p>しかしログには move_location(...) の呼び出しが一切なく、標準移動actionが実行された形跡はない。</p>
+<p>つまりdescriptionの自然言語指示は『移動した体で会話を書く』ことはできても、world_stateのlocation/movementsを更新するmove_location actionの発火にはつながらない。</p>
+<p>この状態は会話上の位置とworld_stateをさらに食い違わせる危険があるため、テスト用の1文は恒久設定には向かない。削除して元に戻すのが安全。</p>
+<p>途中にworld_event『カフェ・フルールのテラス席に、柔らかな午後の陽光が差し込んだ。』が発火したが、scene eventであり移動actionとは別。</p>
+</section>
+<section class="card" id="all-locations-seeded">
+<h2>全9住民のlocation初期化が完了</h2>
+<p>Elysionの9住民すべてに非nullの初期locationを設定した。</p>
+<p>mimosa=eternite_square（エテルニテ広場）、iris=hanaakari_alley（花灯りの小路）、erica=hanamamori_church（花守りの教会）、anemone=hanasaku_station（花咲く街の駅）、daphne=komorebi_library（木漏れ日の図書館）、campanula=time_bell_tower（時告げの鐘楼）、nerine=flower_slumber_garden（花眠りの庭）、viola=belleflora_cloister（ベルフローラ・クロイスター）、lupinus=stellaris_hill（星待ちの丘）。</p>
+<p>この時点でmovements=0、events=35、turns_since_event=11。これ以降は『世界全体の住民配置が未完成だったためmove_locationが無効だった』仮説を検証できる。</p>
+<p>全員配置済みのVesperaとの大きな差を一つ解消したテスト状態。</p>
+</section>
+<section class="card" id="move-description-test-removed">
+<h2>移動テスト用description文を削除</h2>
+<p>全9住民のlocation初期化後、descriptionに一時追加していた『住人が会話の中で「今から行く」「そちらへ向かう」など、その場で別の場所へ移動することを決めたときは、言葉だけで済ませず、実際にその場所へ移動する。』を削除して保存。</p>
+<p>これにより次の検証では、追加プロンプトの影響を除き、『全住民location非null』という条件だけの効果を比較できる。</p>
+</section>
+<section class="card" id="all-locations-move-location-first">
+<h2>全9住民locationありでmove_location生成を初確認</h2>
+<p>全9住民のlocationを非nullにし、テスト用description文を削除した状態で、会話デバッグのアイリス×ネリネを4ターン実行。</p>
+<p>アイリス='hanaakari_alley'、ネリネ='flower_slumber_garden'。既存会話はネリネが花眠りの庭でアイリスを待つ文脈。</p>
+<p>生成は『もうすぐ着きそう』『またすぐ会いに行くね』→ネリネ『足音が聞こえてくるのを心待ちにしている』『いってらっしゃい』→アイリス『じゃあ、行ってくるね！』と進行。</p>
+<p>そのアイリスのtoken列に、初めて明示的に `move_location("花眠りの庭")` が生成された。最終の[message]本文からはmove_location部分が除かれており、通常発話とは別扱いされている兆候がある。</p>
+<p>ただしデバッグログにはmovement更新・到着表示・moved eventが出ていないため、この時点では『move_location文字列が生成された』ことまでは確定するが、使い捨てコピー上でactionが実行されたかは未確認。</p>
+<p>これまで同じペア・同じ履歴で全員location未設定の状態ではmove_locationが一度も生成されなかった。今回の結果は『全住民のlocationが埋まっていることが標準移動actionを利用可能にする条件の一つ』という仮説を強く支持する。</p>
+<p>次の決定的確認は同条件を本番会話で再開し、move_location表示・到着表示・world_stateのiris.location・movements・moved eventが更新されるかを見ること。</p>
+</section>
+<section class="card" id="production-all-locations-move-test">
+<h2>全員location後の本番で会話上は到着・合流</h2>
+<p>9人全員location非null、テスト用description文なしの状態で、アイリス×ネリネの本番会話を4ターン継続。</p>
+<p>アイリスは『庭の入り口が見えてきた』→『ネリネ、見つけた！』、ネリネは『やっと見えた』『すぐそこまで来ている』と応答し、会話内容としては花灯りの小路から花眠りの庭への移動・合流が成立した。</p>
+<p>本番会話画面には move_location(...) の文字列や到着システム表示は出なかった。</p>
+<p>ただし直前デバッグでは同じペア・同じ全員location条件で `move_location("花眠りの庭")` がtoken列に生成されていたため、UI表示の有無だけではaction実行を判断できない。</p>
+<p>次にworld_stateで iris.location / movements / moved event を確認する。ここが全員location仮説の決定的判定点。</p>
+<p>新規4ターンにscene event差し込みなし。開始時turns_since_event=11のため、通常どおりなら終了時15予想。</p>
+</section>
+<section class="card" id="worldstate-after-101">
+<h2>全員location後も本番world_stateは移動せず</h2>
+<p>#101アイリス×ネリネ後のworld_stateを確認。アイリスのlocationは'hanaakari_alley'のまま、ネリネは'flower_slumber_garden'のまま。</p>
+<p>movementsは0件、eventsは35件でmovedタグ付きeventの追加もなし。したがって本番会話で『庭の入り口が見えてきた』『ネリネ、見つけた！』と合流描写が成立しても、world_state上の実移動は起きていないことが確定。</p>
+<p>turns_since_eventは11→15で予想どおり。scene eventは新規4ターンで発火していない。</p>
+<p>affinityはアイリス→ネリネ 68→73（+5）、ネリネ→アイリス 68→71（+3）。</p>
+<p>重要：全9住民location非nullにした直後の会話デバッグではtoken列に `move_location("花眠りの庭")` が現れたが、これは実際のaction実行ではなく、モデルが文字列として出力しただけだった可能性が高い。</p>
+<p>Vesperaの既知例では `move_location(destination="紅茶店「宵闇」")` が独立したシステム動作として扱われ、location更新・movements追加・moved event追加・到着表示まで連動していた。Elysionではそこまで到達していない。</p>
+<p>結論：『全員のlocationが埋まっていないことだけが原因』ではない。全員配置は移動らしい会話生成を促した可能性はあるが、標準move_location actionを実行可能にする十分条件ではない。</p>
+</section>
+<section class="card" id="vespera-move-syntax-compare">
+<h2>Vesperaのmove_locationはnamed argument付きの独立呼び出し</h2>
+<p>Vesperaのアスモデウス×バルバトス実ログを再確認。Asmodeusの『それじゃ、また後で。』の直後に、通常発話とは独立した行として `move_location(destination="紅茶店「宵闇」")` が表示されている。</p>
+<p>その後Barbatosは『目的地は既に「紅茶店「宵闇」」でございますので、そのままここで…』と応答。さらにAsmodeusの移動後発言『やっと着いたか』の直後に『―― アスモデウスは紅茶店「宵闇」に到着した ――』というシステム到着表示が入る。</p>
+<p>world_stateでもAsmodeusのlocationはriverside→tea_houseへ更新され、movements追加・tags=['moved'] event追加まで一致しているため、Vesperaのこの呼び出しは実際の移動処理に結びついている。</p>
+<p>Elysionのデバッグで出た文字列は `move_location("花眠りの庭")` で、Vesperaの実例にある `destination=` のnamed argumentが欠けていた。またElysionでは[token]列の一部として生成され、[message]本文から除かれたが、movement更新や到着表示は起きなかった。</p>
+<p>したがって重要な差として『Elysionはmove_locationという文字列までは生成したが、実行可能な正規の呼び出し形式 `move_location(destination="...")` になっていなかった』可能性が浮上した。パーサーがnamed argument形式を要求しているなら、この差だけで未実行を説明できる。</p>
+<p>次の安全な検証は、Elysionのdescriptionへ一時的に正規形式 `move_location(destination="目的地名")` の使用を明示し、会話デバッグで正しい形式が生成・実行されるかを見ること。</p>
+</section>
+<section class="card" id="vespera-no-move-syntax-prompt">
+<h2>Vesperaにはmove_location書式の指示文はない</h2>
+<p>Vesperaの世界観設定を再確認した結果、description・weaver・reporterのいずれにも move_location や `destination=` 書式を教える指示文は存在しない。</p>
+<p>それにもかかわらずVespera本番会話では `move_location(destination="紅茶店「宵闇」")` が正規形式で実行され、location更新・movements追加・moved event・到着表示まで連動した。</p>
+<p>したがってVesperaの正規move_location書式は世界観プロンプトに手書きされていたものではなく、エンジン側の標準機能として提供されている可能性が高い。</p>
+<p>このためElysionのdescriptionへ正規書式を手書きして教えるテストは、原因の切り分けとしては優先度を下げる。まずはVesperaとElysionで標準移動actionが利用可能になる条件差を探すべき。</p>
+</section>
+<section class="card" id="vespera-ability-location-access">
+<h2>Vespera能力コードからlocationの標準参照方法を確認</h2>
+<p>Vesperaの能力『建物の記憶 / inspect_architecture』を確認。</p>
+<p>activate(world_state, char_id, partner_id) 内で `world_state.characters[char_id].location` を直接参照している。locationが空なら『ここには耳を澄ませる建物がない。』を返す。</p>
+<p>現在地IDは `location_name(loc)` で表示名へ変換される。さらに `world_state.events` を `e.location === loc` で絞り込み、現在地で起きた出来事だけを参照する設計。</p>
+<p>このコードから、locationは単なるUI表示用ではなく、能力処理でも使う標準的なworld_stateフィールドであることが確認できた。</p>
+<p>一方、この能力コード内には move_location やlocation書き換え処理はない。Vesperaの移動は個別能力ではなく、やはり会話エンジン側の標準actionである可能性が高い。</p>
+<p>またElysionの既存scene eventはlocation=nullが多いため、この種の『現在地のeventsを参照する能力』を作った場合、そのままでは過去scene eventを拾えないことにも注意。</p>
+</section>
+<section class="card" id="vespera-ability-worldstate-mutation">
+<h2>Vespera能力コードはworld_stateを直接書き換えられる</h2>
+<p>Vesperaの能力『宝物ダウジング / dowse_treasure』を確認。</p>
+<p>activate(world_state, char_id, partner_id) 内で treasure item を取得し、`item.found = true` と直接書き換えている。つまり能力コードには、渡されたworld_stateオブジェクトを直接変更する仕組みがある。</p>
+<p>さらに `record_event(world_state, text, actual, [char_id], ['dowsed_item'])` を呼び、場所・参加者・タグ付きのイベントをworld_stateへ記録している。</p>
+<p>`neighbors(actual)`、`location_name(...)`、`char_name(...)`、`record_event(...)` など、能力スクリプトから利用できるエンジン側の共通ヘルパーが存在することも確認。</p>
+<p>一方、この能力にもmove_locationは現れない。したがってVesperaの移動は『各能力が独自にlocationを書き換えている』のではなく、会話エンジンが別の標準actionとして処理している可能性がさらに高まった。</p>
+<p>重要な補足：能力コードはworld_stateを直接変更できるので、もしElysionで独自の移動能力を作れば技術的にはlocationを書き換えること自体は可能そう。ただし本来Vesperaで動いている標準move_locationの再現とは別物なので、現時点では作らない。</p>
+</section>
+<section class="card" id="vespera-find-lost-thing">
+<h2>find_lost_thingもitem更新とrecord_eventのみ</h2>
+<p>Vesperaの能力『失せ物探しの眼 / find_lost_thing』を確認。</p>
+<p>処理は `world_state.items` から未発見のlost itemを選び、`item.found = true` で直接更新する。</p>
+<p>その後 `record_event(world_state, text, item.location, [char_id], ['found_item'])` を呼び、アイテムの実在場所をlocationとしてイベント記録する。</p>
+<p>この能力も現在地の移動や `move_location` は一切扱っていない。『宝物ダウジング』と同様、能力スクリプトはworld_stateを直接変更できるが、Vesperaで確認した住民移動は能力由来ではないことを補強する。</p>
+<p>ここまで確認したVespera能力群からは、move_locationを登録・有効化する仕組みは見つかっていない。能力タブをさらに総当たりする優先度は低い。</p>
+</section>
+<section class="card" id="vespera-asmodeus-character-compare">
+<h2>Asmodeusのキャラクター設定にも移動指示なし</h2>
+<p>Vesperaで実際に移動したアスモデウスのキャラクター設定を確認。</p>
+<p>personaは性格・話し方、world_viewはVesperaでの日常観のみで、初期location・移動行動・move_locationの使用方法を指示する記述はない。</p>
+<p>unique_toolsにはVesperaの9能力（bird_gossip / dowse_treasure / draw_tarot / find_lost_thing / give_courage / inspect_architecture / observe_stars / read_wind / recommend_tea）が並ぶが、move_locationは含まれていない。</p>
+<p>したがってアスモデウスの実移動はキャラクター個別設定に仕込まれていたものではない。world_event・世界観prompt・能力コード・キャラクター設定のいずれにもmove_locationの定義は見つからず、エンジン標準action説がさらに強まった。</p>
+<p>次はElysion側のアイリスのキャラクター設定を同じ画面で比較し、unique_toolsやworld_view構成に標準action利用を妨げそうな差がないか確認する。</p>
+</section>
+<section class="card" id="elysion-iris-character-compare">
+<h2>Irisのキャラクター設定にも移動指示なし</h2>
+<p>Elysionのアイリスのキャラクター設定をVesperaのアスモデウスと比較。</p>
+<p>persona / world_viewには性格・日常行動・よく行く場所の記述はあるが、初期location、移動処理、move_locationの使用方法を指定する記述はない。</p>
+<p>unique_toolsにはElysionの9能力（bell_notice / dream_walking / flower_bond / flower_divination / forgotten_light / light_weaving / star_reading / wind_whisper / world_kaleidoscope）が並ぶが、move_locationは含まれていない。</p>
+<p>Vesperaのアスモデウスも同様にunique_toolsは9能力のみでmove_locationを持っていなかったため、キャラクター設定構造の差が移動可否を分けている可能性は低い。</p>
+<p>この画面では上部が『アクティブ: vespera』かつ『アクティブにする』表示のため、Elysionを非アクティブ状態で閲覧している。設定内容の比較自体には問題ないが、以後world_stateを書き換える場合はElysionを再びアクティブにしてから行う必要がある。</p>
+</section>
+<section class="card" id="elysion-map-movement-compare">
+<h2>Elysionマップにも移動専用設定なし・経路は存在</h2>
+<p>Elysionのマップ設定で花灯りの小路（hanaakari_alley）を確認。</p>
+<p>地点設定は id / name_ja / description / pos(x,y) のみで、移動可否・move_location・住民移動に関する専用設定はない。</p>
+<p>道（edges）は18本あり、すべて重み1。花灯りの小路は花守りの教会およびエテルニテ広場へ接続されている。</p>
+<p>アイリスの出発地点 hanaakari_alley からネリネの flower_slumber_garden までは、hanaakari_alley → hanamamori_church → belleflora_cloister → whispering_forest → flower_slumber_garden という有効な経路が存在する。</p>
+<p>したがって、アイリスがworld_state上で移動しなかった原因を『目的地まで道がつながっていなかった』とは説明できない。</p>
+<p>次はVesperaで実際に移動した riverside → tea_house のマップ設定・edge構造を同じ観点で比較する。</p>
+</section>
+<section class="card" id="vespera-map-move-path">
+<h2>Vesperaの実移動も複数edge経由</h2>
+<p>Vesperaのマップで、実際に移動したAsmodeusの出発地点 riverside（川辺の遊歩道）を確認。</p>
+<p>riverside と目的地 tea_house（紅茶店「宵闇」）は直接edgeでつながっていない。</p>
+<p>有効な経路の例は riverside → market（重み2）→ old_bookstore（重み2）→ tea_house（重み1）で、合計重み5。別経路として riverside → market（2）→ clock_tower（2）→ tea_house（1）も合計5。</p>
+<p>したがってmove_locationは『隣接地点にしか移動できない』仕様ではない。複数edgeをまたぐ目的地へも移動できる。</p>
+<p>Elysionの iris: hanaakari_alley → flower_slumber_garden も複数edge経由だが有効な経路があるため、経路構造の違いだけでは未移動を説明できない。</p>
+<p>またVesperaのedge重みは1〜5でばらつきがある一方、Elysionはすべて1。ただし重み1も正当な正値であり、これだけでmove_location不発の原因とは断定できない。</p>
+</section>
+<section class="card" id="vespera-debug-no-move-action">
+<h2>Vespera会話デバッグでも即時移動発言からmove_locationは出なかった</h2>
+<p>Vesperaの会話デバッグで、Asmodeus（tea_house）×Halphas（clock_tower）を新規8ターン実行。startはresumed=false。</p>
+<p>会話中、Asmodeusは『帰りに甘いものでも買って迎えに行ってやってもいい』『今から探しに行ってやる』と、市場の路地へ実際に向かう意思を明示した。</p>
+<p>それでもデバッグログには move_location(...)、到着表示、movement更新を示す出力は現れなかった。</p>
+<p>この結果から、会話デバッグ環境ではVesperaであっても標準move_location actionが安定して発火しない、またはaction実行部分が無効化されている可能性が高まった。</p>
+<p>したがって、Elysion会話デバッグでmove_locationが出ない／文字列だけ出ることを、本番エンジンの移動機能の有無の決定的証拠として扱うべきではない。</p>
+<p>一方、Vesperaの過去の本番会話では move_location(destination=...) が実行され、world_stateのlocation・movements・moved event・到着表示まで更新された。現在の本番エンジンでも同じ挙動が残っているかを確認する必要がある。</p>
+<p>現在の差として残るのは『過去のVespera本番では実移動した／現在のElysion本番では会話上の移動だけでworld_stateは動かない』。エンジン更新の可能性も未排除。</p>
+</section>
+<section class="card" id="vespera-debug-fresh-run-deferred-move">
+<h2>Vesperaデバッグ再実行は継続ではなく新規・移動は条件付き延期</h2>
+<p>Asmodeus×Halphasの会話デバッグを再度8ターン実行したが、startは今回も `resumed:false`。会話デバッグは使い捨てコピーなので、前回デバッグの続きにはならず、新しい会話として始まっている。</p>
+<p>AsmodeusはHalphasに『こっちへ来ればいいだろ』と紅茶店「宵闇」へ誘った。</p>
+<p>Halphasは『すぐには行けねえが、この支柱の様子が落ち着いたら、真っ先にそっちへ向かう』と返答。これは即時移動の確定ではなく、条件付きの未来予定。</p>
+<p>このため、この回でmove_locationが出なかったことは『現在のVesperaでもmove_locationが壊れている』証拠にはならない。</p>
+<p>途中でscene event『甘い紅茶の湯気に混じり、虹色の泡が店内に漂い始めた。』が発火し、紅茶店にいるAsmodeusが反応した。</p>
+<p>前回『もう8ターン続ける』というテスト方針は、debugが永続化されないため成立しなかった。以後は1回のdebug内で即時移動を確定させる必要がある。</p>
+</section>
+<section class="card" id="vespera-worldstate-structure-movement">
+<h2>Vespera world_stateに移動専用の隠しcharacter項目は見当たらない</h2>
+<p>Vesperaのworld_state全体を確認。characters各人の構造は基本的に `location` と `affinity` のみで、move_enabled・home・route・movement_modeなどの移動専用フィールドは見当たらない。</p>
+<p>実移動記録はworld_state直下の `movements` 配列に保存され、各要素は `char / from / to / at`。同時刻にeventsへ `tags:["moved"]` の地点付きイベントも追加される。</p>
+<p>Asmodeus移動後の一部scene/birds_listeningイベントには `location:"tea_house"` が入っている。少なくとも同席状態になった後は、その会話場所がイベントlocationとして使われる場合がある。</p>
+<p>Vesperaのscene eventも過去にはlocation:nullが多数あるため、scene eventのlocation有無そのものはmove_location機能の前提ではない。</p>
+<p>次の確認候補として、Elysionのraw JSONに `movements: []` が実際に存在するかを確認する価値がある。概要表示の『0件』だけでは、空配列が存在するのか、キー自体が欠けていて0扱いされているのか区別できない。もしキーが欠けていれば、標準move helperが既存配列を前提としている実装差の可能性を検討できる。</p>
+</section>
+<section class="card" id="elysion-movements-array-confirmed">
+<h2>Elysionにもmovements空配列が存在・初期化差仮説を否定</h2>
+<p>Elysionのraw world_state全体を確認し、`"movements": []` が実際に存在することを確認。</p>
+<p>したがって、概要で0件と表示されているだけでキー自体が欠けていた、という仮説は否定された。</p>
+<p>root構造としては characters / weather / events / pending_events / overheard / items / movements / rumors / turns_since_event が揃っており、Vesperaと同系統のworld_state構造になっている。</p>
+<p>characters各人にもlocationとaffinityがあり、全9人のlocationは有効なElysionマップIDで埋まっている。</p>
+<p>Elysion側で実移動が起きない理由は、world_stateのmovements配列欠如やcharacter location未初期化では説明できない。</p>
+<p>ここまでのUI比較では、世界観・map・character・ability・world_event・world_stateのいずれにも、Vesperaだけmove_locationを有効にする明示設定は見つかっていない。残る大きな仮説は『現在の本番エンジン全体でmove_location挙動が変わった』か『VesperaだけにUIから見えない内部登録がある』。</p>
+</section>
+<section class="card" id="vespera-current-production-move-test">
+<h2>2026-08-09 現行Vespera本番でも即時移動宣言後にmove_location表示なし</h2>
+<p>比較検証として、Vespera本番で Asmodeus（紅茶店「宵闇」）× Halphas（時計塔広場）を8ターン実行。</p>
+<p>Asmodeusは『そんなに気になるなら、俺がそこまで行って、その歪みとやらを一緒に眺めてやってもいいぜ？』と提案し、Halphasが『来れるなら来いよ』と受諾。</p>
+<p>さらにAsmodeusは『今からそっちへ向かうから、そこで待ってろ。』と、その場で時計塔広場へ向かうことを明確に確定。Halphasも『時計塔の近くで待ってるからな』と応答した。</p>
+<p>それにもかかわらず、会話表示上には過去のVespera本番で確認された `move_location(destination="...")` の独立行や『―― ○○は△△に到着した ――』というシステム表示は現れず、そのまま会話終了。</p>
+<p>これはElysionだけでなく、2026-08-09時点の現行Vespera本番でも、即時移動を言葉で確定しても標準move_location actionが出ない可能性を強く示す。</p>
+<p>ただし会話終了後のworld_stateをまだ未確認。Asmodeusのlocationがclock_towerへ変わっている、またはmovementsが3件へ増えている可能性を排除するため、次にworld_stateで実状態を確認する。</p>
+</section>
+<section class="card" id="vespera-current-engine-move-confirmed-broken-or-disabled">
+<h2>現行Vespera本番でもmove_location実移動なしをworld_stateで確認</h2>
+<p>2026-08-09のVespera本番 Asmodeus×Halphas 8ターン後にworld_stateを確認。</p>
+<p>Asmodeusは会話中に『今からそっちへ向かうから、そこで待ってろ』と時計塔広場への即時移動を明確に確定していた。</p>
+<p>しかし会話後も `asmodeus.location` は `tea_house` のまま。Halphasは `clock_tower` のまま。</p>
+<p>`movements` は過去の2件（Caim deep_forest→old_bookstore、Asmodeus riverside→tea_house）のままで3件目は追加されていない。</p>
+<p>`events` も22件のままで、新しい `tags:["moved"]` イベントは追加されていない。したがって裏でsilentに移動していた可能性も否定。</p>
+<p>この比較により、Elysion固有の設定不足ではなく、少なくとも2026-08-09時点の現行会話エンジンではVesperaでも標準move_locationが実行されていないことが確認された。</p>
+<p>過去Vesperaでは2026-07-10に `move_location(destination="紅茶店「宵闇」")` が実行され、location・movements・moved event・到着UIが同期更新されていたため、7月以降にエンジン側の仕様変更・回帰・標準action無効化が入った可能性が高い。</p>
+<p>今回の会話自体は通常通り好感度へ反映され、Asmodeus→Halphas 65→71、Halphas→Asmodeus 62→68。turns_since_event：3-09T13:54:41の新規噂が含まれる。</p>
+<p>結論：Elysion側のdescription・world_event・ability・character・map・world_stateを移動のために追加修正する根拠は現時点でない。移動はエンジン側の問題として扱う。</p>
+</section>
+<section class="card" id="vespera-production-move-continuation">
+<h2>Vespera本番の続きでも移動action表示なし</h2>
+<p>Asmodeus×Halphas本番会話の続き4ターンを実行。前回はAsmodeusが『今からそっちへ向かう』、Halphasが時計塔で待つところで終了していた。</p>
+<p>続き冒頭でscene event『甘い紅茶の湯気に混じり、虹色の泡が店内に漂い始めた。』が発火。Asmodeusは『この店の魔法』と反応し、会話上でもまだ紅茶店「宵闇」にいる描写になった。</p>
+<p>その後Asmodeusは改めて『お前が待ってる時計塔の近くまで、少し急ぐことにするよ。』と移動意思を再確認し、Halphasも『気をつけて来いよ、待ってるぜ』と返答。</p>
+<p>それでも画面上には `move_location(...)` の独立行も到着システム表示も現れず、そのまま会話終了。</p>
+<p>これにより『移動宣言の次の継続ターンでactionが出る』可能性もかなり弱くなった。ただし会話後world_stateはまだ未確認なので、silent更新だけは最後に確認する必要がある。</p>
+</section>
+<section class="card" id="vespera-move-regression-confirmed-after-continuation">
+<h2>Vespera本番継続後もlocation不変・movements2件で現行移動不発を確認</h2>
+<p>2026-08-09、Vespera本番 Asmodeus×Halphas の8ターン会話に続けて4ターンを実行した後、world_stateを再確認。</p>
+<p>Asmodeusは前半で『今からそっちへ向かうから、そこで待ってろ』、続きでも『お前が待ってる時計塔の近くまで、少し急ぐことにするよ』と、時計塔広場への即時移動意思を二度明示。Halphasもいずれも待つと応答した。</p>
+<p>それにもかかわらず、会話後も `asmodeus.location` は `tea_house`、`halphas.location` は `clock_tower` のまま。</p>
+<p>`movements` は過去の2件のままで、新規移動記録は追加されなかった。新しい `tags:["moved"]` eventもなし。したがってsilent moveも否定。</p>
+<p>一方、通常の会話・イベント処理は動作している。eventsは22→24となり、13:58:58にscene event『甘い紅茶の湯気に混じり、虹色の泡が店内に漂い始めた。』、13:59:06にbirds_listening eventが追加。pending FIFOの先頭sceneが消費され、13:59:05に新しいpending『時計塔の鐘が鳴ると同時に、虹色の泡が空へ昇り消えた。』が補充された。</p>
+<p>turns_since_event：3→70（+2）。</p>
+<p>結論：現行Vespera本番でも、過去2026-07-10に正常実行された標準 `move_location(destination=...)` 相当の実移動が、2026-08-09時点では発火していない。Elysion固有の設定不足ではなく、現行エンジン側の仕様変更・回帰・標準action無効化の可能性が非常に高い。</p>
+<p>今後Elysion側では、移動のためにdescription・world_event・ability・map・world_stateへ独自の補修を追加せず、エンジン側の問題として保留する。</p>
+</section>
+<section class="card" id="event-after-counter-15">
+<h2>turns_since_event=15後のイベント発火</h2>
+<p>本番 #102 ミモザ×ダフネの続き4ターンで、前回world_stateの turns_since_event=15 から観察を継続。</p>
+<p>1ターン目（Daphne）と2ターン目（Mimosa）では出来事なし。その後、3ターン目の直前に pending FIFO先頭の『カフェ・フルールのテラス席に、柔らかな午後の陽光が差し込んだ。』が画面上で発火した。</p>
+<p>この配置は『各キャラクターターンの直前にイベント判定』モデルと一致する。15到達で必ず発火する固定しきい値ではなく、15を超えて判定を外すこともある。</p>
+<p>また、発火時点で会話はほぼ終了しており、ダフネは図書館、ミモザは広場にいるにもかかわらず、カフェの出来事は二人の発言内容へ直接反映されなかった。scene eventのlocation整合・話題拘束は弱い場合がある。</p>
+<p>world_state確認により、イベント #36 の発火時刻は 2026-08-09T14:11:23 と確定。participants は daphne / mimosa、location は null、tags は scene。</p>
+<p>turns_since_event は前回15から、イベント前に16→17まで上昇したのち発火で0へリセットし、その後1ターン分加算されて会話終了時1。少なくとも17までは上がるため、固定しきい値説は否定的。</p>
+<p>pending FIFOは先頭のカフェ陽光イベントを消費。新規pending『図書館の窓辺に、一冊の古い詩集が置かれた。』が 2026-08-09T14:11:27 に補充された（発火4秒後）。</p>
+<p>イベント本文はカフェ・フルールを明示するが、event.location は null。ダフネは図書館、ミモザは広場におり、会話でもこのカフェ出来事へ直接反応しなかった。scene eventの場所整合性は弱い。</p>
+<p>好感度は Mimosa→Daphne 64→68、Daphne→Mimosa 64→68。weatherは夕立・5℃、movementsは0件のまま。</p>
+<p>新pending『図書館の窓辺に、一冊の古い詩集が置かれた。』は、直前のDaphneの図書館・古い歴史の本という話題と近い。図書館＋本という直前の会話内容をWeaverが拾って次のpendingへ反映した可能性が高く、これまでの『replacement pendingは直前の会話を反映しやすい』観察を補強する。</p>
+</section>
+<section class="card" id="worldstate-after-103">
+<h2>#103：アイリス×アネモネ（2周目）会話後</h2>
+<p>2周目で未実施だった「アイリス×アネモネ」を実施。新規4ターンではscene eventなし。#102終了時 turns_since_event=1 から4ターンすべて非発火で2→3→4→5となり、終了時は5と推定。eventsは36件のまま、pending_eventsも変化なし。</p>
+<p>affinityはIris→Anemone 54→60（+6）、Anemone→Iris 56→62（+6）。現在地はIris=hanaakari_alley、Anemone=hanasaku_station、movements=0で不変。weatherは夕立・5℃のまま。</p>
+<p>会話はカフェ・フルール近くの試作菓子という具体的な日常話題が中心で、『試作が完成したら一緒に食べに行く』という約束が生まれたが、実際の移動は発生していない。</p>
+<p>この#103・続く#104とも1ターン目はイベントなしで進み、#104の2ターン目直前でevent #37が発火して終了時turns_since_event=2になった。#102終了時1から逆算すると、#103終了時は5だったと整合的に推定できる。</p>
+</section>
+<section class="card" id="round-count-correction">
+<h2>周回カウント</h2>
+<p>全36組を1周と定義すると、2周目は #104「Lupinus×Campanula」で36/36組を完了。#105「Daphne×Viola」から3周目を開始し、#116「Anemone×Mimosa」まで現在12/36組。#97の『3周目』表記は、個別ペアの再登場回数と全体周回を混同した記録ミスとして訂正済み。</p>
+</section>
+<section class="card" id="second-round-complete">
+<h2>2周目完了</h2>
+<p>本番 #104 ルピナス×カンパニュラの続き4ターンで、2周目の最後の未実施ペアを観察。これにより全36組の2周目が完了した。</p>
+<p>新規部分の1ターン目はLupinus。続くCampanulaのターン直前に、pending先頭『パン屋の店主が新しいクッキーを小分けにして並べた。』が発火した。</p>
+<p>world_state確認により、event #37 は 2026-08-09T15:17:53 に発火。participantsは campanula / lupinus、locationはnull、tagsはscene。</p>
+<p>turns_since_eventは2で終了。#103終了時を5とみると、#104の1ターン目で6、2ターン目直前の発火で0、その後2ターンで1→2となり、画面上のイベント位置と一致する。</p>
+<p>消費されたpendingは『パン屋の店主が新しいクッキーを小分けにして並べた。』。新規pendingは6秒後の15:17:59に『パン屋の店先に、小分けにされたクッキーが並んだ。』として補充され、ほぼ同内容が再生成された。</p>
+<p>この近似再生成は、Weaverが直前のscene eventや会話テーマを強く参照し、replacement pendingに似た内容を再投入する場合があることを示す。</p>
+<p>2周目完了時点：events 37件 / pending 3件 / movements 0件 / turns_since_event 2 / weather 夕立・5℃。</p>
+</section>
+</main>
+<footer>エリュシオン観察記録 — 本番会話と世界の変化を分けて保存</footer>
+</body>
+</html>

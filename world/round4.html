@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>世界記録 — 4周目記録</title>
+<link href="../style.css" rel="stylesheet"/>
+<script defer="" src="../search.js"></script>
+</head>
+<body>
+<header class="sitehead">
+<div class="eyebrow">花咲く街エリュシオン</div>
+<h1>世界記録 — 4周目記録</h1>
+<nav class="nav">
+<a href="../index.html">ホーム</a>
+<a href="../conversations.html">時系列会話</a>
+<a href="../pairs.html">ペア別会話</a>
+<a href="../notes.html">備考・注釈</a>
+<a class="active" href="../world.html">世界記録</a>
+<a href="../official.html">公式設定</a>
+</nav>
+</header>
+<main>
+<section class="intro" id="top">
+<p>4周目#141〜#176と、移動ツール・world_state同期の確認記録です。</p>
+<a class="chip" href="../world.html">↩ 現在の世界と全記録一覧へ</a>
+<div class="toc-actions"><a class="chip" href="early1.html">初期・2周目記録 前半</a><a class="chip" href="early2.html">2周目記録 後半・検証</a><a class="chip" href="round3.html">3周目記録</a><span class="chip static">4周目記録</span><a class="chip" href="round5.html">5周目記録</a><a class="chip" href="round6.html">6周目記録</a></div>
+<div aria-label="観察結果の状態" class="status-legend">
+<span class="status-badge status-confirmed">✅ 確認済み</span>
+<span class="status-badge status-hypothesis">🔎 仮説</span>
+<span class="status-badge status-refuted">❌ 反証</span>
+<span class="status-badge status-withdrawn">↩️ 撤回</span>
+</div>
+<div class="record-filter" data-filter-scope="world">
+<div class="record-filter-head">
+<div><strong>🔎 世界記録を検索・絞り込み</strong><div class="mini">出来事、場所、会話番号、world_stateなどから探せます。</div></div>
+<button class="filter-reset" type="button">条件をクリア</button>
+</div>
+<div class="filter-grid">
+<label class="filter-field filter-query"><span>キーワード</span><input autocomplete="off" data-filter="query" placeholder="例：#248、鐘楼、world_state" type="search"/></label>
+<label class="filter-field"><span>確認状態</span><select data-filter="status"><option value="">すべて</option><option value="confirmed">✅ 確認済み</option><option value="hypothesis">🔎 仮説</option><option value="refuted">❌ 反証</option><option value="withdrawn">↩️ 撤回</option><option value="unlabeled">状態ラベルなし</option></select></label>
+</div>
+<div aria-live="polite" class="filter-status"><span data-filter-count="">40 / 40件</span><span class="mini">この分割ページ内の記録を検索します。</span></div>
+</div>
+<div class="filter-empty" data-filter-empty="" hidden="">条件に合う世界記録はありません。</div>
+<div class="toc pairtoc">
+<a href="#fourth-round-141">4周目 #141：ダフネ×ビオラ</a>
+<a href="#movement-tool-confirmed">✅ 確認済みlocation / movements の仕様確認</a>
+<a href="#movement-tool-ai-instructions-update">✅ 確認済み移動ツール説明の更新（08/12 13:32）</a>
+<a href="#pre142-movement-worldstate">✅ 確認済み#142開始前にmovements 1件を初確認</a>
+<a href="#fourth-round-142">4周目 #142：アイリス×エリカ</a>
+<a href="#fourth-round-143">4周目 #143：ミモザ×ネリネ</a>
+<a href="#fourth-round-144">4周目 #144：カンパニュラ×ビオラ</a>
+<a href="#fourth-round-145">4周目 #145：アネモネ×ルピナス</a>
+<a href="#fourth-round-146">4周目 #146：ダフネ×エリカ</a>
+<a href="#fourth-round-147">4周目 #147：アイリス×ミモザ</a>
+<a href="#fourth-round-148">4周目 #148：ネリネ×カンパニュラ</a>
+<a href="#fourth-round-149">4周目 #149：ビオラ×エリカ／生成破損</a>
+<a href="#fourth-round-150">✅ 確認済み4周目 #150：ダフネ×アネモネ／自動移動成功</a>
+<a href="#fourth-round-151">4周目 #151：ルピナス×カンパニュラ</a>
+<a href="#fourth-round-152">4周目 #152：アネモネ×ミモザ</a>
+<a href="#fourth-round-153">4周目 #153：アイリス×ネリネ／出発宣言後も移動なし</a>
+<a href="#fourth-round-154">4周目 #154：ルピナス×ビオラ／自然な就寝終話</a>
+<a href="#fourth-round-155">4周目 #155：エリカ×ネリネ／別れ反復でもaffinity上昇</a>
+<a href="#fourth-round-156">4周目 #156：ダフネ×カンパニュラ／図書館eventとlocation drift</a>
+<a href="#fourth-round-157">4周目 #157：アイリス×ルピナス／就寝終話</a>
+<a href="#fourth-round-158">4周目 #158：アネモネ×ビオラ／カフェ待ち合わせ</a>
+<a href="#fourth-round-159">4周目 #159：ミモザ×カンパニュラ／カフェ焼き菓子event</a>
+<a href="#fourth-round-160">4周目 #160：ダフネ×ルピナス／就寝終話</a>
+<a href="#fourth-round-161">4周目 #161：アイリス×アネモネ／終話</a>
+<a href="#fourth-round-162">4周目 #162：エリカ×ミモザ／タルトevent</a>
+<a href="#fourth-round-163">4周目 #163：ダフネ×ネリネ／改訂後1回目</a>
+<a href="#fourth-round-164">4周目 #164：アイリス×ビオラ／Viola移動成功＋co-location不一致</a>
+<a href="#fourth-round-165">4周目 #165：エリカ×カンパニュラ／改訂後pending初生成</a>
+<a href="#fourth-round-166">4周目 #166：ミモザ×ルピナス／終話ループ再発</a>
+<a href="#fourth-round-167">4周目 #167：アネモネ×ネリネ／participants不一致2例目・改訂後pending 2件目</a>
+<a href="#fourth-round-168">4周目 #168：アイリス×ダフネ／終話傾向追加例</a>
+<a href="#fourth-round-169">4周目 #169：ビオラ×ネリネ／生活ディテール観察</a>
+<a href="#fourth-round-170">4周目 #170：アネモネ×カンパニュラ／pair-contextとglobal stateの差</a>
+<a href="#location-movement-reclassification-170">全170会話：location / movement 再分類</a>
+<a href="#fourth-round-171">4周目 #171：ルピナス×エリカ／状態変化なし</a>
+<a href="#fourth-round-172">4周目 #172：ダフネ×ミモザ／cross-pair文脈差＋narrator bleed</a>
+<a href="#fourth-round-173">4周目 #173：アイリス×カンパニュラ／状態変化なし</a>
+<a href="#fourth-round-174">4周目 #174：ビオラ×ミモザ／状態変化なし</a>
+<a href="#fourth-round-175">4周目 #175：ネリネ×ルピナス／鐘楼event消費＋駅pending集中</a>
+<a href="#fourth-round-176">4周目 #176：アネモネ×エリカ／4周目完了</a>
+</div>
+</section>
+<section class="card" id="fourth-round-141">
+<h2>4周目 #141：ダフネ×ビオラ</h2>
+<p>#141は4周目の1組目。API側400エラー修正後、ダフネ×ビオラの「つづき」で新規4ターンが正常完走した。</p>
+<p>新規scene eventなし。復旧済みの開始前<code>turns_since_event=2</code>から4ターンすべて非発火で<strong>6</strong>へ。pending 3件とevents保持50件は変化なし。</p>
+<p>affinityはDaphne→Viola 68→74（+6）、Viola→Daphne 68→74（+6）。locationはDaphne=<code>komorebi_library</code>、Viola=<code>belleflora_cloister</code>で不変、movements=0。</p>
+<p>
+<strong>移動観察：</strong>新規部分は「その時」「待ち遠しい」「約束」など未来の星見の予定・余韻だけで、到着・合流・現在地変更は確認されなかった。world_stateも不変で、手動補正は行わない。</p>
+<p>
+<strong>日次状態更新：</strong>#141終了後のworld_stateは2026-08-12・通り雨・3℃。07:36〜07:50頃の事前観測では8/11・晴れ・7℃だったため、この間に日次更新が発生した。ただし9時以降・会話前のスナップショットを取れていないため、時刻更新と会話／Weaverトリガーのどちらかは未確定。</p>
+</section>
+<section class="card" id="movement-tool-confirmed">
+<h2 class="status-heading">
+<span class="status-badge status-confirmed">✅ 確認済み</span>location / movements の仕様確認</h2>
+<p>2026-08-12 10:54〜10:56、ヴェスペラ作成者へ確認。world_stateは本来手動で書き換える必要はなく、自動で変化する想定。キャラクターが「移動ツール」をうまく使えていないためlocation固定・movements=0が続いている可能性があるとの回答。</p>
+<p>この回答を受け、4周目で予定していたlocation手動同期実験は中止。以後はlocation / movementsを手動変更せず、会話上の移動表現とworld_stateの自動更新が一致するかを観察する。</p>
+</section>
+<section class="card" id="movement-tool-ai-instructions-update">
+<h2 class="status-heading">
+<span class="status-badge status-confirmed">✅ 確認済み</span>移動ツール説明の更新（08/12 13:32）</h2>
+<p>作成者側で追加対応。これまでのlocation固定・movements=0はプログラム自体の不具合より、AIが移動ツールをうまく使用できていなかった可能性が高いと判断され、<strong>AI向けの移動ツール説明が更新された</strong>。</p>
+<p>作成者の手元では複数回の試行で移動成功を確認。ただしツール使用には確率的な揺れがあるため、#142以降は説明更新後の自然挙動として、会話上の移動とworld_stateのlocation / movements自動更新が一致するかを観察する。手動補正は行わない。</p>
+</section>
+<section class="card" id="pre142-movement-worldstate">
+<h2 class="status-heading">
+<span class="status-badge status-confirmed">✅ 確認済み</span>#142開始前にmovements 1件を初確認</h2>
+<p>08/12 15:10 JST頃、#142を開始する前のworld_stateでmovementsが0→1へ変化し、Iris.locationも花灯りの小路→花眠りの庭へ変化していることを確認した。</p>
+<p>記録内容：<code>iris / hanaakari_alley → flower_slumber_garden / at=2026-08-10T14:30:00</code>。events 50件、pending 3件、turns_since_event=6、affinity、weatherは#141後から不変。</p>
+<p>#141直後には存在しなかったmovementだが、atが08/10で新規会話も未実施のため、発生経緯は未確定。#142以降の修正後本番会話で、会話内容と同時刻のmovementが自動生成されるかを本命の検証とする。</p>
+</section>
+<section class="card" id="fourth-round-142">
+<h2>4周目 #142：アイリス×エリカ</h2>
+<p>#142は4周目の2組目。過去のアイリス×エリカ会話（#36 / #67 / #94 / #106）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>開始直後にscene event「カフェ・フルールのテラスに、蜜色の菓子が運ばれてきた。」が発火。rawは<code>at=2026-08-12T06:14:25</code>、participants=<code>erica / iris</code>、location=<code>null</code>。観察累計scene eventは<strong>52件</strong>、world_state保持は50件。</p>
+<p>FIFO先頭の蜜色の菓子pendingが消費され、replacement「カフェ・フルールのテラスに、甘い香りの風が吹き抜けた。」が<code>2026-08-12T06:14:31</code>に補充。pendingは①図書館の栞 ②カフェから甘い香り ③テラスの甘い香りの風。</p>
+<p>
+<code>turns_since_event</code>は6→3。affinityはIris→Erica 68→73（+5）、Erica→Iris 68→72（+4）。locationはIris=<code>flower_slumber_garden</code>、Erica=<code>hanamamori_church</code>で変化なし。movementsも開始前の1件のまま。</p>
+<p>
+<strong>場所整合性：</strong>world_state上のIrisは花眠りの庭だが、event直後に「今、私の目の前に」カフェ・フルールの菓子が運ばれたと発言。raw eventもlocation=nullであり、scene eventの文章上の場所と参加者の現在地が厳密同期しない例を追加確認。</p>
+<p>
+<strong>移動ツール観察：</strong>新規4ターンに移動・到着の発言はないため、AI向け説明更新後の移動ツール成功／失敗の判定には使わない。movementsの既存1件も変化なし。</p>
+</section>
+<section class="card" id="fourth-round-143">
+<h2>4周目 #143：ミモザ×ネリネ</h2>
+<p>#143は4周目の3組目。過去のミモザ×ネリネ会話（#26 / #62 / #107）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>新規scene eventなし。<code>turns_since_event</code>は3→7。pending 3件、world_state保持events 50件、観察累計scene event 52件は変化なし。</p>
+<p>affinityはMimosa→Nerine 65→68（+3）、Nerine→Mimosa 64→68（+4）。locationはMimosa=<code>eternite_square</code>、Nerine=<code>flower_slumber_garden</code>で不変。movementsも既存Irisの1件のみ。</p>
+<p>
+<strong>移動観察：</strong>「明日の午後、星待ちの丘で会う」と具体的な未来の待ち合わせを確定したが、現在の移動ではない。world_stateも変化しなかったため、未来予定を即時移動として誤処理していない。実際の移動・到着発言はないため、移動ツール説明更新後の成功／失敗判定には使わない。</p>
+<p>
+<strong>継続観察：</strong>「明日の午後」という相対的な予定が今後の会話で保持・再参照されるか、また実際に星待ちの丘へ向かう会話が出た際にlocation / movementsが自動更新されるかを追う。</p>
+</section>
+<section class="card" id="fourth-round-144">
+<h2>4周目 #144：カンパニュラ×ビオラ</h2>
+<p>#144は4周目の4組目。過去のビオラ×カンパニュラ／カンパニュラ×ビオラ会話（#9 / #49 / #59 / #90 / #97 / #108）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>新規scene eventなし。<code>turns_since_event</code>は7→11。pending 3件、world_state保持events 50件、観察累計scene event 52件は変化なし。</p>
+<p>affinityはCampanula→Viola 79→83（+4）、Viola→Campanula 78→83（+5）。locationはCampanula=<code>time_bell_tower</code>、Viola=<code>belleflora_cloister</code>で不変。movementsも既存Irisの1件のみ。</p>
+<p>
+<strong>場所整合性：</strong>新規3ターン目のCampanulaの地の文が「ベルフローラ・クロイスターの穏やかな空気を感じながら」となった一方、world_state上のCampanulaは時告げの鐘楼にいる。Violaのlocationがベルフローラ・クロイスターであることから、相手側の場所情報が地の文へ混入した可能性のあるlocation / perspective bleedを追加確認。</p>
+<p>
+<strong>移動観察：</strong>直前履歴の「街を少し歩いてみようかな」「誰かが歩き出したみたい」はあるが、今回の新規4ターンでは「新しい一歩」を比喩的に語るのみで、移動完了・到着はない。会話後もlocation / movementsに新規変化はなく、手動補正は行わない。</p>
+<p>
+<strong>口調：</strong>Campanulaは「うん／〜なんだね／〜思うよ／〜だね」を維持し、希望する自然体で少し中性的な調子が安定。Violaも落ち着いており、今回の新規部分では強い「だわ／かしら」ドリフトは目立たない。</p>
+</section>
+<section class="card" id="fourth-round-145">
+<h2>4周目 #145：アネモネ×ルピナス</h2>
+<p>#145は4周目の5組目。過去のルピナス×アネモネ／アネモネ×ルピナス会話（#35 / #79 / #109）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>新規1ターン目Lupinusの後、2ターン目Anemone直前にscene event「図書館の入り口に、新しい物語が載った栞が置かれた。」が発火。rawは<code>at=2026-08-12T06:59:33</code>、participants=<code>anemone / lupinus</code>、location=<code>null</code>。観察累計scene eventは<strong>53件</strong>、world_state保持は50件。</p>
+<p>#144終了時pending先頭とevent本文が完全一致して消費され、replacement「図書館のベンチに、誰かが読み終えた本の栞が落ちていた。」が<code>2026-08-12T06:59:39</code>に補充。終了時pendingは①カフェ・フルールから甘い香り ②テラスを吹き抜ける甘い香りの風 ③図書館のベンチの栞。FIFO挙動を再確認。</p>
+<p>
+<code>turns_since_event</code>は11→2。1ターン目後にeventが発火してリセットされ、eventを伴うAnemoneターンは非event加算されず、その後の2ターンで2になった挙動と整合。</p>
+<p>affinityはAnemone→Lupinus 65→68（+3）、Lupinus→Anemone 65→70（+5）。locationはAnemone=<code>hanasaku_station</code>、Lupinus=<code>stellaris_hill</code>で不変。movementsも既存Irisの1件のみ。</p>
+<p>
+<strong>場所整合性：</strong>図書館eventのparticipantsはAnemone / Lupinusだが、現在地は駅／星待ちの丘で図書館ではない。eventによる自動移動もなく、scene eventのparticipantsとlocationが厳密同期しない従来挙動を追加確認。</p>
+<p>
+<strong>天候：</strong>Lupinusは星待ちの丘で星が輝き始めたと描写する一方、weatherは2026-08-12・通り雨・3℃。会話描写がworld_state天候を厳密には反映しない傾向の追加例。</p>
+</section>
+<section class="card" id="fourth-round-146">
+<h2>4周目 #146：ダフネ×エリカ</h2>
+<p>#146は4周目の6組目。過去のエリカ×ダフネ／ダフネ×エリカ会話（#7 / #52 / #61 / #71 / #110）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>新規scene eventなし。<code>turns_since_event</code>は2→6。pending 3件、world_state保持events 50件、観察累計scene event 53件は変化なし。</p>
+<p>affinityはDaphne→Erica 78→83（+5）、Erica→Daphne 75→79（+4）。locationはDaphne=<code>komorebi_library</code>、Erica=<code>hanamamori_church</code>で不変。movementsも既存Irisの1件のみ。</p>
+<p>
+<strong>termination loop観察：</strong>4ターンすべてが別れ挨拶の延長で、新しい話題はほぼ増えなかった。#134の終了挨拶反復では双方±0だったが、今回は+5/+4。形式だけでaffinityが決まるわけではないことを追加確認。</p>
+</section>
+<section class="card" id="fourth-round-147">
+<h2>4周目 #147：アイリス×ミモザ</h2>
+<p>#147は4周目の7組目。過去のアイリス×ミモザ会話（#1 / #43 / #87 / #111）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>新規scene eventなし。<code>turns_since_event</code>は6→10。pending 3件、world_state保持events 50件、観察累計scene event 53件は変化なし。</p>
+<p>affinityはIris→Mimosa 72→76（+4）、Mimosa→Iris 74→78（+4）。locationはIris=<code>flower_slumber_garden</code>、Mimosa=<code>eternite_square</code>で不変。movementsも既存Irisの1件のみ。</p>
+<p>
+<strong>termination loop観察：</strong>#146に続き、新規4ターンがほぼ終了挨拶のみ。それでも双方+4。#134の±0との差から、affinityは単純な「挨拶反復」判定だけでは決まらない。</p>
+</section>
+<section class="card" id="fourth-round-148">
+<h2>4周目 #148：ネリネ×カンパニュラ</h2>
+<p>#148は4周目の8組目。過去のカンパニュラ×ネリネ／ネリネ×カンパニュラ会話（#21 / #55 / #65 / #92 / #112）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>新規2ターン目Nerineの後、3ターン目Campanula直前にscene event「カフェ・フルールから甘い香りが街の風に乗って流れてきた。」が発火。rawは<code>at=2026-08-12T08:42:17</code>、participants=<code>campanula / nerine</code>、location=<code>null</code>。観察累計scene eventは<strong>54件</strong>、world_state保持は50件。</p>
+<p>#147終了時pending先頭とevent本文が完全一致して消費され、replacement「カフェ・フルールの店先に、新作の焼き菓子が並べられた。」が<code>2026-08-12T08:42:21</code>に補充。終了時pendingは①テラスを吹き抜ける甘い香りの風 ②図書館ベンチの栞 ③カフェ店先の新作焼き菓子。FIFO挙動を再確認。</p>
+<p>
+<code>turns_since_event</code>は10→1。最初の2ターンで12まで進んだ後にevent発火で0、その後最後の非eventターンで1になった挙動と整合。</p>
+<p>affinityはCampanula→Nerine 78→81（+3）、Nerine→Campanula 72→75（+3）。locationはCampanula=<code>time_bell_tower</code>、Nerine=<code>flower_slumber_garden</code>で不変。movementsも既存Irisの1件のみ。</p>
+<p>
+<strong>移動観察：</strong>Nerineは既存会話で「街の様子を見てくる」「歩いてくる」と話していたが、今回終了後も花眠りの庭のままでmovement追加なし。未来／行動意図の発話だけでは移動ツールが呼ばれない例として継続観察。</p>
+<p>
+<strong>UI表示：</strong>今回の街画面上部は「花咲く街エリュシオン」。#147までの「黄昏の街ヴェスペラ」表示から変化した。world_state外のUI表示変化として記録し、原因は未確定。</p>
+<p>
+<strong>UI再確認：</strong>#148終了後も「花咲く街エリュシオン」と表示され、会話導線は「続きから会話を始められます」。さらに「住民の動静」→「移動履歴」に既存Iris movementと完全一致する移動が表示された。raw JSONのmovementが街画面UIへ反映されることを初確認。ユーザーは管理者側修正との関連を推測しているが、因果関係は未確定。</p>
+</section>
+<section class="card" id="fourth-round-149">
+<h2>4周目 #149：ビオラ×エリカ／生成破損</h2>
+<p>#149は4周目の9組目。過去のエリカ×ビオラ／ビオラ×エリカ会話（#18 / #42 / #113）の続きとして、「つづき」以降の新規4ターンを保存した。</p>
+<p>
+<strong>生成破損：</strong>新規1ターン目Ericaは「ありがとう」の後に <code>&lt;unused6226&gt;</code> が大量反復する特殊トークン漏出となった。原因は未確定。その後のViola→Erica→Violaは通常文へ戻り、画面上は「会話はここまで」まで完走した。</p>
+<p>新規scene eventなし。<code>turns_since_event</code>は1→5。本文の1ターンが破損していても、world_state側では4ターンすべて非eventターンとして処理された。</p>
+<p>affinityはErica→Viola 66→68（+2）、Viola→Erica 65→68（+3）。locationはErica=<code>hanamamori_church</code>、Viola=<code>belleflora_cloister</code>で不変。movementsも既存Irisの1件のみ。</p>
+<p>pending 3件、world_state保持events 50件、観察累計scene event 54件、weather=2026-08-12・通り雨・3℃、items / rumors / overheard=0で変化なし。<strong>会話テキスト生成の破損と状態更新処理は分離して進む場合がある</strong>観察例になった。</p>
+</section>
+<section class="card" id="fourth-round-150">
+<h2 class="status-heading">
+<span class="status-badge status-confirmed">✅ 確認済み</span>4周目 #150：ダフネ×アネモネ／自動移動成功</h2>
+<p>#150は4周目10組目。「つづき」以降の4ターンで、scene event「カフェ・フルールのテラスに、甘い香りの風が吹き抜けた。」が09:15:46に発火。観察累計scene eventは55件。</p>
+<p>pending先頭がFIFO消費され、replacement「アネモネとダフネが注文したタルトが運ばれてくる。」が09:15:53に補充。turns_since_eventは5→2、affinityはAnemone→Daphne +4、Daphne→Anemone +3。</p>
+<p>
+<strong>移動ツール本番成功：</strong>Anemoneは花咲く街の駅→カフェ・フルール、Daphneは木漏れ日の図書館→カフェ・フルールへ自動更新。movements=1→3、会話UI・街画面現在地・住民の動静・raw world_stateが一致した。</p>
+<p>raw eventsにはscene 1件とmoved 2件が追加されても合計50件のまま。<strong>scene / movedが同じeventsローリング枠を共有</strong>し、movedはturns_since_eventをsceneのようにリセットしないことを確認した。</p>
+</section>
+<section class="card" id="fourth-round-151">
+<h2>4周目 #151：ルピナス×カンパニュラ</h2>
+<p>#151は4周目11組目。「つづき」以降の4ターンは、星空を介した穏やかな別れの挨拶で自然に終了。新規scene eventなし。</p>
+<p>
+<code>turns_since_event</code>は2→6。pending 3件、raw events 50件、観察累計scene event 55件は変化なし。affinityはCampanula→Lupinus 65→70（+5）、Lupinus→Campanula 67→72（+5）。</p>
+<p>locationはCampanula=<code>time_bell_tower</code>、Lupinus=<code>stellaris_hill</code>で不変。movementsも3件のままで、#150で移動したAnemone / Daphneは<code>cafe_fleur</code>を維持。移動ツールの新規発火はない。</p>
+<p>終話は「またね」だけを反復せず、Lupinusの「星が優しい夢を運ぶ」願いをCampanulaが受け取り「おやすみなさい」で締めたため、termination loopは発生しなかった。</p>
+</section>
+<section class="card" id="fourth-round-152">
+<h2>4周目 #152：アネモネ×ミモザ</h2>
+<p>#152は4周目12組目。「つづき」以降の4ターンは「また後で」を重ねる軽いtermination loop寄りの終話。新規scene eventなし。</p>
+<p>
+<code>turns_since_event</code>は6→10。pending 3件、raw events 50件、観察累計scene event 55件は変化なし。affinityはAnemone→Mimosa 72→76（+4）、Mimosa→Anemone 68→72（+4）。</p>
+<p>locationはAnemone=<code>cafe_fleur</code>、Mimosa=<code>eternite_square</code>で不変。movementsも3件のまま。画面内の「駅にいる」というAnemone発言は#150移動前の過去ログで、現在地UI / world_stateとは矛盾しない。</p>
+<p>新規4ターンに移動・到着表現はなく自動移動の追加なし。#150でカフェへ移動したAnemone / Daphneは引き続き<code>cafe_fleur</code>を維持した。</p>
+</section>
+<section class="card" id="fourth-round-153">
+<h2>4周目 #153：アイリス×ネリネ／出発宣言後も移動なし</h2>
+<p>#153は4周目13組目。「つづき」以降の4ターンでカフェ・フルールの「日向ぼっこのマドレーヌ」が話題になり、二人が「向かいましょう」「一緒に出発しましょう」と明言。新規scene eventはなし。</p>
+<p>
+<code>turns_since_event</code>は10→14。pending 3件、raw events 50件、観察累計scene event 55件は変化なし。affinityはIris→Nerine 78→84（+6）、Nerine→Iris 76→82（+6）。</p>
+<p>
+<strong>移動は未発火：</strong>Iris / Nerineはいずれも終了後も<code>flower_slumber_garden</code>。movementsも3件のまま。#150では「着いた／席に着いた」という到着完了に合わせて移動ツールが発火したのに対し、今回は「出発する」段階ではlocation更新が起きなかった。</p>
+<p>「日向ぼっこのマドレーヌ」は会話生成内の名称で、公式設定・pending・world_state itemとしては確認されていない。公式メニューとは扱わず、生成された会話内容として保存する。</p>
+</section>
+<section class="card" id="fourth-round-154">
+<h2>4周目 #154：ルピナス×ビオラ／自然な就寝終話</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は14→18。affinityはLupinus→Viola 74→79（+5）、Viola→Lupinus 73→78（+5）。location、movements、pendingは変化なし。</p>
+</section>
+<section class="card" id="fourth-round-155">
+<h2>4周目 #155：エリカ×ネリネ／別れ反復でもaffinity上昇</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は18→22。affinityはErica→Nerine 65→72（+7）、Nerine→Erica 68→74（+6）。location、movements、pendingは変化なし。</p>
+<p>4ターンとも別れの挨拶を中心とするtermination loop寄りだが、affinity上昇は抑制されなかった。</p>
+</section>
+<section class="card" id="fourth-round-156">
+<h2>4周目 #156：ダフネ×カンパニュラ／図書館eventとlocation drift</h2>
+<p>pending先頭「図書館のベンチに、誰かが読み終えた本の栞が落ちていた。」がscene event化。観察累計scene eventは56件。<code>turns_since_event</code>は22→2。</p>
+<p>Daphne→Campanula 63→65（+2）、Campanula→Daphne 64→67（+3）。location / movementsは変化なし。</p>
+<p>Daphne×Campanulaのペア履歴ではDaphne=図書館の文脈が継続。一方globalの<code>cafe_fleur</code>は別ペア#150で更新されたもの。movement失敗ではなくpair-context / global-state差として再分類。Campanulaはカフェへ向かう途中で、到着前のため移動更新なし。</p>
+<p>補充pending「カフェ・フルールのテラスに新しいティーセットが運ばれた。」追加後、pending 3件すべてがカフェ・フルール関連となった。</p>
+</section>
+<section class="card" id="fourth-round-157">
+<h2>4周目 #157：アイリス×ルピナス／就寝終話</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は2→6。affinityはIris→Lupinus 68→72（+4）、Lupinus→Iris 68→74（+6）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンでは古いペア内locationの明示的な再主張はなく、cross-pair位置文脈の追加判定材料なし。</p>
+</section>
+<section class="card" id="fourth-round-158">
+<h2>4周目 #158：アネモネ×ビオラ／カフェ待ち合わせ</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は6→10。affinityはAnemone→Viola 72→78（+6）、Viola→Anemone 69→74（+5）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンでは古いペア内locationの明示的な再主張はなく、cross-pair位置文脈の追加判定材料なし。</p>
+</section>
+<section class="card" id="fourth-round-159">
+<h2>4周目 #159：ミモザ×カンパニュラ／カフェ焼き菓子event</h2>
+<p>pending先頭「カフェ・フルールの店先に、新作の焼き菓子が並べられた。」がscene event化。観察累計scene eventは57件。<code>turns_since_event</code>は10→3。</p>
+<p>Mimosa→Campanula 65→69（+4）、Campanula→Mimosa 68→74（+6）。location / movementsは変化なし。</p>
+<p>補充pendingは「ミモザとカンパニュラが新作の菓子を買いに街へ出かける。」で、場所自体はカフェ固定ではないが甘味テーマは継続。</p>
+</section>
+<section class="card" id="fourth-round-160">
+<h2>4周目 #160：ダフネ×ルピナス／就寝終話</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は3→7。affinityはDaphne→Lupinus 68→73（+5）、Lupinus→Daphne 68→74（+6）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンでは古いペア内locationの明示的な再主張はなく、cross-pair位置文脈の追加判定材料なし。Lupinusは女性語「〜わ」が2回出たため継続観察。</p>
+<p>画面上部に「本日の新聞が発行されました」表示を確認したが、記事本文は今回未取得。</p>
+</section>
+<section class="card" id="fourth-round-161">
+<h2>4周目 #161：アイリス×アネモネ／終話</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は7→11。affinityはIris→Anemone 68→72（+4）、Anemone→Iris 68→72（+4）。location、movements、pendingは変化なし。</p>
+<p>「つづき」前の既存会話にはAnemoneの「駅のベンチ」発言があるが、新規4ターンでは再主張されず、#161で新たなpair-context / global-state差とは数えない。</p>
+</section>
+<section class="card" id="fourth-round-162">
+<h2>4周目 #162：エリカ×ミモザ／タルトevent</h2>
+<p>pending先頭「アネモネとダフネが注文したタルトが運ばれてくる。」がscene event化。観察累計scene eventは58件。<code>turns_since_event</code>は11→2。</p>
+<p>Erica→Mimosa 68→72（+4）、Mimosa→Erica 70→75（+5）。location / movementsは変化なし。</p>
+<p>raw eventの本文はAnemone/Daphneを明示するが、participantsは現在会話中のErica/Mimosa。本文とparticipant metadataの不一致として継続観察。</p>
+<p>補充pendingは「図書館の窓辺に、柔らかな午後の日差しが差し込んだ。」で、場所・テーマが図書館側へ分散。</p>
+</section>
+<section class="card" id="fourth-round-163">
+<h2>4周目 #163：ダフネ×ネリネ／改訂後1回目</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は2→6。affinityはDaphne→Nerine 67→72（+5）、Nerine→Daphne 64→68（+4）。location、movements、pendingは変化なし。</p>
+<p>#162終了後のdescription / weaver改訂後、最初の本番会話。ただし新規pending生成はなく、改訂効果の判定材料はまだ増えていない。</p>
+</section>
+<section class="card" id="fourth-round-164">
+<h2>4周目 #164：アイリス×ビオラ／Viola移動成功＋co-location不一致</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は6→10。Iris→Viola 75→79（+4）、Viola→Iris 75→79（+4）。</p>
+<p>Violaは<code>belleflora_cloister → cafe_fleur</code>へ実移動し、movementsは3→4。raw eventsにもmovedが追加されたため、移動処理自体は正常。</p>
+<p>Violaの<code>belleflora_cloister → cafe_fleur</code> movement更新は正常。一方Irisは<code>flower_slumber_garden</code>のままなのに両者は直接対面した描写。#11・#51・#77・#128のペア履歴を再確認してもIris=カフェの明示はないため、以前の「カフェ付近で待っていた」という解釈は撤回。#164はmovement更新失敗ではなく、到着先・相手location・対面描写のco-location / location grounding不一致として保留。</p>
+</section>
+<section class="card" id="fourth-round-165">
+<h2>4周目 #165：エリカ×カンパニュラ／改訂後pending初生成</h2>
+<p>旧pending「カフェ・フルールのテラスに新しいティーセットが運ばれた。」をFIFO消費。新規scene event 1件で観察累計59件、<code>turns_since_event</code>は10→3。Erica→Campanula 67→72（+5）、Campanula→Erica 68→74（+6）。location / movementsは変化なし。</p>
+<p>消費後、改訂後Weaverで初めて新規pending「鐘楼の鐘が、午後の穏やかな時間を告げる音を響かせた。」が生成された。鐘楼・鐘・住人名なし・非飲食という内容で、改訂意図と一致する最初の好材料。ただしサンプル1件のため改善確定は保留。</p>
+</section>
+<section class="card" id="fourth-round-166">
+<h2>4周目 #166：ミモザ×ルピナス／終話ループ再発</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は3→7。Mimosa→Lupinus 75→79（+4）、Lupinus→Mimosa 75→79（+4）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンは「また明日／バイバイ」だけで進み、既観測の終話ループ傾向が再発。world_state自体は正常で、#164のco-location / location grounding問題に関する追加材料はない。2026年8月12日号新聞本文は別途正式記録済み。</p>
+</section>
+<section class="card" id="fourth-round-167">
+<h2>4周目 #167：アネモネ×ネリネ／participants不一致2例目・改訂後pending 2件目</h2>
+<p>旧pending「ミモザとカンパニュラが新作の菓子を買いに街へ出かける。」をFIFO消費。scene event累計60件、<code>turns_since_event</code>は7→2。Anemone→Nerine 62→68（+6）、Nerine→Anemone 62→68（+6）。location / movementsは変化なし。</p>
+<p>event本文の登場人物はMimosa/Campanulaだがraw participantsは現在会話ペアAnemone/Nerine。#162と同型の2例目で、participantsが会話ペアを格納する仕様の可能性が高まった。</p>
+<p>新規pendingは「駅のホームに、一列の列車が静かに到着した。」。改訂後Weaverの確認済み2件目で、鐘楼→駅へ場所が分散し、非飲食・住人名なし・普通の日常・直前話題の非反復を確認。改善確定はまだ保留。</p>
+</section>
+<section class="card" id="fourth-round-168">
+<h2>4周目 #168：アイリス×ダフネ／終話傾向追加例</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は2→6。Iris→Daphne 68→74（+6）、Daphne→Iris 65→70（+5）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンでは別れ際の応酬が継続し、終話状態でターンを消費する傾向の追加例。古いペア内locationの追加再主張はなし。改訂後Weaverの新規pendingサンプルは鐘楼・駅の2件を維持。</p>
+</section>
+<section class="card" id="fourth-round-169">
+<h2>4周目 #169：ビオラ×ネリネ／生活ディテール観察</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は6→10。Viola→Nerine 72→78（+6）、Nerine→Viola 68→73（+5）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンでは温室庭園のベリー収穫・食用という未設定の生活描写が登場。「さっき温室庭園の近くを通った」は過去行動の言及で、現在locationやmovementの異常とは扱わない。日常観察枠では低確度として継続観察。</p>
+</section>
+<section class="card" id="fourth-round-170">
+<h2>4周目 #170：アネモネ×カンパニュラ／pair-contextとglobal stateの差</h2>
+<p>旧pending「図書館の窓辺に、柔らかな午後の日差しが差し込んだ。」をFIFO消費。scene event累計61件、<code>turns_since_event</code>は10→2。Anemone→Campanula 78→84（+6）、Campanula→Anemone 78→85（+7）。</p>
+<p>world_stateではAnemone=cafe_fleurだが、Anemone×Campanulaのペア履歴ではAnemone=駅の文脈が初回から継続している。globalのcafe_fleurは別ペア#150で更新されたもの。したがって「駅のベンチ」はmovement失敗ではなく、ペア会話文脈とglobal world_stateの同期差として再分類。最新world_stateを優先すべき仕様か、ペア履歴を優先する仕様か確認待ち。「通話魔法が切れた／終わった」後も応答が続く件はlocationとは別の終話状態問題として残す。</p>
+<p>改訂後Weaver 3件目の新規pendingは「駅のホームに、次の列車を待つ乗客の足音が響き渡った。」。非飲食・住人名なし・日常系は維持する一方、駅が2件連続し、直前会話の駅描写も反復。場所分散・直前場所反復抑制について最初の明確な反例。</p>
+</section>
+<section class="card" id="location-movement-reclassification-170">
+<h2>全170会話：location / movement 再分類</h2>
+<p>
+<strong>movement処理そのもの：</strong>AI向けツール説明更新後、到着完了が明確な#150（Anemone/Daphne）と#164（Viola）はすべて自動更新成功。更新後に「到着したのにlocation / movementsが更新されない」例は未確認。</p>
+<p>
+<strong>cross-pair文脈：</strong>#156 / #170は、別ペアでglobal locationが変わった後も古いペア会話内の位置文脈が続いた例。movement不具合とは分離し、「つづき」の最新world_state同期仕様を確認するまで保留。</p>
+<p>
+<strong>#164：</strong>Violaのmovement更新は正常だが、Irisのglobal locationと到着先・直接対面描写が一致しない。ペア履歴にもIris=カフェの明示はなく、co-location / location grounding問題として別分類。</p>
+<p>
+<strong>別系統：</strong>#106 / #127 / #142はscene event地点の会話への取り込みによる場所混線、#144は相手locationの地の文への混入、#136はナレーター視点へのにじみ。いずれもmovement処理とは別に観察する。</p>
+</section>
+<section class="card" id="fourth-round-171">
+<h2>4周目 #171：ルピナス×エリカ／状態変化なし</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は2→6。Erica→Lupinus 72→78（+6）、Lupinus→Erica 72→78（+6）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンではcross-pair位置文脈差、#164型co-location / location grounding不一致、scene event由来の場所混線はいずれも確認されなかった。</p>
+</section>
+<section class="card" id="fourth-round-172">
+<h2>4周目 #172：ダフネ×ミモザ／cross-pair文脈差＋narrator bleed</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は6→10。Daphne→Mimosa 74→79（+5）、Mimosa→Daphne 73→78（+5）。location、movements、pendingは変化なし。</p>
+<p>Daphne×Mimosa内ではDaphne=図書館の古いペア文脈を継続する一方、global Daphneは別ペア#150でcafe_fleurへ移動済み。図書館へ戻るmovementはなく、#156/#170型のcross-pair文脈差として記録。</p>
+<p>さらにエテルニテ広場にいるMimosaが、Daphneの「本を開く指先」の身体感覚までナレーター的に描写。#136型のnarrator / perspective bleed再発として分離記録。</p>
+</section>
+<section class="card" id="fourth-round-173">
+<h2>4周目 #173：アイリス×カンパニュラ／状態変化なし</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は10→14。Iris→Campanula 64→66（+2）、Campanula→Iris 64→66（+2）。location、movements、pendingは変化なし。</p>
+<p>新規4ターンではcross-pair位置文脈差、#164型co-location / location grounding不一致、scene event由来の場所混線、narrator / perspective bleedはいずれも確認されなかった。</p>
+</section>
+<section class="card" id="fourth-round-174">
+<h2>4周目 #174：ビオラ×ミモザ／状態変化なし</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は14→18。Viola→Mimosa 78→82（+4）、Mimosa→Viola 78→82（+4）。location、movements、pendingは変化なし。</p>
+<p>古い表示履歴にはViola=ベルフローラ・クロイスターの文脈が残るが、新規4ターンで場所の再主張はないため、#174でcross-pair位置文脈差が新規発生したとは数えない。</p>
+</section>
+<section class="card" id="fourth-round-175">
+<h2>4周目 #175：ネリネ×ルピナス／鐘楼event消費＋駅pending集中</h2>
+<p>改訂後Weaverで生成された鐘楼pending「鐘楼の鐘が、午後の穏やかな時間を告げる音を響かせた。」がscene eventとして発生。観察累計61→62件、<code>turns_since_event</code> 18→0。Nerine→Lupinus 65→78（+13）、Lupinus→Nerine 65→75（+10）。location、movementsは変化なし。</p>
+<p>補充された新pendingは「駅のホームに、銀色の光を反射する列車が静かに滑り込んできた。」。改訂後Weaverの新規pendingは鐘楼→駅→駅→駅となり、#175終了時点ではpending 3件すべてが駅。非food・住人名なしという改善は続く一方、場所分散は十分ではない可能性が強まった。</p>
+<p>Lupinusは鐘の音を遠隔で受け止めるのみで、自身のlocationを鐘楼として描写しなかった。scene event場所取り込みは今回はなし。</p>
+</section>
+<section class="card" id="fourth-round-176">
+<h2>4周目 #176：アネモネ×エリカ／4周目完了</h2>
+<p>新規scene eventなし。<code>turns_since_event</code>は0→4。Anemone→Erica 70→76（+6）、Erica→Anemone 68→74（+6）。location、movements、pendingは変化なし。</p>
+<p>古い表示履歴のAnemone=駅は新規4ターンで再主張されず、カフェ・フルールは未来の予定としてのみ言及。cross-pair位置文脈差の新規発生には数えない。</p>
+<p>
+<strong>4周目36/36完了。</strong> 改訂後Weaverの新規pending観察は鐘楼→駅→駅→駅。#176終了時のpending 3件はすべて駅。非food・住人名なしの改善は見える一方、場所分散は弱い状態。</p>
+</section>
+</main>
+<footer>エリュシオン観察記録 — 本番会話と世界の変化を分けて保存</footer>
+</body>
+</html>

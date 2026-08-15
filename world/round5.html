@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>世界記録 — 5周目記録</title>
+<link href="../style.css" rel="stylesheet"/>
+<script defer="" src="../search.js"></script>
+</head>
+<body>
+<header class="sitehead">
+<div class="eyebrow">花咲く街エリュシオン</div>
+<h1>世界記録 — 5周目記録</h1>
+<nav class="nav">
+<a href="../index.html">ホーム</a>
+<a href="../conversations.html">時系列会話</a>
+<a href="../pairs.html">ペア別会話</a>
+<a href="../notes.html">備考・注釈</a>
+<a class="active" href="../world.html">世界記録</a>
+<a href="../official.html">公式設定</a>
+</nav>
+</header>
+<main>
+<section class="intro" id="top">
+<p>5周目#177〜#212と、完了時点の確認記録です。</p>
+<a class="chip" href="../world.html">↩ 現在の世界と全記録一覧へ</a>
+<div class="toc-actions"><a class="chip" href="early1.html">初期・2周目記録 前半</a><a class="chip" href="early2.html">2周目記録 後半・検証</a><a class="chip" href="round3.html">3周目記録</a><a class="chip" href="round4.html">4周目記録</a><span class="chip static">5周目記録</span><a class="chip" href="round6.html">6周目記録</a></div>
+<div aria-label="観察結果の状態" class="status-legend">
+<span class="status-badge status-confirmed">✅ 確認済み</span>
+<span class="status-badge status-hypothesis">🔎 仮説</span>
+<span class="status-badge status-refuted">❌ 反証</span>
+<span class="status-badge status-withdrawn">↩️ 撤回</span>
+</div>
+<div class="record-filter" data-filter-scope="world">
+<div class="record-filter-head">
+<div><strong>🔎 世界記録を検索・絞り込み</strong><div class="mini">出来事、場所、会話番号、world_stateなどから探せます。</div></div>
+<button class="filter-reset" type="button">条件をクリア</button>
+</div>
+<div class="filter-grid">
+<label class="filter-field filter-query"><span>キーワード</span><input autocomplete="off" data-filter="query" placeholder="例：#248、鐘楼、world_state" type="search"/></label>
+<label class="filter-field"><span>確認状態</span><select data-filter="status"><option value="">すべて</option><option value="confirmed">✅ 確認済み</option><option value="hypothesis">🔎 仮説</option><option value="refuted">❌ 反証</option><option value="withdrawn">↩️ 撤回</option><option value="unlabeled">状態ラベルなし</option></select></label>
+</div>
+<div aria-live="polite" class="filter-status"><span data-filter-count="">37 / 37件</span><span class="mini">この分割ページ内の記録を検索します。</span></div>
+</div>
+<div class="filter-empty" data-filter-empty="" hidden="">条件に合う世界記録はありません。</div>
+<div class="toc pairtoc">
+<a href="#fifth-round-177">5周目 #177：ダフネ×ビオラ／口調改訂後1件目</a>
+<a href="#fifth-round-178">5周目 #178：アイリス×エリカ／駅event消費＋2人のmovement</a>
+<a href="#fifth-round-179">5周目 #179：ミモザ×ネリネ／eventなし・口調良好例</a>
+<a href="#fifth-round-180">5周目 #180：カンパニュラ×ビオラ／eventなし・口調比較</a>
+<a href="#fifth-round-181">5周目 #181：アネモネ×ルピナス／eventなし・口調良好</a>
+<a href="#fifth-round-182">5周目 #182：ダフネ×エリカ／eventなし・Erica口調良好</a>
+<a href="#fifth-round-183">5周目 #183：アイリス×ミモザ／farewell loop・片方向affinity</a>
+<a href="#fifth-round-184">5周目 #184：ネリネ×カンパニュラ／駅pending発火</a>
+<a href="#fifth-round-185">5周目 #185：ビオラ×エリカ／eventなし・口調良好</a>
+<a href="#fifth-round-186">5周目 #186：ダフネ×アネモネ／日常行動・location整合</a>
+<a href="#fifth-round-187">5周目 #187：ルピナス×カンパニュラ／eventなし・口調良好</a>
+<a href="#fifth-round-188">5周目 #188：アネモネ×ミモザ／eventなし・口調良好</a>
+<a href="#fifth-round-189">5周目 #189：アイリス×ネリネ／cross-pair location文脈再発</a>
+<a href="#fifth-round-190">5周目 #190：ルピナス×ビオラ／強いfarewell反復</a>
+<a href="#fifth-round-191">5周目 #191：エリカ×ネリネ／pending消費・counterずれ・Nerine再発</a>
+<a href="#fifth-round-192">5周目 #192：ダフネ×カンパニュラ／明示的到着描写のlocation未反映</a>
+<a href="#fifth-round-193">5周目 #193：アイリス×ルピナス／farewell反復・affinity大幅上昇</a>
+<a href="#fifth-round-194">5周目 #194：アネモネ×ビオラ／farewell反復</a>
+<a href="#fifth-round-195">5周目 #195：ミモザ×カンパニュラ／小路pending消費・counterずれ</a>
+<a href="#fifth-round-196">5周目 #196：ダフネ×ルピナス／「またね」farewell反復</a>
+<a href="#fifth-round-197">5周目 #197：アイリス×アネモネ／partner-mirroring</a>
+<a href="#fifth-round-198">5周目 #198：エリカ×ミモザ／小路pending消費・全4ターンnarration</a>
+<a href="#fifth-round-199">5周目 #199：ダフネ×ネリネ／Nerine「〜わ」再発</a>
+<a href="#fifth-round-200">5周目 #200：アイリス×ビオラ／学院中庭scene・到着未反映</a>
+<a href="#fifth-round-201">5周目 #201：エリカ×カンパニュラ／Erica「〜わね」再発</a>
+<a href="#fifth-round-202">5周目 #202：ミモザ×ルピナス／完全固定farewell loop</a>
+<a href="#fifth-round-203">5周目 #203：アネモネ×ネリネ／小道散歩の出発前</a>
+<a href="#fifth-round-204">5周目 #204：アイリス×ダフネ／温室scene・counter 0</a>
+<a href="#fifth-round-205">5周目 #205：ビオラ×ネリネ／双方口調良好・affinity +7/+7</a>
+<a href="#fifth-round-206">5周目 #206：アネモネ×カンパニュラ／narration bleed・駅再主張</a>
+<a href="#fifth-round-207">5周目 #207：ルピナス×エリカ／学院scene・Erica「〜わ」×2</a>
+<a href="#fifth-round-208">5周目 #208：ダフネ×ミモザ／全4ターン純粋ナレーション</a>
+<a href="#fifth-round-209">5周目 #209：アイリス×カンパニュラ／純粋ナレーション＋cross-speaker完全コピー</a>
+<a href="#fifth-round-210">5周目 #210：ビオラ×ミモザ／farewell persistence</a>
+<a href="#fifth-round-211">5周目 #211：ネリネ×ルピナス／鐘楼scene・farewell persistence</a>
+<a href="#fifth-round-212">5周目 #212：アネモネ×エリカ／5周目完了</a>
+<a href="#fifth-round-complete">5周目 完了（#177〜#212・36/36）</a>
+</div>
+</section>
+<section class="card" id="fifth-round-177">
+<h2>5周目 #177：ダフネ×ビオラ／口調改訂後1件目</h2>
+<p>新規scene eventなし。観察累計62件のまま。turns_since_event：3（+4）、Viola→Daphne 74→79（+5）。location、movements、pendingは変化なし。</p>
+<p>weatherは2026-08-13・夕立・3℃へ更新。pendingは駅関連3件のままで、改訂後Weaverの新規pending観察順も鐘楼→駅→駅→駅から増えていない。</p>
+<p>新規4ターンにlocation再主張や移動はなく、cross-pair差・co-location不一致・narrator bleedの新規発生なし。4ターンすべて別れの挨拶の継続でtermination loopの追加例。</p>
+<p>口調設定改訂後にもViolaが文末「〜わ」を2回使用。設定保存後の残存例として継続観察する。</p>
+</section>
+<section class="card" id="fifth-round-178">
+<h2>5周目 #178：アイリス×エリカ／駅event消費＋2人のmovement</h2>
+<p>駅pending「駅のホームに、一列の列車が静かに到着した。」をFIFO消費し、観察累計scene eventは62→63件。<code>turns_since_event</code>は8→3。</p>
+<p>Iris→Erica 73→78（+5）、Erica→Iris 72→78（+6）。movementは4→6件。Ericaは<code>hanamamori_church → cafe_fleur</code>、Irisは<code>flower_slumber_garden → cafe_fleur</code>へ更新。</p>
+<p>Ericaは本文でも到着を明言しておりmovement正常反映。Irisは自身の明示的到着文はないが、カフェでEricaを視認して直接対面する文脈とともにmovementが追加された。最終的に2人のglobal locationはともに<code>cafe_fleur</code>で、#164型のco-location不一致は今回は発生していない。</p>
+<p>補充pendingは「小路の街角で、一輪の花が風に揺れて香りを放った。」。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路</strong>となり、駅3連続後に初めて別地点へ分散した。</p>
+<p>口調改訂後にもIris / Ericaで「〜わ／〜わね」が再発。#177のViolaに続く複数キャラでの残存例として継続観察する。</p>
+</section>
+<section class="card" id="fifth-round-179">
+<h2>5周目 #179：ミモザ×ネリネ／eventなし・口調良好例</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は3→7。</p>
+<p>Mimosa→Nerineは68→71（+3）、Nerine→Mimosaは68→72（+4）。ほぼ別れの挨拶のみでもaffinityが上昇した。</p>
+<p>Nerineの新規2発言では、口調改訂で抑制した「〜だわ／〜かしら／〜わね／〜わよ／〜なのよ」等は出ず、#179は改訂後の良好例となった。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-180">
+<h2>5周目 #180：カンパニュラ×ビオラ／eventなし・口調比較</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は7→11。</p>
+<p>Campanula→Violaは83→87（+4）、Viola→Campanulaは83→86（+3）。</p>
+<p>Violaは新規2発言で抑制対象の女性語が出ず、口調改訂後の良好例。一方Campanulaは通常口調としては自然だが、Viola相手だけ柔らかなです・ます調にする例外設定は反映されなかった。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-181">
+<h2>5周目 #181：アネモネ×ルピナス／eventなし・口調良好</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は11→15。</p>
+<p>Anemone→Lupinusは68→75（+7）、Lupinus→Anemoneは70→78（+8）。直近の5周目会話と比べて大きめの上昇幅だが、増加理由は不明のため推測しない。</p>
+<p>Lupinus / Anemoneとも、新規発言では今回抑制対象にした女性語が出ず、口調改訂後の良好例。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-182">
+<h2>5周目 #182：ダフネ×エリカ／eventなし・Erica口調良好</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は15→19。</p>
+<p>Erica→Daphneは79→82（+3）、Daphne→Ericaは83→88（+5）。</p>
+<p>Ericaの新規2発言では抑制対象の女性語が出ず、口調改訂後の良好例。Daphneの「〜わ／〜わね」は本人の既存個性として扱う。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-183">
+<h2>5周目 #183：アイリス×ミモザ／farewell loop・片方向affinity</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は19→23。</p>
+<p>Iris→Mimosaは76→76（±0）、Mimosa→Irisは78→80（+2）。双方が発言した通常4ターンでも片方向だけaffinityが上昇する例。</p>
+<p>Irisは口調改訂後の抑制対象女性語が出ず良好。一方、同一の「またね、ミモザ！バイバイ！」を新規4ターン内で2回生成し、直前から続くtermination / farewell loopが明確。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-184">
+<h2>5周目 #184：ネリネ×カンパニュラ／駅pending発火</h2>
+<p>駅pending「次の列車を待つ乗客の足音」がscene化し、観察累計sceneは63→64。raw eventsはrolling 50件のまま。</p>
+<p>
+<code>turns_since_event</code>はscene発火後の最終実値2。画面上ではscene後に3発言あるため、可視speaker turn数とは単純一致しない。Campanula→Nerine 81→85（+4）、Nerine→Campanula 75→79（+4）。movementは変化なし。</p>
+<p>消費後の新pendingは「小路の商店街に、色とりどりの季節の花が並べられた。」。改訂後Weaverの新規pending順は<strong>鐘楼→駅→駅→駅→小路→小路</strong>。</p>
+<p>sceneは駅への移動ではなく、遠くから聞こえる足音として会話へ自然に接続された。</p>
+<p>口調はCampanulaに「香りだわ」1回、Nerineに「〜わ」2回。Nerineは#179の良好例後に再発。</p>
+</section>
+<section class="card" id="fifth-round-185">
+<h2>5周目 #185：ビオラ×エリカ／eventなし・口調良好</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は2→6。</p>
+<p>Erica→Violaは68→70（+2）、Viola→Ericaも68→70（+2）。</p>
+<p>Erica / Violaとも新規2発言では抑制対象の女性語が出ず、口調改訂後の良好例。</p>
+<p>「つづき」前の大量の<code>&lt;unused6226&gt;</code>は過去表示履歴上の生成崩れとして別扱い。新聞発行通知はあるが本文未確認。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-186">
+<h2>5周目 #186：ダフネ×アネモネ／日常行動・location整合</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は6→10。</p>
+<p>Anemone→Daphneは72→76（+4）、Daphne→Anemoneは71→75（+4）。</p>
+<p>2人ともglobal locationはカフェ・フルール。直前履歴の到着、新規4ターンの注文場面、world_stateが一致し、co-location / location groundingが自然に整合。</p>
+<p>Anemoneは口調改訂後の良好例。内容もfarewellではなく、タルトと飲み物を具体的に選ぶ日常行動へ進んだ。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-187">
+<h2>5周目 #187：ルピナス×カンパニュラ／eventなし・口調良好</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は10→14。</p>
+<p>Campanula→Lupinusは70→75（+5）、Lupinus→Campanulaは72→76（+4）。</p>
+<p>Lupinus / Campanulaとも新規発言では抑制対象の女性語が出ず、口調改訂後の良好例。</p>
+<p>内容は就寝前のfarewell系だが、完全一致反復ではなく自然な締め方に近い。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-188">
+<h2>5周目 #188：アネモネ×ミモザ／eventなし・口調良好</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は14→18。</p>
+<p>Anemone→Mimosaは76→80（+4）、Mimosa→Anemoneは72→75（+3）。</p>
+<p>Anemoneは新規発言で抑制対象の女性語が出ず、口調改訂後の良好例。</p>
+<p>内容は「また後で」が続くfarewell寄りだが、完全一致反復ではない。旧履歴のAnemone=駅文脈は新規4ターンでは再主張されていない。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-189">
+<h2>5周目 #189：アイリス×ネリネ／cross-pair location文脈再発</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は18→22。</p>
+<p>Iris→Nerineは84→88（+4）、Nerine→Irisは82→85（+3）。</p>
+<p>新規4ターンで双方が「隣を歩いている」と同席・同行を明示する一方、global locationはIris=cafe_fleur、Nerine=flower_slumber_gardenのまま。movementsも増えていない。</p>
+<p>到着完了はないためmovementバグとは断定せず、古いペア履歴を継承した結果と最新global stateが食い違うcross-pair location contextの再発例として扱う。</p>
+<p>Iris / Nerineとも口調改訂後の良好例。内容もfarewellではなく、移動中の寄り道へ進展。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-190">
+<h2>5周目 #190：ルピナス×ビオラ／強いfarewell反復</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は22→26。</p>
+<p>Lupinus→Violaは79→81（+2）、Viola→Lupinusは78→80（+2）。</p>
+<p>4ターンすべて「おやすみなさい／また明日」で、短い同型文が交互に反復する明瞭なtermination / farewellループ例。</p>
+<p>Lupinus / Violaとも口調改訂後の良好例。新規4ターンではlocation再主張なし。</p>
+<p>pending 3件は変化なし。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路</strong>のまま。</p>
+</section>
+<section class="card" id="fifth-round-191">
+<h2>5周目 #191：エリカ×ネリネ／pending消費・counterずれ・Nerine再発</h2>
+<p>scene event +1。直前pending先頭「駅のホームに、銀色の光を反射する列車が静かに滑り込んできた。」と完全一致し、world_stateでも消費を確認。</p>
+<p>replacement pendingは学院の中庭の色とりどりの花々。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路→学院</strong>。</p>
+<p>観察累計sceneは64→65。raw eventsはrolling 50件のまま。movementsは6件のまま。</p>
+<p>
+<code>turns_since_event</code>は26→0。ただし可視会話上はscene後にNerineの1発言があるため、counterと可視scene後発言数が直接一致しない。#184にも類似のずれあり。</p>
+<p>Erica→Nerineは72→76（+4）、Nerine→Ericaは74→78（+4）。</p>
+<p>Nerineに「気がするわ」が再発し、さらに発言内に括弧書きナレーションが混入。narrator / perspective bleed系の新しい観察例。</p>
+</section>
+<section class="card" id="fifth-round-192">
+<h2>5周目 #192：ダフネ×カンパニュラ／明示的到着描写のlocation未反映</h2>
+<p>scene event・pending変化なし。<code>turns_since_event</code>は0→4。</p>
+<p>Daphne→Campanulaは65→67（+2）、Campanula→Daphneは67→70（+3）。</p>
+<p>4ターンすべて括弧書きの一人称地の文形式で、narrator / perspective bleedが会話形式全体を占有。</p>
+<p>Campanulaは新規ターンでカフェ・フルールの扉を開け、窓際の席に座るところまで明示されているが、global locationはtime_bell_towerのまま、movementsも6件のまま。明示的到着描写後のlocation / movement未反映として確定。</p>
+<p>Daphneには遠隔地のCampanulaの扉の音や着席を直接知覚するような視点越境も見られる。</p>
+<p>Campanulaの口調自体は良好。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-193">
+<h2>5周目 #193：アイリス×ルピナス／farewell反復・affinity大幅上昇</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は4→8。</p>
+<p>Iris→Lupinusは72→78（+6）、Lupinus→Irisは74→79（+5）。通常より大きめの上昇で、内部理由は不明。</p>
+<p>4ターンすべてfarewellで、Lupinus→Irisの「それじゃあ、本当に、おやすみなさい！」が完全一致して連続。</p>
+<p>Iris / Lupinusとも口調改訂後の良好例。新規4ターンではlocation再主張なし。</p>
+<p>pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-194">
+<h2>5周目 #194：アネモネ×ビオラ／farewell反復</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は8→12。</p>
+<p>Anemone→Violaは78→80（+2）、Viola→Anemoneは74→75（+1）。</p>
+<p>4ターンすべてfarewellで、最後の「またね！バイバイ！」／「またね。バイバイ。」は句読点だけ異なるほぼ同型反復。</p>
+<p>Anemone / Violaとも口調改訂後の良好例。global locationも2人ともcafe_fleurで一致。</p>
+<p>pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-195">
+<h2>5周目 #195：ミモザ×カンパニュラ／小路pending消費・counterずれ</h2>
+<p>scene event +1。直前pending先頭「小路の街角で、一輪の花が風に揺れて香りを放った。」と完全一致し、world_stateでも消費を確認。</p>
+<p>replacement pendingは温室の夕暮れ前の柔らかな光。改訂後Weaverの新規pending観察順は<strong>鐘楼→駅→駅→駅→小路→小路→学院→温室</strong>。</p>
+<p>観察累計sceneは65→66。raw eventsはrolling 50件、movementsは6件のまま。</p>
+<p>
+<code>turns_since_event</code>は3。sceneが4発言の前にあるため、可視scene後発言数4とは一致しない。#184/#191に続くcounterずれ。</p>
+<p>Mimosa→Campanulaは69→75（+6）、Campanula→Mimosaは74→79（+5）。</p>
+<p>Campanulaの口調は良好。Mimosaはscene内容を自然に会話へ統合したが、movementは発生していない。</p>
+</section>
+<section class="card" id="fifth-round-196">
+<h2>5周目 #196：ダフネ×ルピナス／「またね」farewell反復</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は3→7。</p>
+<p>Daphne→Lupinusは73→76（+3）、Lupinus→Daphneは74→78（+4）。</p>
+<p>4ターンすべてfarewellで、「またね」を中心とした反復。Lupinusは2発言とも「またね、ダフネ。」から始まる。</p>
+<p>Lupinusは口調改訂後の良好例。Daphneも現行口調の範囲内。</p>
+<p>global locationはDaphne=cafe_fleur、Lupinus=stellaris_hill。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-197">
+<h2>5周目 #197：アイリス×アネモネ／partner-mirroring</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は7→11。</p>
+<p>Iris→Anemoneは72→75（+3）、Anemone→Irisは72→78（+6）。Anemone側の上昇が大きめで非対称。</p>
+<p>Irisの「お腹も心もいっぱいになっちゃうくらい、たくさんお話ししようね！」をAnemoneが直後にほぼ完全コピー。partner-mirroring / lexical echoの強い例。</p>
+<p>mirroringとaffinity +6は同時に観察されたが、因果関係は不明。</p>
+<p>Iris / Anemoneとも口調改訂後の良好例。global locationも2人ともcafe_fleurで一致。</p>
+<p>pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-198">
+<h2>5周目 #198：エリカ×ミモザ／小路pending消費・全4ターンnarration</h2>
+<p>scene event +1。直前pending先頭「小路の商店街に、色とりどりの季節の花が並べられた。」と完全一致し、world_stateでも消費を確認。</p>
+<p>replacement pendingは「学院の中庭で、学生たちが木陰に集まって談笑している。」。改訂後pending順は<strong>鐘楼→駅→駅→駅→小路→小路→学院→温室→学院</strong>。</p>
+<p>観察累計sceneは66→67。raw eventsはrolling 50件、movementsは6件のまま。</p>
+<p>
+<code>turns_since_event</code>は3。sceneが4発言の前にあるため、可視scene後発言数4とは一致しない。#195と同型のcounterずれ。</p>
+<p>Erica→Mimosaは72→75（+3）、Mimosa→Ericaは75→78（+3）。</p>
+<p>4ターンすべて地の文形式で、MimosaがEricaの行動・表情・通行人の反応まで描写する強いcross-character narration / perspective bleed。</p>
+<p>Ericaは歩き出す／歩を進めるのみで到着完了なし。movement追加なしは今回矛盾とは判定しない。</p>
+</section>
+<section class="card" id="fifth-round-199">
+<h2>5周目 #199：ダフネ×ネリネ／Nerine「〜わ」再発</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は3→7。</p>
+<p>Daphne→Nerineは72→78（+6）、Nerine→Daphneは68→75（+7）。双方とも大きめの上昇。</p>
+<p>Nerineは新規2発言の両方で抑制対象の「〜わ」が再発。「楽しみにしているわ」「心待ちにしているわ」。</p>
+<p>Daphneの女性語は現行設定上許容。Nerineが相手の女性語へ引っ張られた可能性はあるが、因果関係は不明。</p>
+<p>global locationはDaphne=cafe_fleur、Nerine=flower_slumber_garden。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-200">
+<h2>5周目 #200：アイリス×ビオラ／学院中庭scene・到着未反映</h2>
+<p>scene event +1。直前pending先頭「学院の中庭で、色とりどりの花々が風に揺れている。」と完全一致し、world_stateでも消費を確認。</p>
+<p>replacement pendingは「鐘楼から、午後の訪れを告げる柔らかな鐘の音が響いた。」。改訂後pending順は<strong>鐘楼→駅→駅→駅→小路→小路→学院→温室→学院→鐘楼</strong>。</p>
+<p>観察累計sceneは67→68。raw eventsはrolling 50件、movementsは6件。</p>
+<p>
+<code>turns_since_event</code>は3。sceneが4発言の前にあるため、可視scene後発言数4とは一致しない。</p>
+<p>Iris→Viola 79→84（+5）、Viola→Iris 79→84（+5）。</p>
+<p>scene textは学院中庭だがmetadata locationはcafe_fleur。Irisは学院中庭を直接見て「私たちの到着」を明言し、Violaも同場の花を直接知覚。</p>
+<p>しかしglobal locationは2人ともcafe_fleur、movementsも6件のまま。#192と同系統の明示的到着・location/movement未反映。</p>
+<p>Iris / Violaとも口調改訂後の良好例。</p>
+</section>
+<section class="card" id="fifth-round-201">
+<h2>5周目 #201：エリカ×カンパニュラ／Erica「〜わね」再発</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は3→7。</p>
+<p>Erica→Campanulaは72→78（+6）、Campanula→Ericaは74→81（+7）。双方とも大きめの上昇。</p>
+<p>Campanulaは口調改訂後の良好例。Ericaは「楽しみにしているわね」で抑制対象「〜わね」が再発。</p>
+<p>「私も同じ気持ちだよ」→「私も、同じ気持ちよ」は短いphrase-level mirroring。</p>
+<p>global locationはErica=cafe_fleur、Campanula=time_bell_tower。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-202">
+<h2>5周目 #202：ミモザ×ルピナス／完全固定farewell loop</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は7→11。</p>
+<p>Mimosa→Lupinusは79→81（+2）、Lupinus→Mimosaは79→80（+1）。</p>
+<p>新規4ターンすべて「バイバイ！また明日ね！」で全文完全一致。Lupinus / Mimosaとも同一発言を2回ずつ繰り返す。</p>
+<p>「つづき」直前も同じ文で終わっており、cross-speaker / within-speaker exact duplicationを伴う完全固定型termination / farewell loop。</p>
+<p>global locationはMimosa=eternite_square、Lupinus=stellaris_hill。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-203">
+<h2>5周目 #203：アネモネ×ネリネ／小道散歩の出発前</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は11→15。</p>
+<p>Anemone→Nerineは68→74（+6）、Nerine→Anemoneは68→74（+6）。双方とも大きめで対称的な上昇。</p>
+<p>小道への外出計画はあるが、「あと少し話してから」「準備ができたら出発」の段階で未出発。movement未追加は矛盾なし。</p>
+<p>Anemoneは口調良好。Nerineは「とっても心地よさそうだわ。」で抑制対象「〜だわ」が再発。</p>
+<p>global locationはAnemone=cafe_fleur、Nerine=flower_slumber_garden。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-204">
+<h2>5周目 #204：アイリス×ダフネ／温室scene・counter 0</h2>
+<p>新規3発言目と4発言目の間にscene event +1。直前pending先頭「温室のガラス越しに、夕暮れ前の柔らかな光が差し込んだ。」と完全一致し、消費を確認。</p>
+<p>replacement pendingは「鐘楼の鐘が、夕刻を告げる穏やかな音色を響かせた。」。改訂後pending順は<strong>鐘楼→駅→駅→駅→小路→小路→学院→温室→学院→鐘楼→鐘楼</strong>。</p>
+<p>観察累計sceneは68→69。raw eventsはrolling 50件、movementsは6件。</p>
+<p>
+<code>turns_since_event</code>は0。scene後にDaphneの可視1発言があるため、#191に近いcounter更新タイミングのずれ。</p>
+<p>Iris→Daphne 74→79（+5）、Daphne→Iris 70→76（+6）。</p>
+<p>Irisは「うん、約束するわ！」で抑制対象「〜わ」が再発。Daphneの女性語は設定上許容。</p>
+<p>Irisは出発を宣言するが、destination / 到着完了なし。movement未追加は矛盾扱いしない。</p>
+<p>scene textは温室だがmetadata locationはcafe_fleurで、scene location grounding不整合。</p>
+</section>
+<section class="card" id="fifth-round-205">
+<h2>5周目 #205：ビオラ×ネリネ／双方口調良好・affinity +7/+7</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は0→4。</p>
+<p>Viola→Nerineは78→85（+7）、Nerine→Violaは73→80（+7）。双方とも非常に大きく、対称的な上昇。</p>
+<p>Viola / Nerineとも口調改訂後の良好例。Nerineは過去の再発例と異なり、今回は抑制対象女性語なし。</p>
+<p>「一緒に過ごす時間が特別」という意味的な呼応はあるが、自然な相互応答の範囲で、全文コピーや固定ループではない。</p>
+<p>global locationはViola=cafe_fleur、Nerine=flower_slumber_garden。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-206">
+<h2>5周目 #206：アネモネ×カンパニュラ／narration bleed・駅再主張</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は4→8。</p>
+<p>Anemone→Campanulaは84→88（+4）、Campanula→Anemoneは85→87（+2）。</p>
+<p>全4ターンに括弧の地の文が入り、narrator / stage-direction bleedが強めに再発。</p>
+<p>Anemoneは新規turnで「駅の喧騒」「駅のホーム」と現在地を駅として再提示するが、global locationはcafe_fleur。current-turn location grounding mismatch。</p>
+<p>歩行意図はあるがdestination / 到着完了なし。movement未追加は矛盾扱いしない。</p>
+<p>Campanulaが「アネモネの去っていく気配」を遠隔で感じ取る地の文はcross-character / remote perspective bleed。</p>
+<p>Anemone / Campanulaとも口調良好。pending 3件は変化なし。</p>
+</section>
+<section class="card" id="fifth-round-207">
+<h2>5周目 #207：ルピナス×エリカ／学院scene・Erica「〜わ」×2</h2>
+<p>新規4ターンの前にscene event +1。直前pending先頭「学院の中庭で、学生たちが木陰に集まって談笑している。」と完全一致し、消費を確認。</p>
+<p>replacement pendingは「鐘楼の鐘が、夕暮れを告げる穏やかな音色を響かせた。」。改訂後pending末尾は鐘楼3連続。</p>
+<p>観察累計sceneは69→70。raw eventsはrolling 50件、movementsは6件。</p>
+<p>
+<code>turns_since_event</code>は3。scene後に可視4発言があるため、#195/#198と同型の1ずれ。</p>
+<p>Erica→Lupinus 78→84（+6）、Lupinus→Erica 78→84（+6）。</p>
+<p>Ericaは「気がするわ」「穏やかな気持ちになれるわ」で抑制対象「〜わ」が2回再発。Lupinusは口調良好。</p>
+<p>学院sceneは遠くから聞こえたものとして推測しており、到着・現在地主張なし。location mismatchには数えない。</p>
+<p>UIでは別ペア履歴混入／二重「これまでの会話」表示を観察。</p>
+</section>
+<section class="card" id="fifth-round-208">
+<h2>5周目 #208：ダフネ×ミモザ／全4ターン純粋ナレーション</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は3→7。</p>
+<p>Daphne→Mimosaは79→85（+6）、Mimosa→Daphneは78→85（+7）。</p>
+<p>新規4ターンすべて括弧の地の文のみで通常台詞が完全消失。強いnarrator / stage-direction bleed。</p>
+<p>MimosaがDaphneの横顔・読書を外部視点で描写し、Daphneも遠隔のMimosaを感じ取るため、双方向cross-character / remote perspective bleed。</p>
+<p>Daphneは新規turnで図書館の読書場面を継続するが、global locationはcafe_fleur。current-turn location grounding mismatch。</p>
+<p>Mimosaはエテルニテ広場を新規turnで再提示し、global locationと一致。movementsは6件のまま。</p>
+<p>pendingは鐘楼関連3件のまま変化なし。</p>
+</section>
+<section class="card" id="fifth-round-209">
+<h2>5周目 #209：アイリス×カンパニュラ／純粋ナレーション＋cross-speaker完全コピー</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は7→11。</p>
+<p>Iris→Campanulaは66→70（+4）、Campanula→Irisは66→68（+2）。</p>
+<p>新規4ターンすべて括弧の地の文のみで通常台詞が完全消失。強いnarrator / stage-direction bleed。</p>
+<p>1〜2ターン目で通話魔法終了を明示。3ターン目はカフェのIrisを三人称描写。</p>
+<p>Campanula 4ターン目はIris 3ターン目と一字一句完全一致するcross-speaker exact whole-turn duplication。Campanula自身の主体が消え、speaker-subject mismatch / perspective takeover。</p>
+<p>Irisのカフェ描写、Campanulaの鐘楼描写はそれぞれglobal locationと整合。Campanula 4ターン目のカフェ描写は完全コピーなのでlocation移動扱いしない。movementsは6件のまま。</p>
+<p>pendingは鐘楼関連3件のまま変化なし。</p>
+</section>
+<section class="card" id="fifth-round-210">
+<h2>5周目 #210：ビオラ×ミモザ／farewell persistence</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は11→15。</p>
+<p>Viola→Mimosaは82→88（+6）、Mimosa→Violaは82→85（+3）。</p>
+<p>Violaは口調改訂後の良好例。Mimosaも自然。</p>
+<p>新規4ターンすべて別れの挨拶の延長で、各ターンに「またね」。termination / farewell persistenceは強め。</p>
+<p>#202の完全固定文ループとは異なり、各ターン本文は変化している。narrator / perspective bleedなし。</p>
+<p>global locationはViola=cafe_fleur、Mimosa=eternite_square。movementsは6件、pendingは鐘楼関連3件のまま。</p>
+</section>
+<section class="card" id="fifth-round-211">
+<h2>5周目 #211：ネリネ×ルピナス／鐘楼scene・farewell persistence</h2>
+<p>新規4ターンの前にscene event +1。直前pending先頭「鐘楼から、午後の訪れを告げる柔らかな鐘の音が響いた。」と完全一致し、消費を確認。</p>
+<p>replacement pendingは「図書館の窓辺で、一冊の古い詩集が開かれた。」。鐘楼3連続後に図書館へ分散。</p>
+<p>観察累計sceneは70→71。raw eventsはrolling 50件、movementsは6件。</p>
+<p>
+<code>turns_since_event</code>は3。scene後に可視4発言があるため、#195/#198/#207と同型の1ずれ。</p>
+<p>Nerine→Lupinus 78→83（+5）、Lupinus→Nerine 75→79（+4）。</p>
+<p>Nerineは「私の心に降り注いでいるわ」で抑制対象「〜わ」が1回再発。Lupinusは口調良好。</p>
+<p>新規4ターンすべてに「またね」が入り、#210に続くfarewell persistenceの強い例。</p>
+<p>鐘楼sceneは音を受け取っているだけで、両者の到着・現在地主張はなし。location mismatchには数えない。</p>
+</section>
+<section class="card" id="fifth-round-212">
+<h2>5周目 #212：アネモネ×エリカ／5周目完了</h2>
+<p>scene event・movement・pending変化なし。<code>turns_since_event</code>は3→7。</p>
+<p>Anemone→Ericaは76→82（+6）、Erica→Anemoneは74→78（+4）。</p>
+<p>Anemoneは文末「〜わ」2回、Ericaは「〜わ」1回再発。新規4ターンは別れの挨拶延長で、farewell persistenceが継続。</p>
+<p>global locationは両者ともcafe_fleur。旧履歴の駅 / 教会は新規turnで再主張されず、current-turn location mismatchには数えない。</p>
+<p>これで5周目 #177〜#212、36/36組が完了。終了時点の観察累計sceneは71件、movementsは6件、raw eventsは50件、pendingは3件。</p>
+</section>
+<section class="card" id="fifth-round-complete">
+<h2>5周目 完了（#177〜#212・36/36）</h2>
+<p>口調設定改訂後の36ペアを一巡し、全組の会話とworld_stateを確定。</p>
+<p>終了時点：weather=2026-08-13 / 夕立 / 3℃、観察累計scene=71、raw events=50、movements=6、turns_since_event=7。</p>
+<p>pendingは「鐘楼の鐘が、夕刻を告げる穏やかな音色を響かせた。」「鐘楼の鐘が、夕暮れを告げる穏やかな音色を響かせた。」「図書館の窓辺で、一冊の古い詩集が開かれた。」の3件。</p>
+<p>5周目では、口調抑制の改善と再発の両方、farewell persistence、narrator / perspective bleed、location grounding mismatch、counter mismatch、cross-speaker duplicationなどを観察。</p>
+</section>
+</main>
+<footer>エリュシオン観察記録 — 本番会話と世界の変化を分けて保存</footer>
+</body>
+</html>
