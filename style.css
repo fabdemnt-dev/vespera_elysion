@@ -317,6 +317,18 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
   }
 }
 
+/* Readability step 9: defer off-screen record rendering without hiding content */
+@supports (content-visibility:auto){
+  .conversation{
+    content-visibility:auto;
+    contain-intrinsic-size:auto 640px;
+  }
+  section[id^="note-"]{
+    content-visibility:auto;
+    contain-intrinsic-size:auto 360px;
+  }
+}
+
 
 /* Readability step 7: search and filtering */
 .record-filter{
@@ -330,7 +342,11 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 .filter-grid{
   display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(120px,1fr));gap:10px
 }
+[data-filter-scope="conversations"] .filter-grid{grid-template-columns:minmax(220px,2fr) repeat(2,minmax(130px,1fr))}
 [data-filter-scope="notes"] .filter-grid{grid-template-columns:minmax(220px,2fr) repeat(2,minmax(130px,1fr))}
+[data-filter-scope="pairs"] .filter-grid{grid-template-columns:minmax(220px,2fr) minmax(160px,1fr)}
+[data-filter-scope="pair-index"] .filter-grid{grid-template-columns:minmax(220px,2fr) minmax(160px,1fr)}
+[data-filter-scope="world"] .filter-grid{grid-template-columns:minmax(220px,2fr) minmax(150px,1fr)}
 .filter-field{display:flex;flex-direction:column;gap:5px;font-size:.76rem;font-weight:800;color:var(--muted)}
 .filter-field input,.filter-field select{
   width:100%;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;
@@ -355,18 +371,24 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 }
 body.records-filtering .round-toc-list,
 body.records-filtering .toc-actions,
+body.records-filtering .pairtoc,
+body.records-filtering .world-group-heading,
 body.records-filtering .result-summary-guide{display:none}
 .card[hidden]{display:none!important}
 @media (max-width:820px){
   .filter-grid{grid-template-columns:1fr 1fr}
+  [data-filter-scope="conversations"] .filter-grid{grid-template-columns:1fr 1fr}
   [data-filter-scope="notes"] .filter-grid{grid-template-columns:1fr 1fr}
+  [data-filter-scope="pairs"] .filter-grid{grid-template-columns:1fr 1fr}
+  [data-filter-scope="pair-index"] .filter-grid{grid-template-columns:1fr 1fr}
+  [data-filter-scope="world"] .filter-grid{grid-template-columns:1fr 1fr}
   .filter-query{grid-column:1/-1}
 }
 @media (max-width:520px){
   .record-filter{padding:12px}
   .record-filter-head{align-items:stretch;flex-direction:column}
   .filter-reset{align-self:flex-start}
-  .filter-grid,[data-filter-scope="notes"] .filter-grid{grid-template-columns:1fr}
+  .filter-grid,[data-filter-scope="conversations"] .filter-grid,[data-filter-scope="notes"] .filter-grid,[data-filter-scope="pairs"] .filter-grid,[data-filter-scope="pair-index"] .filter-grid,[data-filter-scope="world"] .filter-grid{grid-template-columns:1fr}
   .filter-query{grid-column:auto}
   .filter-field input,.filter-field select{min-height:44px;font-size:16px}
   .filter-status{align-items:flex-start;flex-direction:column}
