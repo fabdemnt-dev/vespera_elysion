@@ -12,7 +12,9 @@
     if (number <= 36) return '1';
     if (number <= 104) return '2';
     if (number <= 140) return '3';
-    return '4';
+    if (number <= 176) return '4';
+    if (number <= 212) return '5';
+    return '6';
   };
 
   const setup = panel => {

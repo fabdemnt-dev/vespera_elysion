@@ -94,3 +94,16 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - 新規Mimosa turnは`エテルニテ広場のミモザも`、`広場に流れる空気`と明示し、global locationと一致。
 - Daphne / Mimosaとも出発・到着・合流などのmovement完了はなく、movementsは6件のまま。
 - 架空のmovementは追加せず、問題点は**Daphneの新規turn location描写と最新global locationの不一致**として記録。
+
+### 2026-08-15 02:39:49
+
+アネモネ：カフェ・フルール → 花眠りの庭
+
+- char: `anemone`
+- from: `cafe_fleur`
+- to: `flower_slumber_garden`
+- raw events: `アネモネが花眠りの庭へやってきた` / tags=`moved` / location=`flower_slumber_garden`
+- 関連本番会話: #239 アネモネ × ネリネ
+- 会話本文でも「今、花眠りの庭に着いたよ」と到着完了を明言し、UI / global locationも花眠りの庭へ同期。
+- ただし当該ペアの旧会話文脈ではAnemoneは駅にいた一方、raw movementの出発点は最新global stateの`cafe_fleur`。到着成功と出発地点の文脈差は分けて扱う。
+
