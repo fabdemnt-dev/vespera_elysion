@@ -37,7 +37,7 @@
 <button class="filter-reset" type="button">条件をクリア</button>
 </div>
 <div class="filter-grid">
-<label class="filter-field filter-query"><span>キーワード</span><input autocomplete="off" data-filter="query" placeholder="例：#248、鐘楼、world_state" type="search"/></label>
+<label class="filter-field filter-query"><span>キーワード</span><input autocomplete="off" data-filter="query" placeholder="例：#258、鐘楼、world_state" type="search"/></label>
 <label class="filter-field"><span>確認状態</span><select data-filter="status"><option value="">すべて</option><option value="confirmed">✅ 確認済み</option><option value="hypothesis">🔎 仮説</option><option value="refuted">❌ 反証</option><option value="withdrawn">↩️ 撤回</option><option value="unlabeled">状態ラベルなし</option></select></label>
 </div>
 <div aria-live="polite" class="filter-status"><span data-filter-count="">7 / 7件</span><span class="mini">このページでは最新状態7項目を検索します。過去ログは下の分割ページで検索できます。</span></div>
@@ -46,7 +46,7 @@
 </section>
 <section class="world-group-heading world-current-heading" id="current-world">
 <h2>現在の世界</h2>
-<p class="mini">#248終了後に確認した最新world_stateと、現在の観察方針・現行の仕組みをまとめています。</p>
+<p class="mini">#258終了後に確認した最新world_stateと、現在の観察方針・現行の仕組みをまとめています。</p>
 </section>
 <section class="card" id="daily-summary">
 <h2>日次サマリー</h2>
@@ -166,8 +166,8 @@
 <td><strong>2026-08-15</strong></td>
 <td><strong>星月夜・29℃</strong></td>
 <td><strong><a href="#newspaper-2026-08-15">夜便の汽笛・古い詩集・一番星 → 原文</a></strong></td>
-<td><strong>24件（#225〜#248・6周目完了）</strong></td>
-<td><strong>+9（scene累計76→85。raw eventsは最新50件）</strong></td>
+<td><strong>34件（#225〜#258・6周目完了＋7周目限定10件）</strong></td>
+<td><strong>+13（scene累計76→89。raw eventsは最新50件）</strong></td>
 </tr>
 </tbody>
 </table>
@@ -189,27 +189,27 @@
 <dt>確認済み天候</dt>
 <dd>2026-08-15・星月夜・29℃</dd>
 <dt>最新新聞</dt>
-<dd>2026年8月15日号（#225後に初回確認、#242・#243・#246後に同一本文・同一噂欄を再確認）</dd>
+<dd>2026年8月15日号（#225後に初回確認、#242・#243・#246後に同一本文・同一噂欄を再確認）</dd><dt>会話状態分類</dt><dd><strong>継続7組 / 終了29組</strong>（#249〜#258の継続対象10組限定運用後）。<a href="elysion_observation/conversation_status.md">36組の判定一覧</a></dd>
 <dt>住民の現在地</dt>
 <dd>Mimosa=エテルニテ広場、Iris=カフェ・フルール、Erica=カフェ・フルール、Anemone=花眠りの庭、Daphne=カフェ・フルール、Campanula=時告げの鐘楼、Nerine=花眠りの庭、Viola=カフェ・フルール、Lupinus=星待ちの丘。</dd>
 <dt>events / pending</dt>
-<dd>raw world_state.events 50件 / pending 3件。観察上の累計scene eventは85件。pendingは「鐘楼の鐘が、夜の訪れを告げる柔らかな音を響かせた。」「鐘楼から、夜の静寂を告げる柔らかな鐘の音が響き渡った。」「駅のホームに、夜行列車が静かに滑り込んできた。」</dd>
-<dt>#248のaffinity</dt>
-<dd>Anemone→Erica 85、Erica→Anemone 81（#247終了時82 / 78から+3 / +3）</dd>
+<dd>raw world_state.events 50件 / pending 3件。観察上の累計scene eventは89件。pendingは「駅のホームに、夜行の列車が静かに滑り込んできた。」「駅の売店で、温かい飲み物が湯気を立てて用意された。」「街の小路にあるパン屋から、焼きたての香ばしい香りが漂った。」</dd>
+<dt>#258のaffinity</dt>
+<dd>Erica→Lupinus 94、Lupinus→Erica 93（#258で88→94 / 88→93）</dd>
 <dt>movements</dt>
 <dd>
-<strong>7件</strong>。#248では追加なし。</dd>
+<strong>7件</strong>。#249〜#258では追加なし。</dd>
 <dt>turns_since_event</dt>
-<dd>8（#248終了時。#247終了時4から新規4ターンすべて非発火で4→8）</dd>
+<dd>4（#258終了時。#257終了時0から新規4ターンすべて非発火で0→4）</dd>
 </dl>
 </section>
 <section class="card" id="events">
 <h2>出来事</h2>
 <h3>これから起こること（最新確認）</h3>
 <ol class="eventlist">
-<li><strong>鐘楼の鐘が、夜の訪れを告げる柔らかな音を響かせた。</strong><br/>高く響く調べが、静かな夜の幕開けを告げるでしょう。</li>
-<li><strong>鐘楼から、夜の静寂を告げる柔らかな鐘の音が響き渡った。</strong><br/>高く澄んだ音が、眠りにつく街の背中を優しく押すでしょう。</li>
-<li><strong>駅のホームに、夜行列車が静かに滑り込んできた。</strong><br/>鉄の道が運び届けるのは、静寂と新しい旅の予感。</li>
+<li><strong>駅のホームに、夜行の列車が静かに滑り込んできた。</strong></li>
+<li><strong>駅の売店で、温かい飲み物が湯気を立てて用意された。</strong></li>
+<li><strong>街の小路にあるパン屋から、焼きたての香ばしい香りが漂った。</strong></li>
 </ol>
 <h3>起こったこと</h3>
 <div class="timeline">
@@ -607,7 +607,7 @@
 <div><time>08/15 02:36:56</time><p>温室のガラス越しに、夜にだけ開く花が静かに花開いた。<br/><small>ルピナス、ミモザ</small></p></div>
 <div><time>08/15 02:47:28</time><p>温室のガラス越しに、夜にだけ開く花が淡く光りだした。<br/><small>ダフネ、アイリス</small></p></div>
 <div><time>08/15 03:00:50</time><p>温室のガラス越しに、夜露が月光を反射して輝き出した。<br/><small>エリカ、ルピナス</small></p></div>
-<div><time>08/15 03:12:28</time><p>鐘楼の鐘が、一日の終わりを告げる穏やかな音色を響かせた。<br/><small>ミモザ、ビオラ</small></p></div>
+<div><time>08/15 03:12:28</time><p>鐘楼の鐘が、一日の終わりを告げる穏やかな音色を響かせた。<br/><small>ミモザ、ビオラ</small></p></div><div><time>08/15・時刻未記録（#251）</time><p>鐘楼の鐘が、夜の訪れを告げる柔らかな音を響かせた。<br/><small>カンパニュラ、ネリネ / location=null</small></p></div><div><time>08/15・時刻未記録（#253）</time><p>鐘楼から、夜の静寂を告げる柔らかな鐘の音が響き渡った。<br/><small>アネモネ、ダフネ / location=null</small></p></div><div><time>08/15・時刻未記録（#255）</time><p>駅のホームに、夜行列車が静かに滑り込んできた。<br/><small>アイリス、ビオラ / event.location=cafe_fleur</small></p></div><div><time>08/15・時刻未記録（#257）</time><p>駅のホームに夜行列車が静かに滑り込んできた。<br/><small>ネリネ、ビオラ / location=null</small></p></div>
 </div>
 <p class="callout">織り手は、既存イベントを進めるだけでなく、直前の会話内容を拾って次の pending_event に発展させることがある。</p>
 <p class="callout">アイリスが「今から会いにいってもいいかな？」、ネリネが「花眠りの庭で待ってる」と 明確に合流を約束した後も、キャラクター欄は両者とも「📍 不明」のままだった。 会話上の移動意思だけでは world_state の現在地は更新されない可能性がさらに高まった。</p>
@@ -848,7 +848,7 @@
 <section class="intro" id="past-observations">
 <h2>📚 過去の観察・検証ログ</h2>
 <p class="mini">過去のworld_state確認、口調・イベント発火・移動・API挙動などの検証履歴です。記録内容は削除せず、そのまま保存しています。</p>
-<div class="toc-actions"><a class="chip" href="world/early1.html">初期・2周目記録 前半</a><a class="chip" href="world/early2.html">2周目記録 後半・検証</a><a class="chip" href="world/round3.html">3周目記録</a><a class="chip" href="world/round4.html">4周目記録</a><a class="chip" href="world/round5.html">5周目記録</a><a class="chip" href="world/round6.html">6周目記録</a></div>
+<div class="toc-actions"><a class="chip" href="world/early1.html">初期・2周目記録 前半</a><a class="chip" href="world/early2.html">2周目記録 後半・検証</a><a class="chip" href="world/round3.html">3周目記録</a><a class="chip" href="world/round4.html">4周目記録</a><a class="chip" href="world/round5.html">5周目記録</a><a class="chip" href="world/round6.html">6周目記録</a><a class="chip" href="world/round7.html">7周目記録（10組限定）</a></div>
 </section>
 </main>
 <footer>エリュシオン観察記録 — 本番会話と世界の変化を分けて保存</footer>
@@ -863,6 +863,7 @@
   "round3.html": ["date-2026-08-10","third-round-start","third-round-106","third-round-107","third-round-108","third-round-109","third-round-110","third-round-111","third-round-112","third-round-113","third-round-114","third-round-115","third-round-116","third-round-117","third-round-118","third-round-119","third-round-120","third-round-121","third-round-122","third-round-123","third-round-124","third-round-125","third-round-126","third-round-127","newspaper-2026-08-11","third-round-128","third-round-129","third-round-130","third-round-131","third-round-132","third-round-133","third-round-134","third-round-135","third-round-136","third-round-137","third-round-138","third-round-139","third-round-140","third-round-complete","pre141-daily-rollover-check","pre141-generation-error-recovery"],
   "round4.html": ["fourth-round-141","movement-tool-confirmed","movement-tool-ai-instructions-update","pre142-movement-worldstate","fourth-round-142","fourth-round-143","fourth-round-144","fourth-round-145","fourth-round-146","fourth-round-147","fourth-round-148","fourth-round-149","fourth-round-150","fourth-round-151","fourth-round-152","fourth-round-153","fourth-round-154","fourth-round-155","fourth-round-156","fourth-round-157","fourth-round-158","fourth-round-159","fourth-round-160","fourth-round-161","fourth-round-162","fourth-round-163","fourth-round-164","fourth-round-165","fourth-round-166","fourth-round-167","fourth-round-168","fourth-round-169","fourth-round-170","location-movement-reclassification-170","fourth-round-171","fourth-round-172","fourth-round-173","fourth-round-174","fourth-round-175","fourth-round-176"],
   "round5.html": ["fifth-round-177","fifth-round-178","fifth-round-179","fifth-round-180","fifth-round-181","fifth-round-182","fifth-round-183","fifth-round-184","fifth-round-185","fifth-round-186","fifth-round-187","fifth-round-188","fifth-round-189","fifth-round-190","fifth-round-191","fifth-round-192","fifth-round-193","fifth-round-194","fifth-round-195","fifth-round-196","fifth-round-197","fifth-round-198","fifth-round-199","fifth-round-200","fifth-round-201","fifth-round-202","fifth-round-203","fifth-round-204","fifth-round-205","fifth-round-206","fifth-round-207","fifth-round-208","fifth-round-209","fifth-round-210","fifth-round-211","fifth-round-212","fifth-round-complete"],
+  "round7.html": ["seventh-round-summary","seventh-round-249","seventh-round-250","seventh-round-251","seventh-round-252","seventh-round-253","seventh-round-254","seventh-round-255","seventh-round-256","seventh-round-257","seventh-round-258"],
   "round6.html": ["sixth-round-213","sixth-round-214","sixth-round-215","sixth-round-216","sixth-round-217","sixth-round-218","sixth-round-219","sixth-round-220","sixth-round-221","sixth-round-222","sixth-round-223","sixth-round-224","newspaper-2026-08-14","sixth-round-225","sixth-round-226","sixth-round-227","sixth-round-228","sixth-round-229","sixth-round-230","sixth-round-231","newspaper-2026-08-15-summary","sixth-round-232","sixth-round-233","sixth-round-234","sixth-round-235","sixth-round-236","sixth-round-237","sixth-round-238","sixth-round-239","sixth-round-240","sixth-round-241","sixth-round-242","sixth-round-243","sixth-round-244","sixth-round-245","sixth-round-246","sixth-round-247","sixth-round-248"]
   };
   for (const [filename, ids] of Object.entries(pages)) {

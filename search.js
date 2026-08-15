@@ -15,7 +15,8 @@
     if (number <= 140) return '3';
     if (number <= 176) return '4';
     if (number <= 212) return '5';
-    return '6';
+    if (number <= 248) return '6';
+    return '7';
   };
 
   const setup = panel => {
