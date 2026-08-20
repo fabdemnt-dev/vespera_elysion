@@ -10,7 +10,7 @@
 
 ## 現在の記録状況
 
-- 本番会話：**265件**
+- 本番会話：**272件**
 - 未採番補完：**1件・4ターン**（ネリネ×ルピナス、#139後〜#175前。採番265件には含めない）
 - 1周目：**36 / 36組 完了**
 - 2周目：**36 / 36組 完了**
@@ -20,15 +20,16 @@
 - 6周目：**36 / 36組 完了（#213〜#248）**
 - 7周目：**継続対象10 / 10組の限定運用 完了（#249〜#258）**
 - 8周目：**継続対象7 / 7組の限定運用 完了（#259〜#265）**
-- 最新会話状態：**継続7組 / 終了29組**（[`conversation_status.md`](conversation_status.md)）
+- 9周目：**継続対象7 / 7組の限定運用 完了（#266〜#272）**
+- 最新会話状態：**継続6組 / 終了30組**（[`conversation_status.md`](conversation_status.md)）
 - アクティブ universe：**elysion**
-- #265終了後最新スナップショット：**world_state保持events 50件（観察累計scene event 92件） / pending 3件 / movements 7件 / turns_since_event 2 / weather 2026-08-15・星月夜・29℃**
+- #272終了後最新スナップショット：**world_state保持events 50件（観察累計scene event 95件） / pending 3件 / movements 8件 / turns_since_event 6 / weather 2026-08-20・晴れ・3℃**
 - items / rumors / overheard：**0 / 0 / 0**
-- 最新新聞：**2026年8月15日号**
+- 最新新聞：**2026年8月20日号**
 - location / movements：**作成者確認により手動編集しない。移動ツールによる自動更新の有無を観察する。**
-- 最新location：**Mimosa=`eternite_square`、Iris=`cafe_fleur`、Erica=`cafe_fleur`、Anemone=`flower_slumber_garden`、Daphne=`cafe_fleur`、Campanula=`time_bell_tower`、Nerine=`flower_slumber_garden`、Viola=`cafe_fleur`、Lupinus=`stellaris_hill`。**
-- 最終pending：**「駅の売店で、旅人に向けた温かい飲み物が用意された。」「駅前の広場で、街灯に集まる小さな光の粒が舞い始めた。」「温室に夜を彩る淡い光の植物が咲き始めた。」**
-- 次回の継続対象：**7組**（アイリス×エリカ、ダフネ×アネモネ、アイリス×ネリネ、アイリス×ビオラ、アネモネ×ネリネ、ビオラ×ネリネ、エリカ×ルピナス）
+- 最新location：**Mimosa=`eternite_square`、Iris=`cafe_fleur`、Erica=`cafe_fleur`、Anemone=`hanasaku_station`、Daphne=`cafe_fleur`、Campanula=`time_bell_tower`、Nerine=`flower_slumber_garden`、Viola=`cafe_fleur`、Lupinus=`stellaris_hill`。**
+- 最終pending：**「駅のベンチに、誰かが置き忘れた銀色の栞が落ちている。」「温室のガラス越しに、月明かりが植物を優しく照らした。」「鐘楼の鐘が、静かな夜の空気に溶け込むように鳴り響いた。」**
+- 次回の継続対象：**6組**（アイリス×エリカ、ダフネ×アネモネ、アイリス×ネリネ、アイリス×ビオラ、アネモネ×ネリネ、ビオラ×ネリネ）
 
 > `conversations.html` / `notes.html` / `world.html` / `pairs.html` は読みやすい閲覧用HTMLです。Markdown正本とは別レイヤーとして管理します。
 > `<unused6226>` は#149由来であり、#252の新規4ターンでは再発していません。

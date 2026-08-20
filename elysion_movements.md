@@ -128,3 +128,25 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - #264 ビオラ×ネリネ：会話履歴ではViolaがベルフローラ・クロイスターの回廊にいる一方、global locationは`cafe_fleur`。
 - #265終了時の全住民locationは、Mimosa=`eternite_square`、Iris=`cafe_fleur`、Erica=`cafe_fleur`、Anemone=`flower_slumber_garden`、Daphne=`cafe_fleur`、Campanula=`time_bell_tower`、Nerine=`flower_slumber_garden`、Viola=`cafe_fleur`、Lupinus=`stellaris_hill`。
 
+---
+
+## 9周目・継続対象7組限定（#266〜#272）
+
+### #267 アネモネ：花眠りの庭 → 花咲く街の駅
+
+- 日付：2026-08-17（時刻は共有記録で未確認）
+- char: `anemone`
+- from: `flower_slumber_garden`
+- to: `hanasaku_station`
+- 会話本文: `はぁ……、少し歩いたけど、着いたよ！`
+- 到着表示: `アネモネは花咲く街の駅に到着した`
+- movements: 7→8
+- #260では駅へ行く提案段階だったが、#267で到着完了の発言・表示・global location更新がそろった。
+- Daphneは会話上同行しているものの、到着movementは出ておらずglobal locationは`cafe_fleur`のまま。
+
+### 9周目のその他の移動描写
+
+- #268 アイリス×ネリネ：手を繋いでカフェ・フルールへ進むが、到着完了・movement追加なし。
+- #270 アネモネ×ネリネ：小道から高い場所へ登る会話だが、destinationへの到着完了・movement追加なし。
+- #266 / #269 / #271 / #272：新規movementなし。
+- #272終了時の全住民locationは、Mimosa=`eternite_square`、Iris=`cafe_fleur`、Erica=`cafe_fleur`、Anemone=`hanasaku_station`、Daphne=`cafe_fleur`、Campanula=`time_bell_tower`、Nerine=`flower_slumber_garden`、Viola=`cafe_fleur`、Lupinus=`stellaris_hill`。
