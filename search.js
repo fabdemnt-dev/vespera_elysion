@@ -22,7 +22,35 @@
     if (number <= 278) return '10';
     if (number <= 285) return '11';
     if (number <= 291) return '12';
-    return '13';
+    if (number <= 297) return '13';
+    if (number <= 303) return '14';
+    if (number <= 307) return '15';
+    if (number <= 311) return '16';
+    if (number <= 315) return '17';
+    if (number <= 319) return '18';
+    if (number <= 323) return '19';
+    if (number <= 326) return '20';
+    if (number <= 328) return '21';
+    if (number <= 330) return '22';
+    if (number <= 332) return '23';
+    if (number <= 334) return '24';
+    if (number <= 336) return '25';
+    if (number <= 338) return '26';
+    if (number <= 340) return '27';
+    if (number <= 342) return '28';
+    if (number <= 344) return '29';
+    if (number <= 346) return '30';
+    if (number <= 348) return '31';
+    if (number <= 350) return '32';
+    if (number <= 352) return '33';
+    if (number <= 354) return '34';
+    if (number <= 356) return '35';
+    if (number <= 358) return '36';
+    if (number <= 360) return '37';
+    if (number <= 362) return '38';
+    if (number <= 364) return '39';
+    if (number <= 366) return '40';
+    return '41';
   };
 
   const setup = panel => {

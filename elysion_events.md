@@ -1,28 +1,30 @@
 # 花咲く街エリュシオン 出来事
 
-## これから起こること（#297終了時点）
+## これから起こること（#368終了時点）
 
-### 広場の噴水に、幾筋もの柔らかな光が反射して跳ねている。
+### 小路のパン屋から、焼き立ての香ばしい香りが漂い始めた。
 
-水面の鏡が、空からの光を細かな粒へと変えて踊るでしょう。
+香ばしい予感が、街の角を曲がって心を温めるでしょう。
 
-- created_at：2026-08-21T05:45:19
+- created_at：2026-08-21T12:12:37
 
-### 駅のホームに、遠くからやってくる列車の音が響いた。
+### 小路のパン屋から香ばしい焼き立ての匂いが漂ってきた。
 
-鉄の調べが、静かな待ち合わせの時間を運んでくるでしょう。
+黄金色の香りが、空腹と幸福を優しく呼び覚ますでしょう。
 
-- created_at：2026-08-21T05:47:02
+- created_at：2026-08-21T12:20:16
 
-### 駅のホームに、朝の便りの列車が静かに滑り込んできた。
+### 小路のパン屋から、焼きたての香ばしい香りが漂い始めた。
 
-鉄の道が奏でる音と共に、新しい物語を運ぶ影が近づく。
+黄金色の香りが、静かな道を優しく包み込みます。
 
-- created_at：2026-08-21T05:56:42
+- created_at：2026-08-21T12:25:14
+
+> 3件とも小路のパン屋の香りに関する意味の近い予告。1件目の「焼き立て」と3件目の「焼きたて」は表記が異なり、本文は完全一致ではない。未発生の予告をsceneやmovementには数えない。
 
 ## 起こったこと（初期一覧）
 
-初期一覧55件と、それ以降の追記50件を合わせ、#297終了時点のscene event累計105件を重複なく保持する。11周目で9・10周目の5件、今回12・13周目の5件を完全rawの時刻・participants・locationと照合した。
+初期一覧55件と、それ以降の追記75件を合わせ、#368終了時点のscene event累計130件を重複なく保持する。14〜41周目の追加25件はすべて完全rawの時刻・participants・locationと照合した。
 
 ### 08/12 09:15
 
@@ -1074,3 +1076,482 @@
 - sceneなし：#292 / #295 / #296。
 - 最終raw events 50件はscene 46件＋moved 4件。moved eventがローリング枠から外れてもmovements配列は8件を保持。
 - 最終pendingの列車関連2件は未発生の予告であり、scene発火やmovement追加の証拠にはしない。
+
+---
+
+# 14周目・継続対象6組限定（#298〜#303）
+
+- 会話：6件 / 新規scene：2件 / 累計：105→107
+- raw events：50件（scene 46 / moved 4） / movements：8件
+
+## #299 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T07:56:11
+- text：`広場の噴水に、幾筋もの柔らかな光が反射して跳ねている。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：105→106
+- replacement：`駅の構内で、出発を待つ列車の汽笛が静かに響いた。`
+- replacement.created_at：2026-08-21T07:56:42
+
+## #301 アイリス × ビオラ
+
+- raw時刻：2026-08-21T08:01:44
+- text：`駅のホームに、遠くからやってくる列車の音が響いた。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：106→107
+- replacement：`駅の改札口で、旅を終えた乗客が静かに荷物を下ろした。`
+- replacement.created_at：2026-08-21T08:01:54
+
+---
+
+# 15周目・継続対象4組限定（#304〜#307）
+
+- 会話：4件 / 新規scene：1件 / 累計：107→108
+- raw events：50件（scene 46 / moved 4） / movements：8件
+
+## #306 アイリス × ビオラ
+
+- raw時刻：2026-08-21T08:09:10
+- text：`駅のホームに、朝の便りの列車が静かに滑り込んできた。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：107→108
+- replacement：`鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。`
+- replacement.created_at：2026-08-21T08:09:14
+
+---
+
+# 16周目・継続対象4組限定（#308〜#311）
+
+- 会話：4件 / 新規scene：1件 / 累計：108→109
+- raw events：50件（scene 46 / moved 4） / movements：8件
+
+## #309 アイリス × ネリネ
+
+- raw時刻：2026-08-21T08:15:04
+- text：`駅の構内で、出発を待つ列車の汽笛が静かに響いた。`
+- participants：`iris`, `nerine`
+- location：`null`
+- 観察累計scene：108→109
+- replacement：`鐘楼の鐘が、夕暮れを告げる穏やかな音色を響かせた。`
+- replacement.created_at：2026-08-21T08:15:22
+
+---
+
+# 17周目・継続対象4組限定（#312〜#315）
+
+- 会話：4件 / 新規scene：0件 / 累計：109→109
+- raw events：50件（scene 46 / moved 4） / movements：8件
+
+- この周では新規sceneは発生していない。
+
+---
+
+# 18周目・継続対象4組限定（#316〜#319）
+
+- 会話：4件 / 新規scene：1件 / 累計：109→110
+- raw events：50件（scene 47 / moved 3） / movements：8件
+
+## #316 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T08:38:46
+- text：`駅の改札口で、旅を終えた乗客が静かに荷物を下ろした。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：109→110
+- replacement：`学院の中庭で、学生たちが調べ学習のために開いた本が並んだ。`
+- replacement.created_at：2026-08-21T08:39:02
+
+---
+
+# 19周目・継続対象4組限定（#320〜#323）
+
+- 会話：4件 / 新規scene：2件 / 累計：110→112
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #320 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T08:44:44
+- text：`鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：110→111
+- replacement：`学院の中庭で、学生たちが新しい季節の種を植え始めた。`
+- replacement.created_at：2026-08-21T08:45:03
+
+## #323 アネモネ × ネリネ
+
+- raw時刻：2026-08-21T08:53:30
+- text：`鐘楼の鐘が、夕暮れを告げる穏やかな音色を響かせた。`
+- participants：`anemone`, `nerine`
+- location：`null`
+- 観察累計scene：111→112
+- replacement：`温室の入り口で、夜にだけ香る花の蕾がほころび始めた。`
+- replacement.created_at：2026-08-21T08:53:37
+
+---
+
+# 20周目・継続対象3組限定（#324〜#326）
+
+- 会話：3件 / 新規scene：1件 / 累計：112→113
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #325 アイリス × ビオラ
+
+- raw時刻：2026-08-21T08:57:54
+- text：`学院の中庭で、学生たちが調べ学習のために開いた本が並んだ。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：112→113
+- replacement：`温室のガラス越しに、柔らかな午後の陽光が差し込んでいる。`
+- replacement.created_at：2026-08-21T08:58:09
+
+---
+
+# 21周目・継続対象2組限定（#327〜#328）
+
+- 会話：2件 / 新規scene：0件 / 累計：113→113
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+- この周では新規sceneは発生していない。
+
+---
+
+# 22周目・継続対象2組限定（#329〜#330）
+
+- 会話：2件 / 新規scene：1件 / 累計：113→114
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #329 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T10:53:56
+- text：`学院の中庭で、学生たちが新しい季節の種を植え始めた。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：113→114
+- replacement：`温室のガラス越しに、柔らかな午後の光が差し込んだ。`
+- replacement.created_at：2026-08-21T10:54:30
+
+---
+
+# 23周目・継続対象2組限定（#331〜#332）
+
+- 会話：2件 / 新規scene：1件 / 累計：114→115
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #331 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T10:59:48
+- text：`温室の入り口で、夜にだけ香る花の蕾がほころび始めた。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：114→115
+- replacement：`小路の店先で、焼きたてのパンの香ばしい匂いが漂い始めた。`
+- replacement.created_at：2026-08-21T10:59:53
+
+---
+
+# 24周目・継続対象2組限定（#333〜#334）
+
+- 会話：2件 / 新規scene：1件 / 累計：115→116
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #333 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:03:43
+- text：`温室のガラス越しに、柔らかな午後の陽光が差し込んでいる。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：115→116
+- replacement：`小路のパン屋から、焼き立てのパンの香ばしい香りが漂い始めた。`
+- replacement.created_at：2026-08-21T11:03:47
+
+---
+
+# 25周目・継続対象2組限定（#335〜#336）
+
+- 会話：2件 / 新規scene：1件 / 累計：116→117
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #335 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:06:54
+- text：`温室のガラス越しに、柔らかな午後の光が差し込んだ。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：116→117
+- replacement：`街の広場に、色とりどりの花びらを運ぶ風が吹き抜けた。`
+- replacement.created_at：2026-08-21T11:07:03
+
+---
+
+# 26周目・継続対象2組限定（#337〜#338）
+
+- 会話：2件 / 新規scene：1件 / 累計：117→118
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #337 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:10:15
+- text：`小路の店先で、焼きたてのパンの香ばしい匂いが漂い始めた。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：117→118
+- replacement：`駅のホームに、遠方から来た列車が静かに到着した。`
+- replacement.created_at：2026-08-21T11:10:22
+
+---
+
+# 27周目・継続対象2組限定（#339〜#340）
+
+- 会話：2件 / 新規scene：0件 / 累計：118→118
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+- この周では新規sceneは発生していない。
+
+---
+
+# 28周目・継続対象2組限定（#341〜#342）
+
+- 会話：2件 / 新規scene：1件 / 累計：118→119
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #341 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:18:56
+- text：`小路のパン屋から、焼き立てのパンの香ばしい香りが漂い始めた。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：118→119
+- replacement：`駅のホームに、遠方からやってきた列車が静かに到着した。`
+- replacement.created_at：2026-08-21T11:19:26
+
+---
+
+# 29周目・継続対象2組限定（#343〜#344）
+
+- 会話：2件 / 新規scene：1件 / 累計：119→120
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #343 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:22:22
+- text：`街の広場に、色とりどりの花びらを運ぶ風が吹き抜けた。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：119→120
+- replacement：`駅のホームに、遠くから走る列車の汽笛が響き渡った。`
+- replacement.created_at：2026-08-21T11:22:45
+
+---
+
+# 30周目・継続対象2組限定（#345〜#346）
+
+- 会話：2件 / 新規scene：1件 / 累計：120→121
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #345 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:25:49
+- text：`駅のホームに、遠方から来た列車が静かに到着した。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：120→121
+- replacement：`鐘楼の鐘が、新しい旅人の到着を祝うように響き渡った。`
+- replacement.created_at：2026-08-21T11:26:08
+
+---
+
+# 31周目・継続対象2組限定（#347〜#348）
+
+- 会話：2件 / 新規scene：1件 / 累計：121→122
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #347 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:38:49
+- text：`駅のホームに、遠方からやってきた列車が静かに到着した。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：121→122
+- replacement：`鐘楼の鐘が、新しい旅立ちを祝うように静かに鳴り響いた。`
+- replacement.created_at：2026-08-21T11:38:53
+
+---
+
+# 32周目・継続対象2組限定（#349〜#350）
+
+- 会話：2件 / 新規scene：1件 / 累計：122→123
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #349 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T11:44:20
+- text：`駅のホームに、遠くから走る列車の汽笛が響き渡った。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：122→123
+- replacement：`鐘楼の鐘が、新しい旅人の到着を祝うように鳴り響いた。`
+- replacement.created_at：2026-08-21T11:44:24
+
+---
+
+# 33周目・継続対象2組限定（#351〜#352）
+
+- 会話：2件 / 新規scene：1件 / 累計：123→124
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #352 アイリス × ビオラ
+
+- raw時刻：2026-08-21T11:50:55
+- text：`鐘楼の鐘が、新しい旅人の到着を祝うように響き渡った。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：123→124
+- replacement：`学院の中庭で、学生たちが図鑑を広げて談笑している。`
+- replacement.created_at：2026-08-21T11:51:01
+
+---
+
+# 34周目・継続対象2組限定（#353〜#354）
+
+- 会話：2件 / 新規scene：0件 / 累計：124→124
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+- この周では新規sceneは発生していない。
+
+---
+
+# 35周目・継続対象2組限定（#355〜#356）
+
+- 会話：2件 / 新規scene：1件 / 累計：124→125
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #356 アイリス × ビオラ
+
+- raw時刻：2026-08-21T11:58:28
+- text：`鐘楼の鐘が、新しい旅立ちを祝うように静かに鳴り響いた。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：124→125
+- replacement：`温室のガラス越しに、柔らかな午後の光が差し込む。`
+- replacement.created_at：2026-08-21T11:58:38
+
+---
+
+# 36周目・継続対象2組限定（#357〜#358）
+
+- 会話：2件 / 新規scene：1件 / 累計：125→126
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #358 アイリス × ビオラ
+
+- raw時刻：2026-08-21T12:03:26
+- text：`鐘楼の鐘が、新しい旅人の到着を祝うように鳴り響いた。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：125→126
+- replacement：`温室の入り口で、色鮮やかな季節の花々が並べられた。`
+- replacement.created_at：2026-08-21T12:03:30
+
+---
+
+# 37周目・継続対象2組限定（#359〜#360）
+
+- 会話：2件 / 新規scene：1件 / 累計：126→127
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #360 アイリス × ビオラ
+
+- raw時刻：2026-08-21T12:06:46
+- text：`学院の中庭で、学生たちが図鑑を広げて談笑している。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：126→127
+- replacement：`温室のガラス越しに、珍しい色の花が咲き始めた。`
+- replacement.created_at：2026-08-21T12:06:53
+
+---
+
+# 38周目・継続対象2組限定（#361〜#362）
+
+- 会話：2件 / 新規scene：0件 / 累計：127→127
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+- この周では新規sceneは発生していない。
+
+---
+
+# 39周目・継続対象2組限定（#363〜#364）
+
+- 会話：2件 / 新規scene：1件 / 累計：127→128
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #363 ダフネ × アネモネ
+
+- raw時刻：2026-08-21T12:12:11
+- text：`温室のガラス越しに、柔らかな午後の光が差し込む。`
+- participants：`anemone`, `daphne`
+- location：`null`
+- 観察累計scene：127→128
+- replacement：`小路のパン屋から、焼き立ての香ばしい香りが漂い始めた。`
+- replacement.created_at：2026-08-21T12:12:37
+
+---
+
+# 40周目・継続対象2組限定（#365〜#366）
+
+- 会話：2件 / 新規scene：1件 / 累計：128→129
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #366 アイリス × ビオラ
+
+- raw時刻：2026-08-21T12:19:58
+- text：`温室の入り口で、色鮮やかな季節の花々が並べられた。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：128→129
+- replacement：`小路のパン屋から香ばしい焼き立ての匂いが漂ってきた。`
+- replacement.created_at：2026-08-21T12:20:16
+
+---
+
+# 41周目・継続対象2組限定（#367〜#368）
+
+- 会話：2件 / 新規scene：1件 / 累計：129→130
+- raw events：50件（scene 48 / moved 2） / movements：8件
+
+## #368 アイリス × ビオラ
+
+- raw時刻：2026-08-21T12:24:47
+- text：`温室のガラス越しに、珍しい色の花が咲き始めた。`
+- participants：`iris`, `viola`
+- location：`cafe_fleur`
+- 観察累計scene：129→130
+- replacement：`小路のパン屋から、焼きたての香ばしい香りが漂い始めた。`
+- replacement.created_at：2026-08-21T12:25:14
+
+## #368時点の重複・ローリング観察
+
+- パン屋の予告3件はいずれも意味が近い。1・3件目は「焼き立て／焼きたて」の表記差があるため、exact-text duplicateではなくsemantic / near duplicate。
+- 温室の午後の光、列車の到着、旅人と鐘、パンの香りは似たsceneが反復。時刻・本文・participantsが異なる発生済みsceneは別記録として保持する。
+- raw eventsは最新50件。movedが4→2件へ減ったのはローリングによる押し出しで、movements配列の履歴は8件のまま消えていない。
+- #340に混入していた別ペアの古いscene 3件は今回の発生ではなく、累計130件へ含めていない。
+
+### 本文が近い別sceneの具体例
+
+- 2026-08-21T11:03:43：`温室のガラス越しに、柔らかな午後の陽光が差し込んでいる。`
+- 2026-08-21T11:06:54：`温室のガラス越しに、柔らかな午後の光が差し込んだ。`
+- 2026-08-21T11:25:49：`駅のホームに、遠方から来た列車が静かに到着した。`
+- 2026-08-21T11:38:49：`駅のホームに、遠方からやってきた列車が静かに到着した。`
+- 2026-08-21T11:50:55：`鐘楼の鐘が、新しい旅人の到着を祝うように響き渡った。`
+- 2026-08-21T12:03:26：`鐘楼の鐘が、新しい旅人の到着を祝うように鳴り響いた。`
+- 2026-08-21T12:12:11：`温室のガラス越しに、柔らかな午後の光が差し込む。`
+
+- いずれも本文や時刻が異なる別の発生済みscene。意味が近いことを理由に削除・統合せず、完全一致の重複とも断定しない。
+- pendingの主題は、鐘→学院→温室3件→温室2件とパン1件→温室1件とパン2件→パン3件へ推移した。
+- #363の午後光はダフネ×アネモネの既存ループを維持し、#365では走行から緩やかな歩行へ変調した。#366の温室入口はアイリス×ビオラの行き先を再固定し、#368の珍しい花は現行目標の一つの達成点になった。
+- #368はturns_since_eventが6→7→8→0→1。会話が先に作った星形の色変化する花と、sceneで咲いた珍しい色の花は別物。
+- 最新50件の最古eventは2026-08-15T02:39:49のmoved「アネモネが花眠りの庭へやってきた」。raw eventsの押し出しとmovements配列8件の保存を区別する。
