@@ -134,7 +134,7 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 
 ### #267 アネモネ：花眠りの庭 → 花咲く街の駅
 
-- 日付：2026-08-17（raw時刻は未確認）
+- raw時刻：2026-08-17T06:37:34（11周目の完全rawから遡及確認）
 - char: `anemone`
 - from: `flower_slumber_garden`
 - to: `hanasaku_station`
@@ -163,3 +163,17 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - #278 ビオラ×ネリネ：「もし今、直接会えたなら」と明言しており、対面は成立していない。Viola=`cafe_fleur`、Nerine=`flower_slumber_garden`。
 - 未到着の移動意図と、#192 / #200のような到着済みなのにmovementが反映されない事例は区別する。
 - #278終了時の全住民locationは、Mimosa=`eternite_square`、Iris=`cafe_fleur`、Erica=`cafe_fleur`、Anemone=`hanasaku_station`、Daphne=`cafe_fleur`、Campanula=`time_bell_tower`、Nerine=`flower_slumber_garden`、Viola=`cafe_fleur`、Lupinus=`stellaris_hill`。
+
+---
+
+## 11周目・継続対象6組7会話（#279〜#285）
+
+- #279〜#285で新規movementはなく、`movements`は8件のまま。
+- #280 ダフネ×アネモネ：会話では駅で銀色の栞と案内所について相談。Anemone=`hanasaku_station`、Daphne=`cafe_fleur`。Daphneの駅到着movementはない。
+- #281 アイリス×ネリネ：カフェの窓際の席を選んで「行こう」と話す段階。Iris=`cafe_fleur`、Nerine=`flower_slumber_garden`。着席・到着完了は未確認。
+- #282 アイリス×ビオラ：二人とも`cafe_fleur`。店へ向かう意図のみで、到着・注文は未確認。
+- #283 / #284 アネモネ×ネリネ：会話内では隣で月光や星を眺めるが、Anemone=`hanasaku_station`、Nerine=`flower_slumber_garden`。#283直後のrawはなく、2会話を通してmovement追加なし。
+- #285 ビオラ×ネリネ：「もし今、本当に隣に座って」と仮定しており、実際の対面は未成立。Viola=`cafe_fleur`、Nerine=`flower_slumber_garden`。
+- 最終raw eventsはscene 45件＋moved 5件。古いmoved eventは50件ローリングから外れているが、movements配列は過去8件をすべて保持している。
+- #267の既存movement時刻を完全rawから`2026-08-17T06:37:34`と遡及確認。
+- #285終了時の全住民location：Anemone=hanasaku_station、Campanula=time_bell_tower、Daphne=cafe_fleur、Erica=cafe_fleur、Iris=cafe_fleur、Lupinus=stellaris_hill、Mimosa=eternite_square、Nerine=flower_slumber_garden、Viola=cafe_fleur。
