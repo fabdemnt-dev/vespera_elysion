@@ -12,7 +12,7 @@
     const match = /^#note-(\d+)$/.exec(hash);
     if (match) {
       const number = Number(match[1]);
-      const round = number <= 36 ? 1 : number <= 104 ? 2 : number <= 140 ? 3 : number <= 176 ? 4 : number <= 212 ? 5 : number <= 248 ? 6 : number <= 258 ? 7 : number <= 265 ? 8 : number <= 272 ? 9 : number <= 278 ? 10 : 0;
+      const round = number <= 36 ? 1 : number <= 104 ? 2 : number <= 140 ? 3 : number <= 176 ? 4 : number <= 212 ? 5 : number <= 248 ? 6 : number <= 258 ? 7 : number <= 265 ? 8 : number <= 272 ? 9 : number <= 278 ? 10 : number <= 285 ? 11 : 0;
       return round ? `notes/round${round}.html${hash}` : '';
     }
     return hash === '#note-supplement-nl-139-175' ? `notes/supplement.html${hash}` : '';
@@ -42,7 +42,7 @@
 <main>
 <section class="intro" id="top">
 <p>備考・注釈を周ごとの軽いページに分けています。読みたい周を選んでください。</p>
-<div class="toc round-page-links"><a href="notes/round1.html">第1周　#1〜#36（36件）</a><a href="notes/round2.html">第2周　#37〜#104（68件）</a><a href="notes/round3.html">第3周　#105〜#140（36件）</a><a href="notes/round4.html">第4周　#141〜#176（36件）</a><a href="notes/round5.html">第5周　#177〜#212（36件）</a><a href="notes/round6.html">第6周　#213〜#248（36件）</a><a href="notes/round7.html">第7周　#249〜#258（継続対象10組限定）</a><a href="notes/round8.html">第8周　#259〜#265（継続対象7組限定）</a><a href="notes/round9.html">第9周　#266〜#272（継続対象7組限定）</a><a href="notes/round10.html">第10周　#273〜#278（継続対象6組限定）</a><a href="notes/supplement.html">未採番補完　1件</a></div>
+<div class="toc round-page-links"><a href="notes/round1.html">第1周　#1〜#36（36件）</a><a href="notes/round2.html">第2周　#37〜#104（68件）</a><a href="notes/round3.html">第3周　#105〜#140（36件）</a><a href="notes/round4.html">第4周　#141〜#176（36件）</a><a href="notes/round5.html">第5周　#177〜#212（36件）</a><a href="notes/round6.html">第6周　#213〜#248（36件）</a><a href="notes/round7.html">第7周　#249〜#258（継続対象10組限定）</a><a href="notes/round8.html">第8周　#259〜#265（継続対象7組限定）</a><a href="notes/round9.html">第9周　#266〜#272（継続対象7組限定）</a><a href="notes/round10.html">第10周　#273〜#278（継続対象6組限定）</a><a href="notes/round11.html">第11周　#279〜#285（継続対象6組・7会話）</a><a href="notes/supplement.html">未採番補完　1件</a></div>
 <p class="small">以前の <code>notes.html#note-番号</code> 形式のリンクは、該当する周別ページへ自動で移動します。</p>
 </section>
 </main>
