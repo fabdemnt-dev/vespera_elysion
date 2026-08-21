@@ -1,51 +1,51 @@
-# エリュシオン好感度台帳（#297終了時点）
+# エリュシオン好感度台帳（#368終了時点）
 
-> #297終了後に確認した完全なraw world_state.characters.affinityから、9人・全36ペア・全72方向の**現在の実測値**を転記しています。
+> #368終了後に確認した完全なraw world_state.characters.affinityから、9人・全36ペア・全72方向の**現在の実測値**を転記しています。
 > 「最新会話」はそのペアを最後に実行した番号、「数値の確認」は全キャラクターを含む最新rawを確認した番号です。復元できない過去値は推測しません。
 
 - 対象：9人・全36ペア・全72方向
-- 全方向の現在値確認：#297終了後の完全raw JSON
-- 会話状態：継続6組 / 終了30組（#297時点）
+- 全方向の現在値確認：#368終了後の完全raw JSON
+- 会話状態：継続2組 / 終了34組（#368時点）
 - 状態の正本：[会話状態分類](elysion_observation/conversation_status.md)
 
 | ID | ペア | 先頭→相手の現在値 | 相手→先頭の現在値 | 数値の確認 | 最新会話 | 会話状態 |
 |---:|---|---:|---:|---|---:|---|
-| 1 | アイリス × ミモザ | Iris→Mimosa **82** | Mimosa→Iris **85** | #297 raw | #219 | 終了 |
-| 2 | アネモネ × エリカ | Anemone→Erica **85** | Erica→Anemone **81** | #297 raw | #248 | 終了 |
-| 3 | ダフネ × カンパニュラ | Daphne→Campanula **72** | Campanula→Daphne **73** | #297 raw | #228 | 終了 |
-| 4 | ビオラ × ネリネ | Viola→Nerine **100** | Nerine→Viola **100** | #297 raw | #297 | 継続中 |
-| 5 | ルピナス × ミモザ | Lupinus→Mimosa **83** | Mimosa→Lupinus **84** | #297 raw | #238 | 終了 |
-| 6 | アイリス × カンパニュラ | Iris→Campanula **74** | Campanula→Iris **72** | #297 raw | #245 | 終了 |
-| 7 | エリカ × ダフネ | Erica→Daphne **86** | Daphne→Erica **92** | #297 raw | #218 | 終了 |
-| 8 | アネモネ × ネリネ | Anemone→Nerine **100** | Nerine→Anemone **100** | #297 raw | #296 | 継続中 |
-| 9 | ビオラ × カンパニュラ | Viola→Campanula **95** | Campanula→Viola **96** | #297 raw | #250 | 終了 |
-| 10 | カンパニュラ × アネモネ | Campanula→Anemone **92** | Anemone→Campanula **92** | #297 raw | #242 | 終了 |
-| 11 | アイリス × ビオラ | Iris→Viola **100** | Viola→Iris **100** | #297 raw | #295 | 継続中 |
-| 12 | ダフネ × ミモザ | Daphne→Mimosa **89** | Mimosa→Daphne **89** | #297 raw | #244 | 終了 |
-| 13 | ネリネ × ルピナス | Nerine→Lupinus **87** | Lupinus→Nerine **82** | #297 raw | #247 | 終了 |
-| 14 | エリカ × ミモザ | Erica→Mimosa **79** | Mimosa→Erica **83** | #297 raw | #234 | 終了 |
-| 15 | アイリス × ネリネ | Iris→Nerine **100** | Nerine→Iris **100** | #297 raw | #294 | 継続中 |
-| 16 | ダフネ × ルピナス | Daphne→Lupinus **79** | Lupinus→Daphne **82** | #297 raw | #232 | 終了 |
-| 17 | ビオラ × ミモザ | Viola→Mimosa **92** | Mimosa→Viola **89** | #297 raw | #246 | 終了 |
-| 18 | エリカ × ビオラ | Erica→Viola **78** | Viola→Erica **79** | #297 raw | #252 | 終了 |
-| 19 | アイリス × ダフネ | Iris→Daphne **83** | Daphne→Iris **80** | #297 raw | #240 | 終了 |
-| 20 | アネモネ × ミモザ | Anemone→Mimosa **84** | Mimosa→Anemone **78** | #297 raw | #224 | 終了 |
-| 21 | カンパニュラ × ネリネ | Campanula→Nerine **93** | Nerine→Campanula **88** | #297 raw | #251 | 終了 |
-| 22 | アネモネ × ビオラ | Anemone→Viola **80** | Viola→Anemone **75** | #297 raw | #230 | 終了 |
-| 23 | エリカ × ルピナス | Erica→Lupinus **98** | Lupinus→Erica **98** | #297 raw | #272 | 終了 |
-| 24 | アイリス × ルピナス | Iris→Lupinus **82** | Lupinus→Iris **83** | #297 raw | #229 | 終了 |
-| 25 | ダフネ × ネリネ | Daphne→Nerine **83** | Nerine→Daphne **79** | #297 raw | #235 | 終了 |
-| 26 | ミモザ × ネリネ | Mimosa→Nerine **75** | Nerine→Mimosa **75** | #297 raw | #215 | 終了 |
-| 27 | カンパニュラ × エリカ | Campanula→Erica **83** | Erica→Campanula **80** | #297 raw | #237 | 終了 |
-| 28 | ミモザ × カンパニュラ | Mimosa→Campanula **81** | Campanula→Mimosa **85** | #297 raw | #231 | 終了 |
-| 29 | アイリス × アネモネ | Iris→Anemone **78** | Anemone→Iris **82** | #297 raw | #233 | 終了 |
-| 30 | ダフネ × ビオラ | Daphne→Viola **82** | Viola→Daphne **83** | #297 raw | #213 | 終了 |
-| 31 | ルピナス × カンパニュラ | Lupinus→Campanula **78** | Campanula→Lupinus **77** | #297 raw | #223 | 終了 |
-| 32 | ダフネ × アネモネ | Daphne→Anemone **98** | Anemone→Daphne **98** | #297 raw | #293 | 継続中 |
-| 33 | エリカ × ネリネ | Erica→Nerine **82** | Nerine→Erica **83** | #297 raw | #227 | 終了 |
-| 34 | ルピナス × ビオラ | Lupinus→Viola **83** | Viola→Lupinus **82** | #297 raw | #226 | 終了 |
-| 35 | ルピナス × アネモネ | Lupinus→Anemone **83** | Anemone→Lupinus **78** | #297 raw | #217 | 終了 |
-| 36 | アイリス × エリカ | Iris→Erica **100** | Erica→Iris **100** | #297 raw | #292 | 継続中 |
+| 1 | アイリス × ミモザ | Iris→Mimosa **82** | Mimosa→Iris **85** | #368 raw | #219 | 終了 |
+| 2 | アネモネ × エリカ | Anemone→Erica **85** | Erica→Anemone **81** | #368 raw | #248 | 終了 |
+| 3 | ダフネ × カンパニュラ | Daphne→Campanula **72** | Campanula→Daphne **73** | #368 raw | #228 | 終了 |
+| 4 | ビオラ × ネリネ | Viola→Nerine **100** | Nerine→Viola **100** | #368 raw | #303 | 終了 |
+| 5 | ルピナス × ミモザ | Lupinus→Mimosa **83** | Mimosa→Lupinus **84** | #368 raw | #238 | 終了 |
+| 6 | アイリス × カンパニュラ | Iris→Campanula **74** | Campanula→Iris **72** | #368 raw | #245 | 終了 |
+| 7 | エリカ × ダフネ | Erica→Daphne **86** | Daphne→Erica **92** | #368 raw | #218 | 終了 |
+| 8 | アネモネ × ネリネ | Anemone→Nerine **100** | Nerine→Anemone **100** | #368 raw | #326 | 終了 |
+| 9 | ビオラ × カンパニュラ | Viola→Campanula **95** | Campanula→Viola **96** | #368 raw | #250 | 終了 |
+| 10 | カンパニュラ × アネモネ | Campanula→Anemone **92** | Anemone→Campanula **92** | #368 raw | #242 | 終了 |
+| 11 | アイリス × ビオラ | Iris→Viola **100** | Viola→Iris **100** | #368 raw | #368 | 継続中 |
+| 12 | ダフネ × ミモザ | Daphne→Mimosa **89** | Mimosa→Daphne **89** | #368 raw | #244 | 終了 |
+| 13 | ネリネ × ルピナス | Nerine→Lupinus **87** | Lupinus→Nerine **82** | #368 raw | #247 | 終了 |
+| 14 | エリカ × ミモザ | Erica→Mimosa **79** | Mimosa→Erica **83** | #368 raw | #234 | 終了 |
+| 15 | アイリス × ネリネ | Iris→Nerine **100** | Nerine→Iris **100** | #368 raw | #321 | 終了 |
+| 16 | ダフネ × ルピナス | Daphne→Lupinus **79** | Lupinus→Daphne **82** | #368 raw | #232 | 終了 |
+| 17 | ビオラ × ミモザ | Viola→Mimosa **92** | Mimosa→Viola **89** | #368 raw | #246 | 終了 |
+| 18 | エリカ × ビオラ | Erica→Viola **78** | Viola→Erica **79** | #368 raw | #252 | 終了 |
+| 19 | アイリス × ダフネ | Iris→Daphne **83** | Daphne→Iris **80** | #368 raw | #240 | 終了 |
+| 20 | アネモネ × ミモザ | Anemone→Mimosa **84** | Mimosa→Anemone **78** | #368 raw | #224 | 終了 |
+| 21 | カンパニュラ × ネリネ | Campanula→Nerine **93** | Nerine→Campanula **88** | #368 raw | #251 | 終了 |
+| 22 | アネモネ × ビオラ | Anemone→Viola **80** | Viola→Anemone **75** | #368 raw | #230 | 終了 |
+| 23 | エリカ × ルピナス | Erica→Lupinus **98** | Lupinus→Erica **98** | #368 raw | #272 | 終了 |
+| 24 | アイリス × ルピナス | Iris→Lupinus **82** | Lupinus→Iris **83** | #368 raw | #229 | 終了 |
+| 25 | ダフネ × ネリネ | Daphne→Nerine **83** | Nerine→Daphne **79** | #368 raw | #235 | 終了 |
+| 26 | ミモザ × ネリネ | Mimosa→Nerine **75** | Nerine→Mimosa **75** | #368 raw | #215 | 終了 |
+| 27 | カンパニュラ × エリカ | Campanula→Erica **83** | Erica→Campanula **80** | #368 raw | #237 | 終了 |
+| 28 | ミモザ × カンパニュラ | Mimosa→Campanula **81** | Campanula→Mimosa **85** | #368 raw | #231 | 終了 |
+| 29 | アイリス × アネモネ | Iris→Anemone **78** | Anemone→Iris **82** | #368 raw | #233 | 終了 |
+| 30 | ダフネ × ビオラ | Daphne→Viola **82** | Viola→Daphne **83** | #368 raw | #213 | 終了 |
+| 31 | ルピナス × カンパニュラ | Lupinus→Campanula **78** | Campanula→Lupinus **77** | #368 raw | #223 | 終了 |
+| 32 | ダフネ × アネモネ | Daphne→Anemone **100** | Anemone→Daphne **100** | #368 raw | #367 | 継続中 |
+| 33 | エリカ × ネリネ | Erica→Nerine **82** | Nerine→Erica **83** | #368 raw | #227 | 終了 |
+| 34 | ルピナス × ビオラ | Lupinus→Viola **83** | Viola→Lupinus **82** | #368 raw | #226 | 終了 |
+| 35 | ルピナス × アネモネ | Lupinus→Anemone **83** | Anemone→Lupinus **78** | #368 raw | #217 | 終了 |
+| 36 | アイリス × エリカ | Iris→Erica **100** | Erica→Iris **100** | #368 raw | #298 | 終了 |
 
 ## 12〜13周目の実測推移
 
@@ -66,6 +66,85 @@
 
 - #287ではDaphne→Anemone 94→97、Anemone→Daphne 92→96。#293では97→98 / 96→98。
 - 継続6組のうち5組は双方100を維持し、ダフネ×アネモネは13周目終了時点で98 / 98。
+
+## 14〜41周目の実測推移
+
+| 会話 | ペア | 先頭→相手 | 相手→先頭 | 判定 |
+|---:|---|---|---|---|
+| #298 | アイリス × エリカ | Iris→Erica 100→100 | Erica→Iris 100→100 | 終了 |
+| #299 | ダフネ × アネモネ | Daphne→Anemone 98→99 | Anemone→Daphne 98→99 | 継続中 |
+| #300 | アイリス × ネリネ | Iris→Nerine 100→100 | Nerine→Iris 100→100 | 継続中 |
+| #301 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #302 | アネモネ × ネリネ | Anemone→Nerine 100→100 | Nerine→Anemone 100→100 | 継続中 |
+| #303 | ビオラ × ネリネ | Viola→Nerine 100→100 | Nerine→Viola 100→100 | 終了 |
+| #304 | ダフネ × アネモネ | Daphne→Anemone 99→100 | Anemone→Daphne 99→100 | 継続中 |
+| #305 | アイリス × ネリネ | Iris→Nerine 100→100 | Nerine→Iris 100→100 | 継続中 |
+| #306 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #307 | アネモネ × ネリネ | Anemone→Nerine 100→100 | Nerine→Anemone 100→100 | 継続中 |
+| #308 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #309 | アイリス × ネリネ | Iris→Nerine 100→100 | Nerine→Iris 100→100 | 継続中 |
+| #310 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #311 | アネモネ × ネリネ | Anemone→Nerine 100→100 | Nerine→Anemone 100→100 | 継続中 |
+| #312 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #313 | アイリス × ネリネ | Iris→Nerine 100→100 | Nerine→Iris 100→100 | 継続中 |
+| #314 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #315 | アネモネ × ネリネ | Anemone→Nerine 100→100 | Nerine→Anemone 100→100 | 継続中 |
+| #316 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #317 | アイリス × ネリネ | Iris→Nerine 100→100 | Nerine→Iris 100→100 | 継続中 |
+| #318 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #319 | アネモネ × ネリネ | Anemone→Nerine 100→100 | Nerine→Anemone 100→100 | 継続中 |
+| #320 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #321 | アイリス × ネリネ | Iris→Nerine 100→100 | Nerine→Iris 100→100 | 終了 |
+| #322 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #323 | アネモネ × ネリネ | Anemone→Nerine 100→100 | Nerine→Anemone 100→100 | 継続中 |
+| #324 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #325 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #326 | アネモネ × ネリネ | Anemone→Nerine 100→100 | Nerine→Anemone 100→100 | 終了 |
+| #327 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #328 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #329 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #330 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #331 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #332 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #333 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #334 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #335 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #336 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #337 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #338 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #339 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #340 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #341 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #342 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #343 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #344 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #345 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #346 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #347 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #348 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #349 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #350 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #351 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #352 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #353 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #354 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #355 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #356 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #357 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #358 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #359 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #360 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #361 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #362 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #363 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #364 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #365 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #366 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+| #367 | ダフネ × アネモネ | Daphne→Anemone 100→100 | Anemone→Daphne 100→100 | 継続中 |
+| #368 | アイリス × ビオラ | Iris→Viola 100→100 | Viola→Iris 100→100 | 継続中 |
+
+- ダフネ×アネモネは#299で98 / 98→99 / 99、#304で99 / 99→100 / 100。以後#367まで双方100を維持。
+- アイリス×ビオラは#368まで双方100。終了した4組も終了時点で双方100だが、終了した会話を継続中には戻さない。
 
 ## 11周目以前の補足
 

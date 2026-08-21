@@ -202,3 +202,18 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - raw eventsのmovedは5→4へ減ったが50件ローリングによるもの。`movements`配列は過去8件を維持。
 - 駅・列車に関するpending 2件は未発生の予告であり、到着やmovementには数えない。
 - #297終了時の全住民location：Anemone=hanasaku_station、Campanula=time_bell_tower、Daphne=cafe_fleur、Erica=cafe_fleur、Iris=cafe_fleur、Lupinus=stellaris_hill、Mimosa=eternite_square、Nerine=flower_slumber_garden、Viola=cafe_fleur。
+
+---
+
+## 14〜41周目・継続対象限定（#298〜#368）
+
+- 71会話すべての完全rawでmovements=8を確認。新規movement・location変更は0件。
+- #298 アイリス×エリカ、#303 ビオラ×ネリネ、#321 アイリス×ネリネ、#326 アネモネ×ネリネは相互の別れで終了。会話終了とlocation変更は別。
+- ダフネ×アネモネは#341までは飲食や散歩の提案が登場するが、#359・#361・#363・#365・#367では「新しい物語の、その、ずっとその先へ」という抽象移動ループが20ターン連続。#367に飲食や新しい到着はない。
+- #363の温室午後光sceneはループを終了させず、#365で全力疾走からゆっくり歩く感覚描写へ変化させた。全確認時点でDaphne=`cafe_fleur`、Anemone=`hanasaku_station`のまま。会話上の走行・歩行・同席とraw movement成立は別。
+- アイリス×ビオラは「夜の庭園」の注文・受取・初回飲食を経て、#360〜#364で看板への移動目標から学院観察へ寄り道。看板を回収しないまま、#366のsceneで温室到着・入場という新しい会話上の目的へ置換した。
+- #368では会話が先に生んだ星形・色変化の花と、sceneで咲いた珍しい色の別の花を区別する。会話上は温室を探索しているが、両者のraw locationはいずれも`cafe_fleur`。
+- #368の温室sceneもraw event.location=`cafe_fleur`。温室の会話叙述・scene文面・raw locationを混同しない。
+- raw events上のmovedは4→2件へ減ったが50件ローリングによるもの。movements配列に保存された過去8件は欠落していない。
+- 最終pending 3件はパン屋の香りの予告であり、店舗到着や移動の証拠ではない。
+- #368終了時の全住民location：Anemone=hanasaku_station、Campanula=time_bell_tower、Daphne=cafe_fleur、Erica=cafe_fleur、Iris=cafe_fleur、Lupinus=stellaris_hill、Mimosa=eternite_square、Nerine=flower_slumber_garden、Viola=cafe_fleur。
