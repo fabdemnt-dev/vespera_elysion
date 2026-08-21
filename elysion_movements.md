@@ -177,3 +177,28 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - 最終raw eventsはscene 45件＋moved 5件。古いmoved eventは50件ローリングから外れているが、movements配列は過去8件をすべて保持している。
 - #267の既存movement時刻を完全rawから`2026-08-17T06:37:34`と遡及確認。
 - #285終了時の全住民location：Anemone=hanasaku_station、Campanula=time_bell_tower、Daphne=cafe_fleur、Erica=cafe_fleur、Iris=cafe_fleur、Lupinus=stellaris_hill、Mimosa=eternite_square、Nerine=flower_slumber_garden、Viola=cafe_fleur。
+
+---
+
+## 12周目・継続対象6組限定（#286〜#291）
+
+- #286〜#291で新規movementはなく、`movements`は8件のまま。
+- #287 ダフネ×アネモネ：銀色の栞を会話上で拾得し、万華鏡を使用。Anemone=`hanasaku_station`、Daphne=`cafe_fleur`。Daphneの駅到着や栞返却のmovementはない。
+- #288 アイリス×ネリネ：マドレーヌ2つと紅茶を会話上で注文。Iris=`cafe_fleur`、Nerine=`flower_slumber_garden`。Nerineのカフェ到着はrawでは確認されない。
+- #289 アイリス×ビオラ：ベーカリーsceneのlocationは`cafe_fleur`。別店舗への到着movementはない。
+- #290 アネモネ×ネリネ：星を見る同席描写があるが、global locationは駅／花眠りの庭。
+- #291 ビオラ×ネリネ：会話上の心の共有と、Viola=`cafe_fleur`／Nerine=`flower_slumber_garden`を区別する。
+
+---
+
+## 13周目・継続対象6組限定（#292〜#297）
+
+- #292〜#297で新規movementはなく、`movements`は8件のまま。
+- #293 ダフネ×アネモネ：パン屋の香りへ向かう散歩の意図のみ。Anemone=`hanasaku_station`、Daphne=`cafe_fleur`。到着・同席・新規movementは未確認。
+- #294 アイリス×ネリネ：カフェでの提供・飲食は会話上成立したが、Nerine=`flower_slumber_garden`のまま。Iris=`cafe_fleur`。
+- #295 アイリス×ビオラ：両者とも`cafe_fleur`。花形クッキーと星形焼き菓子を選び、注文へ向かう意図まで。
+- #296 アネモネ×ネリネ：同じ場所で星空を見る会話だが、Anemone=`hanasaku_station`／Nerine=`flower_slumber_garden`。
+- #297 ビオラ×ネリネ：朝の光を通話魔法越しに共有。Viola=`cafe_fleur`／Nerine=`flower_slumber_garden`。
+- raw eventsのmovedは5→4へ減ったが50件ローリングによるもの。`movements`配列は過去8件を維持。
+- 駅・列車に関するpending 2件は未発生の予告であり、到着やmovementには数えない。
+- #297終了時の全住民location：Anemone=hanasaku_station、Campanula=time_bell_tower、Daphne=cafe_fleur、Erica=cafe_fleur、Iris=cafe_fleur、Lupinus=stellaris_hill、Mimosa=eternite_square、Nerine=flower_slumber_garden、Viola=cafe_fleur。

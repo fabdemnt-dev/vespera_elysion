@@ -20,7 +20,9 @@
     if (number <= 265) return '8';
     if (number <= 272) return '9';
     if (number <= 278) return '10';
-    return '11';
+    if (number <= 285) return '11';
+    if (number <= 291) return '12';
+    return '13';
   };
 
   const setup = panel => {
