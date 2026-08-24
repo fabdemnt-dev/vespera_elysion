@@ -50,7 +50,9 @@
     if (number <= 362) return '38';
     if (number <= 364) return '39';
     if (number <= 366) return '40';
-    return '41';
+    if (number <= 368) return '41';
+    if (number <= 377) return '42';
+    return 'supplement';
   };
 
   const setup = panel => {
