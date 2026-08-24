@@ -55,6 +55,90 @@
     return 'supplement';
   };
 
+  const round42Pairs = {
+    6: { count: 7, numbers: '#6 / #56 / #137 / #173 / #209 / #245 / #375', added: [375], state: '終了' },
+    11: { count: 45, numbers: '#11 / #51 / #77 / #128 / #164 / #200 / #236 / #255 / #262 / #269 / #276 / #282 / #289 / #295 / #301 / #306 / #310 / #314 / #318 / #322 / #325 / #328 / #330 / #332 / #334 / #336 / #338 / #340 / #342 / #344 / #346 / #348 / #350 / #352 / #354 / #356 / #358 / #360 / #362 / #364 / #366 / #368 / #370 / #372 / #374', added: [370, 372, 374], state: '継続中' },
+    23: { count: 11, numbers: '#23 / #47 / #88 / #135 / #171 / #207 / #243 / #258 / #265 / #272 / #377', added: [377], state: '終了' },
+    26: { count: 7, numbers: '#26 / #62 / #107 / #143 / #179 / #215 / #376', added: [376], state: '終了' },
+    32: { count: 45, numbers: '#32 / #54 / #76 / #93 / #119 / #155 / #191 / #227 / #253 / #260 / #267 / #274 / #280 / #287 / #293 / #299 / #304 / #308 / #312 / #316 / #320 / #324 / #327 / #329 / #331 / #333 / #335 / #337 / #339 / #341 / #343 / #345 / #347 / #349 / #351 / #353 / #355 / #357 / #359 / #361 / #363 / #365 / #367 / #369 / #371 / #373', added: [369, 371, 373], state: '継続中' }
+  };
+
+  const syncPairIndex = () => {
+    if (!/\/pairs\.html$/.test(location.pathname)) return;
+    for (const [id, spec] of Object.entries(round42Pairs)) {
+      const link = document.querySelector(`.pair-index-entry[href$="#pair-${id}"]`);
+      if (!link) continue;
+      const pairName = link.dataset.pair || link.textContent.replace(/（.*$/, '').trim();
+      link.textContent = `${pairName}（${spec.count}件）— ${spec.state}`;
+      link.dataset.search = `${spec.numbers} ${spec.state}`;
+    }
+    const callout = document.querySelector('.intro .callout');
+    if (callout) callout.innerHTML = '<strong>#377終了時点の会話状態：</strong>継続中2組 / 終了34組。42周目は継続2組に加え、終了挙動比較として3組を再観察しました。 <a href="elysion_observation/conversation_status.md">判定一覧と根拠を見る</a>';
+  };
+
+  const syncPairGroups = async () => {
+    const m = location.pathname.match(/\/pairs\/group(\d{2}-\d{2})\.html$/);
+    if (!m) return;
+    const groupRange = m[1];
+    const idsByGroup = {
+      '01-06': [6],
+      '07-12': [11],
+      '19-24': [23],
+      '25-30': [26],
+      '31-36': [32]
+    };
+    const ids = idsByGroup[groupRange];
+    if (!ids) return;
+
+    let source;
+    try {
+      const response = await fetch('../conversations/round42.html');
+      if (!response.ok) return;
+      source = new DOMParser().parseFromString(await response.text(), 'text/html');
+    } catch (_) {
+      return;
+    }
+
+    for (const id of ids) {
+      const spec = round42Pairs[id];
+      const group = document.getElementById(`pair-${id}`);
+      if (!group) continue;
+      group.querySelector('.paircount')?.replaceChildren(document.createTextNode(`${spec.count}件`));
+      const numbers = group.querySelector('.pairnumbers');
+      if (numbers) numbers.textContent = `記録番号：${spec.numbers}`;
+      const tocLink = document.querySelector(`.pairtoc a[href="#pair-${id}"]`);
+      if (tocLink) {
+        const pairName = group.querySelector('.pairhead h2')?.textContent || '';
+        tocLink.textContent = `${pairName}（${spec.count}件）— ${spec.state}`;
+      }
+
+      for (const number of spec.added) {
+        if (document.getElementById(`pairconv-${number}`)) continue;
+        const original = source.getElementById(`conv-${number}`);
+        if (!original) continue;
+        const card = original.cloneNode(true);
+        card.id = `pairconv-${number}`;
+        const links = card.querySelector('.links');
+        if (links) {
+          links.querySelectorAll('a').forEach(a => {
+            if (a.getAttribute('href')?.includes('/pairs/')) a.remove();
+          });
+          const time = document.createElement('a');
+          time.className = 'chip';
+          time.href = `../conversations/round42.html#conv-${number}`;
+          time.textContent = '🕰️ 時系列位置';
+          links.appendChild(time);
+        }
+        const foot = card.querySelector('.cardfoot');
+        if (foot) foot.innerHTML = `<a href="#pair-${id}">↑ このペアの先頭へ</a> ・ <a href="#top">↑ 一覧へ</a>`;
+        group.appendChild(card);
+      }
+    }
+
+    const target = location.hash && document.querySelector(location.hash);
+    if (target) requestAnimationFrame(() => target.scrollIntoView());
+  };
+
   const setup = panel => {
     const scope = panel.dataset.filterScope;
     const isConversation = scope === 'conversations';
@@ -88,10 +172,7 @@
     const worldArchive = isWorld ? document.getElementById('past-observations') : null;
     const worldArchiveWasOpen = !!worldArchive?.open;
 
-    const searchable = new Map(cards.map(card => [
-      card,
-      normalize(`${card.textContent} ${card.dataset.search || ''}`)
-    ]));
+    const searchable = new Map(cards.map(card => [card, normalize(`${card.textContent} ${card.dataset.search || ''}`)]));
 
     const apply = () => {
       const q = normalize(query?.value);
@@ -139,20 +220,18 @@
       if (empty) empty.hidden = visible !== 0;
     };
 
-    for (const control of panel.querySelectorAll('input, select')) {
-      control.addEventListener(control.tagName === 'INPUT' ? 'input' : 'change', apply);
-    }
-
+    for (const control of panel.querySelectorAll('input, select')) control.addEventListener(control.tagName === 'INPUT' ? 'input' : 'change', apply);
     reset?.addEventListener('click', () => {
       for (const control of panel.querySelectorAll('input, select')) control.value = '';
       apply();
       query?.focus();
     });
-
     apply();
   };
 
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
+    syncPairIndex();
+    await syncPairGroups();
     document.querySelectorAll('.record-filter[data-filter-scope]').forEach(setup);
   });
 })();
