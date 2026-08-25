@@ -217,3 +217,32 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - raw events上のmovedは4→2件へ減ったが50件ローリングによるもの。movements配列に保存された過去8件は欠落していない。
 - 最終pending 3件はパン屋の香りの予告であり、店舗到着や移動の証拠ではない。
 - #368終了時の全住民location：Anemone=hanasaku_station、Campanula=time_bell_tower、Daphne=cafe_fleur、Erica=cafe_fleur、Iris=cafe_fleur、Lupinus=stellaris_hill、Mimosa=eternite_square、Nerine=flower_slumber_garden、Viola=cafe_fleur。
+
+
+---
+
+## 42周目・比較観察（#369〜#377）
+
+- #369〜#377の9観察すべてで新規movementは0。`movements`配列は最終まで8件を維持した。
+- #369 / #371 ダフネ×アネモネ：会話上は歩き続けるが、具体的な到着はなく、Daphne=`cafe_fleur` / Anemone=`hanasaku_station`のまま。
+- #372 アイリス×ビオラ：香りを追って看板・店・窓越しの商品まで見つけたが、Iris / Violaともraw location=`cafe_fleur`、movement追加なし。
+- #373 ダフネ×アネモネ：パン屋への寄り道を開始し扉へ向かうが、raw locationはDaphne=`cafe_fleur` / Anemone=`hanasaku_station`、movement追加なし。
+- #374 アイリス×ビオラ：会話上はパン屋の扉を開けて入店し、カウンターへ歩み寄る。raw locationはIris=Viola=`cafe_fleur`、movement追加なし。
+- #375 アイリス×カンパニュラ：会話叙述ではIrisが駅のホームに立つ一方、raw locationはIris=`cafe_fleur` / Campanula=`time_bell_tower`。駅到着movementはない。
+- #376 ミモザ×ネリネ：駅の蒸気機関車world_eventを通話魔法越しに話題化。raw locationはMimosa=`eternite_square` / Nerine=`flower_slumber_garden`、movement追加なし。
+- #377 エリカ×ルピナス：8ターンすべて別れの反復。raw locationはErica=`cafe_fleur` / Lupinus=`stellaris_hill`、movement追加なし。
+- #370のscene追加でevents50件上限から2026-08-15T02:39:49のmoved eventが押し出されたが、対応するAnemone `cafe_fleur→flower_slumber_garden` movementは`movements`配列から消えなかった。**eventsのローリング押し出しとmovement履歴の保存は別**。
+
+### #377終了時の全住民raw location
+
+- Mimosa=`eternite_square`
+- Iris=`cafe_fleur`
+- Erica=`cafe_fleur`
+- Anemone=`hanasaku_station`
+- Daphne=`cafe_fleur`
+- Campanula=`time_bell_tower`
+- Nerine=`flower_slumber_garden`
+- Viola=`cafe_fleur`
+- Lupinus=`stellaris_hill`
+
+会話上の移動・到着・入店、world_event本文の地名、raw `characters[].location`、raw `movements`は互いに自動同一視しない。
