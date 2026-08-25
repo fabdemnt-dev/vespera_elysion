@@ -1,0 +1,102 @@
+name: Round42 final cross-layer audit
+
+on:
+  push:
+    branches:
+      - codex/round42-full-layer-sync
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/round42-full-layer-sync
+          fetch-depth: 0
+      - name: Cross-layer validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          def text(p): return Path(p).read_text(encoding='utf-8')
+
+          # Core final-state invariants.
+          ev = text('elysion_events.md')
+          mv = text('elysion_movements.md')
+          wh = text('world.html')
+          ix = text('index.html')
+          ph = text('pairs.html')
+          dl = text('elysion_observed_daily_life.md')
+          r42 = text('elysion_observation/42_round42_369-377.md')
+          c42 = text('conversations/round42.html')
+
+          assert 'scene event累計135件' in ev
+          assert 'turns_since_event：9' in ev
+          assert '2026-08-24T06:53:44' in ev
+          assert 'movements`配列は最終まで8件' in mv
+          assert '2026-08-24・通り雨・30℃' in wh
+          assert 'scene event累計は135件' in wh
+          assert '#377終了後の完全raw JSONから' in wh
+          assert '#368終了後の完全raw JSONから' not in wh
+          assert '<dd>9（#377終了時）</dd>' in wh
+          assert '観察累計 135件' in ix
+          assert '#377 エリカ × ルピナス' in ix
+          assert '採番377件＋未採番補完1件' in ix
+          assert 'pure farewell loop' in dl
+
+          expected_index = {
+              6: ('アイリス × カンパニュラ', 7, [375]),
+              11: ('アイリス × ビオラ', 45, [370,372,374]),
+              23: ('エリカ × ルピナス', 11, [377]),
+              26: ('ミモザ × ネリネ', 7, [376]),
+              32: ('ダフネ × アネモネ', 45, [369,371,373]),
+          }
+          for pair_no, (name, count, nums) in expected_index.items():
+              assert f'{name}（{count}件）' in ph
+              for n in nums: assert f'#{n}' in ph
+
+          groups = {
+              'pairs/group01-06.html': [375],
+              'pairs/group07-12.html': [370,372,374],
+              'pairs/group19-24.html': [377],
+              'pairs/group25-30.html': [376],
+              'pairs/group31-36.html': [369,371,373],
+          }
+          all_pair_ids = []
+          for p, nums in groups.items():
+              g = text(p)
+              for n in nums:
+                  assert g.count(f'id="pairconv-{n}"') == 1, (p,n)
+                  all_pair_ids.append(n)
+          assert sorted(all_pair_ids) == list(range(369,378))
+
+          # #369–#377 have exactly one chronological card each.
+          for n in range(369,378):
+              assert c42.count(f'id="conv-{n}"') == 1, n
+              assert f'## #{n} ' in r42, n
+
+          # No accidental content layer omissions among the originally reported stale files.
+          for p in ['elysion_events.md','elysion_movements.md','world.html','pairs.html','index.html','elysion_observed_daily_life.md']:
+              assert Path(p).exists()
+
+          print('ROUND42_FINAL_CROSS_LAYER_AUDIT_OK')
+          PY
+      - name: Remove temporary audit workflow and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm .github/workflows/round42-final-audit.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          changed="$(git diff --cached --name-only)"
+          test "$changed" = ".github/workflows/round42-final-audit.yml"
+          git commit -m "Remove temporary round 42 audit workflow"
+          git push origin HEAD:codex/round42-full-layer-sync
