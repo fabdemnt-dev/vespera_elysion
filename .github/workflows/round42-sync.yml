@@ -1,0 +1,52 @@
+name: Round42 full layer sync
+
+on:
+  push:
+    branches:
+      - codex/round42-full-layer-sync
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: codex/round42-full-layer-sync
+          fetch-depth: 0
+      - name: Synchronize round 42 layers
+        run: python3 .github/scripts/sync_round42_full_layers.py
+      - name: Validate intended diff and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          changed="$(git diff --cached --name-only | sort)"
+          expected="$(printf '%s\n' \
+            elysion_events.md \
+            elysion_movements.md \
+            elysion_observed_daily_life.md \
+            index.html \
+            pairs.html \
+            pairs/group01-06.html \
+            pairs/group07-12.html \
+            pairs/group19-24.html \
+            pairs/group25-30.html \
+            pairs/group31-36.html \
+            world.html | sort)"
+          echo "Changed files:"
+          echo "$changed"
+          test "$changed" = "$expected"
+          grep -q '#377終了時点' elysion_events.md
+          grep -q '観察累計 135件' index.html
+          grep -q 'アイリス × ビオラ（45件）' pairs.html
+          grep -q 'id="pairconv-377"' pairs/group19-24.html
+          grep -q '2026-08-24・通り雨・30℃' world.html
+          git commit -m "Complete round 42 full-layer synchronization"
+          git push origin HEAD:codex/round42-full-layer-sync
