@@ -1,0 +1,55 @@
+name: Round42 world affinity final sync
+
+on:
+  push:
+    branches:
+      - codex/round42-full-layer-sync
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/round42-full-layer-sync
+          fetch-depth: 0
+      - name: Replace stale current affinity card
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p = Path('world.html')
+          t = p.read_text(encoding='utf-8')
+          new = '''<section class="card" id="affinity"><h2>好感度の観察</h2><p>#377終了後の完全raw JSONから、全36ペア・72方向の現在値を確認しました。継続2組はいずれも100 / 100。42周目の比較観察では、終了維持の3組にも方向別の上昇を確認しています。</p><div class="tablewrap"><table><thead><tr><th>ペア</th><th>双方の現在値</th><th>最新確認</th><th>状態</th></tr></thead><tbody><tr><td>ダフネ × アネモネ</td><td>Daphne→Anemone 100<br/>Anemone→Daphne 100</td><td>#373 raw</td><td>継続中</td></tr><tr><td>アイリス × ビオラ</td><td>Iris→Viola 100<br/>Viola→Iris 100</td><td>#374 raw</td><td>継続中</td></tr><tr><td>アイリス × カンパニュラ</td><td>Iris→Campanula 78<br/>Campanula→Iris 78</td><td>#375 raw（74/72→78/78）</td><td>終了維持</td></tr><tr><td>ミモザ × ネリネ</td><td>Mimosa→Nerine 79<br/>Nerine→Mimosa 79</td><td>#376 raw（75/75→79/79）</td><td>終了維持</td></tr><tr><td>エリカ × ルピナス</td><td>Erica→Lupinus 100<br/>Lupinus→Erica 100</td><td>#377 final raw（98/98→100/100）</td><td>終了維持</td></tr><tr><td>アイリス × エリカ</td><td>Iris→Erica 100<br/>Erica→Iris 100</td><td>#377 final raw</td><td>終了</td></tr><tr><td>ビオラ × ネリネ</td><td>Viola→Nerine 100<br/>Nerine→Viola 100</td><td>#377 final raw</td><td>終了</td></tr><tr><td>アイリス × ネリネ</td><td>Iris→Nerine 100<br/>Nerine→Iris 100</td><td>#377 final raw</td><td>終了</td></tr><tr><td>アネモネ × ネリネ</td><td>Anemone→Nerine 100<br/>Nerine→Anemone 100</td><td>#377 final raw</td><td>終了</td></tr></tbody></table></div><p><a class="chip" href="elysion_affinity.md">💗 全36ペア・72方向の最新好感度台帳を見る</a></p></section>'''
+          t, n = re.subn(r'<section class="card" id="affinity">.*?</section>\n<section class="card" id="events">', new + '\n<section class="card" id="events">', t, count=1, flags=re.S)
+          if n != 1:
+              raise SystemExit('affinity card replacement failed')
+          t = t.replace('好感度台帳</a>に14〜41周目の各会話も記録。', '好感度台帳</a>に14〜42周目の各会話も記録。')
+          t = t.replace('<strong>8件</strong>。#267でAnemoneが花眠りの庭から花咲く街の駅へ到着。</dd>', '<strong>8件</strong>。#267でAnemoneが花眠りの庭から花咲く街の駅へ到着。42周目の新規movementは0件。</dd>')
+          if '#368終了後の完全raw JSONから' in t:
+              raise SystemExit('stale affinity marker remains')
+          if '#377終了後の完全raw JSONから' not in t:
+              raise SystemExit('new affinity marker missing')
+          p.write_text(t, encoding='utf-8')
+          Path('.github/workflows/round42-world-affinity-fix.yml').unlink()
+          PY
+      - name: Validate and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          changed="$(git diff --cached --name-only | sort)"
+          expected="$(printf '%s\n' .github/workflows/round42-world-affinity-fix.yml world.html | sort)"
+          test "$changed" = "$expected"
+          grep -q '#377終了後の完全raw JSONから' world.html
+          grep -q 'Erica→Lupinus 100' world.html
+          ! grep -q '#368終了後の完全raw JSONから' world.html
+          git commit -m "Finish round 42 world affinity synchronization"
+          git push origin HEAD:codex/round42-full-layer-sync
