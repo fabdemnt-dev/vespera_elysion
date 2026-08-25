@@ -29,6 +29,8 @@ jobs:
           git add -A
           changed="$(git diff --cached --name-only | sort)"
           expected="$(printf '%s\n' \
+            .github/scripts/sync_round42_full_layers.py \
+            .github/workflows/round42-sync.yml \
             elysion_events.md \
             elysion_movements.md \
             elysion_observed_daily_life.md \
