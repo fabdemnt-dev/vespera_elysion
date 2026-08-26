@@ -35,12 +35,12 @@ a{color:inherit}
 }
 .nav a.active,.nav a:hover{background:var(--soft);color:var(--accent);font-weight:700}
 main{width:min(980px,calc(100% - 28px));margin:28px auto 56px}
-.hero,.intro,.card,.pairgroup{
+.hero,.intro,.pageintro,.card,.pairgroup{
   background:var(--paper);border:1px solid var(--line);border-radius:18px;
   box-shadow:var(--shadow);
 }
-.hero,.intro,.card{padding:20px;margin:0 0 18px}
-.hero h2,.card h2,.intro h2{margin-top:0}
+.hero,.intro,.pageintro,.card{padding:20px;margin:0 0 18px}
+.hero h2,.card h2,.intro h2,.pageintro h2{margin-top:0}
 .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:18px 0}
 .biglink{
   display:block;text-decoration:none;background:var(--paper);border:1px solid var(--line);
@@ -92,7 +92,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:22px 14px 4
   .sitehead{position:relative}
   .pairhead{position:relative;top:auto}
   main{width:min(100% - 18px,980px);margin-top:16px}
-  .card,.intro,.hero,.pairgroup{border-radius:14px;padding:14px}
+  .card,.intro,.pageintro,.hero,.pairgroup{border-radius:14px;padding:14px}
   .cardtop{display:block}
   .links{margin:6px 0 8px}
   .toc a{font-size:.73rem}
@@ -331,7 +331,7 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 
 
 /* Readability step 7: search and filtering */
-.record-filter{
+.record-filter,.filter-panel{
   margin:16px 0 4px;padding:14px;border:1px solid var(--line);border-radius:16px;
   background:rgba(255,255,255,.58)
 }
@@ -339,6 +339,8 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
   display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px
 }
 .record-filter-head strong{font-size:.96rem;color:var(--accent2)}
+.filter-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.filter-row input{flex:1 1 220px}
 .filter-grid{
   display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(120px,1fr));gap:10px
 }
@@ -349,11 +351,11 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 [data-filter-scope="world"] .filter-grid{grid-template-columns:minmax(220px,2fr) minmax(150px,1fr)}
 [data-filter-scope="events"] .filter-grid{grid-template-columns:1fr}
 .filter-field{display:flex;flex-direction:column;gap:5px;font-size:.76rem;font-weight:800;color:var(--muted)}
-.filter-field input,.filter-field select{
+.filter-field input,.filter-field select,.filter-row input{
   width:100%;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;
   background:#fff;color:var(--ink);font:inherit;font-size:.88rem
 }
-.filter-field input:focus,.filter-field select:focus{
+.filter-field input:focus,.filter-field select:focus,.filter-row input:focus{
   outline:2px solid rgba(90,71,76,.22);outline-offset:1px;border-color:var(--accent)
 }
 .filter-reset{
@@ -366,7 +368,7 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
   margin-top:10px;padding-top:9px;border-top:1px dashed var(--line)
 }
 .filter-status [data-filter-count]{font-size:.82rem;font-weight:800;color:var(--accent2)}
-.filter-empty{
+.filter-empty,.empty-state{
   margin:16px 0;padding:18px;border:1px dashed var(--line);border-radius:14px;
   background:var(--soft);text-align:center;color:var(--ink);font-weight:700
 }
@@ -386,12 +388,14 @@ body.records-filtering .result-summary-guide{display:none}
   .filter-query{grid-column:1/-1}
 }
 @media (max-width:520px){
-  .record-filter{padding:12px}
+  .record-filter,.filter-panel{padding:12px}
+  .filter-row{align-items:stretch;flex-direction:column}
+  .filter-row input{flex-basis:auto;width:100%}
   .record-filter-head{align-items:stretch;flex-direction:column}
   .filter-reset{align-self:flex-start}
   .filter-grid,[data-filter-scope="conversations"] .filter-grid,[data-filter-scope="notes"] .filter-grid,[data-filter-scope="pairs"] .filter-grid,[data-filter-scope="pair-index"] .filter-grid,[data-filter-scope="world"] .filter-grid{grid-template-columns:1fr}
   .filter-query{grid-column:auto}
-  .filter-field input,.filter-field select{min-height:44px;font-size:16px}
+  .filter-field input,.filter-field select,.filter-row input{min-height:44px;font-size:16px}
   .filter-status{align-items:flex-start;flex-direction:column}
 }
 
