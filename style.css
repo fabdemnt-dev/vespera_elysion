@@ -414,3 +414,24 @@ body.records-filtering .result-summary-guide{display:none}
     margin-top:10px;
   }
 }
+
+
+/* Daily-life observation viewer */
+.daily-intro h2{margin-bottom:8px}
+.daily-observations{margin-top:18px}
+.daily-observations h2{margin-top:30px}
+.daily-observations h2:first-child{margin-top:0}
+.daily-observations h3{margin-top:24px}
+.daily-observations hr{border:0;border-top:1px solid var(--line);margin:28px 0}
+.daily-callout{margin:0 0 24px}
+.confidence-legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.confidence-badge{display:inline-flex;align-items:center;border:1px solid transparent;border-radius:999px;font-size:.82rem;font-weight:700;line-height:1;padding:6px 10px;white-space:nowrap}
+.confidence-high{background:#e8f5eb;border-color:#add5b7;color:#27613a}
+.confidence-medium{background:#fff4d8;border-color:#e3c779;color:#75530a}
+.confidence-low{background:#f2eef8;border-color:#c9b9dc;color:#604678}
+.daily-observations li>.confidence-badge{margin-bottom:2px}
+.daily-observations .daily-table{min-width:720px}
+@media (max-width:640px){
+  .daily-observations{padding:18px}
+  .daily-observations .daily-table{font-size:.9rem}
+}
