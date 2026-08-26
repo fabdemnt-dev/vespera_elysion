@@ -347,6 +347,7 @@ code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 [data-filter-scope="pairs"] .filter-grid{grid-template-columns:minmax(220px,2fr) minmax(160px,1fr)}
 [data-filter-scope="pair-index"] .filter-grid{grid-template-columns:minmax(220px,2fr) minmax(160px,1fr)}
 [data-filter-scope="world"] .filter-grid{grid-template-columns:minmax(220px,2fr) minmax(150px,1fr)}
+[data-filter-scope="events"] .filter-grid{grid-template-columns:1fr}
 .filter-field{display:flex;flex-direction:column;gap:5px;font-size:.76rem;font-weight:800;color:var(--muted)}
 .filter-field input,.filter-field select{
   width:100%;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;
