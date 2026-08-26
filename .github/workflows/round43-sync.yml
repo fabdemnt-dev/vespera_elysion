@@ -21,7 +21,8 @@ jobs:
         run: |
           set +e
           rm -f ROUND43_SYNC_ERROR.txt
-          sed -i "s/'turns_since_event：17→6'/'turns_since_event 17→6'/" tools/round43_sync.py
+          sed -i "s/'turns_since_event：17→6'/'最終：17→6'/" tools/round43_sync.py
+          sed -i "s/'turns_since_event 17→6'/'最終：17→6'/" tools/round43_sync.py
           python tools/round43_sync.py > /tmp/round43-sync.log 2>&1
           code=$?
           if [ "$code" -ne 0 ]; then
@@ -36,7 +37,7 @@ jobs:
           git add -A
           git diff --cached --quiet && exit 0
           if [ -f ROUND43_SYNC_ERROR.txt ]; then
-            git commit -m "Capture round43 sync error 2 [round43-sync]"
+            git commit -m "Capture round43 sync error 3 [round43-sync]"
           else
             git commit -m "43周目 #378〜#379 を全レイヤー同期 [round43-sync]"
           fi
