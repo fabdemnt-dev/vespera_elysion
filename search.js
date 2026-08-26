@@ -52,15 +52,16 @@
     if (number <= 366) return '40';
     if (number <= 368) return '41';
     if (number <= 377) return '42';
+    if (number <= 379) return '43';
     return 'supplement';
   };
 
   const round42Pairs = {
     6: { count: 7, numbers: '#6 / #56 / #137 / #173 / #209 / #245 / #375', added: [375], state: '終了' },
-    11: { count: 45, numbers: '#11 / #51 / #77 / #128 / #164 / #200 / #236 / #255 / #262 / #269 / #276 / #282 / #289 / #295 / #301 / #306 / #310 / #314 / #318 / #322 / #325 / #328 / #330 / #332 / #334 / #336 / #338 / #340 / #342 / #344 / #346 / #348 / #350 / #352 / #354 / #356 / #358 / #360 / #362 / #364 / #366 / #368 / #370 / #372 / #374', added: [370, 372, 374], state: '継続中' },
+    11: { count: 46, numbers: '#11 / #51 / #77 / #128 / #164 / #200 / #236 / #255 / #262 / #269 / #276 / #282 / #289 / #295 / #301 / #306 / #310 / #314 / #318 / #322 / #325 / #328 / #330 / #332 / #334 / #336 / #338 / #340 / #342 / #344 / #346 / #348 / #350 / #352 / #354 / #356 / #358 / #360 / #362 / #364 / #366 / #368 / #370 / #372 / #374 / #379', added: [370, 372, 374], state: '継続中' },
     23: { count: 11, numbers: '#23 / #47 / #88 / #135 / #171 / #207 / #243 / #258 / #265 / #272 / #377', added: [377], state: '終了' },
     26: { count: 7, numbers: '#26 / #62 / #107 / #143 / #179 / #215 / #376', added: [376], state: '終了' },
-    32: { count: 45, numbers: '#32 / #54 / #76 / #93 / #119 / #155 / #191 / #227 / #253 / #260 / #267 / #274 / #280 / #287 / #293 / #299 / #304 / #308 / #312 / #316 / #320 / #324 / #327 / #329 / #331 / #333 / #335 / #337 / #339 / #341 / #343 / #345 / #347 / #349 / #351 / #353 / #355 / #357 / #359 / #361 / #363 / #365 / #367 / #369 / #371 / #373', added: [369, 371, 373], state: '継続中' }
+    32: { count: 46, numbers: '#32 / #54 / #76 / #93 / #119 / #155 / #191 / #227 / #253 / #260 / #267 / #274 / #280 / #287 / #293 / #299 / #304 / #308 / #312 / #316 / #320 / #324 / #327 / #329 / #331 / #333 / #335 / #337 / #339 / #341 / #343 / #345 / #347 / #349 / #351 / #353 / #355 / #357 / #359 / #361 / #363 / #365 / #367 / #369 / #371 / #373 / #378', added: [369, 371, 373], state: '継続中' }
   };
 
   const syncPairIndex = () => {
@@ -73,7 +74,7 @@
       link.dataset.search = `${spec.numbers} ${spec.state}`;
     }
     const callout = document.querySelector('.intro .callout');
-    if (callout) callout.innerHTML = '<strong>#377終了時点の会話状態：</strong>継続中2組 / 終了34組。42周目は継続2組に加え、終了挙動比較として3組を再観察しました。 <a href="elysion_observation/conversation_status.md">判定一覧と根拠を見る</a>';
+    if (callout) callout.innerHTML = '<strong>#379終了時点の会話状態：</strong>継続中2組 / 終了34組。42周目は継続2組に加え、終了挙動比較として3組を再観察しました。 <a href="elysion_observation/conversation_status.md">判定一覧と根拠を見る</a>';
   };
 
   const syncPairGroups = async () => {
@@ -128,20 +129,20 @@
   const syncWorldIndex = () => {
     if (!/\/world\.html$/.test(location.pathname)) return;
     const heading = document.querySelector('#current-world .mini');
-    if (heading) heading.textContent = '#377終了後に確認した最新world_stateと、現在の観察方針・現行の仕組みをまとめています。';
+    if (heading) heading.textContent = '#379終了後に確認した最新world_stateと、現在の観察方針・現行の仕組みをまとめています。';
 
     const facts = new Map(Array.from(document.querySelectorAll('#status dt')).map(dt => [dt.textContent.trim(), dt.nextElementSibling]));
-    if (facts.get('確認済み天候')) facts.get('確認済み天候').textContent = '2026-08-24・通り雨・30℃';
-    if (facts.get('会話状態分類')) facts.get('会話状態分類').innerHTML = '<strong>継続2組 / 終了34組</strong>（42周目 #369〜#377終了後）。<a href="elysion_observation/conversation_status.md">36組の判定一覧</a>';
-    if (facts.get('次の周回')) facts.get('次の周回').textContent = '42周目は#377まで完了。次に採番する場合は#378以降。';
-    if (facts.get('events / pending')) facts.get('events / pending').textContent = 'raw world_state.events 50件（scene 49・moved 1） / pending 3件。観察累計scene world_eventは135件。最終pendingは「駅のホームに、一冊の古い手帖が落ちている。」「鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。」「鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。」。';
+    if (facts.get('確認済み天候')) facts.get('確認済み天候').textContent = '2026-08-26・花曇り・11℃';
+    if (facts.get('会話状態分類')) facts.get('会話状態分類').innerHTML = '<strong>継続2組 / 終了34組</strong>（43周目 #378〜#379終了後）。<a href="elysion_observation/conversation_status.md">36組の判定一覧</a>';
+    if (facts.get('次の周回')) facts.get('次の周回').textContent = '43周目は#379まで完了。次に採番する場合は#380以降。';
+    if (facts.get('events / pending')) facts.get('events / pending').textContent = 'raw world_state.events 50件（scene 49・moved 1） / pending 3件。観察累計scene world_eventは136件。最終pendingは「鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。」「鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。」「鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。」。';
     if (facts.get('#368終了時のaffinity')) {
       const dt = Array.from(document.querySelectorAll('#status dt')).find(x => x.textContent.includes('#368終了時のaffinity'));
-      if (dt) dt.textContent = '#377終了時のaffinity';
+      if (dt) dt.textContent = '#379終了時のaffinity';
       facts.get('#368終了時のaffinity').innerHTML = '完全rawから全36ペア・72方向の現在値を確認。継続2組は双方100 / 100。#375でIris↔Campanula=78/78、#376でMimosa↔Nerine=79/79、#377でErica↔Lupinus=100/100へ更新。<a href="elysion_affinity.md">好感度台帳</a>参照。';
     }
-    if (facts.get('movements')) facts.get('movements').innerHTML = '<strong>8件</strong>。42周目の追加movementなし。';
-    if (facts.get('turns_since_event')) facts.get('turns_since_event').textContent = '9（#377終了時）';
+    if (facts.get('movements')) facts.get('movements').innerHTML = '<strong>8件</strong>。43周目の追加movementなし。';
+    if (facts.get('turns_since_event')) facts.get('turns_since_event').textContent = '6（#379終了時）';
 
     const tbody = document.querySelector('#daily-summary tbody');
     if (tbody && !tbody.textContent.includes('2026-08-24')) {
@@ -150,9 +151,9 @@
 
     const eventsCard = document.getElementById('events');
     const pendingList = eventsCard?.querySelector('.eventlist');
-    if (pendingList) pendingList.innerHTML = '<li><strong>駅のホームに、一冊の古い手帖が落ちている。</strong><br/>忘れられた記憶の欠片が、鉄の道の上で静かに眠っている。<br/><small>created_at: 2026-08-24T06:25:10</small></li><li><strong>鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。</strong><br/>空高く響く銀の調べが、新しい物語の幕開けを告げるでしょう。<br/><small>created_at: 2026-08-24T06:48:08</small></li><li><strong>鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。</strong><br/>眠れる街の目覚めを告げる、清らかな響きが空を渡るでしょう。<br/><small>created_at: 2026-08-24T06:53:44</small></li>';
-    if (eventsCard && !document.getElementById('round42-world-link')) {
-      eventsCard.insertAdjacentHTML('afterbegin', '<p id="round42-world-link" class="callout"><strong>42周目：</strong> #369〜#377のworld_event、events 50件ローリング、pending、location、turns_since_eventの詳細は <a href="world/round42.html">第42周の世界記録</a> に保存。</p>');
+    if (pendingList) pendingList.innerHTML = '<li><strong>鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。</strong><br/>空高く響く銀の調べが、新しい物語の幕開けを告げるでしょう。<br/><small>created_at: 2026-08-24T06:48:08</small></li><li><strong>鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。</strong><br/>眠れる街の目覚めを告げる、清らかな響きが空を渡るでしょう。<br/><small>created_at: 2026-08-24T06:53:44</small></li><li><strong>鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。</strong><br/>空の色が変わる頃、時を刻む音が街を優しく包み込むでしょう。<br/><small>created_at: 2026-08-26T08:49:05</small></li>';
+    if (eventsCard && !document.getElementById('round43-world-link')) {
+      eventsCard.insertAdjacentHTML('afterbegin', '<p id="round43-world-link" class="callout"><strong>43周目：</strong> #378〜#379のworld_event、events 50件ローリング、pending、location、turns_since_eventの詳細は <a href="world/round43.html">第43周の世界記録</a> に保存。</p>');
     }
   };
 

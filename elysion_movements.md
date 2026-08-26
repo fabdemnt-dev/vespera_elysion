@@ -246,3 +246,11 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - Lupinus=`stellaris_hill`
 
 会話上の移動・到着・入店、world_event本文の地名、raw `characters[].location`、raw `movements`は互いに自動同一視しない。
+
+---
+
+# 43周目・継続対象2組（#378〜#379）
+
+- #378 ダフネ×アネモネ：会話上はパン屋の扉を開けて店内へ進んだが、raw movement追加なし。Daphne=cafe_fleur / Anemone=hanasaku_stationを維持。
+- #379 アイリス×ビオラ：会話上は駅の古い手帖を見に行く意図を立てたが、raw movement追加なし。Iris=Viola=cafe_fleurを維持。
+- #379終了時もmovements配列は8件。会話上の到着・移動意図をraw movementへ補完しない。

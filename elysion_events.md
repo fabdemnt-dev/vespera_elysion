@@ -1,12 +1,6 @@
 # 花咲く街エリュシオン 出来事
 
-## これから起こること（#377終了時点）
-
-### 駅のホームに、一冊の古い手帖が落ちている。
-
-忘れられた記憶の欠片が、鉄の道の上で静かに眠っている。
-
-- created_at：2026-08-24T06:25:10
+## これから起こること（#379終了時点）
 
 ### 鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。
 
@@ -20,11 +14,17 @@
 
 - created_at：2026-08-24T06:53:44
 
-> #370・#373・#374・#375・#376でpendingが1件ずつ完全一致消化され、その都度replacementが1件補充された。#377終了時もpendingは3件。未発生の予告をsceneやmovementには数えない。
+### 鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。
+
+空の色が変わる頃、時を刻む音が街を優しく包み込むでしょう。
+
+- created_at：2026-08-26T08:49:05
+
+> #379で古い手帖pendingが完全一致消化され、夕暮れの鐘がreplacementとして補充された。#379終了時もpendingは3件。未発生の予告をsceneやmovementには数えない。
 
 ## 起こったこと（初期一覧）
 
-初期一覧55件と、それ以降の追記80件を合わせ、#377終了時点のscene event累計135件を重複なく保持する。14〜42周目の追加30件はすべて完全rawの時刻・participants・locationと照合した。
+初期一覧55件と、それ以降の追記81件を合わせ、#379終了時点のscene event累計136件を重複なく保持する。14〜43周目の追加31件はすべて完全rawの時刻・participants・locationと照合した。
 
 ### 08/12 09:15
 
@@ -1642,3 +1642,30 @@
 - turns_since_event：9。
 - items / rumors / overheard：0 / 0 / 0。
 - world_event本文に場所が書かれていてもraw `event.location`とは独立して扱う。#373 / #375 / #376は本文にパン屋・駅が出てもlocation=`null`、#370 / #374はパン屋本文でもlocation=`cafe_fleur`。
+
+---
+
+# 43周目・継続対象2組限定（#378〜#379）
+
+- 会話：2件 / 新規scene：1件 / 累計：135→136
+- raw events：50件（scene 49 / moved 1） / movements：8件
+
+## #378 ダフネ × アネモネ
+
+- 新規scene world_eventなし。
+- turns_since_event：9→17。
+- pending / events / movementsは#377終了時から不変。
+
+## #379 アイリス × ビオラ
+
+- raw時刻：2026-08-26T08:48:53
+- text：`駅のホームに、一冊の古い手帖が落ちている。`
+- participants：`iris`, `viola`
+- raw location：`cafe_fleur`
+- 観察累計scene：135→136
+- 旧pendingを完全一致で消化。
+- replacement：`鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。`
+- replacement.created_at：2026-08-26T08:49:05
+- events50維持のため、2026-08-15T12:34:18 sceneを押し出し。
+- 最終events：scene49 / moved1。最古2026-08-15T12:37:06、最新2026-08-26T08:48:53。
+- turns_since_event：17→6。
