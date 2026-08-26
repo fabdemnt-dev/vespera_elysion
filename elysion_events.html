@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>出来事</title><link href="style.css" rel="stylesheet"/></head>
+<head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>出来事</title><link href="style.css" rel="stylesheet"/><script defer="" src="search.js"></script></head>
 <body><header class="sitehead"><div class="eyebrow">花咲く街エリュシオン</div><h1>出来事</h1><nav class="nav">
 <a href="index.html">ホーム</a>
 <a href="conversations.html">時系列会話</a>
@@ -12,7 +12,18 @@
 <a class="active" href="elysion_events.html">出来事</a>
 </nav></header>
 <main>
-<section class="intro events-intro"><h2>花咲く街エリュシオン 出来事</h2><p>world.htmlの最新表示だけでなく、#379終了時点までに観察したscene event全136件を、新しいものから通して読める年表です。</p><p class="callout">scene本文とraw locationは別情報として記録しています。時刻が保存されていない4件は推測せず、「時刻未記録」と表示します。</p></section>
+<section class="intro events-intro"><h2>花咲く街エリュシオン 出来事</h2><p>world.htmlの最新表示だけでなく、#379終了時点までに観察したscene event全136件を、新しいものから通して読める年表です。</p><p class="callout">scene本文とraw locationは別情報として記録しています。時刻が保存されていない4件は推測せず、「時刻未記録」と表示します。</p>
+<div class="record-filter" data-filter-scope="events">
+<div class="record-filter-head">
+<div><strong>🔎 出来事を検索・絞り込み</strong><div class="mini">シーン、参加者、location、日時から探せます。</div></div>
+<button class="filter-reset" type="button">条件をクリア</button>
+</div>
+<div class="filter-grid">
+<label class="filter-field filter-query"><span>キーワード</span><input autocomplete="off" data-filter="query" placeholder="例：鐘楼、アイリス、cafe_fleur" type="search"/></label>
+</div>
+<div aria-live="polite" class="filter-status"><span data-filter-count="">136 / 136件</span><span class="mini">#379終了時点までのscene event全136件を検索します。</span></div>
+</div>
+<div class="filter-empty" data-filter-empty="" hidden="">条件に合う出来事はありません。</div></section>
 <section class="card pending-section" id="pending"><h2>これから起こること（#379終了時点）</h2><div class="pending-grid"><article class="pending-card"><h3>鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。</h3><p>空高く響く銀の調べが、新しい物語の幕開けを告げるでしょう。</p><small>参加者：未設定<br/>location：未設定<br/>created_at：<time datetime="2026-08-24T06:48:08">2026-08-24T06:48:08</time></small></article>
 <article class="pending-card"><h3>鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。</h3><p>眠れる街の目覚めを告げる、清らかな響きが空を渡るでしょう。</p><small>参加者：未設定<br/>location：未設定<br/>created_at：<time datetime="2026-08-24T06:53:44">2026-08-24T06:53:44</time></small></article>
 <article class="pending-card"><h3>鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。</h3><p>空の色が変わる頃、時を刻む音が街を優しく包み込むでしょう。</p><small>参加者：未設定<br/>location：未設定<br/>created_at：<time datetime="2026-08-26T08:49:05">2026-08-26T08:49:05</time></small></article></div><p class="mini">#379終了時点もpendingは3件です。未発生の予告は、発生済みsceneやmovementには数えません。</p></section>
