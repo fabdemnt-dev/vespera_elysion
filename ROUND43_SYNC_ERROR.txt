@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/runner/work/vespera_elysion/vespera_elysion/tools/round43_sync.py", line 518, in <module>
+    if needle not in text: raise RuntimeError(f'validation failed {path}: {needle}')
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: validation failed elysion_observation/43_round43_378-379.md: turns_since_event：17→6
