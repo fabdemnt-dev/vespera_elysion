@@ -17,12 +17,25 @@ jobs:
         with:
           python-version: '3.x'
       - run: python -m pip install beautifulsoup4
-      - run: python tools/round43_sync.py
-      - name: Commit synced records
+      - name: Run sync or capture error
+        run: |
+          set +e
+          python tools/round43_sync.py > /tmp/round43-sync.log 2>&1
+          code=$?
+          if [ "$code" -ne 0 ]; then
+            git reset --hard HEAD
+            cp /tmp/round43-sync.log ROUND43_SYNC_ERROR.txt
+          fi
+          exit 0
+      - name: Commit synced records or error log
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --cached --quiet && exit 0
-          git commit -m "43周目 #378〜#379 を全レイヤー同期 [round43-sync]"
+          if [ -f ROUND43_SYNC_ERROR.txt ]; then
+            git commit -m "Capture round43 sync error [round43-sync]"
+          else
+            git commit -m "43周目 #378〜#379 を全レイヤー同期 [round43-sync]"
+          fi
           git push origin HEAD:codex/round43-378-379
