@@ -164,7 +164,7 @@
     const isPairIndex = scope === 'pair-index';
     const isPair = isPairRecords || isPairIndex;
     const isWorld = scope === 'world';
-    const selectors = { conversations: '.card.conversation[id^="conv-"]', notes: '.card[id^="note-"]', pairs: '.pairgroup[id^="pair-"]', 'pair-index': '.pair-index-entry', world: 'section.card[id]' };
+    const selectors = { conversations: '.card.conversation[id^="conv-"]', notes: '.card[id^="note-"]', pairs: '.pairgroup[id^="pair-"]', 'pair-index': '.pair-index-entry', world: 'section.card[id]', events: '.event-timeline .event-entry' };
     const cardSelector = selectors[scope];
     if (!cardSelector) return;
     const cards = Array.from(document.querySelectorAll(cardSelector));
