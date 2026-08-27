@@ -136,6 +136,7 @@ footer{text-align:center;color:var(--muted);font-size:.78rem;padding:22px 14px 4
 .edge-list li{break-inside:avoid;margin:0 0 10px}
 .settingdetail{border:1px solid var(--line);border-radius:14px;background:#fff;margin:10px 0;overflow:hidden}
 .settingdetail summary{cursor:pointer;padding:12px 14px;background:#fffaf7}
+.settingdetail-title{display:inline;font:inherit;margin:0}
 .settingdetail[open] summary{border-bottom:1px solid var(--line)}
 .detailbody{padding:12px 14px}
 .detailbody h4{margin:14px 0 4px;color:var(--accent)}
