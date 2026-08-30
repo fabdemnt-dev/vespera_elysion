@@ -254,3 +254,26 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - #378 ダフネ×アネモネ：会話上はパン屋の扉を開けて店内へ進んだが、raw movement追加なし。Daphne=cafe_fleur / Anemone=hanasaku_stationを維持。
 - #379 アイリス×ビオラ：会話上は駅の古い手帖を見に行く意図を立てたが、raw movement追加なし。Iris=Viola=cafe_fleurを維持。
 - #379終了時もmovements配列は8件。会話上の到着・移動意図をraw movementへ補完しない。
+
+---
+
+# 44周目・継続対象2組（#380〜#381）
+
+- #380 ダフネ×アネモネ：会話上はパン屋で「光をまとったパン」を選び、注文・包装を済ませて花眠りの庭へ向かう流れまで進行。「いよいよ花眠りの庭だね」「あそこに着いたら」と話すが、raw movement追加なし。Daphne=`cafe_fleur` / Anemone=`hanasaku_station`を維持。
+- #380の鐘scene2件はいずれもraw `event.location=null`。会話内では出発を祝福する鐘として取り込まれたが、住民の移動記録には数えない。
+- #381 アイリス×ビオラ：会話上は同席してシナモンパンを二人とも実食し、次はクッキーへ進む。駅の古い手帖を見に行く既存goalは残るが、駅へのmovement追加なし。Iris=Viola=`cafe_fleur`を維持。
+- #381終了時も`movements`配列は8件。44周目の新規movement・raw location変更は0件。
+
+### #381終了時の全住民raw location
+
+- Mimosa=`eternite_square`
+- Iris=`cafe_fleur`
+- Erica=`cafe_fleur`
+- Anemone=`hanasaku_station`
+- Daphne=`cafe_fleur`
+- Campanula=`time_bell_tower`
+- Nerine=`flower_slumber_garden`
+- Viola=`cafe_fleur`
+- Lupinus=`stellaris_hill`
+
+会話上の出発・移動意図・入店・同席・飲食と、raw `characters[].location` / `movements`を自動同一視しない。
