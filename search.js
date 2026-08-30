@@ -160,6 +160,29 @@
     }
   };
 
+  const syncEventsIndex = () => {
+    if (!/\/elysion_events\.html$/.test(location.pathname)) return;
+    const intro = document.querySelector('.events-intro p:not(.callout)');
+    if (intro) intro.textContent = 'world.htmlの最新表示だけでなく、#381終了時点までに観察したscene event全138件を、新しいものから通して読める年表です。';
+    const filterMini = document.querySelector('.record-filter[data-filter-scope="events"] .filter-status .mini');
+    if (filterMini) filterMini.textContent = '#381終了時点までのscene event全138件を検索します。';
+
+    const pending = document.getElementById('pending');
+    const pendingHeading = pending?.querySelector('h2');
+    if (pendingHeading) pendingHeading.textContent = 'これから起こること（#381終了時点）';
+    const pendingGrid = pending?.querySelector('.pending-grid');
+    if (pendingGrid) pendingGrid.innerHTML = '<article class="pending-card"><h3>鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。</h3><p>空の色が変わる頃、時を刻む音が街を優しく包み込むでしょう。</p><small>参加者：未設定<br/>location：未設定<br/>created_at：<time datetime="2026-08-26T08:49:05">2026-08-26T08:49:05</time></small></article><article class="pending-card"><h3>花眠りの庭のベンチに、柔らかな木漏れ日が降り注いでいる。</h3><p>光の雫が、静かな休息を待つ場所を優しく包み込むでしょう。</p><small>参加者：未設定<br/>location：未設定<br/>created_at：<time datetime="2026-08-27T07:49:48">2026-08-27T07:49:48</time></small></article><article class="pending-card"><h3>温室のガラス越しに、朝露に濡れた花々が輝いている。</h3><p>光の雫が、色とりどりの花びらを優しく飾り立てるでしょう。</p><small>参加者：未設定<br/>location：未設定<br/>created_at：<time datetime="2026-08-28T07:23:16">2026-08-28T07:23:16</time></small></article>';
+    const pendingMini = pending?.querySelector('.mini');
+    if (pendingMini) pendingMini.textContent = '#381終了時点もpendingは3件です。未発生の予告は、発生済みsceneやmovementには数えません。';
+
+    const eventHistoryMini = document.querySelector('#event-history .section-heading-row .mini');
+    if (eventHistoryMini) eventHistoryMini.textContent = 'scene event累計138件・新しい順';
+    const timeline = document.querySelector('#event-history .event-timeline');
+    if (timeline && !timeline.querySelector('[data-event-number="138"]')) {
+      timeline.insertAdjacentHTML('afterbegin', '<div class="event-entry" data-event-number="138"><time datetime="2026-08-28T07:23:06">2026-08-28T07:23:06</time><p>鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。</p><small>参加者：anemone、daphne<br/>location：<code>null</code></small></div><div class="event-entry" data-event-number="137"><time datetime="2026-08-27T07:49:30">2026-08-27T07:49:30</time><p>鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。</p><small>参加者：anemone、daphne<br/>location：<code>null</code></small></div>');
+    }
+  };
+
   const setup = panel => {
     const scope = panel.dataset.filterScope;
     const isConversation = scope === 'conversations';
@@ -216,6 +239,7 @@
   document.addEventListener('DOMContentLoaded', async () => {
     syncPairIndex();
     syncWorldIndex();
+    syncEventsIndex();
     await syncPairGroups();
     document.querySelectorAll('.record-filter[data-filter-scope]').forEach(setup);
   });
