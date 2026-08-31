@@ -1,18 +1,6 @@
 # 花咲く街エリュシオン 出来事
 
-## これから起こること（#379終了時点）
-
-### 鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。
-
-空高く響く銀の調べが、新しい物語の幕開けを告げるでしょう。
-
-- created_at：2026-08-24T06:48:08
-
-### 鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。
-
-眠れる街の目覚めを告げる、清らかな響きが空を渡るでしょう。
-
-- created_at：2026-08-24T06:53:44
+## これから起こること（#381終了時点）
 
 ### 鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。
 
@@ -20,11 +8,23 @@
 
 - created_at：2026-08-26T08:49:05
 
-> #379で古い手帖pendingが完全一致消化され、夕暮れの鐘がreplacementとして補充された。#379終了時もpendingは3件。未発生の予告をsceneやmovementには数えない。
+### 花眠りの庭のベンチに、柔らかな木漏れ日が降り注いでいる。
+
+光の雫が、静かな休息を待つ場所を優しく包み込むでしょう。
+
+- created_at：2026-08-27T07:49:48
+
+### 温室のガラス越しに、朝露に濡れた花々が輝いている。
+
+光の雫が、色とりどりの花びらを優しく飾り立てるでしょう。
+
+- created_at：2026-08-28T07:23:16
+
+> #380で朝の鐘pending2件が前半・後半に完全一致消化され、花眠りの庭の木漏れ日と温室の朝露の花がreplacementとして補充された。#381終了時もpendingは3件。未発生の予告をsceneやmovementには数えない。
 
 ## 起こったこと（初期一覧）
 
-初期一覧55件と、それ以降の追記81件を合わせ、#379終了時点のscene event累計136件を重複なく保持する。14〜43周目の追加31件はすべて完全rawの時刻・participants・locationと照合した。
+初期一覧55件と、それ以降の追記83件を合わせ、#381終了時点のscene event累計138件を重複なく保持する。14〜44周目の追加33件はすべて完全rawの時刻・participants・locationと照合した。
 
 ### 08/12 09:15
 
@@ -1669,3 +1669,52 @@
 - events50維持のため、2026-08-15T12:34:18 sceneを押し出し。
 - 最終events：scene49 / moved1。最古2026-08-15T12:37:06、最新2026-08-26T08:48:53。
 - turns_since_event：17→6。
+
+
+---
+
+# 44周目・継続対象2組限定（#380〜#381）
+
+- 会話：2件 / 新規scene：2件 / 累計：136→138
+- raw events：50件（scene 49 / moved 1） / movements：8件
+
+## #380 ダフネ × アネモネ
+
+### 前半
+
+- raw時刻：2026-08-27T07:49:30
+- text：`鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。`
+- participants：`anemone`, `daphne`
+- raw location：`null`
+- 観察累計scene：136→137
+- 旧pendingを完全一致で消化。
+- replacement：`花眠りの庭のベンチに、柔らかな木漏れ日が降り注いでいる。`
+- replacement.created_at：2026-08-27T07:49:48
+- 前半終了時turns_since_event：6
+
+### 後半
+
+- raw時刻：2026-08-28T07:23:06
+- text：`鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。`
+- participants：`anemone`, `daphne`
+- raw location：`null`
+- 観察累計scene：137→138
+- 旧pendingを完全一致で消化。
+- replacement：`温室のガラス越しに、朝露に濡れた花々が輝いている。`
+- replacement.created_at：2026-08-28T07:23:16
+- #380終了時turns_since_event：4
+
+## #381 アイリス × ビオラ
+
+- 新規scene world_eventなし。
+- turns_since_event：4→12。
+- pending / events / movementsは#380終了時から不変。
+
+## #381終了時のevents / pending / counter
+
+- raw events：50件（scene49 / moved1）。
+- pending：このファイル先頭の3件。
+- turns_since_event：12。
+- movements：8件。
+- items / rumors / overheard：0 / 0 / 0。
+- world_event本文に鐘楼が書かれていても、#380の2件はいずれもraw `event.location=null`。会話上の移動・到着とraw location / movementsは分けて扱う。
