@@ -1718,3 +1718,27 @@
 - movements：8件。
 - items / rumors / overheard：0 / 0 / 0。
 - world_event本文に鐘楼が書かれていても、#380の2件はいずれもraw `event.location=null`。会話上の移動・到着とraw location / movementsは分けて扱う。
+
+
+---
+
+# 45周目・継続対象2組限定（#382〜・進行中）
+
+- 記録済み会話：1件 / 新規scene：1件 / 累計：138→139
+- raw events：50件（scene 49 / moved 1） / movements：8件
+
+## #382 ダフネ × アネモネ
+
+- raw時刻：2026-08-31T04:46:35
+- text：`鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。`
+- participants：`anemone`, `daphne`
+- raw location：`null`
+- 観察累計scene：138→139
+- 旧pendingを完全一致で消化。
+- replacement：`温室の中で、色とりどりの花々が夕闇に溶け始める。`
+- replacement.created_at：2026-08-31T04:47:06
+- events50維持。保持内訳はscene49 / moved1。
+- turns_since_event：12→5。
+- pending：3件 / movements：8件。
+- items / rumors / overheard：0 / 0 / 0。
+- 会話上は花眠りの庭へ入ったが、raw locationはDaphne=cafe_fleur / Anemone=hanasaku_stationでmovement追加なし。
