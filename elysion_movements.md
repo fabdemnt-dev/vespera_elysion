@@ -277,3 +277,12 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - Lupinus=`stellaris_hill`
 
 会話上の出発・移動意図・入店・同席・飲食と、raw `characters[].location` / `movements`を自動同一視しない。
+
+
+## #385・#386後のユーザー提供raw照合（2026-09-01記録）
+
+- 情報源は本WORKチャットの提供JSON。Cloud Browser実測ではない。
+- 9人のlocationと72方向のaffinityは両スナップショット間で同一。Daphne↔Anemone、Iris↔Violaは100/100。
+- movementsは8件のまま。最新は2026-08-17T06:37:34のAnemone flower_slumber_garden→hanasaku_station。
+- #386の庭での着席・実食は会話上の描写。raw Daphne=cafe_fleur、Anemone=hanasaku_stationを変更しない。
+- 詳細：[45周目正本](elysion_observation/45_round45_382.md)。

@@ -169,3 +169,11 @@
 - #283〜#284合計ではAnemone→Nerine 98→100 / Nerine→Anemone 98→100。
 - Iris×Ericaの#278終了値は未確認。#279後は100 / 100。
 - 9・10周目の各会話ごとの途中変化など、復元できない値は推測しない。
+
+## #385・#386後のユーザー提供raw照合（2026-09-01記録）
+
+- 情報源は本WORKチャットの提供JSON。Cloud Browser実測ではない。
+- 9人のlocationと72方向のaffinityは両スナップショット間で同一。Daphne↔Anemone、Iris↔Violaは100/100。
+- movementsは8件のまま。最新は2026-08-17T06:37:34のAnemone flower_slumber_garden→hanasaku_station。
+- #386の庭での着席・実食は会話上の描写。raw Daphne=cafe_fleur、Anemone=hanasaku_stationを変更しない。
+- 詳細：[45周目正本](elysion_observation/45_round45_382.md)。
