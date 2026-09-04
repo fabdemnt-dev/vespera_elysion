@@ -1743,3 +1743,11 @@
 - #385：2026-08-31T10:39:56「温室のガラス越しに、朝露に濡れた花々が輝いている。」participants=iris,viola / location=cafe_fleur / tags=[scene]。累計140→141。
 - #384・#386は新規sceneなし。#386後events50（scene49/moved1）、movements8、turns_since_event4。最新pendingは冒頭参照。
 - #385後と#386後の提供rawでeventsは同一。本文の場所描写をraw locationとして扱わない。
+
+
+## 2026-09-03 追補（#388）
+- scene累計：141→142。
+- 2026-09-03T04:27:04 / 「温室の中で、色とりどりの花々が夕闇に溶け始める。」 / participants=iris,viola / location=cafe_fleur / tags=[scene]。
+- raw eventsは50件（scene49 / moved1）。上限押し出しにより最古のsceneが外れ、movedは保持。
+- 消化後のreplacement pending：「小路の街灯が、一つ、また一つと灯り始める。」created_at=2026-09-03T04:27:17。
+- #389後のturns_since_event=6。

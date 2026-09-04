@@ -286,3 +286,8 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - movementsは8件のまま。最新は2026-08-17T06:37:34のAnemone flower_slumber_garden→hanasaku_station。
 - #386の庭での着席・実食は会話上の描写。raw Daphne=cafe_fleur、Anemone=hanasaku_stationを変更しない。
 - 詳細：[45周目正本](elysion_observation/45_round45_382.md)。
+
+
+## 2026-09-04 照合（#389後）
+- raw movements=8、追加なし。9人のraw locationも不変。
+- 会話上の花眠りの庭への到着・着席、温室の描写はraw movement/locationへ逆輸入しない。
