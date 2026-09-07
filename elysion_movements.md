@@ -291,3 +291,7 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 ## 2026-09-04 照合（#389後）
 - raw movements=8、追加なし。9人のraw locationも不変。
 - 会話上の花眠りの庭への到着・着席、温室の描写はraw movement/locationへ逆輸入しない。
+
+## 2026-09-07 照合（#390後）
+- raw movements=8、追加なし。9人のraw locationも不変。
+- Iris×Violaが学院の温室へ向かう描写は会話上の進行であり、rawでは両者ともcafe_fleur。movement/locationへ逆輸入しない。

@@ -183,3 +183,8 @@
 - ユーザー提供rawで全72方向のaffinityが#386後から不変。
 - Daphne↔Anemone=100/100、Iris↔Viola=100/100。
 - 継続2組／終了34組。
+
+## 2026-09-07 照合（#390後）
+- Cloud Browserで全72方向のaffinityが#389後から不変であることを確認。
+- Iris↔Viola=100/100、Daphne↔Anemone=100/100。
+- 継続2組／終了34組。

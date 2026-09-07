@@ -1751,3 +1751,10 @@
 - raw eventsは50件（scene49 / moved1）。上限押し出しにより最古のsceneが外れ、movedは保持。
 - 消化後のreplacement pending：「小路の街灯が、一つ、また一つと灯り始める。」created_at=2026-09-03T04:27:17。
 - #389後のturns_since_event=6。
+
+## 2026-09-07 追補（#390）
+- scene累計：142→143。
+- 2026-09-07T06:59:08 / 「学院の温室に、見たこともない色の花が咲いた。」 / participants=iris,viola / location=cafe_fleur / tags=[scene]。
+- raw eventsは50件。上限押し出しでmovedが外れ、scene50 / moved0になった。最古eventは2026-08-19T03:42:50。
+- 消化後replacement pending：「小路の街灯が、夜の訪れとともに静かに灯り始めた。」created_at=2026-09-07T06:59:26。
+- #390後turns_since_event=3。

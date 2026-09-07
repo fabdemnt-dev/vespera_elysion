@@ -151,3 +151,9 @@
 - 最新提供raw：霧雨4℃、scene累計142、events50（scene49/moved1）、pending3、movements8、turns_since_event6。
 - 継続2組／終了34組。次番号候補#390。
 - event回避方針の次候補はIris×Viola 4ターン（保証なし）。生成操作はユーザーのみ。
+
+## 2026-09-07 / #390後
+- Iris×Viola 4ターン。冒頭に温室の未知色の花sceneが発生し、二人は学院の温室へ向かい始めた。会話は継続。
+- weather=2026-09-07・薄曇り・24℃、scene累計143、events50（scene50/moved0）、pending3、movements8、turns_since_event3、items/rumors/overheard=0。
+- raw location・全affinityは不変。Iris↔Viola=100/100。継続2組／終了34組。
+- 新聞は新号なし。9/4号の再表示。次番号候補#391。
