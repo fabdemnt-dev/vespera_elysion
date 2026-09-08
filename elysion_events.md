@@ -1758,3 +1758,11 @@
 - raw eventsは50件。上限押し出しでmovedが外れ、scene50 / moved0になった。最古eventは2026-08-19T03:42:50。
 - 消化後replacement pending：「小路の街灯が、夜の訪れとともに静かに灯り始めた。」created_at=2026-09-07T06:59:26。
 - #390後turns_since_event=3。
+
+
+## 2026-09-08 追補（#391）
+- 新規scene world_eventなし。scene累計143のまま。
+- raw eventsは50件（scene50 / moved0）、最古eventは2026-08-19T03:42:50のまま。
+- pending_eventsは3件とも#390後から不変。
+- turns_since_event：3→7。
+- movements=8、items / rumors / overheard=0。

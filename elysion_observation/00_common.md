@@ -157,3 +157,12 @@
 - weather=2026-09-07・薄曇り・24℃、scene累計143、events50（scene50/moved0）、pending3、movements8、turns_since_event3、items/rumors/overheard=0。
 - raw location・全affinityは不変。Iris↔Viola=100/100。継続2組／終了34組。
 - 新聞は新号なし。9/4号の再表示。次番号候補#391。
+
+
+## 2026-09-08 / #391後
+- Iris×Viola 4ターン。新規world_eventなし。二人は学院の温室へ続く小道を進み、未知色の花の光へ近づいたが、まだ到着・花の確認・別れはない。会話は継続。
+- weather=2026-09-08・夕立・24℃、scene累計143、events50（scene50/moved0）、pending3、movements8、turns_since_event7、items/rumors/overheard=0。
+- raw location・全affinityは不変。Iris↔Viola=100/100。継続2組／終了34組。
+- 2026年9月8日号新聞を新規確認。次番号候補#392。
+- turns_since_event=7のため次回event発生の可能性を注視するが、発生は保証しない。Daphne×Anemone側へのevent挿入を避ける方針ではIris×Violaが次候補。
+- 会話生成ボタンはユーザーのみが押す。
