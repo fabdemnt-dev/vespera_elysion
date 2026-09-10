@@ -1766,3 +1766,8 @@
 - pending_eventsは3件とも#390後から不変。
 - turns_since_event：3→7。
 - movements=8、items / rumors / overheard=0。
+
+## 2026-09-10 追補（#392）
+- 新規scene world_eventなし。scene累計143のまま。
+- raw eventsは50件（scene50 / moved0）、pending_eventsは3件とも#391後から不変。
+- turns_since_event：7→11。movements=8、items / rumors / overheard=0。

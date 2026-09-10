@@ -87,3 +87,8 @@
 - #391まで記録済み。
 - 最新状態と次回手順は45_round45_382.mdの「#391 Iris × Viola」を参照。
 - 最新新聞：newspapers/2026-09-08.md。
+
+## 2026-09-10 / #392後
+- Iris×Viola 4ターン。会話上は学院の温室内へ到着。新規event・raw movementなし。継続2組／終了34組。
+- 2026-09-10・小雨・20℃、scene143、events50（scene50/moved0）、pending3、movements8、turns_since_event11。
+- 新聞は9/8号のまま。次番号候補#393。

@@ -166,3 +166,9 @@
 - 2026年9月8日号新聞を新規確認。次番号候補#392。
 - turns_since_event=7のため次回event発生の可能性を注視するが、発生は保証しない。Daphne×Anemone側へのevent挿入を避ける方針ではIris×Violaが次候補。
 - 会話生成ボタンはユーザーのみが押す。
+
+## 2026-09-10 / #392後
+- Iris×Viola 4ターン。新規world_eventなし。会話上は学院の温室内へ到着したが、raw location / movementsは不変。会話は継続。
+- weather=2026-09-10・小雨・20℃、scene累計143、events50（scene50/moved0）、pending3、movements8、turns_since_event11、items/rumors/overheard=0。
+- raw location・全affinityは不変。新聞は新号なしで9/8号のまま。次番号候補#393。
+- 会話生成ボタンはユーザーのみが押す。

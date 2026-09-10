@@ -300,3 +300,7 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 ## 2026-09-08 照合（#391後）
 - raw movements=8、追加なし。9人のraw locationも不変。
 - Iris×Violaは会話上、学院の温室へ続く小道を進み光へ近づいたが、rawでは両者ともcafe_fleur。movement/locationへ逆輸入しない。
+
+## 2026-09-10 照合（#392後）
+- raw movements=8、追加なし。9人のraw locationも不変。
+- Iris×Violaは会話上、学院の温室内へ到着したが、rawでは両者ともcafe_fleur。movement/locationへ逆輸入しない。
