@@ -172,3 +172,9 @@
 - weather=2026-09-10・小雨・20℃、scene累計143、events50（scene50/moved0）、pending3、movements8、turns_since_event11、items/rumors/overheard=0。
 - raw location・全affinityは不変。新聞は新号なしで9/8号のまま。次番号候補#393。
 - 会話生成ボタンはユーザーのみが押す。
+
+## 2026-09-11 / #393後
+- Iris×Viola 4ターン。パンの香りsceneを短く取り込み、温室の未知色の花の物語へ戻った。別れはなく継続。
+- weather=2026-09-11・花曇り・7℃、scene累計144、events50（scene50/moved0）、pending3、movements8、turns_since_event2、items/rumors/overheard=0。
+- raw location・全affinityは不変。新聞は新号なしで9/8号のまま。次番号候補#394。
+- 会話生成ボタンはユーザーのみが押す。

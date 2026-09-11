@@ -1771,3 +1771,15 @@
 - 新規scene world_eventなし。scene累計143のまま。
 - raw eventsは50件（scene50 / moved0）、pending_eventsは3件とも#391後から不変。
 - turns_since_event：7→11。movements=8、items / rumors / overheard=0。
+
+## 2026-09-11 追補（#393）
+- raw時刻：2026-09-11T11:07:48
+- text：`小路のベーカリーから、香ばしい焼き立てパンの香りが漂い始めた。`
+- participants：`iris`, `viola`
+- raw location：`cafe_fleur`
+- 観察累計scene：143→144
+- 旧pendingを完全一致で消化。
+- replacement：`駅のホームに、一列の旅客列車が静かに滑り込んできた。`
+- replacement.created_at：2026-09-11T11:08:04
+- raw eventsは50件（scene50 / moved0）。最古eventは2026-08-20T12:36:57。
+- turns_since_event：11→2。movements=8、items / rumors / overheard=0。
