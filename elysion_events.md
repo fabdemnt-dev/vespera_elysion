@@ -1783,3 +1783,9 @@
 - replacement.created_at：2026-09-11T11:08:04
 - raw eventsは50件（scene50 / moved0）。最古eventは2026-08-20T12:36:57。
 - turns_since_event：11→2。movements=8、items / rumors / overheard=0。
+
+
+## 2026-09-12 追補（#394）
+- 新規scene world_eventなし。観察累計scene144のまま。
+- raw eventsは50件（scene50 / moved0）、pending_eventsは3件とも#393後から不変。
+- turns_since_event：2→6。movements=8、items / rumors / overheard=0。
