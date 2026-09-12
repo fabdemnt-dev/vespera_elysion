@@ -308,3 +308,8 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 ## 2026-09-11 照合（#393後）
 - raw movements=8、追加なし。9人のraw locationも不変。
 - Iris×Violaは会話上、学院の温室内で光とパンの香りを感じているが、rawでは両者ともcafe_fleur。movement/locationへ逆輸入しない。
+
+
+## 2026-09-12 照合（#394後）
+- raw movements=8、追加なし。9人のraw locationも不変。
+- Daphne×Anemoneは会話上、花眠りの庭で夜空を見上げているが、rawではDaphne=cafe_fleur、Anemone=hanasaku_station。movement/locationへ逆輸入しない。

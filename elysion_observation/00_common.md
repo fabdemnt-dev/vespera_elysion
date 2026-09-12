@@ -178,3 +178,12 @@
 - weather=2026-09-11・花曇り・7℃、scene累計144、events50（scene50/moved0）、pending3、movements8、turns_since_event2、items/rumors/overheard=0。
 - raw location・全affinityは不変。新聞は新号なしで9/8号のまま。次番号候補#394。
 - 会話生成ボタンはユーザーのみが押す。
+
+
+## 2026-09-12 / #394後
+- Daphne×Anemone 4ターン。新規world_eventなし。互いの愛情と未来を確かめたが、「物語はまだ始まったばかり」と先を広げ、別れ・退出・通話終了はない。継続。
+- eventをDaphne×Anemone側へ入れずに終了へ導く試みは継続中。今回はevent回避には成功したが、終了には未到達。
+- weather=2026-09-12・夕立・11℃、scene累計144、events50（scene50/moved0）、pending3、movements8、turns_since_event6、items/rumors/overheard=0。
+- raw location・全affinityは不変。2026年9月12日号新聞を新規確認。次番号候補#395。
+- turns_since_event=6のため、次回はeventをIris×Viola側へ寄せる方針でIris×Violaが候補。ただしevent発生は保証しない。
+- 会話生成ボタンはユーザーのみが押す。
