@@ -97,3 +97,9 @@
 - Iris×Viola 4ターン。パンの香りsceneを取り込んだ後、温室の光の物語へ戻った。会話は収束せず、継続2組／終了34組。
 - 2026-09-11・花曇り・7℃、scene144、events50（scene50/moved0）、pending3、movements8、turns_since_event2。
 - 新聞は9/8号のまま。次番号候補#394。
+
+
+## 2026-09-12 / #394後
+- Daphne×Anemone 4ターン。新規eventなし。未来の約束を広げ、会話は終了せず、継続2組／終了34組。
+- 2026-09-12・夕立・11℃、scene144、events50（scene50/moved0）、pending3、movements8、turns_since_event6。
+- 最新新聞：newspapers/2026-09-12.md。次番号候補#395。
