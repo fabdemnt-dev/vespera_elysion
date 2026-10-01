@@ -103,3 +103,11 @@
 - Daphne×Anemone 4ターン。新規eventなし。未来の約束を広げ、会話は終了せず、継続2組／終了34組。
 - 2026-09-12・夕立・11℃、scene144、events50（scene50/moved0）、pending3、movements8、turns_since_event6。
 - 最新新聞：newspapers/2026-09-12.md。次番号候補#395。
+
+
+## 2026-10-01 UTC／2026-10-02 JST / #395後
+- Iris×Viola 4ターンを保存履歴と照合して記録。小路の街灯sceneを温室の光の物語に取り込み、別れなく継続2組／終了34組。
+- weather=2026-10-01・夕立・8℃、scene累計145、events50（scene50/moved0）、pending3、movements8、turns_since_event1。
+- 45周目の記録は#382〜#395の14バッチ・新規64ターン。本番総数の再実測とは分ける。
+- 新聞は2026年9月12日号のまま（10月1日16:33 UTC確認）、新号なし。 次番号候補#396。
+- 最新正本：[45周目 #395](45_round45_382.md#observation-395)。

@@ -1789,3 +1789,16 @@
 - 新規scene world_eventなし。観察累計scene144のまま。
 - raw eventsは50件（scene50 / moved0）、pending_eventsは3件とも#393後から不変。
 - turns_since_event：2→6。movements=8、items / rumors / overheard=0。
+
+
+## 2026-10-01 UTC 追補（#395、JSTでは10月2日）
+- raw時刻：2026-10-01T16:14:17
+- text：`小路の街灯が、一つ、また一つと灯り始める。`
+- participants：`iris`, `viola` / raw location：`cafe_fleur` / tags：`scene`
+- 観察累計scene：144→145。旧pending（created_at=2026-09-03T04:27:17）を本文完全一致で消化。
+- replacement：`駅のホームに、夜の便の列車が静かに滑り込んできた。`
+- replacement.hint：鉄の道が運ぶのは、静寂と、誰かの帰る場所。
+- replacement.created_at：2026-10-01T16:14:27
+- pendingは3件。9/7の街灯と9/11の旅客列車を保持。全3件の本文は[正本](elysion_observation/45_round45_382.md#observation-395)参照。
+- raw eventsは50件（scene50 / moved0）。最古eventは2026-08-20T15:39:34。
+- turns_since_event：6→1。movements=8、items / rumors / overheard=0。

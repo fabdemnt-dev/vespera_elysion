@@ -210,3 +210,9 @@
 - ユーザー提供rawで全72方向のaffinityが#393後から不変。
 - Daphne↔Anemone=100/100、Iris↔Viola=100/100。
 - 継続2組／終了34組。
+
+
+## 2026-10-01 UTC／2026-10-02 JST 照合（#395後）
+- Cloud Browserで取得したrawを、既存の全36ペア72方向の実測一覧と照合。全方向で不変。
+- Iris↔Viola=100/100、Daphne↔Anemone=100/100。
+- Iris×Violaの最新会話は#395、Daphne×Anemoneは#394。継続2組／終了34組。

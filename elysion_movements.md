@@ -313,3 +313,9 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 ## 2026-09-12 照合（#394後）
 - raw movements=8、追加なし。9人のraw locationも不変。
 - Daphne×Anemoneは会話上、花眠りの庭で夜空を見上げているが、rawではDaphne=cafe_fleur、Anemone=hanasaku_station。movement/locationへ逆輸入しない。
+
+
+## 2026-10-01 UTC／2026-10-02 JST 照合（#395後）
+- raw movements=8、追加なし。全9人のraw locationも不変。最新movementは2026-08-17T06:37:34のAnemone flower_slumber_garden→hanasaku_station。
+- Iris×Violaは会話上、温室の光の奥へ進み外の街灯に気づいたが、rawでは両者ともcafe_fleur。新規sceneのraw locationもcafe_fleur。
+- 街灯や列車のscene / pendingを住民自身のmovementやlocationへ逆輸入しない。

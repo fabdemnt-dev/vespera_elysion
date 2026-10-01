@@ -187,3 +187,12 @@
 - raw location・全affinityは不変。2026年9月12日号新聞を新規確認。次番号候補#395。
 - turns_since_event=6のため、次回はeventをIris×Viola側へ寄せる方針でIris×Violaが候補。ただしevent発生は保証しない。
 - 会話生成ボタンはユーザーのみが押す。
+
+
+## 2026-10-01 UTC／2026-10-02 JST / #395後
+- Iris×Viola 4ターン。温室の光と新たに灯り始めた小路の街灯を、温かな夜の物語として受け止めた。別れ・退出・通話終了はなく継続。
+- weather=2026-10-01・夕立・8℃、scene累計145、events50（scene50/moved0）、pending3、movements8、turns_since_event1、items/rumors/overheard=0。
+- 全9人raw location・全72方向affinityは不変。Iris↔Viola、Daphne↔Anemoneは100/100。継続2組／終了34組。
+- 新聞は2026年9月12日号のまま（10月1日16:33 UTC確認）、新号なし。 次番号候補#396。
+- ペア別索引追補：アイリス×ビオラ [#395](45_round45_382.md#observation-395)（前回#393）。
+- 詳細と日時の区別は[45周目正本](45_round45_382.md#observation-395)参照。
