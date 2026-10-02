@@ -54,6 +54,7 @@
     if (number <= 377) return '42';
     if (number <= 379) return '43';
     if (number <= 381) return '44';
+    if (number <= 397) return '45';
     return 'supplement';
   };
 

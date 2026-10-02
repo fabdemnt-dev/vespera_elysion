@@ -319,3 +319,8 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - raw movements=8、追加なし。全9人のraw locationも不変。最新movementは2026-08-17T06:37:34のAnemone flower_slumber_garden→hanasaku_station。
 - Iris×Violaは会話上、温室の光の奥へ進み外の街灯に気づいたが、rawでは両者ともcafe_fleur。新規sceneのraw locationもcafe_fleur。
 - 街灯や列車のscene / pendingを住民自身のmovementやlocationへ逆輸入しない。
+
+## 2026-10-02 JST 照合（#396・#397後）
+- raw movements=8、追加なし。全9人のraw locationは開始前・#396後・#397最終rawで不変。
+- #396は温室の光の中心へ進み「物語の扉」が開こうとする会話描写。rawではIris=Viola=cafe_fleur。比喩的な扉や歩みを新しいmovement／到着にしない。
+- #397は肩を寄せ街灯の光を感じるが、rawではDaphne=cafe_fleur、Anemone=hanasaku_station、scene.location=null。同席の叙述やsceneを移動根拠へ補完しない。

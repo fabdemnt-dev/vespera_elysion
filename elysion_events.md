@@ -1,5 +1,15 @@
 # 花咲く街エリュシオン 出来事
 
+## 最新確認：2026-10-02 JST・#397後
+
+scene累計146、events50（scene50 / moved0）、pending3。#396はscene追加なし、#397で街灯sceneを1件追加。
+
+1. 駅のホームに、一列の旅客列車が静かに滑り込んできた。 / hint：鉄の道が奏でる響きとともに、新しい旅人が訪れる予感。 / created_at：2026-09-11T11:08:04
+2. 駅のホームに、夜の便の列車が静かに滑り込んできた。 / hint：鉄の道が運ぶのは、静寂と、誰かの帰る場所。 / created_at：2026-10-01T16:14:27
+3. 駅のホームに、夜行列車が静かに滑り込んできた。 / hint：鉄の道が、眠りにつく街へ新しい物語を運んでくる。 / created_at：2026-10-02T00:12:16
+
+以下の#386後pendingは当時の履歴で、現行pendingではありません。
+
 ## これから起こること（#386後・ユーザー提供raw）
 
 ### #386後 pending_events（3件・#385後から不変）
@@ -1802,3 +1812,11 @@
 - pendingは3件。9/7の街灯と9/11の旅客列車を保持。全3件の本文は[正本](elysion_observation/45_round45_382.md#observation-395)参照。
 - raw eventsは50件（scene50 / moved0）。最古eventは2026-08-20T15:39:34。
 - turns_since_event：6→1。movements=8、items / rumors / overheard=0。
+
+## 2026-10-02 JST 追補（#396・#397）
+- #396は新規sceneなし。turns_since_eventは1→5。
+- #397の2ターン目と3ターン目の間に、2026-10-02T00:12:09 UTC（09:12:09 JST）「小路の街灯が、夜の訪れとともに静かに灯り始めた。」を挿入。participants=anemone,daphne / location=null / tags=[scene]。
+- 観察累計scene145→146。raw events50（scene50 / moved0）を維持し、最古eventは2026-08-20T15:45:48へ移った。
+- 9/7の街灯pendingを本文完全一致で消化。replacementは「駅のホームに、夜行列車が静かに滑り込んできた。」created_at=2026-10-02T00:12:16。#395の街灯は別文面・別発生。
+- #397後turns_since_event=1。pending3、movements8、items / rumors / overheard=0。
+- 最新pending全文は[#397正本](elysion_observation/45_round45_382.md#observation-397)参照。

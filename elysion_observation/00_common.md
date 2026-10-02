@@ -3,6 +3,8 @@
 > [分割版目次](README.md) · [次：1周目（#1〜#36）](01_round1_001-036.md)
 <!-- ELYSION_SPLIT_NAV_END -->
 
+> **最新確認：2026-10-02 JST / #397後**。日次は保存4＋4ターンで完了、次番号候補#398。[最新記録](45_round45_382.md#observation-397) / [当日の試行記録](daily_runs/2026-10-02.md)。以下の古い日付・番号付き項目は当時の記録です。
+
 # 花咲く街エリュシオン 観察記録
 
 周別に分割した観察記録の**共通設定・現行状態・ペア別索引**です。
@@ -196,3 +198,13 @@
 - 新聞は2026年9月12日号のまま（10月1日16:33 UTC確認）、新号なし。 次番号候補#396。
 - ペア別索引追補：アイリス×ビオラ [#395](45_round45_382.md#observation-395)（前回#393）。
 - 詳細と日時の区別は[45周目正本](45_round45_382.md#observation-395)参照。
+
+## 2026-10-02 09時 JST 日次観察 / #397後
+- Iris×Viola #396とDaphne×Anemone #397を各4ターン、合計8ターン保存確認。2組目は通信切断後に遅延保存を確認し、再実行せず完了。当日分の重複実行なし。
+- #396は新規sceneなし。#397の2ターン目と3ターン目の間に街灯sceneを挿入し、累計scene145→146。
+- weather=2026-10-02・花曇り・20℃、events50（scene50/moved0）、pending3、movements8、turns_since_event1、items/rumors/overheard=0。
+- 全9人raw location・全72方向affinityは不変。継続2組は100/100。継続2組／終了34組。
+- 最新新聞：[2026年10月2日号](newspapers/2026-10-02.md)。45周目16バッチ・新規72ターン。次番号候補#398。
+- 詳細：[#396正本](45_round45_382.md#observation-396) / [#397正本](45_round45_382.md#observation-397) / [日次実行記録](daily_runs/2026-10-02.md)。
+
+- ペア別索引追補：Iris×Viola [#396](45_round45_382.md#observation-396)、Daphne×Anemone [#397](45_round45_382.md#observation-397)。
