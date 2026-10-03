@@ -1,0 +1,80 @@
+{
+  "as_of_jst": "2026-10-03",
+  "current_operational_round": 46,
+  "latest_record": 399,
+  "next_record_candidate": 400,
+  "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
+  "first_cycle_visited_ids": [
+    11,
+    32,
+    33,
+    34
+  ],
+  "visited_sources": {
+    "2026-10-02": {
+      "pair_ids": [
+        11,
+        32
+      ],
+      "records": [
+        396,
+        397
+      ]
+    },
+    "2026-10-03": {
+      "pair_ids": [
+        33,
+        34
+      ],
+      "records": [
+        398,
+        399
+      ]
+    }
+  },
+  "next_pair_ids": [
+    35,
+    36
+  ],
+  "remaining_first_cycle_order": [
+    35,
+    36,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "story_continued_ids": [
+    11,
+    32
+  ],
+  "story_ended_count": 34,
+  "system_ended_flags": "not exposed",
+  "same_day_completed": true
+}

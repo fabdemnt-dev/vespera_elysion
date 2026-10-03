@@ -3,7 +3,7 @@
 > [分割版目次](README.md) · [次：1周目（#1〜#36）](01_round1_001-036.md)
 <!-- ELYSION_SPLIT_NAV_END -->
 
-> **最新確認：2026-10-02 JST / #397後**。日次は保存4＋4ターンで完了、次番号候補#398。[最新記録](45_round45_382.md#observation-397) / [当日の試行記録](daily_runs/2026-10-02.md)。以下の古い日付・番号付き項目は当時の記録です。
+> **最新確認：2026-10-03 JST / #399後**。36組巡回へ移行しID33/34各4ターンを保存確認。次はID35/36、候補#400。[46周目正本](46_round46_398.md) / [日次記録](daily_runs/2026-10-03.md)。以下の日付付き過去記録は当時の状態です。
 
 # 花咲く街エリュシオン 観察記録
 
@@ -208,3 +208,11 @@
 - 詳細：[#396正本](45_round45_382.md#observation-396) / [#397正本](45_round45_382.md#observation-397) / [日次実行記録](daily_runs/2026-10-02.md)。
 
 - ペア別索引追補：Iris×Viola [#396](45_round45_382.md#observation-396)、Daphne×Anemone [#397](45_round45_382.md#observation-397)。
+
+## 2026-10-03 JST 日次観察 / #399後
+- 36組を既存のペアID順に巡回する運用へ切替。前回最後のID32の次から、今回はID33 Erica×NerineとID34 Lupinus×Violaを各4ターン。次回候補はID35 Lupinus×Anemone、ID36 Iris×Erica。終了扱いのペアも巡回対象に含める。 初回巡回の実施済みは10月2日ID11/32、10月3日ID33/34の計4/36組。訪問済み集合は[11,32,33,34]。35/36の次は1〜31を順に扱い、初回既済の11を飛ばす。全36組を一度ずつ扱うまで11/32を重複対象にしない。
+- #398は別れの反復、#399は旧汽笛から旅の空想へ拡張し途中で新しい旅客列車scene。両組とも明示再接続なし、終了判定を維持。
+- weather=2026-10-03・花曇り・6℃、scene累計147、events50（scene50 / moved0）、pending3、movements8、turns_since_event0、items / rumors / overheard=0。
+- Erica↔Nerineは82/83→88/88、Lupinus↔Violaは83/82→86/84。他68方向・全location・movements不変。
+- 継続2組／終了34組。生成再開という運用操作と、物語上の再接続・再合流は区別する。UIのバッチ終了表示は物語の別れやsystem ended flagの証拠ではなく、今回system ended flagは画面に公開されていない。
+- 最新新聞：[10月3日号](newspapers/2026-10-03.md)。[46周目正本](46_round46_398.md) / [日次記録](daily_runs/2026-10-03.md)。

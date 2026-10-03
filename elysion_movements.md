@@ -324,3 +324,8 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - raw movements=8、追加なし。全9人のraw locationは開始前・#396後・#397最終rawで不変。
 - #396は温室の光の中心へ進み「物語の扉」が開こうとする会話描写。rawではIris=Viola=cafe_fleur。比喩的な扉や歩みを新しいmovement／到着にしない。
 - #397は肩を寄せ街灯の光を感じるが、rawではDaphne=cafe_fleur、Anemone=hanasaku_station、scene.location=null。同席の叙述やsceneを移動根拠へ補完しない。
+
+## 2026-10-03 JST・#399後
+- 開始前、#398後、#399後の全9人raw locationとmovements8は不変。
+- Erica=cafe_fleur、Nerine=flower_slumber_garden、Lupinus=stellaris_hill、Viola=cafe_fleur。
+- #399の旅の空想や駅の列車音は移動・乗車・対面の根拠ではない。新sceneのraw location=nullを補完しない。

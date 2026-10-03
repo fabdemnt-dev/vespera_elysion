@@ -1,5 +1,7 @@
 # 花咲く街エリュシオン 出来事
 
+> 最新：2026-10-03 JST・#399後。scene累計147、raw events50、pending3、turns_since_event0。[新規記録・最新pending](elysion_observation/46_round46_398.md#observation-399)。以下の#397以前の状態は過去記録です。
+
 ## 最新確認：2026-10-02 JST・#397後
 
 scene累計146、events50（scene50 / moved0）、pending3。#396はscene追加なし、#397で街灯sceneを1件追加。
@@ -1820,3 +1822,14 @@ scene累計146、events50（scene50 / moved0）、pending3。#396はscene追加�
 - 9/7の街灯pendingを本文完全一致で消化。replacementは「駅のホームに、夜行列車が静かに滑り込んできた。」created_at=2026-10-02T00:12:16。#395の街灯は別文面・別発生。
 - #397後turns_since_event=1。pending3、movements8、items / rumors / overheard=0。
 - 最新pending全文は[#397正本](elysion_observation/45_round45_382.md#observation-397)参照。
+
+## 2026-10-03 JST・#398/#399
+- #398はscene0、turns_since_event1→5。
+- #399の3発言目と4発言目の間にscene1件：2026-10-03T00:17:12 UTC「駅のホームに、一列の旅客列車が静かに滑り込んできた。」participants=lupinus,viola / location=null。累計146→147。
+- 9/11の旅客列車pendingを完全一致消化し、10/3T00:17:15夜の鐘楼を補充。turns_since_event5→0。
+- events50のrolling最古1件が外れたが、過去観察原文は保持。
+
+### 最新pending（#399後）
+1. 駅のホームに、夜の便の列車が静かに滑り込んできた。 / hint：鉄の道が運ぶのは、静寂と、誰かの帰る場所。 / created_at：2026-10-01T16:14:27
+2. 駅のホームに、夜行列車が静かに滑り込んできた。 / hint：鉄の道が、眠りにつく街へ新しい物語を運んでくる。 / created_at：2026-10-02T00:12:16
+3. 鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。 / hint：高く澄んだ音が、静まり返った空に波紋を広げていくでしょう。 / created_at：2026-10-03T00:17:15

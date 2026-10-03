@@ -1,0 +1,50 @@
+{
+  "source": "Cloud Browserの可視raw・全差分照合とJSON.stringify fingerprint照合。前回最終rawに観測差分のみを適用したJSON。",
+  "fingerprint_algorithm": "FNV-1a64 over UTF-16 code units of JavaScript JSON.stringify; not a cryptographic digest",
+  "snapshots": {
+    "world-before.json": {
+      "length": 9352,
+      "fingerprint": "bf9bf13cd22255f2"
+    },
+    "world-after-398.json": {
+      "length": 9351,
+      "fingerprint": "e04b7578674ffb74"
+    },
+    "world-after.json": {
+      "length": 9352,
+      "fingerprint": "a7771d2761ae783e"
+    }
+  },
+  "saved_verification_utc": {
+    "398": "2026-10-03T00:15:46Z",
+    "399": "2026-10-03T00:20:58Z"
+  },
+  "generation_requests": 2,
+  "regenerations": 0,
+  "visible_utterance_counts": {
+    "398": [
+      24,
+      28
+    ],
+    "399": [
+      28,
+      32
+    ]
+  },
+  "observed_text_fingerprints": {
+    "erica-398.txt": {
+      "length_without_terminal_lf": 261,
+      "json_stringify_fnv": "6371f3d38df36243"
+    },
+    "lupinus-399.txt": {
+      "length_without_terminal_lf": 446,
+      "json_stringify_fnv": "80bbfa41cb7bf9c6"
+    },
+    "newspaper-2026-10-03.txt": {
+      "length_without_terminal_lf": 566,
+      "json_stringify_fnv": "df062824aadcc59e"
+    }
+  },
+  "delayed_state_recheck_utc": "2026-10-03T00:29:10Z",
+  "delayed_state_recheck_result": "Final visible world_state JSON exactly matched after399; saved final four utterances also unchanged."
+}
