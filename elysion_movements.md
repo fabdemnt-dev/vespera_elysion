@@ -329,3 +329,7 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - 開始前、#398後、#399後の全9人raw locationとmovements8は不変。
 - Erica=cafe_fleur、Nerine=flower_slumber_garden、Lupinus=stellaris_hill、Viola=cafe_fleur。
 - #399の旅の空想や駅の列車音は移動・乗車・対面の根拠ではない。新sceneのraw location=nullを補完しない。
+
+## 2026-10-04 JST 照合（#400〜#405）
+- 全9人raw location・movements8は開始前から不変。mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- 夢での待ち合わせ、遠い列車音、カフェ・木々の描写は会話文脈として記録。既存raw位置との差を勝手に同期せず、描写だけから移動成功・新しいmovementを認定しない。

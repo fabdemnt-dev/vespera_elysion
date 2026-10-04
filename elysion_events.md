@@ -2,15 +2,15 @@
 
 > 最新：2026-10-03 JST・#399後。scene累計147、raw events50、pending3、turns_since_event0。[新規記録・最新pending](elysion_observation/46_round46_398.md#observation-399)。以下の#397以前の状態は過去記録です。
 
-## 最新確認：2026-10-02 JST・#397後
+## 最新確認：2026-10-04 JST・#405後
 
-scene累計146、events50（scene50 / moved0）、pending3。#396はscene追加なし、#397で街灯sceneを1件追加。
+weather=2026-10-04・花曇り・-2℃、scene累計149、events50（scene50 / moved0）、pending3、movements8、turns_since_event0、items / rumors / overheard=0 / 0 / 0。
 
-1. 駅のホームに、一列の旅客列車が静かに滑り込んできた。 / hint：鉄の道が奏でる響きとともに、新しい旅人が訪れる予感。 / created_at：2026-09-11T11:08:04
-2. 駅のホームに、夜の便の列車が静かに滑り込んできた。 / hint：鉄の道が運ぶのは、静寂と、誰かの帰る場所。 / created_at：2026-10-01T16:14:27
-3. 駅のホームに、夜行列車が静かに滑り込んできた。 / hint：鉄の道が、眠りにつく街へ新しい物語を運んでくる。 / created_at：2026-10-02T00:12:16
+1. 鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。 / hint：高く澄んだ音が、静まり返った空に波紋を広げていくでしょう。 / created_at：2026-10-03T00:17:15
+2. 鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。 / hint：高く澄んだ響きが、眠りにつく街の時間を優しく刻むでしょう。 / created_at：2026-10-04T00:23:19
+3. 時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。 / hint：時を刻む響きが、静かな夜の幕開けを優しく告げるでしょう。 / created_at：2026-10-04T00:31:05
 
-以下の#386後pendingは当時の履歴で、現行pendingではありません。
+以下の日付付き過去記録は当時の状態です。
 
 ## これから起こること（#386後・ユーザー提供raw）
 
@@ -1833,3 +1833,13 @@ scene累計146、events50（scene50 / moved0）、pending3。#396はscene追加�
 1. 駅のホームに、夜の便の列車が静かに滑り込んできた。 / hint：鉄の道が運ぶのは、静寂と、誰かの帰る場所。 / created_at：2026-10-01T16:14:27
 2. 駅のホームに、夜行列車が静かに滑り込んできた。 / hint：鉄の道が、眠りにつく街へ新しい物語を運んでくる。 / created_at：2026-10-02T00:12:16
 3. 鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。 / hint：高く澄んだ音が、静まり返った空に波紋を広げていくでしょう。 / created_at：2026-10-03T00:17:15
+
+## 2026-10-04 JST 追補（#400〜#405）
+- weather=2026-10-04・花曇り・-2℃、scene累計149、events50（scene50 / moved0）、pending3、movements8、turns_since_event0、items / rumors / overheard=0 / 0 / 0。
+- #400：新規scene0件、scene累計147、turns_since_event 0→4。Lupinus→Anemone 83→87、Anemone→Lupinus 78→83。weatherは2026-10-03・花曇り・6℃から2026-10-04・花曇り・-2℃へ。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
+- #401：新規scene0件、scene累計147、turns_since_event 4→8。Iris→Erica 100→100、Erica→Iris 100→100。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
+- #402：新規scene1件、scene累計148、turns_since_event 8→1。Iris→Mimosa 82→84、Mimosa→Iris 85→87。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
+- #403：新規scene0件、scene累計148、turns_since_event 1→5。Anemone→Erica 85→85、Erica→Anemone 81→81。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
+- #404：新規scene0件、scene累計148、turns_since_event 5→9。Daphne→Campanula 72→76、Campanula→Daphne 73→78。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
+- #405：新規scene1件、scene累計149、turns_since_event 9→0。Viola→Nerine 100→100、Nerine→Viola 100→100。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
+- rolling窓から外れた旧eventは過去記録から削除しない。発火条件や固定間隔は今回の値から推定しない。

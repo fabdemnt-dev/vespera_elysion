@@ -1,0 +1,109 @@
+{
+  "source": "Cloud Browser可視raw全差分と保存履歴を照合。既存確定JSONへ観測差分のみを適用。",
+  "fingerprint_algorithm": "FNV-1a64 over UTF-16 code units of JavaScript JSON.stringify; not a cryptographic digest",
+  "snapshots": {
+    "world-before.json": {
+      "length": 9352,
+      "fingerprint": "a7771d2761ae783e"
+    },
+    "world-after-400.json": {
+      "length": 9353,
+      "fingerprint": "dbc288d5159a6d62"
+    },
+    "world-after-401.json": {
+      "length": 9353,
+      "fingerprint": "dbb588d5158fe306"
+    },
+    "world-after-402.json": {
+      "length": 9353,
+      "fingerprint": "5bf86dec75c6d6d0"
+    },
+    "world-after-403.json": {
+      "length": 9353,
+      "fingerprint": "5bea6dec75ba9974"
+    },
+    "world-after-404.json": {
+      "length": 9353,
+      "fingerprint": "8877ce62fba172b3"
+    },
+    "world-after-405.json": {
+      "length": 9358,
+      "fingerprint": "e2cdde3a5b214e63"
+    },
+    "world-after.json": {
+      "length": 9358,
+      "fingerprint": "e2cdde3a5b214e63"
+    }
+  },
+  "saved_verification_utc": {
+    "400": "2026-10-04T00:19:27Z",
+    "401": "2026-10-04T00:22:31Z",
+    "402": "2026-10-04T00:24:52Z",
+    "403": "2026-10-04T00:27:23Z",
+    "404": "2026-10-04T00:29:50Z",
+    "405": "2026-10-04T00:32:49Z"
+  },
+  "generation_requests": 6,
+  "regenerations": 0,
+  "visible_utterance_counts": {
+    "400": [
+      24,
+      28
+    ],
+    "401": [
+      60,
+      64
+    ],
+    "402": [
+      28,
+      32
+    ],
+    "403": [
+      28,
+      32
+    ],
+    "404": [
+      28,
+      32
+    ],
+    "405": [
+      60,
+      64
+    ]
+  },
+  "observed_text_fingerprints": {
+    "400.txt": {
+      "length_without_terminal_lf": 259,
+      "json_stringify_fnv": "a4062b4b6f8ce0f5"
+    },
+    "401.txt": {
+      "length_without_terminal_lf": 124,
+      "json_stringify_fnv": "0d5dcb88de24c701"
+    },
+    "402.txt": {
+      "length_without_terminal_lf": 327,
+      "json_stringify_fnv": "843e2ca846486465"
+    },
+    "403.txt": {
+      "length_without_terminal_lf": 47,
+      "json_stringify_fnv": "f6f821876e580f27"
+    },
+    "404.txt": {
+      "length_without_terminal_lf": 543,
+      "json_stringify_fnv": "6f19d42dad1b6835"
+    },
+    "405.txt": {
+      "length_without_terminal_lf": 340,
+      "json_stringify_fnv": "6c2a5f63d6c65c2a"
+    },
+    "newspaper-2026-10-04.txt": {
+      "length_without_terminal_lf": 533,
+      "json_stringify_fnv": "f0ac591a2c2b26ab"
+    }
+  },
+  "delayed_state_recheck": {
+    "utc": "2026-10-04T00:35:08Z",
+    "fingerprint": "e2cdde3a5b214e63",
+    "description": "09:35:08 JSTの遅延再確認でraw全体が#405後と完全一致（FNV e2cdde3a5b214e63）。追加変化なし。各組の新規4ターンはそれぞれ再読込後の保存履歴に存在し、全原文を照合済み。"
+  }
+}
