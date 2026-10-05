@@ -333,3 +333,12 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 ## 2026-10-04 JST 照合（#400〜#405）
 - 全9人raw location・movements8は開始前から不変。mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
 - 夢での待ち合わせ、遠い列車音、カフェ・木々の描写は会話文脈として記録。既存raw位置との差を勝手に同期せず、描写だけから移動成功・新しいmovementを認定しない。
+
+## 2026-10-05 JST 追補（#406〜#411）
+- weather=2026-10-05・曇り・24℃、scene累計151、events50（scene50 / moved0）、pending3、movements8、turns_since_event4、items / rumors / overheard=0 / 0 / 0。
+- 全9人raw location・movements8は開始前から不変。mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- 今回の花の話は旧sceneの継続であり、新規world_eventではない。Mimosaのraw位置はeternite_square、Lupinusはstellaris_hillのまま。温室の方を見たという語りを温室への移動へ置き換えない。
+- 歩いていく／光の渦へ溶け込むという物語上の歩行はあるが、目的地への明確な到着やraw movementはない。Iris=cafe_fleur、Campanula=time_bell_towerのまま。CampanulaがIrisを描写するnarrator/perspective bleedを保ち、本人の移動や新能力としない。
+- 別れ後に互いへの応答が続く既存の挙動で、今回も明示再接続・再合流はない。視線を落とす・頷くという括弧内描写を同席の確定根拠にせず、Viola=cafe_fleur、Campanula=time_bell_towerのraw位置と分ける。
+- Anemoneの駅の喧騒への一歩は、既存raw location=hanasaku_stationの範囲での描写。Campanulaはtime_bell_towerのままで、相手の背中・去った後の空気を描く視点には距離・同席の曖昧さがある。今回新しい移動成功やmovement未反映と断定しない。
+- location / movements / pendingを手動変更していない。会話の比喩・視点・歩行と、raw移動成功／失敗を分けて記録する。

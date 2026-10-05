@@ -1843,3 +1843,31 @@ weather=2026-10-04・花曇り・-2℃、scene累計149、events50（scene50 / m
 - #404：新規scene0件、scene累計148、turns_since_event 5→9。Daphne→Campanula 72→76、Campanula→Daphne 73→78。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
 - #405：新規scene1件、scene累計149、turns_since_event 9→0。Viola→Nerine 100→100、Nerine→Viola 100→100。全9人raw locationとmovementsは不変。 その他の変更は下のraw証跡に記載。
 - rolling窓から外れた旧eventは過去記録から削除しない。発火条件や固定間隔は今回の値から推定しない。
+
+## 2026-10-05 JST 追補（#406〜#411）
+- weather=2026-10-05・曇り・24℃、scene累計151、events50（scene50 / moved0）、pending3、movements8、turns_since_event4、items / rumors / overheard=0 / 0 / 0。
+- 全9人raw location・movements8は開始前から不変。mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- #406：新規scene0件、scene累計149、turns_since_event 0→4。Lupinus→Mimosa 83→88、Mimosa→Lupinus 84→88。weatherは2026-10-04・花曇り・-2℃から2026-10-05・曇り・24℃へ。全9人raw locationとmovementsは不変。
+- events・pendingは前段階と完全一致。
+- #407：新規scene1件、scene累計150、turns_since_event 4→0。Iris→Campanula 78→82、Campanula→Iris 78→82。全9人raw locationとmovementsは不変。
+- 新規scene：2026-10-05T00:29:39 UTC / 鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。 / participants=campanula,iris / location=null / tags=scene。
+- raw eventsのrolling窓から除外：2026-08-21T01:58:15『鐘楼の鐘が、夜の静寂を優しく刻むように鳴り響いた。』。過去の観察正本・年表からは削除しない。
+- 消化pending：2026-10-03T00:17:15『鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。』。scene本文との完全一致を確認。
+- 補充pending：2026-10-05T00:29:42『湖のほとりで、水面に映る月が静かに揺れている。』 / hint：銀色の鏡が、夜の静寂を優しく波立たせるでしょう。
+- #408：新規scene0件、scene累計150、turns_since_event 0→4。Erica→Daphne 86→92、Daphne→Erica 92→95。全9人raw locationとmovementsは不変。
+- events・pendingは前段階と完全一致。
+- #409：新規scene0件、scene累計150、turns_since_event 4→8。Anemone→Nerine 100→100、Nerine→Anemone 100→100。全9人raw locationとmovementsは不変。
+- events・pendingは前段階と完全一致。
+- #410：新規scene1件、scene累計151、turns_since_event 8→0。Viola→Campanula 95→98、Campanula→Viola 96→98。全9人raw locationとmovementsは不変。
+- 新規scene：2026-10-05T00:34:25 UTC / 鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。 / participants=campanula,viola / location=null / tags=scene。
+- raw eventsのrolling窓から除外：2026-08-21T05:15:26『学院の中庭に、夜露に濡れた白い花が咲き揃った。』。過去の観察正本・年表からは削除しない。
+- 消化pending：2026-10-04T00:23:19『鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。』。scene本文との完全一致を確認。
+- 補充pending：2026-10-05T00:34:27『温室のガラス越しに、月明かりが植物を静かに照らした。』 / hint：銀色の光が、眠りにつく花々の夢を優しく包み込むでしょう。
+- #411：新規scene0件、scene累計151、turns_since_event 0→4。Campanula→Anemone 92→96、Anemone→Campanula 92→96。全9人raw locationとmovementsは不変。
+- events・pendingは前段階と完全一致。
+
+### 最新pending（#411後）
+1. 時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。 / hint：時を刻む響きが、静かな夜の幕開けを優しく告げるでしょう。 / created_at：2026-10-04T00:31:05
+2. 湖のほとりで、水面に映る月が静かに揺れている。 / hint：銀色の鏡が、夜の静寂を優しく波立たせるでしょう。 / created_at：2026-10-05T00:29:42
+3. 温室のガラス越しに、月明かりが植物を静かに照らした。 / hint：銀色の光が、眠りにつく花々の夢を優しく包み込むでしょう。 / created_at：2026-10-05T00:34:27
+- rolling窓から外れた旧eventは過去記録から削除しない。発火条件や固定間隔は今回の値から推定しない。

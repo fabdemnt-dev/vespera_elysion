@@ -1,0 +1,304 @@
+{
+  "source": "Cloud Browser可視raw全差分と再読込後の保存履歴を照合。既存確定JSONへ観測差分のみを適用。",
+  "fingerprint_algorithm": "FNV-1a64 over UTF-16 code units of JavaScript JSON.stringify; not a cryptographic digest",
+  "fingerprint_length_definition": "UTF-16 code units in JSON.stringify(value), including JSON quotes/escapes for strings; no terminal LF in text input",
+  "baseline_github_commit": "57a435ea51c0c8a22a55c3b80d813a474c550f26",
+  "baseline_github_tree": "7f155e50bab5fae84abe3797e4cdc91e59f3f852",
+  "baseline_tracked_files": 240,
+  "generation_requests": 6,
+  "regenerations": 0,
+  "browser_evidence": {
+    "observedAt": "2026-10-05T00:39:19.441Z",
+    "verification": {
+      "406": {
+        "requestedAt": "2026-10-05T00:27:20.230Z",
+        "completedObservedAt": "2026-10-05T00:27:50.690Z",
+        "savedAt": "2026-10-05T00:28:41.583Z",
+        "newTextFingerprint": {
+          "length": 552,
+          "fnv64": "641ee7f171d33d1d"
+        },
+        "oldNewExact": true,
+        "newTurns": 4,
+        "oldCount": 32,
+        "newCount": 36
+      },
+      "407": {
+        "requestedAt": "2026-10-05T00:29:31.305Z",
+        "completedObservedAt": "2026-10-05T00:30:07.236Z",
+        "savedAt": "2026-10-05T00:30:25.837Z",
+        "newTextFingerprint": {
+          "length": 675,
+          "fnv64": "78d36607f577136d"
+        },
+        "oldNewExact": true,
+        "newTurns": 4,
+        "oldCount": 32,
+        "newCount": 36
+      },
+      "408": {
+        "requestedAt": "2026-10-05T00:31:04.037Z",
+        "completedObservedAt": "2026-10-05T00:31:50.015Z",
+        "savedAt": "2026-10-05T00:32:19.718Z",
+        "newTextFingerprint": {
+          "length": 390,
+          "fnv64": "b96a1d292eca9e7e"
+        },
+        "oldNewExact": true,
+        "newTurns": 4,
+        "oldCount": 32,
+        "newCount": 36
+      },
+      "409": {
+        "requestedAt": "2026-10-05T00:32:49.137Z",
+        "completedObservedAt": "2026-10-05T00:33:33.530Z",
+        "savedAt": "2026-10-05T00:33:49.710Z",
+        "newTextFingerprint": {
+          "length": 458,
+          "fnv64": "1ef1c3f03b522ab3"
+        },
+        "oldNewExact": true,
+        "newTurns": 4,
+        "oldCount": 85,
+        "newCount": 89
+      },
+      "410": {
+        "requestedAt": "2026-10-05T00:34:19.982Z",
+        "completedObservedAt": "2026-10-05T00:34:51.439Z",
+        "savedAt": "2026-10-05T00:35:05.640Z",
+        "newTextFingerprint": {
+          "length": 545,
+          "fnv64": "71b8d79cde48e30e"
+        },
+        "oldNewExact": true,
+        "newTurns": 4,
+        "oldCount": 37,
+        "newCount": 41
+      },
+      "411": {
+        "requestedAt": "2026-10-05T00:37:07.719Z",
+        "completedObservedAt": "2026-10-05T00:38:21.937Z",
+        "savedAt": "2026-10-05T00:38:42.178Z",
+        "newTextFingerprint": {
+          "length": 501,
+          "fnv64": "7135819912d7caf9"
+        },
+        "oldNewExact": true,
+        "newTurns": 4,
+        "oldCount": 37,
+        "newCount": 41
+      }
+    },
+    "worldFingerprints": {
+      "406": {
+        "length": 9357,
+        "fnv64": "8b1b48a29643411"
+      },
+      "407": {
+        "length": 9352,
+        "fnv64": "14368e125d949a46"
+      },
+      "408": {
+        "length": 9352,
+        "fnv64": "7d36b9b7df11a87e"
+      },
+      "409": {
+        "length": 9352,
+        "fnv64": "7d0eb9b7def0566a"
+      },
+      "410": {
+        "length": 9355,
+        "fnv64": "9e060f1fe4019962"
+      },
+      "411": {
+        "length": 9355,
+        "fnv64": "2bfd31b5a70a667e"
+      },
+      "before": {
+        "length": 9358,
+        "fnv64": "e2cdde3a5b214e63"
+      }
+    }
+  },
+  "new_utterance_display_order": {
+    "406": {
+      "speakers": [
+        "Lupinus",
+        "Mimosa",
+        "Lupinus",
+        "Mimosa"
+      ],
+      "internal_turn_ids": "not exposed"
+    },
+    "407": {
+      "speakers": [
+        "Iris",
+        "Campanula",
+        "Iris",
+        "Campanula"
+      ],
+      "internal_turn_ids": "not exposed"
+    },
+    "408": {
+      "speakers": [
+        "Erica",
+        "Daphne",
+        "Erica",
+        "Daphne"
+      ],
+      "internal_turn_ids": "not exposed"
+    },
+    "409": {
+      "speakers": [
+        "Nerine",
+        "Anemone",
+        "Nerine",
+        "Anemone"
+      ],
+      "internal_turn_ids": "not exposed"
+    },
+    "410": {
+      "speakers": [
+        "Campanula",
+        "Viola",
+        "Campanula",
+        "Viola"
+      ],
+      "internal_turn_ids": "not exposed"
+    },
+    "411": {
+      "speakers": [
+        "Anemone",
+        "Campanula",
+        "Anemone",
+        "Campanula"
+      ],
+      "internal_turn_ids": "not exposed"
+    }
+  },
+  "text_fingerprints": {
+    "406.txt": {
+      "length": 552,
+      "fnv64": "641ee7f171d33d1d"
+    },
+    "407.txt": {
+      "length": 675,
+      "fnv64": "78d36607f577136d"
+    },
+    "408.txt": {
+      "length": 390,
+      "fnv64": "b96a1d292eca9e7e"
+    },
+    "409.txt": {
+      "length": 458,
+      "fnv64": "1ef1c3f03b522ab3"
+    },
+    "410.txt": {
+      "length": 545,
+      "fnv64": "71b8d79cde48e30e"
+    },
+    "411.txt": {
+      "length": 501,
+      "fnv64": "7135819912d7caf9"
+    }
+  },
+  "newspaper_fingerprint": {
+    "length": 556,
+    "fnv64": "adffbcfebb83e46"
+  },
+  "snapshots": {
+    "world-after-406.json": {
+      "length": 9357,
+      "fnv64": "8b1b48a29643411"
+    },
+    "world-after-407.json": {
+      "length": 9352,
+      "fnv64": "14368e125d949a46"
+    },
+    "world-after-408.json": {
+      "length": 9352,
+      "fnv64": "7d36b9b7df11a87e"
+    },
+    "world-after-409.json": {
+      "length": 9352,
+      "fnv64": "7d0eb9b7def0566a"
+    },
+    "world-after-410.json": {
+      "length": 9355,
+      "fnv64": "9e060f1fe4019962"
+    },
+    "world-after-411.json": {
+      "length": 9355,
+      "fnv64": "2bfd31b5a70a667e"
+    },
+    "world-after.json": {
+      "length": 9355,
+      "fnv64": "2bfd31b5a70a667e"
+    },
+    "world-before.json": {
+      "length": 9358,
+      "fnv64": "e2cdde3a5b214e63"
+    }
+  },
+  "final_browser_verification": {
+    "delayed_state_recheck": {
+      "utc": "2026-10-05T00:41:32.807Z",
+      "exact_equal_to_world_after_411": true,
+      "length": 9355,
+      "fnv64": "2bfd31b5a70a667e",
+      "additional_changes": false
+    },
+    "newspaper": {
+      "before_utc": "2026-10-05T00:25:10Z",
+      "before_issue": "2026-10-04",
+      "after_utc": "2026-10-05T00:39:19.441Z",
+      "after_issue": "2026-10-05",
+      "delayed_recheck_equal": true,
+      "json_stringify_length": 556,
+      "json_stringify_fnv64": "adffbcfebb83e46"
+    },
+    "execution_edge_cases": {
+      "406": "After generation began, temporary mixing of the previously selected pair history was recognized. Before generation, the selected two characters and target old #238 tail had already been verified. After reload, the single correct target saved history exactly equaled the entire old history plus four new turns.",
+      "411": "First click did not execute. Start visible, stop absent, and exact old history verified. One authorized retry started the sole generation request at 00:37:07.719 UTC. No regeneration or duplicate execution.",
+      "411_pair_order": "UI Anemone x Campanula is the same unordered pair as stable ID10 Campanula x Anemone. First new speaker is Anemone."
+    },
+    "activation": "After the owner signed in, dot activated the existing elysion universe at the owner’s explicit instruction.",
+    "completion_timestamps": "completedObservedAt records when the completed display was observed; it is not the exact generation completion time."
+  },
+  "archive_validation": {
+    "checks_passed": [
+      "All 15 source transcript/newspaper/world files copied byte-exact",
+      "All pre-existing conversation, pair transcript, note and world-state cards byte-exact",
+      "All prior round46 Markdown observations and dated closing snapshot byte-exact",
+      "All six new originals exact in Markdown and both HTML transcripts; four turns each; correct pair IDs",
+      "All closed-round Markdown/archive files unchanged; dated ledgers only appended",
+      "Raw deltas: scene +2; 10 changed affinity directions; all nine locations/movements unchanged; items/rumors/overheard empty",
+      "Rotation: 16 unique of 36 visited, 20 remaining, next IDs12–17 / record412",
+      "Affinity ledger all 36 pairs / 72 values and latest-record classification checked",
+      "151 event entries unique/sequential; expandable event source equals current Markdown",
+      "Full-site HTML links/IDs: no newly broken local links or duplicate IDs; 0 existing link issues / 0 existing duplicate IDs",
+      "No newly broken Markdown target paths",
+      "git diff --check and node --check search.js passed"
+    ],
+    "local_html_broken_links": 0,
+    "local_html_duplicate_ids": 0,
+    "visual_browser_qa": "not run in local archive worker",
+    "source_sha256": {
+      "406.txt": "be5b8c9ee35678afa359d33f76e29c7ce9938153ee3d5a073112aba030e47d27",
+      "407.txt": "aa57f47b0058bc42f9fac2ec666661c01c077aab005322521aea67433b351582",
+      "408.txt": "0f2a67595abb82ddaaf4441b7cef78474fb26261842ffbb3c16330b1a3d44c12",
+      "409.txt": "f72501626c3bac3452f943c57507eea41932d1c05dd8afc78adf1c587cfa5778",
+      "410.txt": "a38c8fafe9acaebe10c79103d12be6d4e353d994d2330170a2cfad31d6ff4f9c",
+      "411.txt": "93aeb0dabe64a616114144d88ddc12629587028f0c40fc6c6dc4bf10464850d8",
+      "newspaper-2026-10-05.txt": "3b64e6b74cc0e5e502f5435bfe44e27f98f51aa55680c8ef17722de4f1770962",
+      "world-after-406.json": "34aee2dd042a93262739584a7702c5f12f429a1095d6016b4792e2288c8193b9",
+      "world-after-407.json": "c7381289a3b28aced4cad73908b9220b4c008f6e61ecedd7178f777c196100c1",
+      "world-after-408.json": "a20e7d491b83106712c98cfd7452d6c2c0f5677a05a5ff57ed02c7700427be9c",
+      "world-after-409.json": "32b2cbf4fd6d3e0b5efe17242d4629528f9076d76d8e69c554347f28a930f232",
+      "world-after-410.json": "123aede9953f96d803a4767e412a1b4daf9c352e980d3c83ee78ac21462ce7e2",
+      "world-after-411.json": "deedad2bac9b505e2ce36efefa3002746760ef5eb802d2a0b78b0ad32af79af6",
+      "world-after.json": "deedad2bac9b505e2ce36efefa3002746760ef5eb802d2a0b78b0ad32af79af6",
+      "world-before.json": "1d91ab0d9330075065d13af2d55817069b339af065bbbc41b267d7b0cc47c0db"
+    }
+  }
+}
