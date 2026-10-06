@@ -342,3 +342,14 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - 別れ後に互いへの応答が続く既存の挙動で、今回も明示再接続・再合流はない。視線を落とす・頷くという括弧内描写を同席の確定根拠にせず、Viola=cafe_fleur、Campanula=time_bell_towerのraw位置と分ける。
 - Anemoneの駅の喧騒への一歩は、既存raw location=hanasaku_stationの範囲での描写。Campanulaはtime_bell_towerのままで、相手の背中・去った後の空気を描く視点には距離・同席の曖昧さがある。今回新しい移動成功やmovement未反映と断定しない。
 - location / movements / pendingを手動変更していない。会話の比喩・視点・歩行と、raw移動成功／失敗を分けて記録する。
+
+## 2026-10-06 JST 追補（#412〜#417）
+- weather=2026-10-06・薄曇り・27℃、scene累計154、events50（scene50 / moved0）、pending3、movements8、turns_since_event3、items / rumors / overheard=0 / 0 / 0。
+- 全9人raw location・movements8は開始前から不変。mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- #412の図書館での読書・席を立つ描写とDaphne=cafe_fleurの差は既存の文脈を保持。新しい移動成功や失敗と推定しない。
+- #413は明日への祝福と別れの反復。出発・到着の描写なし。全location・movements不変。
+- #414でEricaが湖のほとりへの到着を明示し、Mimosa名義叙述はシルヴェーヌ湖と呼ぶ。Erica=cafe_fleurとmovements8は不変で、会話上の到着とraw未反映の差を記録。Mimosa本人の到着や移動ツールの実行・失敗は推定しない。
+- #415の繋いだ手・二人で眠る描写は旧#321から継続。Iris=cafe_fleurとNerine=flower_slumber_gardenは不変。同席・移動へ補完しない。
+- #416は純粋な別れの反復。新しい歩行・到着・同席の描写はなく、location・movements不変。
+- #417の温室・月明かりはsceneへの想像と伝聞を含む応答。Viola=cafe_fleur、Mimosa=eternite_squareのまま。温室への移動・同席を認定しない。
+- location / movements / pendingを手動変更していない。会話上の描写とraw移動成功／失敗を分けて記録する。

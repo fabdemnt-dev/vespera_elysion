@@ -1,6 +1,6 @@
 # 花咲く街エリュシオン 出来事
 
-> 最新：2026-10-03 JST・#399後。scene累計147、raw events50、pending3、turns_since_event0。[新規記録・最新pending](elysion_observation/46_round46_398.md#observation-399)。以下の#397以前の状態は過去記録です。
+> 最新：2026-10-06 JST・#417後。scene累計154、raw events50、pending3、turns_since_event3。[新規記録・最新pending](elysion_observation/46_round46_398.md#observation-417)。以下の日付付き過去記録は当時の状態です。
 
 ## 最新確認：2026-10-04 JST・#405後
 
@@ -1871,3 +1871,34 @@ weather=2026-10-04・花曇り・-2℃、scene累計149、events50（scene50 / m
 2. 湖のほとりで、水面に映る月が静かに揺れている。 / hint：銀色の鏡が、夜の静寂を優しく波立たせるでしょう。 / created_at：2026-10-05T00:29:42
 3. 温室のガラス越しに、月明かりが植物を静かに照らした。 / hint：銀色の光が、眠りにつく花々の夢を優しく包み込むでしょう。 / created_at：2026-10-05T00:34:27
 - rolling窓から外れた旧eventは過去記録から削除しない。発火条件や固定間隔は今回の値から推定しない。
+
+## 2026-10-06 JST 追補（#412〜#417）
+- weather=2026-10-06・薄曇り・27℃、scene累計154、events50（scene50 / moved0）、pending3、movements8、turns_since_event3、items / rumors / overheard=0 / 0 / 0。
+- 全9人raw location・movements8は開始前から不変。mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- #412：新規scene1件、scene累計152、turns_since_event 4→0。Daphne→Mimosa 89→94、Mimosa→Daphne 89→93。全9人raw locationとmovementsは不変。weatherは2026-10-05・曇り・24℃から2026-10-06・薄曇り・27℃へ。
+- 新規scene：2026-10-06T01:30:52 UTC / 時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。 / participants=daphne,mimosa / location=null / tags=scene。
+- raw eventsのrolling窓から除外：2026-08-21T05:18:43『街の小路にあるベーカリーから、焼き立ての香りが漂ってきた。』。過去の観察正本・年表からは削除しない。
+- 消化pending：2026-10-04T00:31:05『時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。』。scene本文との完全一致を確認。
+- 補充pending：2026-10-06T01:30:56『温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。』 / hint：静かな闇の中で、白く輝く蕾が甘い吐息をこぼすでしょう。
+- #413：新規scene0件、scene累計152、turns_since_event 0→4。Nerine→Lupinus 87→92、Lupinus→Nerine 82→87。全9人raw locationとmovementsは不変。
+- events・pendingは前段階と完全一致。
+- #414：新規scene1件、scene累計153、turns_since_event 4→1。Erica→Mimosa 79→85、Mimosa→Erica 83→88。全9人raw locationとmovementsは不変。
+- 新規scene：2026-10-06T01:34:23 UTC / 湖のほとりで、水面に映る月が静かに揺れている。 / participants=erica,mimosa / location=null / tags=scene。
+- raw eventsのrolling窓から除外：2026-08-21T05:44:54『小路のパン屋から、焼き立ての香ばしい香りが漂ってきた。』。過去の観察正本・年表からは削除しない。
+- 消化pending：2026-10-05T00:29:42『湖のほとりで、水面に映る月が静かに揺れている。』。scene本文との完全一致を確認。
+- 補充pending：2026-10-06T01:34:30『温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。』 / hint：閉ざされた庭に、夜の吐息がそっと入り込む予感。
+- #415：新規scene0件、scene累計153、turns_since_event 1→5。Iris→Nerine 100→100、Nerine→Iris 100→100。全9人raw locationとmovementsは不変。
+- events・pendingは前段階と完全一致。
+- #416：新規scene0件、scene累計153、turns_since_event 5→9。Daphne→Lupinus 79→82、Lupinus→Daphne 82→84。全9人raw locationとmovementsは不変。
+- events・pendingは前段階と完全一致。
+- #417：新規scene1件、scene累計154、turns_since_event 9→3。Viola→Mimosa 92→96、Mimosa→Viola 89→94。全9人raw locationとmovementsは不変。
+- 新規scene：2026-10-06T01:39:03 UTC / 温室のガラス越しに、月明かりが植物を静かに照らした。 / participants=mimosa,viola / location=null / tags=scene。
+- raw eventsのrolling窓から除外：2026-08-21T05:46:59『小道のカフェのテラスで、新しい香りのハーブティーが供された。』。過去の観察正本・年表からは削除しない。
+- 消化pending：2026-10-05T00:34:27『温室のガラス越しに、月明かりが植物を静かに照らした。』。scene本文との完全一致を確認。
+- 補充pending：2026-10-06T01:39:10『小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。』 / hint：夜の静寂を、香ばしい温もりが優しく包み込みます。
+
+### 最新pending（#417後）
+1. 温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。 / hint：静かな闇の中で、白く輝く蕾が甘い吐息をこぼすでしょう。 / created_at：2026-10-06T01:30:56
+2. 温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。 / hint：閉ざされた庭に、夜の吐息がそっと入り込む予感。 / created_at：2026-10-06T01:34:30
+3. 小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。 / hint：夜の静寂を、香ばしい温もりが優しく包み込みます。 / created_at：2026-10-06T01:39:10
+- rolling窓から外れた旧eventは過去記録から削除しない。発火条件・固定間隔を今回の値から推定しない。
