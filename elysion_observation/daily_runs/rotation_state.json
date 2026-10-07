@@ -1,8 +1,8 @@
 {
-  "as_of_jst": "2026-10-06",
+  "as_of_jst": "2026-10-07",
   "current_operational_round": 46,
-  "latest_record": 417,
-  "next_record_candidate": 418,
+  "latest_record": 423,
+  "next_record_candidate": 424,
   "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
   "first_cycle_visited_ids": [
     11,
@@ -26,7 +26,13 @@
     14,
     15,
     16,
-    17
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
   ],
   "visited_sources": {
     "2026-10-02": {
@@ -102,23 +108,35 @@
         416,
         417
       ]
+    },
+    "2026-10-07": {
+      "pair_ids": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "records": [
+        418,
+        419,
+        420,
+        421,
+        422,
+        423
+      ]
     }
   },
   "next_pair_ids": [
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
   ],
   "remaining_first_cycle_order": [
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
     24,
     25,
     26,
