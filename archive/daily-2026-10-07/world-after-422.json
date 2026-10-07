@@ -1,0 +1,799 @@
+{
+  "characters": {
+    "mimosa": {
+      "location": "eternite_square",
+      "affinity": {
+        "iris": 87,
+        "lupinus": 88,
+        "daphne": 93,
+        "erica": 88,
+        "viola": 94,
+        "anemone": 82,
+        "nerine": 79,
+        "campanula": 81
+      }
+    },
+    "iris": {
+      "location": "cafe_fleur",
+      "affinity": {
+        "mimosa": 84,
+        "campanula": 82,
+        "viola": 100,
+        "nerine": 100,
+        "daphne": 87,
+        "lupinus": 82,
+        "anemone": 78,
+        "erica": 100
+      }
+    },
+    "erica": {
+      "location": "cafe_fleur",
+      "affinity": {
+        "anemone": 81,
+        "daphne": 92,
+        "mimosa": 85,
+        "viola": 80,
+        "lupinus": 100,
+        "campanula": 80,
+        "nerine": 88,
+        "iris": 100
+      }
+    },
+    "anemone": {
+      "location": "hanasaku_station",
+      "affinity": {
+        "erica": 85,
+        "nerine": 100,
+        "campanula": 96,
+        "mimosa": 88,
+        "viola": 83,
+        "iris": 82,
+        "daphne": 100,
+        "lupinus": 83
+      }
+    },
+    "daphne": {
+      "location": "cafe_fleur",
+      "affinity": {
+        "campanula": 76,
+        "erica": 95,
+        "mimosa": 94,
+        "lupinus": 82,
+        "iris": 84,
+        "nerine": 83,
+        "viola": 82,
+        "anemone": 100
+      }
+    },
+    "campanula": {
+      "location": "time_bell_tower",
+      "affinity": {
+        "daphne": 78,
+        "iris": 82,
+        "viola": 98,
+        "anemone": 96,
+        "nerine": 96,
+        "erica": 83,
+        "mimosa": 85,
+        "lupinus": 77
+      }
+    },
+    "nerine": {
+      "location": "flower_slumber_garden",
+      "affinity": {
+        "viola": 100,
+        "anemone": 100,
+        "lupinus": 92,
+        "iris": 100,
+        "campanula": 92,
+        "daphne": 79,
+        "mimosa": 79,
+        "erica": 88
+      }
+    },
+    "viola": {
+      "location": "cafe_fleur",
+      "affinity": {
+        "nerine": 100,
+        "campanula": 98,
+        "iris": 100,
+        "mimosa": 96,
+        "erica": 81,
+        "anemone": 78,
+        "daphne": 83,
+        "lupinus": 84
+      }
+    },
+    "lupinus": {
+      "location": "stellaris_hill",
+      "affinity": {
+        "mimosa": 88,
+        "nerine": 87,
+        "daphne": 84,
+        "erica": 100,
+        "iris": 83,
+        "campanula": 78,
+        "viola": 86,
+        "anemone": 87
+      }
+    }
+  },
+  "weather": {
+    "date": "2026-10-07",
+    "condition": "薄曇り",
+    "temp": 23
+  },
+  "events": [
+    {
+      "at": "2026-08-21T08:01:44",
+      "location": "cafe_fleur",
+      "text": "駅のホームに、遠くからやってくる列車の音が響いた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T08:09:10",
+      "location": "cafe_fleur",
+      "text": "駅のホームに、朝の便りの列車が静かに滑り込んできた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T08:15:04",
+      "location": null,
+      "text": "駅の構内で、出発を待つ列車の汽笛が静かに響いた。",
+      "participants": [
+        "iris",
+        "nerine"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T08:38:46",
+      "location": null,
+      "text": "駅の改札口で、旅を終えた乗客が静かに荷物を下ろした。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T08:44:44",
+      "location": null,
+      "text": "鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T08:53:30",
+      "location": null,
+      "text": "鐘楼の鐘が、夕暮れを告げる穏やかな音色を響かせた。",
+      "participants": [
+        "anemone",
+        "nerine"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T08:57:54",
+      "location": "cafe_fleur",
+      "text": "学院の中庭で、学生たちが調べ学習のために開いた本が並んだ。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T10:53:56",
+      "location": null,
+      "text": "学院の中庭で、学生たちが新しい季節の種を植え始めた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T10:59:48",
+      "location": null,
+      "text": "温室の入り口で、夜にだけ香る花の蕾がほころび始めた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:03:43",
+      "location": null,
+      "text": "温室のガラス越しに、柔らかな午後の陽光が差し込んでいる。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:06:54",
+      "location": null,
+      "text": "温室のガラス越しに、柔らかな午後の光が差し込んだ。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:10:15",
+      "location": null,
+      "text": "小路の店先で、焼きたてのパンの香ばしい匂いが漂い始めた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:18:56",
+      "location": null,
+      "text": "小路のパン屋から、焼き立てのパンの香ばしい香りが漂い始めた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:22:22",
+      "location": null,
+      "text": "街の広場に、色とりどりの花びらを運ぶ風が吹き抜けた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:25:49",
+      "location": null,
+      "text": "駅のホームに、遠方から来た列車が静かに到着した。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:38:49",
+      "location": null,
+      "text": "駅のホームに、遠方からやってきた列車が静かに到着した。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:44:20",
+      "location": null,
+      "text": "駅のホームに、遠くから走る列車の汽笛が響き渡った。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:50:55",
+      "location": "cafe_fleur",
+      "text": "鐘楼の鐘が、新しい旅人の到着を祝うように響き渡った。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T11:58:28",
+      "location": "cafe_fleur",
+      "text": "鐘楼の鐘が、新しい旅立ちを祝うように静かに鳴り響いた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T12:03:26",
+      "location": "cafe_fleur",
+      "text": "鐘楼の鐘が、新しい旅人の到着を祝うように鳴り響いた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T12:06:46",
+      "location": "cafe_fleur",
+      "text": "学院の中庭で、学生たちが図鑑を広げて談笑している。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T12:12:11",
+      "location": null,
+      "text": "温室のガラス越しに、柔らかな午後の光が差し込む。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T12:19:58",
+      "location": "cafe_fleur",
+      "text": "温室の入り口で、色鮮やかな季節の花々が並べられた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-21T12:24:47",
+      "location": "cafe_fleur",
+      "text": "温室のガラス越しに、珍しい色の花が咲き始めた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-23T04:52:57",
+      "location": "cafe_fleur",
+      "text": "小路のパン屋から、焼き立ての香ばしい香りが漂い始めた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-24T06:22:39",
+      "location": null,
+      "text": "小路のパン屋から香ばしい焼き立ての匂いが漂ってきた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-24T06:24:54",
+      "location": "cafe_fleur",
+      "text": "小路のパン屋から、焼きたての香ばしい香りが漂い始めた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-24T06:47:55",
+      "location": null,
+      "text": "駅に到着した列車から、旅の荷物を抱えた人々が降り立つ。",
+      "participants": [
+        "campanula",
+        "iris"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-24T06:53:40",
+      "location": null,
+      "text": "駅のホームに、一台の古い蒸気機関車がゆっくりと滑り込んだ。",
+      "participants": [
+        "mimosa",
+        "nerine"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-26T08:48:53",
+      "location": "cafe_fleur",
+      "text": "駅のホームに、一冊の古い手帖が落ちている。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-27T07:49:30",
+      "location": null,
+      "text": "鐘楼から、新しい一日の始まりを告げる鐘の音が響き渡った。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-28T07:23:06",
+      "location": null,
+      "text": "鐘楼の鐘が、新しい朝の訪れを告げる音を響かせた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-31T04:46:35",
+      "location": null,
+      "text": "鐘楼の鐘が、夕暮れを告げる穏やかな音を響かせた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-31T05:14:51",
+      "location": "cafe_fleur",
+      "text": "花眠りの庭のベンチに、柔らかな木漏れ日が降り注いでいる。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-08-31T10:39:56",
+      "location": "cafe_fleur",
+      "text": "温室のガラス越しに、朝露に濡れた花々が輝いている。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-09-03T04:27:04",
+      "location": "cafe_fleur",
+      "text": "温室の中で、色とりどりの花々が夕闇に溶け始める。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-09-07T06:59:08",
+      "location": "cafe_fleur",
+      "text": "学院の温室に、見たこともない色の花が咲いた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-09-11T11:07:48",
+      "location": "cafe_fleur",
+      "text": "小路のベーカリーから、香ばしい焼き立てパンの香りが漂い始めた。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-01T16:14:17",
+      "location": "cafe_fleur",
+      "text": "小路の街灯が、一つ、また一つと灯り始める。",
+      "participants": [
+        "iris",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-02T00:12:09",
+      "location": null,
+      "text": "小路の街灯が、夜の訪れとともに静かに灯り始めた。",
+      "participants": [
+        "anemone",
+        "daphne"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-03T00:17:12",
+      "location": null,
+      "text": "駅のホームに、一列の旅客列車が静かに滑り込んできた。",
+      "participants": [
+        "lupinus",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-04T00:23:15",
+      "location": null,
+      "text": "駅のホームに、夜の便の列車が静かに滑り込んできた。",
+      "participants": [
+        "iris",
+        "mimosa"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-04T00:31:02",
+      "location": null,
+      "text": "駅のホームに、夜行列車が静かに滑り込んできた。",
+      "participants": [
+        "nerine",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-05T00:29:39",
+      "location": null,
+      "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+      "participants": [
+        "campanula",
+        "iris"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-05T00:34:25",
+      "location": null,
+      "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。",
+      "participants": [
+        "campanula",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-06T01:30:52",
+      "location": null,
+      "text": "時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+      "participants": [
+        "daphne",
+        "mimosa"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-06T01:34:23",
+      "location": null,
+      "text": "湖のほとりで、水面に映る月が静かに揺れている。",
+      "participants": [
+        "erica",
+        "mimosa"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-06T01:39:03",
+      "location": null,
+      "text": "温室のガラス越しに、月明かりが植物を静かに照らした。",
+      "participants": [
+        "mimosa",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-07T00:07:29",
+      "location": "cafe_fleur",
+      "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+      "participants": [
+        "daphne",
+        "iris"
+      ],
+      "tags": [
+        "scene"
+      ]
+    },
+    {
+      "at": "2026-10-07T00:13:10",
+      "location": null,
+      "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+      "participants": [
+        "anemone",
+        "viola"
+      ],
+      "tags": [
+        "scene"
+      ]
+    }
+  ],
+  "pending_events": [
+    {
+      "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+      "hint": "夜の静寂を、香ばしい温もりが優しく包み込みます。",
+      "created_at": "2026-10-06T01:39:10"
+    },
+    {
+      "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+      "hint": "湯気の向こう側に、安らぎの香りがそっと寄り添うでしょう。",
+      "created_at": "2026-10-07T00:07:37"
+    },
+    {
+      "text": "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+      "hint": "静かな闇に、小さな光の粒が道標を添えるでしょう。",
+      "created_at": "2026-10-07T00:13:17"
+    }
+  ],
+  "overheard": [],
+  "items": [],
+  "movements": [
+    {
+      "char": "iris",
+      "from": "hanaakari_alley",
+      "to": "flower_slumber_garden",
+      "at": "2026-08-10T14:30:00"
+    },
+    {
+      "char": "anemone",
+      "from": "hanasaku_station",
+      "to": "cafe_fleur",
+      "at": "2026-08-12T09:15:48"
+    },
+    {
+      "char": "daphne",
+      "from": "komorebi_library",
+      "to": "cafe_fleur",
+      "at": "2026-08-12T09:15:50"
+    },
+    {
+      "char": "viola",
+      "from": "belleflora_cloister",
+      "to": "cafe_fleur",
+      "at": "2026-08-12T12:24:28"
+    },
+    {
+      "char": "erica",
+      "from": "hanamamori_church",
+      "to": "cafe_fleur",
+      "at": "2026-08-13T06:00:09"
+    },
+    {
+      "char": "iris",
+      "from": "flower_slumber_garden",
+      "to": "cafe_fleur",
+      "at": "2026-08-13T06:00:13"
+    },
+    {
+      "char": "anemone",
+      "from": "cafe_fleur",
+      "to": "flower_slumber_garden",
+      "at": "2026-08-15T02:39:49"
+    },
+    {
+      "char": "anemone",
+      "from": "flower_slumber_garden",
+      "to": "hanasaku_station",
+      "at": "2026-08-17T06:37:34"
+    }
+  ],
+  "rumors": [],
+  "turns_since_event": 3
+}

@@ -1,0 +1,304 @@
+{
+  "date_jst": "2026-10-07",
+  "normal_generations": 6,
+  "regenerations": 0,
+  "saved_new_turns": 24,
+  "initial_world_matches_previous_day": true,
+  "final_world_matches_after_423": true,
+  "all_six_histories_rechecked": true,
+  "cumulative_scene_before": 154,
+  "cumulative_scene_after": 156,
+  "records": [
+    {
+      "record": 418,
+      "pair_id": 18,
+      "previous_record": 252,
+      "old_utterances": 28,
+      "saved_utterances": 32,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Erica",
+        "Viola",
+        "Erica",
+        "Viola"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "new_text_sha256": "35387ba75307650547e2b15962bf8bf3804013984b116d7f4e44c07e7df19902",
+      "old_history_sha256": "b29c12057efcd8a6edbb4f017f79b7326f5a8c0cb0b04cb889c432df86de5b24",
+      "saved_history_sha256": "e32c20d547335f6305f0d80b2d82a04ea1863b70eadf7f6cb2f7f91091bf3ab3",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [
+        [
+          "erica",
+          "viola",
+          78,
+          80
+        ],
+        [
+          "viola",
+          "erica",
+          79,
+          81
+        ]
+      ],
+      "turns_since_event_before": 3,
+      "turns_since_event_after": 7
+    },
+    {
+      "record": 419,
+      "pair_id": 19,
+      "previous_record": 240,
+      "old_utterances": 28,
+      "saved_utterances": 32,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Iris",
+        "Daphne",
+        "Iris",
+        "Daphne"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "new_text_sha256": "835c9871e0622ad92d84136d7225de6ef312fd0ce0ec3adb8841c98c9091c032",
+      "old_history_sha256": "850e6103eff288fa9e7cd215e63f150dce7dbba246b924c2b22ad01e174e5fd4",
+      "saved_history_sha256": "302a6b8cea26af42759fdd63780d2918c833500e56084a5c740adb1133bba46c",
+      "new_events": [
+        {
+          "at": "2026-10-07T00:07:29",
+          "location": "cafe_fleur",
+          "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+          "participants": [
+            "daphne",
+            "iris"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "rolling_removed_events": [
+        {
+          "at": "2026-08-21T05:56:28",
+          "location": null,
+          "text": "街の広場の噴水が、朝の光を反射してきらきらと輝きだした。",
+          "participants": [
+            "nerine",
+            "viola"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "consumed_pending": [
+        {
+          "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+          "hint": "静かな闇の中で、白く輝く蕾が甘い吐息をこぼすでしょう。",
+          "created_at": "2026-10-06T01:30:56"
+        }
+      ],
+      "new_pending": [
+        {
+          "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+          "hint": "湯気の向こう側に、安らぎの香りがそっと寄り添うでしょう。",
+          "created_at": "2026-10-07T00:07:37"
+        }
+      ],
+      "affinity_changes": [
+        [
+          "iris",
+          "daphne",
+          83,
+          87
+        ],
+        [
+          "daphne",
+          "iris",
+          80,
+          84
+        ]
+      ],
+      "turns_since_event_before": 7,
+      "turns_since_event_after": 2
+    },
+    {
+      "record": 420,
+      "pair_id": 20,
+      "previous_record": 224,
+      "old_utterances": 28,
+      "saved_utterances": 32,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Anemone",
+        "Mimosa",
+        "Anemone",
+        "Mimosa"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "new_text_sha256": "5253ff0ab8d5e0976b04555dff399aecaa96e79e7a9641d7162d6ffa70137a51",
+      "old_history_sha256": "2eea4931a9fe892971eab140dea55d8047409eb158a2f1c4d5f701ab5866a5a3",
+      "saved_history_sha256": "3f04470a0aab132a322cc6ca0a318c0817a42adefd9c32e12a38e0c5bc77d14c",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [
+        [
+          "mimosa",
+          "anemone",
+          78,
+          82
+        ],
+        [
+          "anemone",
+          "mimosa",
+          84,
+          88
+        ]
+      ],
+      "turns_since_event_before": 2,
+      "turns_since_event_after": 6
+    },
+    {
+      "record": 421,
+      "pair_id": 21,
+      "previous_record": 251,
+      "old_utterances": 36,
+      "saved_utterances": 40,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Campanula",
+        "Nerine",
+        "Campanula",
+        "Nerine"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "new_text_sha256": "ffa5ff382f5eef27e1f91bd5281d289cf77fde7ad07fedf9492814871c609d41",
+      "old_history_sha256": "ac842aef08b55452ab006bc3b1fe48cf34c4ccb0c68a6868ecb82c856557900d",
+      "saved_history_sha256": "f0a7bf305cb5084b516cd0989c739302c80c9d2024d7c66172f03d21de621a4a",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [
+        [
+          "campanula",
+          "nerine",
+          93,
+          96
+        ],
+        [
+          "nerine",
+          "campanula",
+          88,
+          92
+        ]
+      ],
+      "turns_since_event_before": 6,
+      "turns_since_event_after": 10
+    },
+    {
+      "record": 422,
+      "pair_id": 22,
+      "previous_record": 230,
+      "old_utterances": 28,
+      "saved_utterances": 32,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Anemone",
+        "Viola",
+        "Anemone",
+        "Viola"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "new_text_sha256": "ae33e7ab67004dee553e19bacecafbc9d48d1201d95ea4d9be239838f491dba1",
+      "old_history_sha256": "96356acbf2f92e4505ef528c1f2501a58a388613f591cf1c12792b7b9a361460",
+      "saved_history_sha256": "28d806a4a93849e303347a2a051bfc6a155a616b97e7e2c6e5851b3b17035aab",
+      "new_events": [
+        {
+          "at": "2026-10-07T00:13:10",
+          "location": null,
+          "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+          "participants": [
+            "anemone",
+            "viola"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "rolling_removed_events": [
+        {
+          "at": "2026-08-21T07:56:11",
+          "location": null,
+          "text": "広場の噴水に、幾筋もの柔らかな光が反射して跳ねている。",
+          "participants": [
+            "anemone",
+            "daphne"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "consumed_pending": [
+        {
+          "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+          "hint": "閉ざされた庭に、夜の吐息がそっと入り込む予感。",
+          "created_at": "2026-10-06T01:34:30"
+        }
+      ],
+      "new_pending": [
+        {
+          "text": "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+          "hint": "静かな闇に、小さな光の粒が道標を添えるでしょう。",
+          "created_at": "2026-10-07T00:13:17"
+        }
+      ],
+      "affinity_changes": [
+        [
+          "anemone",
+          "viola",
+          80,
+          83
+        ],
+        [
+          "viola",
+          "anemone",
+          75,
+          78
+        ]
+      ],
+      "turns_since_event_before": 10,
+      "turns_since_event_after": 3
+    },
+    {
+      "record": 423,
+      "pair_id": 23,
+      "previous_record": 377,
+      "old_utterances": 48,
+      "saved_utterances": 52,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Erica",
+        "Lupinus",
+        "Erica",
+        "Lupinus"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "new_text_sha256": "16fae1429dced0e9d23a63a8ab9f5a937363545b8718266cecc0dde911fed73f",
+      "old_history_sha256": "ae70040adc6a0f16714febffd1ae495e1969d013117f5e7c45c59f07334ffdea",
+      "saved_history_sha256": "cad406fb5c3fb138b87932f9a617c031d18db4381c94e1a8151310d4bf96a4ab",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [],
+      "turns_since_event_before": 3,
+      "turns_since_event_after": 7
+    }
+  ]
+}
