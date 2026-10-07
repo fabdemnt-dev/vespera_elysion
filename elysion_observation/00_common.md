@@ -3,7 +3,7 @@
 > [分割版目次](README.md) · [次：1周目（#1〜#36）](01_round1_001-036.md)
 <!-- ELYSION_SPLIT_NAV_END -->
 
-> **最新確認：2026-10-05 JST / #411後**。6組各4ターンを保存確認、初回巡回16/36組。次はID12〜17、候補#412。[46周目正本](46_round46_398.md) / [日次記録](daily_runs/2026-10-05.md)。以下の日付付き過去記録は当時の状態です。
+> **最新確認：2026-10-07 JST / #423後**。6組各4ターンを保存確認、初回巡回28/36組。次はID24〜29、候補#424。[46周目正本](46_round46_398.md) / [日次記録](daily_runs/2026-10-07.md)。以下の日付付き過去記録は当時の状態です。
 
 # 花咲く街エリュシオン 観察記録
 
@@ -234,3 +234,11 @@
 - Mimosa→Lupinus 84→88、Iris→Campanula 78→82、Erica→Daphne 86→92、Anemone→Campanula 92→96、Daphne→Erica 92→95、Campanula→Iris 78→82、Campanula→Viola 96→98、Campanula→Anemone 92→96、Viola→Campanula 95→98、Lupinus→Mimosa 83→88。他62方向は不変。
 - 継続2組／終了34組。生成再開という運用操作と物語上の再接続・再合流、UIのバッチ終了表示は別に扱う。system ended flagは今回も画面に公開されていない。
 - [46周目正本](46_round46_398.md) / [日次記録](daily_runs/2026-10-05.md) / [新聞](newspapers/2026-10-05.md)。
+
+
+## 2026-10-07 JST 日次観察 / #423後
+- 46周目は#398〜#423の26バッチ・新規104ターン・26組。10月2日のID11/32を含む初回巡回は28/36組。10月7日の日次分は6組・24ターン、通常生成6回・再生成0回。次番号候補#424。
+- weather=2026-10-07・薄曇り・23℃、scene累計156、events50（scene50 / moved0）、pending3、movements8、turns_since_event7、items / rumors / overheard=0 / 0 / 0。
+- 継続2組／終了34組。通常生成の操作、物語上の再接続・再合流、UIのバッチ終了表示は別に扱う。system ended flagは画面に公開されていない。
+- [日次実行記録](daily_runs/2026-10-07.md) / [新聞原文](newspapers/2026-10-07.md)。
+- ペア別索引追補：ID18 エリカ × ビオラ [#418](46_round46_398.md#observation-418) / ID19 アイリス × ダフネ [#419](46_round46_398.md#observation-419) / ID20 アネモネ × ミモザ [#420](46_round46_398.md#observation-420) / ID21 カンパニュラ × ネリネ [#421](46_round46_398.md#observation-421) / ID22 アネモネ × ビオラ [#422](46_round46_398.md#observation-422) / ID23 エリカ × ルピナス [#423](46_round46_398.md#observation-423)
