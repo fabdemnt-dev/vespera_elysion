@@ -1,6 +1,6 @@
 # 花咲く街エリュシオン 出来事
 
-> 最新：2026-10-06 JST・#417後。scene累計154、raw events50、pending3、turns_since_event3。[新規記録・最新pending](elysion_observation/46_round46_398.md#observation-417)。以下の日付付き過去記録は当時の状態です。
+> 最新：2026-10-07 JST・#423後。scene累計156、raw events50、pending3、turns_since_event7。[新規記録・最新pending](elysion_observation/46_round46_398.md#observation-423)。以下の日付付き過去記録は当時の状態です。
 
 ## 最新確認：2026-10-04 JST・#405後
 
@@ -1902,3 +1902,16 @@ weather=2026-10-04・花曇り・-2℃、scene累計149、events50（scene50 / m
 2. 温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。 / hint：閉ざされた庭に、夜の吐息がそっと入り込む予感。 / created_at：2026-10-06T01:34:30
 3. 小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。 / hint：夜の静寂を、香ばしい温もりが優しく包み込みます。 / created_at：2026-10-06T01:39:10
 - rolling窓から外れた旧eventは過去記録から削除しない。発火条件・固定間隔を今回の値から推定しない。
+
+
+## 2026-10-07 JST 追補（#418〜#423）
+- weather=2026-10-07・薄曇り・23℃、scene累計156、events50（scene50 / moved0）、pending3、movements8、turns_since_event7、items / rumors / overheard=0 / 0 / 0。
+- 新規scene 2件。rolling窓から消えた過去eventは既存正本・年表から削除しない。
+
+- #419 2026-10-07T00:07:29 / 温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。 / location=cafe_fleur / participants=daphne,iris
+- #422 2026-10-07T00:13:10 / 温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。 / location=None / participants=anemone,viola
+
+### 最新pending（#423後）
+1. 小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。 / hint：夜の静寂を、香ばしい温もりが優しく包み込みます。 / created_at：2026-10-06T01:39:10
+2. カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。 / hint：湯気の向こう側に、安らぎの香りがそっと寄り添うでしょう。 / created_at：2026-10-07T00:07:37
+3. 小路の街灯が、夜の帳に溶けるように淡く灯った。 / hint：静かな闇に、小さな光の粒が道標を添えるでしょう。 / created_at：2026-10-07T00:13:17

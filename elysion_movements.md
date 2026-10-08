@@ -353,3 +353,16 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - #416は純粋な別れの反復。新しい歩行・到着・同席の描写はなく、location・movements不変。
 - #417の温室・月明かりはsceneへの想像と伝聞を含む応答。Viola=cafe_fleur、Mimosa=eternite_squareのまま。温室への移動・同席を認定しない。
 - location / movements / pendingを手動変更していない。会話上の描写とraw移動成功／失敗を分けて記録する。
+
+
+## 2026-10-07 JST 照合（#423後）
+- 全9人raw locationとmovements8は開始前・各組後・最終確認で不変。
+- #418 新規world_event・移動・到着描写はない。両方向のaffinityが各2上昇しても、物語上の再開とは扱わない。
+- #419 Irisは「もうカフェ・フルールの前にいたんだった」と場所を思い出し、「座ってみることにする」と意向を述べる。座った動作や着席完了はなく、新たな到着・goal完了とは数えない。
+- #419 scene本文は温室のガラス越しの香りを述べるが、raw event.locationはcafe_fleur。Iris・Daphneのraw locationもcafe_fleurのまま。温室への移動成功や失敗を推測せず、本文・event位置・キャラクター位置を分けて保持する。
+- #420 旧#224の別れに続き、「行ってきます」「いってらっしゃい」「また後で」を4発言で反復する。カフェでの再会を期待する言葉はあるが、到着・合流・新たな通話接続は描かれない。既存の終了分類を維持する。
+- #421 夜の魔法・夢・雲のような言葉は比喩として扱う。新たな能力、同席の成立、移動・到着、具体的なgoal完了の根拠にはしない。
+- #421 新規world_eventはなく、全9人raw location・movementsは変わらない。好感度上昇・通常生成の継続と物語上の接続状態を分けて記録する。
+- #422 Anemoneが述べる駅のホームはraw location=hanasaku_stationと整合する。Violaのraw location=cafe_fleurは変わらず、本人は自分の場所の風は穏やかだと述べる。どちらも移動・到着・同席は描かれない。
+- #422 world_event本文は温室の扉だがraw event.locationはnull。会話上の駅のホームやViolaのカフェ位置をevent.locationに補完しない。
+- #423 新規world_eventなし、affinity100/100のまま、全9人raw location・movementsも不変。短い挨拶が続くことと、システム上の終了フラグは同一視しない。
