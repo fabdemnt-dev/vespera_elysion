@@ -1,0 +1,347 @@
+{
+  "date_jst": "2026-10-09",
+  "normal_generations": 6,
+  "regenerations": 0,
+  "saved_new_turns": 24,
+  "live_pre_run_raw_captured": false,
+  "comparison_baseline_provenance": "開始直前の完全raw JSONは取得していない。比較の最初の基準はGitHub正本の2026-10-07・#423後の履歴スナップショットであり、10月9日の実行直前rawとの完全一致を確認したものではない。実行前には通常画面の天気・pending・最新event・移動履歴と対象6組および最新#423の保存会話を確認した。#424以降は各生成後に読み取り専用で取得した完全raw JSON同士を比較する。",
+  "cumulative_scene_before_reference": 156,
+  "cumulative_scene_after": 158,
+  "records": [
+    {
+      "record": 424,
+      "pair_id": 24,
+      "previous_record": 229,
+      "old_utterances": 26,
+      "saved_utterances": 30,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Iris",
+        "Lupinus",
+        "Iris",
+        "Lupinus"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "hash_normalization": "trim only outer whitespace; preserve inner text and line breaks",
+      "new_text_sha256": "d2d8729e2e1e47a54aacb6a9565190f4bae8024a55157a79c470394cc1fbc27d",
+      "old_history_sha256": "cf5824dbca2dee846ea2e2122d2dc6985202677a554e9f123678b150d2fc30e4",
+      "saved_history_sha256": "c96aa178772f43809875de8f779e56952ead9b895d8fb87b51d3f064d7f56a6c",
+      "comparison_baseline": "2026-10-07 historical #423 snapshot; not live pre-run raw",
+      "new_events": [
+        {
+          "at": "2026-10-09T01:02:07",
+          "location": null,
+          "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+          "participants": [
+            "iris",
+            "lupinus"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "rolling_removed_events": [
+        {
+          "at": "2026-08-21T08:01:44",
+          "location": "cafe_fleur",
+          "text": "駅のホームに、遠くからやってくる列車の音が響いた。",
+          "participants": [
+            "iris",
+            "viola"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "consumed_pending": [
+        {
+          "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+          "hint": "夜の静寂を、香ばしい温もりが優しく包み込みます。",
+          "created_at": "2026-10-06T01:39:10"
+        }
+      ],
+      "new_pending": [
+        {
+          "text": "街の広場に、朝の光を浴びて朝露に濡れた花々が咲き誇った。",
+          "hint": "光の粒が降り注ぎ、瑞々しい命の輝きが目覚める予感。",
+          "created_at": "2026-10-09T01:02:18"
+        }
+      ],
+      "affinity_changes": [
+        [
+          "iris",
+          "lupinus",
+          82,
+          85
+        ],
+        [
+          "lupinus",
+          "iris",
+          83,
+          87
+        ]
+      ],
+      "turns_since_event_before": 7,
+      "turns_since_event_after": 2,
+      "cumulative_scene_after": 157,
+      "raw_locations_match_comparison_baseline": true,
+      "movements_match_comparison_baseline": true
+    },
+    {
+      "record": 425,
+      "pair_id": 25,
+      "previous_record": 235,
+      "old_utterances": 24,
+      "saved_utterances": 28,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Daphne",
+        "Nerine",
+        "Daphne",
+        "Nerine"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "hash_normalization": "trim only outer whitespace; preserve inner text and line breaks",
+      "new_text_sha256": "27e41513109761500fee57a140273510a2758312435fbcd0b33b4b11dbad7fc2",
+      "old_history_sha256": "829d28484b7ebd57b3481219aaa5ed7e9abd3d02300656c2c26f464898639c1e",
+      "saved_history_sha256": "9f2a4044f0a973154ff97617ac1af52de86e3658ee3741cbaad39f9e9ccea487",
+      "comparison_baseline": "2026-10-09 captured raw after #424",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [
+        [
+          "daphne",
+          "nerine",
+          83,
+          88
+        ],
+        [
+          "nerine",
+          "daphne",
+          79,
+          85
+        ]
+      ],
+      "turns_since_event_before": 2,
+      "turns_since_event_after": 6,
+      "cumulative_scene_after": 157,
+      "raw_locations_match_comparison_baseline": true,
+      "movements_match_comparison_baseline": true
+    },
+    {
+      "record": 426,
+      "pair_id": 26,
+      "previous_record": 376,
+      "old_utterances": 32,
+      "saved_utterances": 36,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Mimosa",
+        "Nerine",
+        "Mimosa",
+        "Nerine"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "hash_normalization": "trim only outer whitespace; preserve inner text and line breaks",
+      "new_text_sha256": "3d517b7891a2e6c76ef34741693ac848c752ee46cafe46c9aa981cb1cc733a67",
+      "old_history_sha256": "4e5bfa46f039acce197316ae7f7017960b648f383979e76b4f9688befac816d1",
+      "saved_history_sha256": "ae720d83e5830e324125cfd670067d340489de880aeef5a35c21279290c4d57a",
+      "comparison_baseline": "2026-10-09 captured raw after #425",
+      "new_events": [
+        {
+          "at": "2026-10-09T01:06:22",
+          "location": null,
+          "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+          "participants": [
+            "mimosa",
+            "nerine"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "rolling_removed_events": [
+        {
+          "at": "2026-08-21T08:09:10",
+          "location": "cafe_fleur",
+          "text": "駅のホームに、朝の便りの列車が静かに滑り込んできた。",
+          "participants": [
+            "iris",
+            "viola"
+          ],
+          "tags": [
+            "scene"
+          ]
+        }
+      ],
+      "consumed_pending": [
+        {
+          "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+          "hint": "湯気の向こう側に、安らぎの香りがそっと寄り添うでしょう。",
+          "created_at": "2026-10-07T00:07:37"
+        }
+      ],
+      "new_pending": [
+        {
+          "text": "駅のホームに、夜明け前の澄んだ空気が流れ込んできた。",
+          "hint": "静かな眠りの終わり、新しい光が鉄の道に触れる予感。",
+          "created_at": "2026-10-09T01:06:31"
+        }
+      ],
+      "affinity_changes": [
+        [
+          "mimosa",
+          "nerine",
+          79,
+          83
+        ],
+        [
+          "nerine",
+          "mimosa",
+          79,
+          83
+        ]
+      ],
+      "turns_since_event_before": 6,
+      "turns_since_event_after": 1,
+      "cumulative_scene_after": 158,
+      "raw_locations_match_comparison_baseline": true,
+      "movements_match_comparison_baseline": true
+    },
+    {
+      "record": 427,
+      "pair_id": 27,
+      "previous_record": 237,
+      "old_utterances": 24,
+      "saved_utterances": 28,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Campanula",
+        "Erica",
+        "Campanula",
+        "Erica"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "hash_normalization": "trim only outer whitespace; preserve inner text and line breaks",
+      "new_text_sha256": "5c00de13df3f2692c5d471347a472c56a167bf2fd4029467d88db338aed95682",
+      "old_history_sha256": "cdf9ac9820a141395a7d20b7052327e9ad1ecf74b09606bf3e335a6e5327f460",
+      "saved_history_sha256": "f5d7178d22522f41016c2918dfb2288199e63fd21ccf1ad463bd98e82aa67267",
+      "comparison_baseline": "2026-10-09 captured raw after #426",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [],
+      "turns_since_event_before": 1,
+      "turns_since_event_after": 5,
+      "cumulative_scene_after": 158,
+      "raw_locations_match_comparison_baseline": true,
+      "movements_match_comparison_baseline": true
+    },
+    {
+      "record": 428,
+      "pair_id": 28,
+      "previous_record": 231,
+      "old_utterances": 24,
+      "saved_utterances": 28,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Mimosa",
+        "Campanula",
+        "Mimosa",
+        "Campanula"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "hash_normalization": "trim only outer whitespace; preserve inner text and line breaks",
+      "new_text_sha256": "b00343cfdae8b938f1fef477ff54383b77ec7c99d8e8d88877ce29e480445c33",
+      "old_history_sha256": "0eb6805ec804bb96aec35823846a4b74cbb475c13eaed545fd3efda0105f9b56",
+      "saved_history_sha256": "efff6058872f928dfa5833c0d730cb560e8fa891250ac3caad3cfbd5cb1fd6e1",
+      "comparison_baseline": "2026-10-09 captured raw after #427",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [
+        [
+          "mimosa",
+          "campanula",
+          81,
+          85
+        ],
+        [
+          "campanula",
+          "mimosa",
+          85,
+          89
+        ]
+      ],
+      "turns_since_event_before": 5,
+      "turns_since_event_after": 9,
+      "cumulative_scene_after": 158,
+      "raw_locations_match_comparison_baseline": true,
+      "movements_match_comparison_baseline": true
+    },
+    {
+      "record": 429,
+      "pair_id": 29,
+      "previous_record": 233,
+      "old_utterances": 24,
+      "saved_utterances": 28,
+      "new_utterances": 4,
+      "relative_speakers": [
+        "Iris",
+        "Anemone",
+        "Iris",
+        "Anemone"
+      ],
+      "saved_history_is_exact_prefix_plus_increment": true,
+      "hash_normalization": "trim only outer whitespace; preserve inner text and line breaks",
+      "new_text_sha256": "d55cbb9c017a48d0d9ef02ea78645af18e77b48e7cee04e2efdf84df0221516f",
+      "old_history_sha256": "e015e97550bcb1696f96dc449d37fefa094de1c7c9639e43f4f492bba99bca8a",
+      "saved_history_sha256": "8f9fae8ed4a0c06b8a6f368add2c96c75fbf55005ed141618897b9c3b8249fe8",
+      "comparison_baseline": "2026-10-09 captured raw after #428",
+      "new_events": [],
+      "rolling_removed_events": [],
+      "consumed_pending": [],
+      "new_pending": [],
+      "affinity_changes": [],
+      "turns_since_event_before": 9,
+      "turns_since_event_after": 13,
+      "cumulative_scene_after": 158,
+      "raw_locations_match_comparison_baseline": true,
+      "movements_match_comparison_baseline": true
+    }
+  ],
+  "checked_at_utc": "2026-10-09T01:14:43Z",
+  "all_six_histories_rechecked": true,
+  "final_world_matches_after_429": null,
+  "final_world_extra_recheck_status": "not_observed_due_to_cloud_browser_protocol_timeout",
+  "latest_verified_full_world_snapshot": "elysion-world-after-429.json",
+  "latest_verified_full_world_snapshot_context": "Read exposed rawState textarea after #429 had completed and its history was reloaded. No generation or settings mutation followed.",
+  "newspaper_checked": false,
+  "newspaper_status": "Newspaper tab click failed with DOM.getContentQuads timeout; no new newspaper content captured.",
+  "rechecked_records": [
+    424,
+    425,
+    426,
+    427,
+    428,
+    429
+  ],
+  "verification_method": "Fresh normal site tab loaded each pair separately; full displayed text exactly matched corresponding saved history captured after its generation.",
+  "before_raw_status": "not_captured_live",
+  "before_comparison_reference": "archive/daily-2026-10-07/world-after.json",
+  "initial_ui_checks": "World title, nine characters, Oct7 weather, latest/pending events, movement history; all six candidate histories plus latest #423 fully compared.",
+  "changes_prohibited_and_not_performed": [
+    "settings",
+    "persona",
+    "history deletion",
+    "debug conversation",
+    "raw world-state edit/save"
+  ]
+}

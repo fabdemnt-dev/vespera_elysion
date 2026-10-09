@@ -366,3 +366,15 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - #422 Anemoneが述べる駅のホームはraw location=hanasaku_stationと整合する。Violaのraw location=cafe_fleurは変わらず、本人は自分の場所の風は穏やかだと述べる。どちらも移動・到着・同席は描かれない。
 - #422 world_event本文は温室の扉だがraw event.locationはnull。会話上の駅のホームやViolaのカフェ位置をevent.locationに補完しない。
 - #423 新規world_eventなし、affinity100/100のまま、全9人raw location・movementsも不変。短い挨拶が続くことと、システム上の終了フラグは同一視しない。
+
+
+## 2026-10-09 JST 照合（#429後）
+- 全9人raw location・movements8は10月7日#423後の履歴rawと同じ。実行直前の完全rawは未取得。#424〜#429の各raw間も同じ。
+- mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- #424 パンの香りを双方が受け取る表現があるが、Iris=cafe_fleur、Lupinus=stellaris_hillのまま。新たな到着・同席・知覚共有能力へ補完しない。明日の計画と、実際の来訪・飲食完了を区別する。
+- #425 祈りや光の表現は願いや比喩として保存する。Nerineの「幸せな気持ちになれるわ」と「はずだよ」が混在する口調は原文のまま保持し、修正しない。新規scene・移動・到着描写はない。
+- #426 Mimosaは「香りが漂ってきたような気」「想像しちゃう」と述べ、Nerineも「もしそうなら」と条件を付ける。通話越しに香りを共有できる公式能力や、実際にハーブティーを飲んだ事実にはしない。sceneのraw locationはnullで、Mimosa=eternite_square、Nerine=flower_slumber_gardenからカフェへの移動を補完しない。
+- #427 話者はCampanula、Ericaの順で交互に4発言。新規scene・移動・到着描写はなく、短い別れの反復とシステム上の終了フラグを同一視しない。
+- #428 互いの言葉で風や心が優しく温かく感じられるという応答が続く。新規scene・移動・到着描写はなく、相手を思い浮かべる表現を同席や新しい知覚共有能力として扱わない。
+- #429 新規scene・移動・到着描写はない。生成された発言の継続と物語上の接続状態・システム上の終了フラグを同一視しない。
+- location / movements / pendingは手動変更していない。比喩・意向・scene位置と実際の移動を区別する。
