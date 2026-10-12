@@ -1,0 +1,34 @@
+{
+  "date_jst": "2026-10-12",
+  "source_commit": "bbc9c0becfcd10702abcb4c158b4ac5141df8aca",
+  "normal_generations": 2,
+  "regenerations": 0,
+  "first_cycle_visited": 36,
+  "story_continued": 2,
+  "story_ended": 34,
+  "system_ended_flags": "not exposed",
+  "before_matches_oct9_final_json": true,
+  "final_world_matches_after431": true,
+  "pairs": [
+    {
+      "pair_id": 30,
+      "record": 430,
+      "turns_before": 24,
+      "turns_after": 28,
+      "old_text_prefix_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "891e8d669497a5f8d8fc4e1ddbc5271deb60d92eb08bd4d10624364bafa9e756"
+    },
+    {
+      "pair_id": 31,
+      "record": 431,
+      "turns_before": 24,
+      "turns_after": 28,
+      "old_text_prefix_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "22d05edb75275b567d6f40187766c76a7cb8eb9309a4b432fa36dea2a43f4472"
+    }
+  ]
+}

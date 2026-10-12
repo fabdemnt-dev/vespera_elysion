@@ -1,8 +1,8 @@
 {
-  "as_of_jst": "2026-10-09",
+  "as_of_jst": "2026-10-12",
   "current_operational_round": 46,
-  "latest_record": 429,
-  "next_record_candidate": 430,
+  "latest_record": 431,
+  "next_record_candidate": 432,
   "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
   "first_cycle_visited_ids": [
     11,
@@ -38,7 +38,9 @@
     26,
     27,
     28,
-    29
+    29,
+    30,
+    31
   ],
   "visited_sources": {
     "2026-10-02": {
@@ -150,16 +152,20 @@
         428,
         429
       ]
+    },
+    "2026-10-12": {
+      "pair_ids": [
+        30,
+        31
+      ],
+      "records": [
+        430,
+        431
+      ]
     }
   },
-  "next_pair_ids": [
-    30,
-    31
-  ],
-  "remaining_first_cycle_order": [
-    30,
-    31
-  ],
+  "next_pair_ids": [],
+  "remaining_first_cycle_order": [],
   "story_continued_ids": [
     11,
     32
@@ -169,6 +175,8 @@
   "same_day_completed": true,
   "max_pairs_per_run": 6,
   "turns_per_pair": 4,
-  "first_cycle_remainder_only": true,
-  "pace_evaluation": "provisional; review after first cycle; further count or turn changes require user discussion"
+  "first_cycle_remainder_only": false,
+  "pace_evaluation": "first cycle complete; review recorded in 2026-10-12.md; no next-cycle generation this run; changing pair/turn counts requires user discussion",
+  "first_cycle_complete": true,
+  "stopped_after_first_cycle": true
 }

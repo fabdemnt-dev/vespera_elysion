@@ -378,3 +378,16 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - #428 互いの言葉で風や心が優しく温かく感じられるという応答が続く。新規scene・移動・到着描写はなく、相手を思い浮かべる表現を同席や新しい知覚共有能力として扱わない。
 - #429 新規scene・移動・到着描写はない。生成された発言の継続と物語上の接続状態・システム上の終了フラグを同一視しない。
 - location / movements / pendingは手動変更していない。比喩・意向・scene位置と実際の移動を区別する。
+
+
+## 2026-10-12 JST 照合（#430・#431後）
+- 開始前rawは10月9日#429後の保存rawと完全一致。開始前・#430後・#431後を比較し、全9人raw locationとmovements8件の配列全体が不変であることを確認。
+- mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- #430 は夢への祈りとおやすみの応答。新しい歩行・到着・再合流・新規sceneはない。
+- #431 Lupinus=stellaris_hill、Campanula=time_bell_towerのまま。街灯への反応や「誰かが優しく手を振ってくれたみたい」という比喩を、新しい住民・同席・移動・能力へ補完しない。
+- 新規sceneのraw event.locationはnullのまま保持し、小路・丘・鐘楼のいずれにも補完しない。別話者の同一括弧内本文は原文どおり記録し、知覚共有・同席の根拠にしない。
+- 継続2組／終了34組。今回の両組は終了分類を維持する。通常生成の操作、物語上の再接続・再合流、UIのバッチ終了表示は別に扱う。system ended flagは画面に公開されていない。
+- weather=2026-10-12・霧雨・1℃、scene累計159、events50（scene50 / moved0）、pending3、movements8、turns_since_event1、items / rumors / overheard=0 / 0 / 0。
+- location / movements / pendingは手動変更していない。会話表現・scene位置・実際の移動履歴を分けて記録する。
+
+[10月12日日次記録](elysion_observation/daily_runs/2026-10-12.md)
