@@ -391,3 +391,13 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - location / movements / pendingは手動変更していない。会話表現・scene位置・実際の移動履歴を分けて記録する。
 
 [10月12日日次記録](elysion_observation/daily_runs/2026-10-12.md)
+
+## 2026-10-13 JST 照合（#432〜#437後）
+- #432 scene +0、counter 1→5。全72方向affinityは不変。全9人のraw locationは不変、movementsは不変。
+- #433 scene +1、counter 5→1。Erica→Nerine 88→93、Nerine→Erica 88→92。全9人のraw locationは不変、movementsは不変。
+- #434 scene +0、counter 1→5。Lupinus→Viola 86→89、Viola→Lupinus 84→88。全9人のraw locationは不変、movementsは不変。
+- #435 scene +1、counter 5→2。Anemone→Lupinus 83→87、Lupinus→Anemone 87→92。全9人のraw locationは不変、movementsは不変。
+- #436 scene +0、counter 2→6。全72方向affinityは不変。全9人のraw locationは不変、movementsは不変。
+- #437 scene +1、counter 6→3。Iris→Mimosa 84→88、Mimosa→Iris 87→91。全9人のraw locationは不変、movementsは不変。
+- mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
+- 会話の叙述・比喩・scene位置とraw移動を分け、未確認の移動を補完しない。

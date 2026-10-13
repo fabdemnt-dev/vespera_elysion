@@ -1,8 +1,16 @@
 # 花咲く街エリュシオン 出来事
 
+## 最新確認：2026-10-13 JST・#437後
+
+weather=2026-10-13・小雨・16℃、scene累計162、events50（scene50 / moved0）、pending3、movements8、turns_since_event3、items / rumors / overheard=0 / 0 / 0。
+
+1. 駅の構内に、新しい時刻表を知らせる掲示が貼り出された。 / hint：刻むリズムが変わり、新しい旅の予感が舞い降りる。 / created_at：2026-10-13T00:10:35
+2. 鐘楼の鐘が、朝の訪れを告げる柔らかな音色を響かせた。 / hint：眠れる街の目覚めを、銀色の響きが優しく誘うでしょう。 / created_at：2026-10-13T00:12:21
+3. 鐘楼の鐘が、ゆっくりと夜の訪れを告げる音を響かせた。 / hint：静寂を分かつ響きが、街の時間を優しく結び直すでしょう。 / created_at：2026-10-13T00:14:43
+
 > 最新：2026-10-12 JST・#431後。scene累計159、raw events50、pending3、turns_since_event1。[10月12日の日次記録・最新pending](elysion_observation/daily_runs/2026-10-12.md)。以下の日付付き過去記録は当時の状態です。
 
-## 最新確認：2026-10-04 JST・#405後
+## 過去確認：2026-10-12 JST・#431後
 
 weather=2026-10-04・花曇り・-2℃、scene累計149、events50（scene50 / moved0）、pending3、movements8、turns_since_event0、items / rumors / overheard=0 / 0 / 0。
 
@@ -1950,3 +1958,36 @@ weather=2026-10-04・花曇り・-2℃、scene累計149、events50（scene50 / m
 3. 駅の待合室で、夜行列車の到着を待つ静かな時間が流れた。 / hint：銀の軌道が闇を裂き、眠れる旅人を運び始める予感。 / created_at：2026-10-12T09:46:50
 
 [10月12日日次記録](elysion_observation/daily_runs/2026-10-12.md) / [#430 raw](archive/daily-2026-10-12/world-after-430.json) / [#431 raw](archive/daily-2026-10-12/world-after-431.json)
+
+## 2026-10-13 JST 追補（#432〜#437）
+
+### #432
+- scene +0、counter 1→5。全72方向affinityは不変。全9人のraw locationは不変、movementsは不変。
+- 新規sceneなし。
+
+### #433
+- scene +1、counter 5→1。Erica→Nerine 88→93、Nerine→Erica 88→92。全9人のraw locationは不変、movementsは不変。
+- {"at": "2026-10-13T00:10:31", "location": null, "text": "街の広場に、朝の光を浴びて朝露に濡れた花々が咲き誇った。", "participants": ["erica", "nerine"], "tags": ["scene"]}
+
+### #434
+- scene +0、counter 1→5。Lupinus→Viola 86→89、Viola→Lupinus 84→88。全9人のraw locationは不変、movementsは不変。
+- 新規sceneなし。
+
+### #435
+- scene +1、counter 5→2。Anemone→Lupinus 83→87、Lupinus→Anemone 87→92。全9人のraw locationは不変、movementsは不変。
+- {"at": "2026-10-13T00:12:15", "location": null, "text": "駅のホームに、夜明け前の澄んだ空気が流れ込んできた。", "participants": ["anemone", "lupinus"], "tags": ["scene"]}
+
+### #436
+- scene +0、counter 2→6。全72方向affinityは不変。全9人のraw locationは不変、movementsは不変。
+- 新規sceneなし。
+
+### #437
+- scene +1、counter 6→3。Iris→Mimosa 84→88、Mimosa→Iris 87→91。全9人のraw locationは不変、movementsは不変。
+- {"at": "2026-10-13T00:14:28", "location": null, "text": "駅の待合室で、夜行列車の到着を待つ静かな時間が流れた。", "participants": ["iris", "mimosa"], "tags": ["scene"]}
+
+### 最新pending（#437後）
+1. 駅の構内に、新しい時刻表を知らせる掲示が貼り出された。 / hint：刻むリズムが変わり、新しい旅の予感が舞い降りる。 / created_at：2026-10-13T00:10:35
+2. 鐘楼の鐘が、朝の訪れを告げる柔らかな音色を響かせた。 / hint：眠れる街の目覚めを、銀色の響きが優しく誘うでしょう。 / created_at：2026-10-13T00:12:21
+3. 鐘楼の鐘が、ゆっくりと夜の訪れを告げる音を響かせた。 / hint：静寂を分かつ響きが、街の時間を優しく結び直すでしょう。 / created_at：2026-10-13T00:14:43
+
+- raw eventsのrolling窓から外れた過去eventも既存年表・正本から削除しない。
