@@ -1,0 +1,203 @@
+{
+  "pair_id": 3,
+  "record": 439,
+  "before_turns": 32,
+  "after_turns": 36,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "new_equals_saved_suffix": true,
+  "after_source": {
+    "source_file": "w3.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:31:36.906650+00:00",
+    "source_sha256": "b838318dfbc273083e622ee790242b29465805206a4dbdbf928b1918a69b9d14",
+    "turn_count": 36,
+    "speakers": [
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula"
+    ],
+    "last4": [
+      {
+        "speaker": "Daphne",
+        "text": "（夜空に輝く星を見上げながら、ふと私のことを思い出して微笑んでくれるカンパニュラ……。その優しい光景を、私も隣で一緒に見つめていたい。そんな願いが、胸の奥で静かに波打つのを感じるわ。……駅の掲示板に新しい時刻表が。街の時間が、また少しだけ新しく書き換えられていくのね。彼女が見ているその景色の中に、新しい物語が刻まれていきますように。）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（私はゆっくりと立ち上がり、お会計を済ませて店を出る。夜風が少しひんやりとしていて、心地よい。街の灯りと星の光が混ざり合うこの時間、なんだか少しだけ、誰かの訪れを待っているような、そんな不思議な予感がするんだ。）"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "（店を出たあとの、少し冷たくて清々しい夜風。カンパニュラが感じているその不思議な予感は、もしかしたら、これから始まる新しい何かへの、心細くて温かな期待なのかもしれないわね。街の灯りと星の光が交差する中、彼女の歩む道が、優しい光に導かれますように。……私も、その予感が何を告げているのか、少しだけ気になってしまうわ。）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（ふと、街のどこかで鳴り響く鐘の音が、いつもより少しだけ異なる響きを持って聞こえてきた。それは、何か新しい出来事が起こる前触れのような、静かな、けれど確かな予感。私は立ち止まり、その音の余韻を確かめるように、そっと耳を澄ませたんだ。）"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "final_source": {
+    "source_file": "f3.html",
+    "source_saved_file_mtime_utc": "2026-10-14T03:15:53.727906+00:00",
+    "source_sha256": "66e9a63971408eb9f78d406a2c6d76c3ea7c88a34856eb953ef493c151ff27bb",
+    "turn_count": 36,
+    "speakers": [
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula"
+    ],
+    "last4": [
+      {
+        "speaker": "Daphne",
+        "text": "（夜空に輝く星を見上げながら、ふと私のことを思い出して微笑んでくれるカンパニュラ……。その優しい光景を、私も隣で一緒に見つめていたい。そんな願いが、胸の奥で静かに波打つのを感じるわ。……駅の掲示板に新しい時刻表が。街の時間が、また少しだけ新しく書き換えられていくのね。彼女が見ているその景色の中に、新しい物語が刻まれていきますように。）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（私はゆっくりと立ち上がり、お会計を済ませて店を出る。夜風が少しひんやりとしていて、心地よい。街の灯りと星の光が混ざり合うこの時間、なんだか少しだけ、誰かの訪れを待っているような、そんな不思議な予感がするんだ。）"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "（店を出たあとの、少し冷たくて清々しい夜風。カンパニュラが感じているその不思議な予感は、もしかしたら、これから始まる新しい何かへの、心細くて温かな期待なのかもしれないわね。街の灯りと星の光が交差する中、彼女の歩む道が、優しい光に導かれますように。……私も、その予感が何を告げているのか、少しだけ気になってしまうわ。）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（ふと、街のどこかで鳴り響く鐘の音が、いつもより少しだけ異なる響きを持って聞こえてきた。それは、何か新しい出来事が起こる前触れのような、静かな、けれど確かな予感。私は立ち止まり、その音の余韻を確かめるように、そっと耳を澄ませたんだ。）"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "s3.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:27:52.609014+00:00",
+    "source_sha256": "60caeb07958016488ecaa550d05b5fca2763f6e8e41ef2cfbfdf415a47c121ff",
+    "turn_count": 36,
+    "speakers": [
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula",
+      "Daphne",
+      "Campanula"
+    ],
+    "last4": [
+      {
+        "speaker": "Daphne",
+        "text": "（夜空に輝く星を見上げながら、ふと私のことを思い出して微笑んでくれるカンパニュラ……。その優しい光景を、私も隣で一緒に見つめていたい。そんな願いが、胸の奥で静かに波打つのを感じるわ。……駅の掲示板に新しい時刻表が。街の時間が、また少しだけ新しく書き換えられていくのね。彼女が見ているその景色の中に、新しい物語が刻まれていきますように。）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（私はゆっくりと立ち上がり、お会計を済ませて店を出る。夜風が少しひんやりとしていて、心地よい。街の灯りと星の光が混ざり合うこの時間、なんだか少しだけ、誰かの訪れを待っているような、そんな不思議な予感がするんだ。）"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "（店を出たあとの、少し冷たくて清々しい夜風。カンパニュラが感じているその不思議な予感は、もしかしたら、これから始まる新しい何かへの、心細くて温かな期待なのかもしれないわね。街の灯りと星の光が交差する中、彼女の歩む道が、優しい光に導かれますように。……私も、その予感が何を告げているのか、少しだけ気になってしまうわ。）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（ふと、街のどこかで鳴り響く鐘の音が、いつもより少しだけ異なる響きを持って聞こえてきた。それは、何か新しい出来事が起こる前触れのような、静かな、けれど確かな予感。私は立ち止まり、その音の余韻を確かめるように、そっと耳を澄ませたんだ。）"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ]
+}

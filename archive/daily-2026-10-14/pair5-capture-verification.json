@@ -1,0 +1,215 @@
+{
+  "pair_id": 5,
+  "record": 441,
+  "before_turns": 36,
+  "after_turns": 40,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "new_equals_saved_suffix": true,
+  "after_source": {
+    "source_file": "w5.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:42:26.612666+00:00",
+    "source_sha256": "677c43d26c528de797fd1e35dcbe7e1f1bf3e4155c02bb912106551b9010e1a5",
+    "turn_count": 40,
+    "speakers": [
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa"
+    ],
+    "last4": [
+      {
+        "speaker": "Lupinus",
+        "text": "うん、ぜひ一緒に行こうね！\n二人で並んで、静かな温室の中でそのお花を眺められたら、きっと一生忘れられないくらい素敵な時間になると思うな。\n今からその約束を思い浮かべるだけで、なんだか心がわくわくしてきちゃうよ。"
+      },
+      {
+        "speaker": "Mimosa",
+        "text": "ふふ、私も！約束を思い浮かべるだけで、なんだか今夜はもっと素敵な夢が見られそうだよ。\nその時が来るのを、今からとっても楽しみにしてるね。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "私も、その日が来るのをずっとずっと楽しみに待っているね。\nミモザと一緒に温室にいたら、きっとお花ももっと嬉しそうに笑ってくれる気がするんだ。\nそれじゃあ、本当に、おやすみなさい。また明日ね！"
+      },
+      {
+        "speaker": "Mimosa",
+        "text": "本当に、おやすみなさい、ルピナス。\nお花たちも、私たちの約束を聞いて喜んでるかもしれないね。\nまた明日、元気な声を聞かせてね！バイバイ！"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "final_source": {
+    "source_file": "f5.html",
+    "source_saved_file_mtime_utc": "2026-10-14T03:21:41.267860+00:00",
+    "source_sha256": "6ff72f0708ad4601f1967a2d9d4acaea5ca0a2243562352416b65d9f885d0d2c",
+    "turn_count": 40,
+    "speakers": [
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa"
+    ],
+    "last4": [
+      {
+        "speaker": "Lupinus",
+        "text": "うん、ぜひ一緒に行こうね！\n二人で並んで、静かな温室の中でそのお花を眺められたら、きっと一生忘れられないくらい素敵な時間になると思うな。\n今からその約束を思い浮かべるだけで、なんだか心がわくわくしてきちゃうよ。"
+      },
+      {
+        "speaker": "Mimosa",
+        "text": "ふふ、私も！約束を思い浮かべるだけで、なんだか今夜はもっと素敵な夢が見られそうだよ。\nその時が来るのを、今からとっても楽しみにしてるね。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "私も、その日が来るのをずっとずっと楽しみに待っているね。\nミモザと一緒に温室にいたら、きっとお花ももっと嬉しそうに笑ってくれる気がするんだ。\nそれじゃあ、本当に、おやすみなさい。また明日ね！"
+      },
+      {
+        "speaker": "Mimosa",
+        "text": "本当に、おやすみなさい、ルピナス。\nお花たちも、私たちの約束を聞いて喜んでるかもしれないね。\nまた明日、元気な声を聞かせてね！バイバイ！"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "s5.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:40:34.189843+00:00",
+    "source_sha256": "3d4ac13e63cffa72a3cf73fb13f2c868ef52f290afce36f495256983151a78ee",
+    "turn_count": 40,
+    "speakers": [
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa",
+      "Lupinus",
+      "Mimosa"
+    ],
+    "last4": [
+      {
+        "speaker": "Lupinus",
+        "text": "うん、ぜひ一緒に行こうね！\n二人で並んで、静かな温室の中でそのお花を眺められたら、きっと一生忘れられないくらい素敵な時間になると思うな。\n今からその約束を思い浮かべるだけで、なんだか心がわくわくしてきちゃうよ。"
+      },
+      {
+        "speaker": "Mimosa",
+        "text": "ふふ、私も！約束を思い浮かべるだけで、なんだか今夜はもっと素敵な夢が見られそうだよ。\nその時が来るのを、今からとっても楽しみにしてるね。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "私も、その日が来るのをずっとずっと楽しみに待っているね。\nミモザと一緒に温室にいたら、きっとお花ももっと嬉しそうに笑ってくれる気がするんだ。\nそれじゃあ、本当に、おやすみなさい。また明日ね！"
+      },
+      {
+        "speaker": "Mimosa",
+        "text": "本当に、おやすみなさい、ルピナス。\nお花たちも、私たちの約束を聞いて喜んでるかもしれないね。\nまた明日、元気な声を聞かせてね！バイバイ！"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ]
+}

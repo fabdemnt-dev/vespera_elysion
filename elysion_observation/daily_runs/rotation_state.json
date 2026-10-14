@@ -1,8 +1,8 @@
 {
-  "as_of_jst": "2026-10-13",
+  "as_of_jst": "2026-10-14",
   "current_operational_round": 47,
-  "latest_record": 437,
-  "next_record_candidate": 438,
+  "latest_record": 443,
+  "next_record_candidate": 444,
   "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
   "first_cycle_visited_ids": [
     11,
@@ -165,12 +165,12 @@
     }
   },
   "next_pair_ids": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
   ],
   "remaining_first_cycle_order": [],
   "story_continued_ids": [
@@ -183,7 +183,7 @@
   "max_pairs_per_run": 6,
   "turns_per_pair": 4,
   "first_cycle_remainder_only": false,
-  "pace_evaluation": "初回巡回は10月12日の36/36組で完了済み。通常の6組×4ターンを維持し、既存ペアIDの巡回順をID32から再開、ID36の次はID1へ回る。第47周はID32・33・34・35・36・1の6/36組で進行中、残り30組はID2〜31、次の6組候補はID2〜7。巡回の到達件数と物語の継続・終了判定は独立に管理する。",
+  "pace_evaluation": "初回巡回36/36組は10月12日に完了済み。現在の第47周・2巡目は、前日ID32・33・34・35・36・1に今回ID2・3・4・5・6・7を加えて12/36組。残り24組はID8〜31、次の6組候補はID8〜13。日次は6組×4ターンで停止し、巡回到達件数と物語の継続/終了分類は独立に管理する。",
   "first_cycle_complete": true,
   "stopped_after_first_cycle": false,
   "current_cycle": 2,
@@ -193,7 +193,13 @@
     34,
     35,
     36,
-    1
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
   ],
   "current_cycle_visited_sources": {
     "2026-10-13": {
@@ -213,15 +219,27 @@
         436,
         437
       ]
+    },
+    "2026-10-14": {
+      "pair_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "records": [
+        438,
+        439,
+        440,
+        441,
+        442,
+        443
+      ]
     }
   },
   "remaining_current_cycle_order": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
     8,
     9,
     10,

@@ -1,0 +1,203 @@
+{
+  "pair_id": 2,
+  "record": 438,
+  "before_turns": 32,
+  "after_turns": 36,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "new_equals_saved_suffix": true,
+  "after_source": {
+    "source_file": "w2.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:24:08.995367+00:00",
+    "source_sha256": "0d893fb06d8a53951f79dffece9f371dfd66019997c47ade23f8dab9dc3886cc",
+    "turn_count": 36,
+    "speakers": [
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica"
+    ],
+    "last4": [
+      {
+        "speaker": "Anemone",
+        "text": "またね！"
+      },
+      {
+        "speaker": "Erica",
+        "text": "またね。"
+      },
+      {
+        "speaker": "Anemone",
+        "text": "またね！"
+      },
+      {
+        "speaker": "Erica",
+        "text": "またね。"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "final_source": {
+    "source_file": "f2.html",
+    "source_saved_file_mtime_utc": "2026-10-14T03:19:34.249726+00:00",
+    "source_sha256": "e02a890f50e3decad7b30fd8544874c3e1ae37f0227220edd0e59947953c28cb",
+    "turn_count": 36,
+    "speakers": [
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica"
+    ],
+    "last4": [
+      {
+        "speaker": "Anemone",
+        "text": "またね！"
+      },
+      {
+        "speaker": "Erica",
+        "text": "またね。"
+      },
+      {
+        "speaker": "Anemone",
+        "text": "またね！"
+      },
+      {
+        "speaker": "Erica",
+        "text": "またね。"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "s2.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:21:08.251717+00:00",
+    "source_sha256": "bcd992f4eed203fab96f5cc907c8073f55f1e5c21728ca2c867b984fa1bf9c3b",
+    "turn_count": 36,
+    "speakers": [
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica",
+      "Anemone",
+      "Erica"
+    ],
+    "last4": [
+      {
+        "speaker": "Anemone",
+        "text": "またね！"
+      },
+      {
+        "speaker": "Erica",
+        "text": "またね。"
+      },
+      {
+        "speaker": "Anemone",
+        "text": "またね！"
+      },
+      {
+        "speaker": "Erica",
+        "text": "またね。"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ]
+}

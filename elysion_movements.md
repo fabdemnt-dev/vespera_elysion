@@ -401,3 +401,14 @@ UNIVERSEの街画面「住民の動静」→「移動履歴」およびworld_sta
 - #437 scene +1、counter 6→3。Iris→Mimosa 84→88、Mimosa→Iris 87→91。全9人のraw locationは不変、movementsは不変。
 - mimosa=eternite_square、iris=cafe_fleur、erica=cafe_fleur、anemone=hanasaku_station、daphne=cafe_fleur、campanula=time_bell_tower、nerine=flower_slumber_garden、viola=cafe_fleur、lupinus=stellaris_hill。
 - 会話の叙述・比喩・scene位置とraw移動を分け、未確認の移動を補完しない。
+
+## 2026-10-14 JST 公開表示比較（#438〜#443後）
+
+- #438 公開出来事表示への追加0件、表示窓から外れた項目0件。map表示は一致、移動履歴の表示は一致。内部状態全体の不変を示すものではない。
+- #439 公開出来事表示への追加1件、表示窓から外れた項目1件。map表示は一致、移動履歴の表示は一致。内部状態全体の不変を示すものではない。
+- #440 公開出来事表示への追加0件、表示窓から外れた項目0件。map表示は一致、移動履歴の表示は一致。内部状態全体の不変を示すものではない。
+- #441 公開出来事表示への追加0件、表示窓から外れた項目0件。map表示は一致、移動履歴の表示は一致。内部状態全体の不変を示すものではない。
+- #442 公開出来事表示への追加1件、表示窓から外れた項目1件。map表示は一致、移動履歴の表示は一致。内部状態全体の不変を示すものではない。
+- #443 公開出来事表示への追加0件、表示窓から外れた項目0件。map表示は一致、移動履歴の表示は一致。内部状態全体の不変を示すものではない。
+- map表示：ミモザ=エテルニテ広場、アネモネ=花咲く街の駅、アイリス=カフェ・フルール、エリカ=カフェ・フルール、ダフネ=カフェ・フルール、ビオラ=カフェ・フルール、ネリネ=花眠りの庭、カンパニュラ=時告げの鐘楼、ルピナス=星待ちの丘。
+- 完全raw・内部counter・raw全72方向affinity・raw event tags/location/総件数・pending作成時刻・system ended flagは未確認。公開表示からゼロ・不変・総scene数を推測せず、前日のrawを今回の値へ代入しない。

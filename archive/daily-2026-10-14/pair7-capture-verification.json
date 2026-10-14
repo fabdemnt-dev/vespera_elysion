@@ -1,0 +1,215 @@
+{
+  "pair_id": 7,
+  "record": 443,
+  "before_turns": 36,
+  "after_turns": 40,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "new_equals_saved_suffix": true,
+  "after_source": {
+    "source_file": "w7.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:53:03.555276+00:00",
+    "source_sha256": "90fee963b585809b045669bd2fd89269af9a5fc9c43e1c833b53d20280f904bb",
+    "turn_count": 40,
+    "speakers": [
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne"
+    ],
+    "last4": [
+      {
+        "speaker": "Erica",
+        "text": "ありがとう。\nあなたが大切に重ねていく言葉のひとつひとつが、いつか私の心にそっと触れるのを、楽しみにしているよ。\nまた、ゆっくりお話ししようね。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ええ、もちろんでしょう。\nあなたの心に、私の言葉が優しく触れられる日が来るのを、私も心待ちにしているわ。\nそれじゃあ、またね。エリカ。"
+      },
+      {
+        "speaker": "Erica",
+        "text": "ええ、またね。\nあなたの言葉が、心地よい風のように私のところに届くのを待っているよ。\nそれじゃあ、また。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ふふ、心地よい風のように……素敵な表現ね。\nその言葉に甘えて、私もあなたの元へ、穏やかな風を送り続けられるようにするわ。\nそれでは、また。"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "final_source": {
+    "source_file": "f7.html",
+    "source_saved_file_mtime_utc": "2026-10-14T03:14:01.429097+00:00",
+    "source_sha256": "53a356835dcd353edeaf0d083b7cc675d55cf2e41512512a3030ed8c6a238de8",
+    "turn_count": 40,
+    "speakers": [
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne"
+    ],
+    "last4": [
+      {
+        "speaker": "Erica",
+        "text": "ありがとう。\nあなたが大切に重ねていく言葉のひとつひとつが、いつか私の心にそっと触れるのを、楽しみにしているよ。\nまた、ゆっくりお話ししようね。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ええ、もちろんでしょう。\nあなたの心に、私の言葉が優しく触れられる日が来るのを、私も心待ちにしているわ。\nそれじゃあ、またね。エリカ。"
+      },
+      {
+        "speaker": "Erica",
+        "text": "ええ、またね。\nあなたの言葉が、心地よい風のように私のところに届くのを待っているよ。\nそれじゃあ、また。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ふふ、心地よい風のように……素敵な表現ね。\nその言葉に甘えて、私もあなたの元へ、穏やかな風を送り続けられるようにするわ。\nそれでは、また。"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "s7.html",
+    "source_saved_file_mtime_utc": "2026-10-14T02:50:56.697146+00:00",
+    "source_sha256": "8dc314894464bb24eeb5586ba33f109e07f222b95d8a8d9e46fc8d09a350b4a5",
+    "turn_count": 40,
+    "speakers": [
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne",
+      "Erica",
+      "Daphne"
+    ],
+    "last4": [
+      {
+        "speaker": "Erica",
+        "text": "ありがとう。\nあなたが大切に重ねていく言葉のひとつひとつが、いつか私の心にそっと触れるのを、楽しみにしているよ。\nまた、ゆっくりお話ししようね。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ええ、もちろんでしょう。\nあなたの心に、私の言葉が優しく触れられる日が来るのを、私も心待ちにしているわ。\nそれじゃあ、またね。エリカ。"
+      },
+      {
+        "speaker": "Erica",
+        "text": "ええ、またね。\nあなたの言葉が、心地よい風のように私のところに届くのを待っているよ。\nそれじゃあ、また。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ふふ、心地よい風のように……素敵な表現ね。\nその言葉に甘えて、私もあなたの元へ、穏やかな風を送り続けられるようにするわ。\nそれでは、また。"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ]
+}

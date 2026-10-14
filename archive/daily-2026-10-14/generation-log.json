@@ -1,0 +1,44 @@
+[
+  {
+    "record": 438,
+    "pair": 2,
+    "requested_at": "2026-10-14T02:19:21.558Z",
+    "turns": 4,
+    "outcome": "4 turns saved, old full prefix and final reread verified"
+  },
+  {
+    "record": 439,
+    "pair": 3,
+    "requested_at": "2026-10-14T02:26:16.022Z",
+    "turns": 4,
+    "outcome": "4 turns saved, old full prefix and final reread verified"
+  },
+  {
+    "record": 440,
+    "pair": 4,
+    "requested_at": "2026-10-14T02:35:37.245Z",
+    "turns": 4,
+    "outcome": "4 turns saved; old full prefix and final reread verified; documented stream unrelated prefix, target suffix exact"
+  },
+  {
+    "record": 441,
+    "pair": 5,
+    "requested_at": "2026-10-14T02:39:42.864Z",
+    "turns": 4,
+    "outcome": "4 turns saved, old full prefix and final reread verified"
+  },
+  {
+    "record": 442,
+    "pair": 6,
+    "requested_at": "2026-10-14T02:44:12.068Z",
+    "turns": 4,
+    "outcome": "4 turns saved, old full prefix and final reread verified"
+  },
+  {
+    "record": 443,
+    "pair": 7,
+    "requested_at": "2026-10-14T02:49:45.721Z",
+    "turns": 4,
+    "outcome": "4 turns saved, old full prefix and final reread verified"
+  }
+]
