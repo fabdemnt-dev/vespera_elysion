@@ -1,8 +1,8 @@
 {
-  "as_of_jst": "2026-10-14",
+  "as_of_jst": "2026-10-15",
   "current_operational_round": 47,
-  "latest_record": 443,
-  "next_record_candidate": 444,
+  "latest_record": 449,
+  "next_record_candidate": 450,
   "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
   "first_cycle_visited_ids": [
     11,
@@ -165,12 +165,12 @@
     }
   },
   "next_pair_ids": [
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
   ],
   "remaining_first_cycle_order": [],
   "story_continued_ids": [
@@ -183,7 +183,7 @@
   "max_pairs_per_run": 6,
   "turns_per_pair": 4,
   "first_cycle_remainder_only": false,
-  "pace_evaluation": "初回巡回36/36組は10月12日に完了済み。現在の第47周・2巡目は、前日ID32・33・34・35・36・1に今回ID2・3・4・5・6・7を加えて12/36組。残り24組はID8〜31、次の6組候補はID8〜13。日次は6組×4ターンで停止し、巡回到達件数と物語の継続/終了分類は独立に管理する。",
+  "pace_evaluation": "初回36/36組巡回は2026年10月12日に完了済み。現在は第47周内の継続巡回18/36組（今回ID8〜13を追加）で、全体完了ではない。未訪問はID14〜31、次回候補はID14〜19、次番号候補#450。",
   "first_cycle_complete": true,
   "stopped_after_first_cycle": false,
   "current_cycle": 2,
@@ -199,7 +199,13 @@
     4,
     5,
     6,
-    7
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
   ],
   "current_cycle_visited_sources": {
     "2026-10-13": {
@@ -237,15 +243,27 @@
         442,
         443
       ]
+    },
+    "2026-10-15": {
+      "pair_ids": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "records": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449
+      ]
     }
   },
   "remaining_current_cycle_order": [
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
     14,
     15,
     16,

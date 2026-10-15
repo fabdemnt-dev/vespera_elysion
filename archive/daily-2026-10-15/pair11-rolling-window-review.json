@@ -1,0 +1,16 @@
+{
+  "date_jst": "2026-10-15",
+  "pair_id": 11,
+  "record": 447,
+  "reviewed": true,
+  "dropped_old_turns": 5,
+  "before_sha256_utf8": "57a445b5dd82796608069ea5391747f25cfeef47c4dada5a7992eb51bb69b374",
+  "after_sha256_utf8": "1d7005c059c8497cf7d9d7eaff02813ef4a0274fa187f18632e6280d0af0199b",
+  "retained_leading_stage_text": "―― 温室の入り口で、色鮮やかな季節の花々が並べられた。 ――\n",
+  "note": "実保存UIのbefore88発言からafter87発言へ、旧先頭5発言だけが表示窓から外れ、その直後の温室の舞台文が先頭に残った。stream92発言はbefore88全文を完全接頭辞として保持して新規4発言を追加。舞台文を含むstreamの残る83旧発言と新4発言の全文がafter表示と一致。内部保存からの削除・欠損原因とは断定せず、before・streamの完全原本を保持する。",
+  "stream_reviewed": true,
+  "stream_dropped_prefix_turns": 5,
+  "stream_source_sha256": "5fe1a129dcfac16d271c005195f53c1e0006e2ddfbbae01ef01483134aa23d3c",
+  "after_source_sha256": "c5c98abb47c36887a36c1832c232d0d248f4998f8b98bafa1ecdad5b918aa1db",
+  "stream_normalized_sha256_utf8": "9e10862d48871a6998010b25d139a2a8d0277eb424b4c7293062371cf44acdbe"
+}

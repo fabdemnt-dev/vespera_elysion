@@ -1,0 +1,15 @@
+{
+  "date_jst": "2026-10-15",
+  "pair_id": 8,
+  "record": 444,
+  "reviewed": true,
+  "dropped_old_turns": 1,
+  "before_sha256_utf8": "98599d2a55bd70dec3a0e2c9b75d4e254685e8e475ec2252b34e90a857a27549",
+  "after_sha256_utf8": "eb9d6fea2e1d2c088818cb000c5040165bcd3ef5adae10ff61e08a0525867786",
+  "note": "実保存UIのbefore89発言からafter92発言へ、先頭Anemoneの旧1発言だけが表示窓から外れた。stream93発言はbefore89全文を完全接頭辞として保持し、新規4発言を追加。stream先頭1発言を除いた残る92発言とafter表示は全文一致。内部保存からの削除とは判断せず、before・streamの完全原本を保持する。",
+  "stream_reviewed": true,
+  "stream_dropped_prefix_turns": 1,
+  "stream_source_sha256": "e7448d28fcee6027ecb27fed32e4bd09a81545f21e35db4c509f951c6da05f9d",
+  "after_source_sha256": "341128ee031348912ceb2fbd888e82500933546319a729a12223dcd8b5e556cc",
+  "stream_normalized_sha256_utf8": "a974400b77dbeede85d0aa7a196a9af406590007ec88d2b5c8eeca26d895165f"
+}

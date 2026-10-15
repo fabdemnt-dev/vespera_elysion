@@ -1,0 +1,249 @@
+{
+  "pair_id": 10,
+  "record": 446,
+  "before_turns": 41,
+  "after_turns": 45,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "common_old_text_preserved": true,
+  "dropped_old_turns_from_visible_window": 0,
+  "common_old_turn_count": 41,
+  "new_equals_saved_suffix": true,
+  "expected_new_speakers": [
+    "Anemone",
+    "Campanula",
+    "Anemone",
+    "Campanula"
+  ],
+  "observed_new_speakers": [
+    "Anemone",
+    "Campanula",
+    "Anemone",
+    "Campanula"
+  ],
+  "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+  "rolling_window_review": null,
+  "retained_leading_stage_text": "",
+  "after_source": {
+    "source_file": "oct15-w10.html",
+    "source_saved_file_mtime_utc": "2026-10-15T00:21:28.286564+00:00",
+    "source_sha256": "a606e0ca7b54d0387d9946b6e136b5924b4fdb82fa1ac321d393b21e6bd2364f",
+    "turn_count": 45,
+    "speakers": [
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula"
+    ],
+    "last4": [
+      {
+        "speaker": "Anemone",
+        "text": "（アネモネは、駅の広場から街の小路へと続く道を、リズムよく歩き始めた。\n彼女の心は、先ほどの会話で生まれた温かな予感と、これから出会うかもしれない新しい景色への好奇心で、キラキラと輝いている。\n時折、通り過ぎる花々の香りに足を止めたり、空を流れる雲の形を眺めたりしながら、彼女は自分だけの自由な時間を、心ゆくまで楽しんでいた）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（アネモネが歩みを進めるたびに、街の景色が少しずつ新しい表情を見せていく。その足取りが、風に揺れる花々と同じように軽やかであることを、遠く離れた場所からでも、なんとなく感じられるような気がするんだ）\n\n（鐘楼の傍らに座り込み、彼女の歩む道に寄り添うような優しい風を待ちながら、静かに瞳を閉じる）\n\n……アネモネ。\nあなたの歩く道が、光と香りに満ちた、素敵な物語になりますように。"
+      },
+      {
+        "speaker": "Anemone",
+        "text": "（アネモネは、小道を曲がったところでふと立ち止まり、背後から流れてくる風が、まるで誰かの優しい祈りのように自分を包み込んだのを感じた。\nその心地よい感覚に、彼女は足を止めて、空を見上げ、ふっと小さく、けれど確かな満足感を込めて微笑んだ）\n\nうん……。\nなんだか、すごくいい風が吹いてきた。\nカンパニュラ、見てるかな？\nこの風、とっても温かいよ。"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（アネモネの言葉が、まるで風のささやきに乗って届いたかのように、鐘楼の空気の中でふわりと揺れる）\n\n……うん、届いているよ。\n今、私のところにも、とっても優しくて、温かい風が吹いてきたんだ。\nアネモネが感じているその風と同じ、穏やかで、光を含んだ風……。\n\n（目を閉じたまま、その風を全身で受け止め、微笑みながら）\n\nアネモネが、その風と一緒に、素敵なものを見つけてくれるのを、ここで感じているよ。"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "final_source": {
+    "source_file": "oct15-f10.html",
+    "source_saved_file_mtime_utc": "2026-10-15T00:38:59.493978+00:00",
+    "source_sha256": "4f2b5f700ebeb4594c503d231f1738bbfe359044aa014e0e7d234265d574a5e0",
+    "turn_count": 45,
+    "speakers": [
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula"
+    ],
+    "last4": [
+      {
+        "speaker": "Anemone",
+        "text": "（アネモネは、駅の広場から街の小路へと続く道を、リズムよく歩き始めた。\n彼女の心は、先ほどの会話で生まれた温かな予感と、これから出会うかもしれない新しい景色への好奇心で、キラキラと輝いている。\n時折、通り過ぎる花々の香りに足を止めたり、空を流れる雲の形を眺めたりしながら、彼女は自分だけの自由な時間を、心ゆくまで楽しんでいた）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（アネモネが歩みを進めるたびに、街の景色が少しずつ新しい表情を見せていく。その足取りが、風に揺れる花々と同じように軽やかであることを、遠く離れた場所からでも、なんとなく感じられるような気がするんだ）\n\n（鐘楼の傍らに座り込み、彼女の歩む道に寄り添うような優しい風を待ちながら、静かに瞳を閉じる）\n\n……アネモネ。\nあなたの歩く道が、光と香りに満ちた、素敵な物語になりますように。"
+      },
+      {
+        "speaker": "Anemone",
+        "text": "（アネモネは、小道を曲がったところでふと立ち止まり、背後から流れてくる風が、まるで誰かの優しい祈りのように自分を包み込んだのを感じた。\nその心地よい感覚に、彼女は足を止めて、空を見上げ、ふっと小さく、けれど確かな満足感を込めて微笑んだ）\n\nうん……。\nなんだか、すごくいい風が吹いてきた。\nカンパニュラ、見てるかな？\nこの風、とっても温かいよ。"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（アネモネの言葉が、まるで風のささやきに乗って届いたかのように、鐘楼の空気の中でふわりと揺れる）\n\n……うん、届いているよ。\n今、私のところにも、とっても優しくて、温かい風が吹いてきたんだ。\nアネモネが感じているその風と同じ、穏やかで、光を含んだ風……。\n\n（目を閉じたまま、その風を全身で受け止め、微笑みながら）\n\nアネモネが、その風と一緒に、素敵なものを見つけてくれるのを、ここで感じているよ。"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "oct15-s10.html",
+    "source_saved_file_mtime_utc": "2026-10-15T00:20:36.416959+00:00",
+    "source_sha256": "c3893ef3b11de924924b488cb1026925acbb13adaf4b115559ce477576ccd5f5",
+    "turn_count": 45,
+    "speakers": [
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula",
+      "Anemone",
+      "Campanula"
+    ],
+    "last4": [
+      {
+        "speaker": "Anemone",
+        "text": "（アネモネは、駅の広場から街の小路へと続く道を、リズムよく歩き始めた。\n彼女の心は、先ほどの会話で生まれた温かな予感と、これから出会うかもしれない新しい景色への好奇心で、キラキラと輝いている。\n時折、通り過ぎる花々の香りに足を止めたり、空を流れる雲の形を眺めたりしながら、彼女は自分だけの自由な時間を、心ゆくまで楽しんでいた）"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（アネモネが歩みを進めるたびに、街の景色が少しずつ新しい表情を見せていく。その足取りが、風に揺れる花々と同じように軽やかであることを、遠く離れた場所からでも、なんとなく感じられるような気がするんだ）\n\n（鐘楼の傍らに座り込み、彼女の歩む道に寄り添うような優しい風を待ちながら、静かに瞳を閉じる）\n\n……アネモネ。\nあなたの歩く道が、光と香りに満ちた、素敵な物語になりますように。"
+      },
+      {
+        "speaker": "Anemone",
+        "text": "（アネモネは、小道を曲がったところでふと立ち止まり、背後から流れてくる風が、まるで誰かの優しい祈りのように自分を包み込んだのを感じた。\nその心地よい感覚に、彼女は足を止めて、空を見上げ、ふっと小さく、けれど確かな満足感を込めて微笑んだ）\n\nうん……。\nなんだか、すごくいい風が吹いてきた。\nカンパニュラ、見てるかな？\nこの風、とっても温かいよ。"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "（アネモネの言葉が、まるで風のささやきに乗って届いたかのように、鐘楼の空気の中でふわりと揺れる）\n\n……うん、届いているよ。\n今、私のところにも、とっても優しくて、温かい風が吹いてきたんだ。\nアネモネが感じているその風と同じ、穏やかで、光を含んだ風……。\n\n（目を閉じたまま、その風を全身で受け止め、微笑みながら）\n\nアネモネが、その風と一緒に、素敵なものを見つけてくれるのを、ここで感じているよ。"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ],
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_window_review_verified": false
+}
