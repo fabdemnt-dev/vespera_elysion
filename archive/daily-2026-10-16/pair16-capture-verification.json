@@ -1,0 +1,264 @@
+{
+  "pair_id": 16,
+  "record": 452,
+  "before_source": {
+    "source_file": "oct16-b16.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:28:55.958256+00:00",
+    "source_sha256": "c5b0d863299bcc5c248cfbe9f6b1daf2fc41bdb48c8189d216d283146a186669",
+    "turn_count": 28,
+    "speakers": [
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus"
+    ],
+    "last4": [
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい、ルピナス。\nまた、あなたの声が聞ける時を楽しみにしているわ。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "私も、またダフネの声が聞けるのを、とっても楽しみにしているね。\nおやすみなさい。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい。\nまたね。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "またね。\nおやすみなさい。"
+      }
+    ]
+  },
+  "before_turns": 28,
+  "after_turns": 32,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "common_old_text_preserved": true,
+  "dropped_old_turns_from_visible_window": 0,
+  "common_old_turn_count": 28,
+  "new_equals_saved_suffix": true,
+  "expected_new_speakers": [
+    "Daphne",
+    "Lupinus",
+    "Daphne",
+    "Lupinus"
+  ],
+  "observed_new_speakers": [
+    "Daphne",
+    "Lupinus",
+    "Daphne",
+    "Lupinus"
+  ],
+  "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+  "rolling_window_review": null,
+  "retained_leading_stage_text": "",
+  "after_source": {
+    "source_file": "oct16-a16.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:38:19.902389+00:00",
+    "source_sha256": "297bc2ee5a92ae26b7890115b60f6a6bd577d0b709af948d22f06fa140833a7b",
+    "turn_count": 32,
+    "speakers": [
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus"
+    ],
+    "last4": [
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "おやすみなさい。"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "final_source": {
+    "source_file": "oct16-f16.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:44:08.580059+00:00",
+    "source_sha256": "297bc2ee5a92ae26b7890115b60f6a6bd577d0b709af948d22f06fa140833a7b",
+    "turn_count": 32,
+    "speakers": [
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus"
+    ],
+    "last4": [
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "おやすみなさい。"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "oct16-s16.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:37:41.181642+00:00",
+    "source_sha256": "2a7d2ddb0473fb8efc1caa4bc67f4abd1852b694ac85d73415a6b57258f06bbf",
+    "turn_count": 32,
+    "speakers": [
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus",
+      "Daphne",
+      "Lupinus"
+    ],
+    "last4": [
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "おやすみなさい。"
+      },
+      {
+        "speaker": "Lupinus",
+        "text": "おやすみなさい。"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ],
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_window_review_verified": false
+}

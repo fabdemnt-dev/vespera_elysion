@@ -1,0 +1,74 @@
+[
+  {
+    "pair_id": 14,
+    "record": 450,
+    "requested_turns": 4,
+    "participants": [
+      "エリカ",
+      "ミモザ"
+    ],
+    "started_at_utc": "2026-10-16T09:33:48.629Z",
+    "action": "normal UI start button once",
+    "ui_completed_at_utc": "2026-10-16T09:34:22.834Z"
+  },
+  {
+    "pair_id": 15,
+    "record": 451,
+    "requested_turns": 4,
+    "participants": [
+      "アイリス",
+      "ネリネ"
+    ],
+    "started_at_utc": "2026-10-16T09:35:35.354Z",
+    "action": "normal UI start button once",
+    "ui_completed_at_utc": "2026-10-16T09:36:17.121Z"
+  },
+  {
+    "pair_id": 16,
+    "record": 452,
+    "requested_turns": 4,
+    "participants": [
+      "ダフネ",
+      "ルピナス"
+    ],
+    "started_at_utc": "2026-10-16T09:37:12.222Z",
+    "action": "normal UI start button once",
+    "ui_completed_at_utc": "2026-10-16T09:37:34.591Z"
+  },
+  {
+    "pair_id": 17,
+    "record": 453,
+    "requested_turns": 4,
+    "participants": [
+      "ビオラ",
+      "ミモザ"
+    ],
+    "started_at_utc": "2026-10-16T09:38:36.094Z",
+    "action": "normal UI start button once",
+    "ui_completed_at_utc": "2026-10-16T09:39:07.438Z"
+  },
+  {
+    "pair_id": 18,
+    "record": 454,
+    "requested_turns": 4,
+    "participants": [
+      "エリカ",
+      "ビオラ"
+    ],
+    "started_at_utc": "2026-10-16T09:40:16.906Z",
+    "action": "normal UI start button once",
+    "ui_completed_at_utc": "2026-10-16T09:40:56.309Z"
+  },
+  {
+    "pair_id": 19,
+    "record": 455,
+    "requested_turns": 4,
+    "participants": [
+      "アイリス",
+      "ダフネ"
+    ],
+    "started_at_utc": "2026-10-16T09:41:58.415Z",
+    "action": "normal UI start button once",
+    "ui_completed_at_utc": "2026-10-16T09:42:28.148Z"
+  }
+]

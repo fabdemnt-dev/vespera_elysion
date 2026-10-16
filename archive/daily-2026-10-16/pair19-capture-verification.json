@@ -1,0 +1,280 @@
+{
+  "pair_id": 19,
+  "record": 455,
+  "before_source": {
+    "source_file": "oct16-b19.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:28:55.959226+00:00",
+    "source_sha256": "7f0f4eca9e660353e3337b166585b00d8f3e52bffc5614babad161b76c4d9934",
+    "turn_count": 32,
+    "speakers": [
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne"
+    ],
+    "last4": [
+      {
+        "speaker": "Iris",
+        "text": "わあ、夜にだけ開く花……！そんな神秘的な光、想像しただけでドキドキしちゃう。\nダフネの言葉のおかげで、なんだか特別な夜になりそうな予感がするよ！\nそれじゃあ、また後でね！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "その香りは、きっと夜の魔法が始まった合図ね。\nどうぞ、その不思議な香りに身を任せて、素敵なひとときを過ごしてきて。\nまた、あなたの言葉でその光景を教えてもらえるのを待っているわ。"
+      },
+      {
+        "speaker": "Iris",
+        "text": "ありがとう！その魔法、しっかり受け取っておくね。\nそれじゃあ、また後で何か見つけたら、すぐに教えに行くから待っててね！\nあ、ごめんなさい！私、もうカフェ・フルールの前にいたんだったわね。\nなんだか、ダフネとお話ししてたら、つい足が動いちゃうみたい。\nそれじゃあ、さっそくこの素敵な香りに誘われて、座ってみることにするね！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ふふ、そんなに急がなくても、カフェは逃げたりしないわよ。\nでも、その香りに誘われる感覚、とても大切だと思うわ。\nゆっくりと、その瞬間の魔法を楽しんでね。"
+      }
+    ]
+  },
+  "before_turns": 32,
+  "after_turns": 36,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "common_old_text_preserved": true,
+  "dropped_old_turns_from_visible_window": 0,
+  "common_old_turn_count": 32,
+  "new_equals_saved_suffix": true,
+  "expected_new_speakers": [
+    "Iris",
+    "Daphne",
+    "Iris",
+    "Daphne"
+  ],
+  "observed_new_speakers": [
+    "Iris",
+    "Daphne",
+    "Iris",
+    "Daphne"
+  ],
+  "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+  "rolling_window_review": null,
+  "retained_leading_stage_text": "",
+  "after_source": {
+    "source_file": "oct16-a19.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:43:08.882383+00:00",
+    "source_sha256": "84bbdc443ecd002893967c83abca06e9c8fb3a94776acada07c52b72670cd552",
+    "turn_count": 36,
+    "speakers": [
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne"
+    ],
+    "last4": [
+      {
+        "speaker": "Iris",
+        "text": "ふふ、そうだね。焦らずに、この香りをゆっくり味わってみるよ。\nダフネも、図書館での調べ物が捗りますように！\nそれじゃあ、また後でね！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ありがとう。あなたの温かな言葉、心に留めておくわね。\nそれでは、また後で。素敵なティータイムを。"
+      },
+      {
+        "speaker": "Iris",
+        "text": "ありがとう！それじゃあ、ゆっくり楽しんでくるね。\nまた後で、何か面白いものを見つけたら報告するよ！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ええ、楽しみに待っているわね。\nあなたの報告が、私の調べ物の合間の、何よりの楽しみになるはずだわ。"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "final_source": {
+    "source_file": "oct16-f19.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:44:08.581061+00:00",
+    "source_sha256": "84bbdc443ecd002893967c83abca06e9c8fb3a94776acada07c52b72670cd552",
+    "turn_count": 36,
+    "speakers": [
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne"
+    ],
+    "last4": [
+      {
+        "speaker": "Iris",
+        "text": "ふふ、そうだね。焦らずに、この香りをゆっくり味わってみるよ。\nダフネも、図書館での調べ物が捗りますように！\nそれじゃあ、また後でね！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ありがとう。あなたの温かな言葉、心に留めておくわね。\nそれでは、また後で。素敵なティータイムを。"
+      },
+      {
+        "speaker": "Iris",
+        "text": "ありがとう！それじゃあ、ゆっくり楽しんでくるね。\nまた後で、何か面白いものを見つけたら報告するよ！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ええ、楽しみに待っているわね。\nあなたの報告が、私の調べ物の合間の、何よりの楽しみになるはずだわ。"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "oct16-s19.html",
+    "source_saved_file_mtime_utc": "2026-10-16T09:42:29.144257+00:00",
+    "source_sha256": "4376484f21cc4ce146139e06c2b56c0b8f2967d4f79f019af02e7c668b2d5d27",
+    "turn_count": 36,
+    "speakers": [
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne",
+      "Iris",
+      "Daphne"
+    ],
+    "last4": [
+      {
+        "speaker": "Iris",
+        "text": "ふふ、そうだね。焦らずに、この香りをゆっくり味わってみるよ。\nダフネも、図書館での調べ物が捗りますように！\nそれじゃあ、また後でね！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ありがとう。あなたの温かな言葉、心に留めておくわね。\nそれでは、また後で。素敵なティータイムを。"
+      },
+      {
+        "speaker": "Iris",
+        "text": "ありがとう！それじゃあ、ゆっくり楽しんでくるね。\nまた後で、何か面白いものを見つけたら報告するよ！"
+      },
+      {
+        "speaker": "Daphne",
+        "text": "ええ、楽しみに待っているわね。\nあなたの報告が、私の調べ物の合間の、何よりの楽しみになるはずだわ。"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ],
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_window_review_verified": false
+}

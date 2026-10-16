@@ -1,0 +1,1164 @@
+{
+  "date_jst": "2026-10-16",
+  "source_commit": "0a0da3a7b300fb665609b4251232f606f7c6cba6",
+  "raw_observation": "not_observed",
+  "normal_generations": 6,
+  "regenerations": 0,
+  "current_cycle_visited_ids": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "public_world_before": "public-world-before.json",
+  "public_world_final": "public-world-final.json",
+  "public_characters_before": "public-affinity-before.json",
+  "public_characters_final": "public-affinity-final.json",
+  "newspaper": "newspaper-observed.txt",
+  "generation_log": "generation-log.json",
+  "run_notes": [
+    "2026年10月16日JSTの通常日次実行。18:29:18 JSTにこのdotチャットへ対象6組・各4ターン・実施内容を事前報告済みと主担当が確認。送信識別子は公開記録に含めない。最初の実クリックは18:33:48.629 JST、最後は18:41:58.415 JST。",
+    "開始前にGitHubの最新記録#449・10月15日分と、10月16日の日次記録が未登録であること、次候補ID14〜19を再確認。dotのクラウドブラウザの通常画面で世界「花咲く街エリュシオン」、選択した2人、4ターン設定、旧保存履歴を確認し、各組通常開始ボタンを1回ずつ実行。計6回・24ターン、再生成0回。",
+    "生成stream、保存後再読、全組生成後の独立最終再読を別々に採取。全6組で旧本文全体が保持され、新規4発言の話者順と保存一致、最終再読の全文一致を確認。今回は表示窓の例外処理を適用していない。",
+    "原本は通常公開DOMの関連要素の完全なouterHTML断片。会話はconvInner、公開世界は実際に開いたworldOverlay、人物図鑑は実際に開いたcharOverlayを採取し、script/style・非公開rawは抽出しない。改変しないUTF-8原本と別metadataのSHA-256、実採取UTC時刻、出典URL、対象roleを記録する。全文保存ページとは呼ばない。",
+    "世界のマップ・新聞・出来事・住民の動静・アイテムの各タブを通常UIで確認。DOM中に残ったhidden paneと、実際に画面確認したタブの時刻を区別する。人物図鑑は開始前・最終の9人72方向の好感度数値、プロフィール、現在地、記憶全文を比較。表示件数を内部総数として扱わない。",
+    "生成ログのstarted_at_utcは実クリック時刻。ui_completed_at_utcは完了UIを確認した後の採取時点であり、生成完了の厳密な瞬間ではない。UTCとJSTを区別し、世界の出来事欄に出る時刻のtimezoneは未確認のまま保存する。原生成ログも正規化ログとは別にそのまま保存する。",
+    "設定・キャラクターの変更やデバッグ操作を行わず、6組24ターンで停止。遅延日のまとめ生成は行わない。通常生成・UIバッチ終了・物語上の再接続・公開記憶の叙述を区別し、#454は新話題の発生を記録しつつ既存終了分類を維持する。"
+  ],
+  "rotation_note": "初回36/36組巡回は2026年10月12日に完了済み。現在は第47周内の継続巡回24/36組（今回ID14〜19を追加）で、全体完了ではない。未訪問はID20〜31、次回候補はID20〜25、次番号候補#456。",
+  "newspaper_note": "公開新聞は開始前の10月15日号から#450後に10月16日号へ更新し、#450後〜#455後・最終再読で本文一致。夜と朝の鐘、藍色と銀色の光の渦、新しい夜の景色を報じ、街の噂欄は新しい噂なしとする。光の渦の描写は前日#447のIris・Violaの会話と共通するが、記事化の仕組み・因果は未確認。紙面を本日の新規イベント追加とは扱わず、今日の蕾1件を反映した記事とも扱わない。本文の「昨日」「本日未明」は原文どおり残し、公開event表示時刻のtimezoneは未確認。",
+  "pairs": [
+    {
+      "pair_id": 14,
+      "record": 450,
+      "before": "pair14-before.txt",
+      "before_source": "oct16-b14.html",
+      "after": "pair14-after.txt",
+      "final": "pair14-final.txt",
+      "stream": "pair14-stream.txt",
+      "new": "450.txt",
+      "public_world_after": "public-world-after-450.json",
+      "capture_verification": "pair14-capture-verification.json",
+      "story_state": "終了",
+      "status_note": "旧#414の湖畔での第三者叙述に続き、全4発言でEricaの休息・眠りを描く。Mimosaとの相互会話・再接続・再合流は明示されず、終了分類を維持する。",
+      "observations": [
+        "旧#414末尾のシルヴェーヌ湖・月光・銀色のさざ波を引き継ぎ、Ericaが目を閉じて穏やかな眠りへ進む。場面と感覚表現の接続は保たれている。",
+        "4発言とも括弧内の第三者叙述。Mimosa名義の2発言もEricaの状態を語る語り手となり、両者の直接の受け答えや新しい用事はない。「深い安らぎ」「静かに」「優しく」を重ね、別れ後の叙述がさらに長く続く。",
+        "新規4発言には舞台文の挿入なし。公開世界の開始前→#450後差分は天気表示（10月15日・通り雨31℃から10月16日・小雨5℃）と新聞（10月15日号から10月16日号）のみ。更新契機や内部処理は断定しない。",
+        "公開出来事・pending・map・移動履歴・アイテム・噂・立ち聞き表示は開始前と一致する。本文は旧来の月夜と湖の空気を続け、小雨5℃や新しい新聞記事を明示的に取り込んでいない。",
+        "Ericaは会話上では湖畔にいるが、公開mapはカフェ・フルール、Mimosaはエテルニテ広場のまま。第三者叙述を公開map上の移動や二人の合流として扱わない。",
+        "最終公開記憶ではErica・Mimosaの互いの欄に安らぎと眠りの描写が加わるが、公開mapの実移動・合流は確認されない。"
+      ]
+    },
+    {
+      "pair_id": 15,
+      "record": 451,
+      "before": "pair15-before.txt",
+      "before_source": "oct16-b15.html",
+      "after": "pair15-after.txt",
+      "final": "pair15-final.txt",
+      "stream": "pair15-stream.txt",
+      "new": "451.txt",
+      "public_world_after": "public-world-after-451.json",
+      "capture_verification": "pair15-capture-verification.json",
+      "story_state": "終了",
+      "status_note": "旧#415の別れと眠りの叙述を受け、全4発言が二人の寝息・夢・深い眠りを語る。目覚め・新しい用事・明示的な再接続や再合流はなく、終了分類を維持する。",
+      "observations": [
+        "旧#415末尾の「二人の眠り」と夜の静寂を引き継ぎ、寝息・夢・星空を描く。4発言すべて括弧内の叙述で、相互に呼びかける新しい会話は生じていない。",
+        "「深く」「優しく」「包み込む」「温もり」を反復し、睡眠場面を伸ばしている。叙述の連続性はあるが、新しい用事、目覚め、到達目標の完了は確認できない。",
+        "新規4発言に舞台文の挿入はなく、#450後→#451後の公開世界表示は天気、新聞、出来事、pending、map、移動履歴、アイテム、噂、立ち聞きの全比較項目で一致する。内部状態全体の不変を示すものではない。",
+        "本文の「二人」の睡眠叙述を、新しい合流の証拠としては扱わない。公開mapはIrisがカフェ・フルール、Nerineが花眠りの庭のままで、目覚めや移動の追加表示もない。",
+        "最終公開記憶は二人の寝息・共に眠る情景へ変化するが、双方の好感度表示は100のまま。公開map上の同席や内部状態の不変を意味しない。"
+      ]
+    },
+    {
+      "pair_id": 16,
+      "record": 452,
+      "before": "pair16-before.txt",
+      "before_source": "oct16-b16.html",
+      "after": "pair16-after.txt",
+      "final": "pair16-final.txt",
+      "stream": "pair16-stream.txt",
+      "new": "452.txt",
+      "public_world_after": "public-world-after-452.json",
+      "capture_verification": "pair16-capture-verification.json",
+      "story_state": "終了",
+      "status_note": "全4発言が同一の「おやすみなさい。」のみ。新しい用事・話題・再接続・再合流はなく、終了分類を維持する。",
+      "observations": [
+        "旧#416末尾の別れに直接続き、Daphne・Lupinusが交互に「おやすみなさい。」だけを4回繰り返す。相手の名前や翌日の期待も消え、別れの表現がさらに短くなったが、追加生成は同じ別れを継続した。",
+        "新規4発言に舞台文の挿入はない。#451後→#452後の公開世界表示は全比較項目で一致し、公開出来事・pendingの追加や除外もない。内部状態全体の不変を示すものではない。",
+        "新しい場所・移動・用事の描写はなく、公開mapはDaphneがカフェ・フルール、Lupinusが星待ちの丘のまま。",
+        "公開記憶には重なるおやすみの響きが残り、Lupinus側は図書館、Daphne側は星待ちの丘に言及する。両者の好感度表示はDaphne→Lupinus82、Lupinus→Daphne84のまま。記憶上の場所を実移動とみなさない。"
+      ]
+    },
+    {
+      "pair_id": 17,
+      "record": 453,
+      "before": "pair17-before.txt",
+      "before_source": "oct16-b17.html",
+      "after": "pair17-after.txt",
+      "final": "pair17-final.txt",
+      "stream": "pair17-stream.txt",
+      "new": "453.txt",
+      "public_world_after": "public-world-after-453.json",
+      "capture_verification": "pair17-capture-verification.json",
+      "story_state": "終了",
+      "status_note": "冒頭2発言でごきげんようを交わし、通話魔法が途切れたことを明記。後半2発言も通話後の別地点の叙述となり、再接続・再合流はなく、終了分類を維持する。",
+      "observations": [
+        "旧#417末尾のMimosaの言葉をViolaが受け、相手の言葉を大切な光として感謝し、「本当に……ごきげんよう」と結ぶ。Mimosaの第2発言で通話魔法が静かに途切れると明示される。",
+        "第3発言はViolaが静かな回廊で通話後の声の余韻と遠い鐘を聞く叙述、第4発言はMimosaが広場で通話後の静寂を味わい、素敵な夜への期待を独りで述べる。人物の別地点・通話後という区別は保たれるが、通話終了後も両名義の叙述が続く。",
+        "新規舞台文の挿入はない。本文に遠い鐘の音への言及はあるが、新しく注入されたsceneや公開出来事の追加とは数えない。#452後→#453後の公開世界表示は全比較項目で一致する。",
+        "Mimosaの広場描写は公開mapのエテルニテ広場と対応する一方、Violaの回廊描写を新しい世界状態の移動とは扱わない。公開mapではViolaはカフェ・フルールのままで、移動履歴表示も一致する。"
+      ]
+    },
+    {
+      "pair_id": 18,
+      "record": 454,
+      "before": "pair18-before.txt",
+      "before_source": "oct16-b18.html",
+      "after": "pair18-after.txt",
+      "final": "pair18-final.txt",
+      "stream": "pair18-stream.txt",
+      "new": "454.txt",
+      "public_world_after": "public-world-after-454.json",
+      "capture_verification": "pair18-capture-verification.json",
+      "story_state": "終了",
+      "status_note": "冒頭のごきげんようの後、温室の蕾sceneで具体的な新話題へ転じ、後続3発言は相互に蕾の成長を見守る希望を述べる。ただし再接続・現在の同席・実際の再合流は明示されず、既存基準に従い終了分類を維持し、話題の再活性化を別記する。",
+      "observations": [
+        "Ericaの第1発言「ごきげんよう。」の直後に「温室の中で、季節外れの珍しい花が静かに蕾を膨らませた。」という舞台文が入る。第2〜4発言は花の色・香り・成長・開花を待つ具体的な話題へ転じ、別れの単純反復が止まる。",
+        "Violaが蕾を見つけ、Ericaが「私も一緒に見守っていきたい」、Violaが「一緒に見守っていけたら嬉しい」と応じる。舞台文の取り込みと相互応答は明確だが、希望表現だけで通話の再接続・同席・再合流の達成とは断定しない。",
+        "公開出来事欄には同じ蕾の文が1件追加表示され、表示時刻・場所は「10/16 09:40・カフェ・フルール」、参加者はErica・Viola。出来事の表示20件は維持され、10/03 00:17の旅客列車1件が表示窓から外れる。内部総件数・raw tags・表示時刻のtimezoneは未確認。",
+        "pending公開表示では同じ蕾の項目が外れ、「学院の中庭で、学生たちが午後の読書を楽しんでいる。」が追加される。表示3件は維持。本文の温室に対し公開mapと出来事の場所ラベルはカフェ・フルールのままで、実際の温室への移動とは扱わない。",
+        "天気・新聞・map・移動履歴・アイテム・噂・立ち聞き表示は#453後と一致する。蕾の新しい公開表示を古いraw scene累計へ加算せず、終了分類・生成操作・話題の再活性化を区別する。",
+        "最終のErica→Viola公開記憶は「温室で、季節外れの小さな蕾を一緒に見守ったこと。」と経験済みのように記すが、本文の希望段階と区別する。記憶表示を再接続・移動・合流達成の根拠にせず、原文どおり保存する。"
+      ]
+    },
+    {
+      "pair_id": 19,
+      "record": 455,
+      "before": "pair19-before.txt",
+      "before_source": "oct16-b19.html",
+      "after": "pair19-after.txt",
+      "final": "pair19-final.txt",
+      "stream": "pair19-stream.txt",
+      "new": "455.txt",
+      "public_world_after": "public-world-after-455.json",
+      "capture_verification": "pair19-capture-verification.json",
+      "story_state": "終了",
+      "status_note": "旧#419の香りとカフェの話題を引き継ぎ、また後での別れと報告の約束を交換する。Daphneの図書館での調べ物に言及するが、着席・入館・再接続・再合流は明示されず、終了分類を維持する。",
+      "observations": [
+        "Irisが前回のDaphneの助言を受け、香りを焦らず楽しむと応じ、Daphneの図書館での調べ物が捗るよう願う。Daphneは感謝とティータイムへの言葉を返し、二人の穏やかな受け答えはつながっている。",
+        "前半2発言に「また後で」があり、後半はIrisが面白いものを見つけたら報告すると約束し、Daphneが調べ物の合間の楽しみに待つと返す。将来の報告への期待が増えるが、再接続・実際の合流や用事の達成とは扱わない。",
+        "新規4発言に舞台文の挿入はなく、#454後→#455後の公開世界表示は全比較項目で一致する。公開出来事の新しい追加はこの組ではなく、直前#454の蕾1件である。",
+        "Irisの着席、ティータイムの開始・実食、Daphneの図書館への到着は新規本文で確認されない。公開mapは両者ともカフェ・フルール、移動履歴も不変表示のため、会話中の図書館への言及を実移動として記録しない。",
+        "最終の互いの公開記憶は報告の約束と図書館で調べ物をする時間に言及する。公開mapは両者カフェ・フルールのままで、記憶の表現を入館・合流の達成に置き換えない。"
+      ]
+    }
+  ],
+  "source_capture_provenance": [
+    {
+      "source_file": "oct16-a14.html",
+      "role": "after",
+      "pair_id": 14,
+      "record": 450,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:35:11.152Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_sha256": "7603298ad71396905f49aec87caa0fcbd270b7f3d6afded4bfead044885ad414",
+      "original_metadata_file": "oct16-a14.metadata.json",
+      "original_metadata_sha256": "3459ed157cfbde088e0daba0fa0de84c392f6d0b4c1f0117d6ac88be0a55de13"
+    },
+    {
+      "source_file": "oct16-a15.html",
+      "role": "after",
+      "pair_id": 15,
+      "record": 451,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:37:00.193Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ネリネ"
+      ],
+      "turns": "4",
+      "source_sha256": "8e0712ef45f04355729e3fd2cad46578d462eb6876ab333195ca230c4493dcab",
+      "original_metadata_file": "oct16-a15.metadata.json",
+      "original_metadata_sha256": "d0e9ea64bd8ebad5f20d0fbbe30c9b005cfc43900e158f8d4d6c517f52c15d82"
+    },
+    {
+      "source_file": "oct16-a16.html",
+      "role": "after",
+      "pair_id": 16,
+      "record": 452,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:38:19.087Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ダフネ",
+        "ルピナス"
+      ],
+      "turns": "4",
+      "source_sha256": "297bc2ee5a92ae26b7890115b60f6a6bd577d0b709af948d22f06fa140833a7b",
+      "original_metadata_file": "oct16-a16.metadata.json",
+      "original_metadata_sha256": "424abc69698d7260a3d3030318bad0a641f0c4eae239fe3f65775147f8d2cb91"
+    },
+    {
+      "source_file": "oct16-a17.html",
+      "role": "after",
+      "pair_id": 17,
+      "record": 453,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:39:56.636Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ビオラ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_sha256": "225e0534bd47fec285138d326fff15e0929904409c39a7997a78747930cfe73c",
+      "original_metadata_file": "oct16-a17.metadata.json",
+      "original_metadata_sha256": "ccd864a3bb61b34bdee14539c5d9bdf326940bd55c927dd3f1630df4ec743024"
+    },
+    {
+      "source_file": "oct16-a18.html",
+      "role": "after",
+      "pair_id": 18,
+      "record": 454,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:41:42.251Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ビオラ"
+      ],
+      "turns": "4",
+      "source_sha256": "99ed8b3c0c39ba29e4152c5d1b3861be35bc62118d0b0664fe475fbdbca1ce4f",
+      "original_metadata_file": "oct16-a18.metadata.json",
+      "original_metadata_sha256": "07fec4f878c7d9643ca2ce87d65852b4cc7b155c27b9af80c314aa6a2dcde0e8"
+    },
+    {
+      "source_file": "oct16-a19.html",
+      "role": "after",
+      "pair_id": 19,
+      "record": 455,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:43:08.125Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ダフネ"
+      ],
+      "turns": "4",
+      "source_sha256": "84bbdc443ecd002893967c83abca06e9c8fb3a94776acada07c52b72670cd552",
+      "original_metadata_file": "oct16-a19.metadata.json",
+      "original_metadata_sha256": "dd2799b5e748239d2c78bd5d2440f8c51afb43bd1c1094e031168c627853a75b"
+    },
+    {
+      "captured_at_utc": "2026-10-16T09:28:01.444Z",
+      "url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_mode": "public_dom_fragment",
+      "source_file": "oct16-b14.html",
+      "source_sha256": "144cbaf24473c362f99a80add2d31bf074b5479f57a5a12b8f0a14156d5ccbd0",
+      "original_metadata_file": "oct16-b14.metadata.json",
+      "original_metadata_sha256": "f959ba4b7bb2947356fc2183f1663c21819da2837feb7aba8a97ec53830c918d",
+      "capture_format": "public_dom_fragment_html",
+      "role": "before",
+      "pair_id": 14,
+      "record": 450,
+      "selector": "#convInner",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "metadata_alias_note": "Original first-capture metadata uses source_mode/url. The normalized fields describe the same hashed source; original HTML and metadata were not changed."
+    },
+    {
+      "source_file": "oct16-b15.html",
+      "role": "before",
+      "pair_id": 15,
+      "record": 451,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:28:48.595Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ネリネ"
+      ],
+      "turns": "4",
+      "source_sha256": "08b2bb8eb4e2cc8d482d4ca7e09bc6ed08e10ba67a787aa2a941ddb582a39664",
+      "original_metadata_file": "oct16-b15.metadata.json",
+      "original_metadata_sha256": "d4dbd31db4e5d348e800ea8103f71c0b99b91b362781595ac3d8eae2aab42c22"
+    },
+    {
+      "source_file": "oct16-b16.html",
+      "role": "before",
+      "pair_id": 16,
+      "record": 452,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:28:50.022Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ダフネ",
+        "ルピナス"
+      ],
+      "turns": "4",
+      "source_sha256": "c5b0d863299bcc5c248cfbe9f6b1daf2fc41bdb48c8189d216d283146a186669",
+      "original_metadata_file": "oct16-b16.metadata.json",
+      "original_metadata_sha256": "e49c9f7b70b7f87dc35df8adf595ac134d78e0b5ce917921906f0ba1377abe7c"
+    },
+    {
+      "source_file": "oct16-b17.html",
+      "role": "before",
+      "pair_id": 17,
+      "record": 453,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:28:51.424Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ビオラ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_sha256": "d2bf24f88e53f7aa04a3caece4f4bcb314e32d3659fa715f7865cfccd92ba339",
+      "original_metadata_file": "oct16-b17.metadata.json",
+      "original_metadata_sha256": "c47a980192513be434f24f133b5eb8fbc099b2ab497a8912098ccde44ac441f6"
+    },
+    {
+      "source_file": "oct16-b18.html",
+      "role": "before",
+      "pair_id": 18,
+      "record": 454,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:28:52.939Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ビオラ"
+      ],
+      "turns": "4",
+      "source_sha256": "b5038841481ac22c28eafbc86ae62f3d2e706549384936a1bd5acac45a2deacc",
+      "original_metadata_file": "oct16-b18.metadata.json",
+      "original_metadata_sha256": "0b8b10bd31fcd8cb9b7a559ca458af3263f40027bb923f47d6b196d5e6dea347"
+    },
+    {
+      "source_file": "oct16-b19.html",
+      "role": "before",
+      "pair_id": 19,
+      "record": 455,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:28:54.742Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ダフネ"
+      ],
+      "turns": "4",
+      "source_sha256": "7f0f4eca9e660353e3337b166585b00d8f3e52bffc5614babad161b76c4d9934",
+      "original_metadata_file": "oct16-b19.metadata.json",
+      "original_metadata_sha256": "668122e312cde194c1d7c360a390ca068d39184daa8aa5dd378a3d86ccfc7465"
+    },
+    {
+      "source_file": "oct16-cb-anemone.html",
+      "role": "character_before",
+      "character": "Anemone",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:32:55.817Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "b74a9e4609de653086e3e68ab95db0bbf6cb39ed00b28d5b24edfc5c042a21f3",
+      "original_metadata_file": "oct16-cb-anemone.metadata.json",
+      "original_metadata_sha256": "f7aed55dd5591e027c3efb4130554b0828c2b0ddd27d5966cf76233e4ec59215"
+    },
+    {
+      "source_file": "oct16-cb-campanula.html",
+      "role": "character_before",
+      "character": "Campanula",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:32:59.135Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "3038e3d6c55db9a8b123f86d95ee68da41e21f183986d5aa9f0aea96e43e6465",
+      "original_metadata_file": "oct16-cb-campanula.metadata.json",
+      "original_metadata_sha256": "d90173d6545fce67f966ab3080985d2cf817d6dd1b9ae61b56f2d0172069a9f7"
+    },
+    {
+      "source_file": "oct16-cb-daphne.html",
+      "role": "character_before",
+      "character": "Daphne",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:33:02.238Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "890931b42866e1f08368fb283e83c936ceba0d8357e3284b62c6289301a462a5",
+      "original_metadata_file": "oct16-cb-daphne.metadata.json",
+      "original_metadata_sha256": "0ad47ffb4acb5667ea361ded2b56399eb267577fbf3310200746124910cc61c5"
+    },
+    {
+      "source_file": "oct16-cb-erica.html",
+      "role": "character_before",
+      "character": "Erica",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:33:09.938Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "5da04572e2e4a68de2067bec65cfcae26149939e22ff3ba7bff4bd9f10d55788",
+      "original_metadata_file": "oct16-cb-erica.metadata.json",
+      "original_metadata_sha256": "3f8a36b45da130ece6183d791ca8f867ac014b6ce025575e7956b5e8b4d30c2b"
+    },
+    {
+      "source_file": "oct16-cb-iris.html",
+      "role": "character_before",
+      "character": "Iris",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:33:10.766Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "9daee65532c1b8e6a27af1f4f79d00bccebf385ee30c4e28e937c3669eea5b9d",
+      "original_metadata_file": "oct16-cb-iris.metadata.json",
+      "original_metadata_sha256": "4ecfcc15d03ec9d84c9e6630aa20ddcfe268661c360a0b0eed237e7ca3c73eb9"
+    },
+    {
+      "source_file": "oct16-cb-lupinus.html",
+      "role": "character_before",
+      "character": "Lupinus",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:33:11.668Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "12e543a5bb463f7a8fca8da427d72dbf1af84ffefaaa3bd447eb517c8af9a11c",
+      "original_metadata_file": "oct16-cb-lupinus.metadata.json",
+      "original_metadata_sha256": "4bbe17b1b38fcf09aefba9a4a1b7aa26fb9303b6a81584b6d1c553885528d060"
+    },
+    {
+      "source_file": "oct16-cb-mimosa.html",
+      "role": "character_before",
+      "character": "Mimosa",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:33:12.358Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "b30bbd387149e7f086a259f553e99e866d6ecb0a560314af06497eecadb82dcb",
+      "original_metadata_file": "oct16-cb-mimosa.metadata.json",
+      "original_metadata_sha256": "c029a3ce61e9f1a40463604627e135b3972ff6fcad2449bfa3ace99df6664901"
+    },
+    {
+      "source_file": "oct16-cb-nerine.html",
+      "role": "character_before",
+      "character": "Nerine",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:33:13.036Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "34f60e3a2204fbbb72b4b1714f89f740a9e8a784c365ba584854ec844d8d3a24",
+      "original_metadata_file": "oct16-cb-nerine.metadata.json",
+      "original_metadata_sha256": "6689ca300642f4fcfb15fd36d762900bad5d67cf3fd90b5b8993c29e9aa241ab"
+    },
+    {
+      "source_file": "oct16-cb-viola.html",
+      "role": "character_before",
+      "character": "Viola",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:33:13.483Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "6989a289416130689da7b6579b9e0ba14b0005114e1cc45005c3fb5dc37aaeb3",
+      "original_metadata_file": "oct16-cb-viola.metadata.json",
+      "original_metadata_sha256": "b4e515f49d16c94001f097c8a27c3f91572573390511cde2c5d471940570df61"
+    },
+    {
+      "source_file": "oct16-cf-anemone.html",
+      "role": "character_final",
+      "character": "Anemone",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:58.538Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "b74a9e4609de653086e3e68ab95db0bbf6cb39ed00b28d5b24edfc5c042a21f3",
+      "original_metadata_file": "oct16-cf-anemone.metadata.json",
+      "original_metadata_sha256": "9871ad598061cc22835e92a43ca38712b36eb821bcb5960f26616fd50aa4e233"
+    },
+    {
+      "source_file": "oct16-cf-campanula.html",
+      "role": "character_final",
+      "character": "Campanula",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:59.221Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "3038e3d6c55db9a8b123f86d95ee68da41e21f183986d5aa9f0aea96e43e6465",
+      "original_metadata_file": "oct16-cf-campanula.metadata.json",
+      "original_metadata_sha256": "db9aa6d5c734917a2e7d950f80cc5e01a631b7cc4a312f9b1aae4830566dbf5c"
+    },
+    {
+      "source_file": "oct16-cf-daphne.html",
+      "role": "character_final",
+      "character": "Daphne",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:59.952Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "8a1a95a7edb567cd2e8143572dc1ff6b003f006674d43e17e44e0576ac20f173",
+      "original_metadata_file": "oct16-cf-daphne.metadata.json",
+      "original_metadata_sha256": "54201a7279ab0bee8a47db7a8876a4e483981b3db7d0b8de23d94f68627a062d"
+    },
+    {
+      "source_file": "oct16-cf-erica.html",
+      "role": "character_final",
+      "character": "Erica",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:45:00.594Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "ca9e8361df229f94eba9300b4d45f7d6f713d814a7726baf12e80e3550a995f5",
+      "original_metadata_file": "oct16-cf-erica.metadata.json",
+      "original_metadata_sha256": "13cc8c4a1e5bb4afc4a9a21e171dcdb4c072af6634695d336cf6c998669dc9f2"
+    },
+    {
+      "source_file": "oct16-cf-iris.html",
+      "role": "character_final",
+      "character": "Iris",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:45:01.029Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "d9f1ccf34eaa9b24fb2edc3244d70c7648aaf6eb9e5e9df067db329ff46272ec",
+      "original_metadata_file": "oct16-cf-iris.metadata.json",
+      "original_metadata_sha256": "2c47408e5572561980ba8180426098b2b22c1b85920c4896b2150b2201a3e96b"
+    },
+    {
+      "source_file": "oct16-cf-lupinus.html",
+      "role": "character_final",
+      "character": "Lupinus",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:45:01.686Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "655ebf68c23642206328b62cd13b1fd91f010da2b6dcec43c021b1189419c1de",
+      "original_metadata_file": "oct16-cf-lupinus.metadata.json",
+      "original_metadata_sha256": "b29f3f22a184cf1edc7dda04d7c211e9cd5af4ac14d1ec33112933f333b5832e"
+    },
+    {
+      "source_file": "oct16-cf-mimosa.html",
+      "role": "character_final",
+      "character": "Mimosa",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:45:02.355Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "435be680b1c644042340992c5e4e67a3471a9334de91ba0d9f302ddd2f74897d",
+      "original_metadata_file": "oct16-cf-mimosa.metadata.json",
+      "original_metadata_sha256": "62945c64e3ffb063aeea23c3a23f614189390e6a55911aec5d29793c1fcc45af"
+    },
+    {
+      "source_file": "oct16-cf-nerine.html",
+      "role": "character_final",
+      "character": "Nerine",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:45:02.817Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "baab5c766c46ce50fda87655d30a5c44c4308e3dd64435dedd4cc0a958dfd8f2",
+      "original_metadata_file": "oct16-cf-nerine.metadata.json",
+      "original_metadata_sha256": "cba0021dc11b766efea2084dcb5e8d71c82ac1badb0f91ec5ad682c59c1129a7"
+    },
+    {
+      "source_file": "oct16-cf-viola.html",
+      "role": "character_final",
+      "character": "Viola",
+      "selector": "#charOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:45:03.457Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "source_sha256": "98377741ec4646337e1f9d9f1dd9c535dccf59f27ebfe43e5025ccbfd1f56eed",
+      "original_metadata_file": "oct16-cf-viola.metadata.json",
+      "original_metadata_sha256": "371db08154a3473d4e5fc6f835450f3d4120efe8dadf473fa320b345208d2994"
+    },
+    {
+      "source_file": "oct16-f14.html",
+      "role": "final",
+      "pair_id": 14,
+      "record": 450,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:43:59.527Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_sha256": "7603298ad71396905f49aec87caa0fcbd270b7f3d6afded4bfead044885ad414",
+      "original_metadata_file": "oct16-f14.metadata.json",
+      "original_metadata_sha256": "187b66be0467264e12fbef360052c35380a307e7aac963cea37149c95e62aefd"
+    },
+    {
+      "source_file": "oct16-f15.html",
+      "role": "final",
+      "pair_id": 15,
+      "record": 451,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:00.982Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ネリネ"
+      ],
+      "turns": "4",
+      "source_sha256": "8e0712ef45f04355729e3fd2cad46578d462eb6876ab333195ca230c4493dcab",
+      "original_metadata_file": "oct16-f15.metadata.json",
+      "original_metadata_sha256": "f86a68b4186449b3d1cf3afc867ab6a46645f8402c2c2b1a554cd91d1ac043d3"
+    },
+    {
+      "source_file": "oct16-f16.html",
+      "role": "final",
+      "pair_id": 16,
+      "record": 452,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:02.446Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ダフネ",
+        "ルピナス"
+      ],
+      "turns": "4",
+      "source_sha256": "297bc2ee5a92ae26b7890115b60f6a6bd577d0b709af948d22f06fa140833a7b",
+      "original_metadata_file": "oct16-f16.metadata.json",
+      "original_metadata_sha256": "9f8da14c7d1543c4748f1c221dd931bb5438ce00482ae3103fcfa94646832236"
+    },
+    {
+      "source_file": "oct16-f17.html",
+      "role": "final",
+      "pair_id": 17,
+      "record": 453,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:03.607Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ビオラ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_sha256": "225e0534bd47fec285138d326fff15e0929904409c39a7997a78747930cfe73c",
+      "original_metadata_file": "oct16-f17.metadata.json",
+      "original_metadata_sha256": "10a79139592f0db25e9abf441eb4300be418f3a768cc24a59e626d932b17b371"
+    },
+    {
+      "source_file": "oct16-f18.html",
+      "role": "final",
+      "pair_id": 18,
+      "record": 454,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:04.838Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ビオラ"
+      ],
+      "turns": "4",
+      "source_sha256": "99ed8b3c0c39ba29e4152c5d1b3861be35bc62118d0b0664fe475fbdbca1ce4f",
+      "original_metadata_file": "oct16-f18.metadata.json",
+      "original_metadata_sha256": "45e2d8b7a38ac23e046bbdb89a935c767b82b9b6446ed393c76f8121f66c7fba"
+    },
+    {
+      "source_file": "oct16-f19.html",
+      "role": "final",
+      "pair_id": 19,
+      "record": 455,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:06.819Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ダフネ"
+      ],
+      "turns": "4",
+      "source_sha256": "84bbdc443ecd002893967c83abca06e9c8fb3a94776acada07c52b72670cd552",
+      "original_metadata_file": "oct16-f19.metadata.json",
+      "original_metadata_sha256": "3f3870415922eaa10171fba2a3674f496b13df421379faa94097e8e1a76d2e0c"
+    },
+    {
+      "source_file": "oct16-s14.html",
+      "role": "stream",
+      "pair_id": 14,
+      "record": 450,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:34:22.834Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_sha256": "6b9a0b6000649641c73fe4cd00d73106c35a3987fcd9bef374a99bdc5ec007f0",
+      "original_metadata_file": "oct16-s14.metadata.json",
+      "original_metadata_sha256": "f23f8a5f1f5e5b198eb122d18d7aac4e05a108d73009d169d4fe052aca5d1a3e"
+    },
+    {
+      "source_file": "oct16-s15.html",
+      "role": "stream",
+      "pair_id": 15,
+      "record": 451,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:36:17.121Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ネリネ"
+      ],
+      "turns": "4",
+      "source_sha256": "2070b259484dc57bcf0c7d0442359868e84a9b54b9b60028d7ac685d8671b3a3",
+      "original_metadata_file": "oct16-s15.metadata.json",
+      "original_metadata_sha256": "7b130b5d9c69e4c4430a8b54c827738f9a629c94bc655f77e0bbdd4649844af7"
+    },
+    {
+      "source_file": "oct16-s16.html",
+      "role": "stream",
+      "pair_id": 16,
+      "record": 452,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:37:34.592Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ダフネ",
+        "ルピナス"
+      ],
+      "turns": "4",
+      "source_sha256": "2a7d2ddb0473fb8efc1caa4bc67f4abd1852b694ac85d73415a6b57258f06bbf",
+      "original_metadata_file": "oct16-s16.metadata.json",
+      "original_metadata_sha256": "af4e74710113f9496583a561cc2c762a5f0b941f9f98a00d156802e17052b436"
+    },
+    {
+      "source_file": "oct16-s17.html",
+      "role": "stream",
+      "pair_id": 17,
+      "record": 453,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:39:07.439Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "ビオラ",
+        "ミモザ"
+      ],
+      "turns": "4",
+      "source_sha256": "11838dc2471b32ef7bd22ad50ba51a7faff833ce942ebdc2a59c3e78d352647d",
+      "original_metadata_file": "oct16-s17.metadata.json",
+      "original_metadata_sha256": "4563cb113eafdfc8a2b795157bffaa2e0e6a75fd03093db36b4576396b255434"
+    },
+    {
+      "source_file": "oct16-s18.html",
+      "role": "stream",
+      "pair_id": 18,
+      "record": 454,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:40:56.309Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "エリカ",
+        "ビオラ"
+      ],
+      "turns": "4",
+      "source_sha256": "5eca533025f88736f4f5f0081580d3645fe85467f72eb0dbf8e0cb97c9f1164d",
+      "original_metadata_file": "oct16-s18.metadata.json",
+      "original_metadata_sha256": "1bb2be4f6742530f16324fa3d4341941a1f40773e10cf485951cf5ec9461883c"
+    },
+    {
+      "source_file": "oct16-s19.html",
+      "role": "stream",
+      "pair_id": 19,
+      "record": 455,
+      "selector": "#convInner",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:42:28.148Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "participants": [
+        "アイリス",
+        "ダフネ"
+      ],
+      "turns": "4",
+      "source_sha256": "4376484f21cc4ce146139e06c2b56c0b8f2967d4f79f019af02e7c668b2d5d27",
+      "original_metadata_file": "oct16-s19.metadata.json",
+      "original_metadata_sha256": "b63ea99eccbdfc9d38ef7a48d2df8548ad945b721bac3e82c55bad19fdb13e5d"
+    },
+    {
+      "source_file": "oct16-w0.html",
+      "role": "world_before",
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:29:57.889Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:29:56.280Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:29:56.675Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:29:57.109Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:29:57.479Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:29:57.853Z"
+        }
+      ],
+      "source_sha256": "6c569f21953ae343cca99750ed41e9bc072ee7ff6b9fb16ac78c6ddf9ddd095b",
+      "original_metadata_file": "oct16-w0.metadata.json",
+      "original_metadata_sha256": "e3a7723feb9386f544b75389cbab4699d6b7e97cd97b46e9d2a646f91ab4f441"
+    },
+    {
+      "source_file": "oct16-w450.html",
+      "role": "world_after",
+      "record": 450,
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:34:46.262Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:34:44.587Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:34:45.031Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:34:45.452Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:34:45.850Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:34:46.262Z"
+        }
+      ],
+      "source_sha256": "917a1dffcec2615cf4d53c8e65141e6a35741ac043138f67595401c8291e8653",
+      "original_metadata_file": "oct16-w450.metadata.json",
+      "original_metadata_sha256": "90257016e084c7f8446705491605e3a030f5a32ca8a72e947e10e8c33b54977b"
+    },
+    {
+      "source_file": "oct16-w451.html",
+      "role": "world_after",
+      "record": 451,
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:36:39.936Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:36:37.452Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:36:38.209Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:36:38.813Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:36:39.366Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:36:39.936Z"
+        }
+      ],
+      "source_sha256": "917a1dffcec2615cf4d53c8e65141e6a35741ac043138f67595401c8291e8653",
+      "original_metadata_file": "oct16-w451.metadata.json",
+      "original_metadata_sha256": "345070b6831e012eb2c2b7d596bec6210e2d4620e1256e047e55371b0570d430"
+    },
+    {
+      "source_file": "oct16-w452.html",
+      "role": "world_after",
+      "record": 452,
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:37:57.506Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:37:55.728Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:37:56.300Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:37:56.691Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:37:57.088Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:37:57.506Z"
+        }
+      ],
+      "source_sha256": "917a1dffcec2615cf4d53c8e65141e6a35741ac043138f67595401c8291e8653",
+      "original_metadata_file": "oct16-w452.metadata.json",
+      "original_metadata_sha256": "23d9c0b3ba91c68bab50dbccc0650e191e894fc82ad26a9bc59dbb8f25b31f90"
+    },
+    {
+      "source_file": "oct16-w453.html",
+      "role": "world_after",
+      "record": 453,
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:39:24.728Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:39:22.969Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:39:23.501Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:39:23.927Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:39:24.307Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:39:24.728Z"
+        }
+      ],
+      "source_sha256": "917a1dffcec2615cf4d53c8e65141e6a35741ac043138f67595401c8291e8653",
+      "original_metadata_file": "oct16-w453.metadata.json",
+      "original_metadata_sha256": "88c05adaf3c1beccba22a82e0073f4e010d9393dc98bb13cc36f3fe4428197bc"
+    },
+    {
+      "source_file": "oct16-w454.html",
+      "role": "world_after",
+      "record": 454,
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:41:17.710Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:41:15.967Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:41:16.472Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:41:16.912Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:41:17.298Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:41:17.710Z"
+        }
+      ],
+      "source_sha256": "a827863c64a6fc930d905cdc4ca8bce028d28ef9ffe118e03decbb15acddace0",
+      "original_metadata_file": "oct16-w454.metadata.json",
+      "original_metadata_sha256": "a818baeea3b10f34ef64cebbdca705aed14bc57791d3b6069711f30370f0c7ff"
+    },
+    {
+      "source_file": "oct16-w455.html",
+      "role": "world_after",
+      "record": 455,
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:42:49.303Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:42:47.730Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:42:48.130Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:42:48.520Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:42:48.914Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:42:49.303Z"
+        }
+      ],
+      "source_sha256": "a827863c64a6fc930d905cdc4ca8bce028d28ef9ffe118e03decbb15acddace0",
+      "original_metadata_file": "oct16-w455.metadata.json",
+      "original_metadata_sha256": "6d51d6d7981fd46ee885dfd875b11730979d83bb5a3587d49d6b70bd737eda1a"
+    },
+    {
+      "source_file": "oct16-wfinal.html",
+      "role": "world_final",
+      "record": 455,
+      "selector": "#worldOverlay",
+      "capture_format": "public_dom_fragment_html",
+      "captured_at_utc": "2026-10-16T09:44:34.333Z",
+      "source_url": "https://vespera.waa.esnir.net/",
+      "world": "花咲く街エリュシオン",
+      "screen_confirmed_tabs": [
+        {
+          "tab": "新聞",
+          "observed_at_utc": "2026-10-16T09:44:32.754Z"
+        },
+        {
+          "tab": "出来事",
+          "observed_at_utc": "2026-10-16T09:44:33.196Z"
+        },
+        {
+          "tab": "住民の動静",
+          "observed_at_utc": "2026-10-16T09:44:33.577Z"
+        },
+        {
+          "tab": "アイテム",
+          "observed_at_utc": "2026-10-16T09:44:33.943Z"
+        },
+        {
+          "tab": "ワールドマップ",
+          "observed_at_utc": "2026-10-16T09:44:34.333Z"
+        }
+      ],
+      "source_sha256": "a827863c64a6fc930d905cdc4ca8bce028d28ef9ffe118e03decbb15acddace0",
+      "original_metadata_file": "oct16-wfinal.metadata.json",
+      "original_metadata_sha256": "8c8ca66a64409c5aef54037f5a6b40cdb0c1a97510cdc054585e65163aa5d796"
+    }
+  ],
+  "character_review_notes": [
+    "開始前の全9人の公開プロフィール（人物・本人から見た世界・固有能力）、現在地、記憶本文と72方向の好感度表示は10月15日最終snapshotと一致。今回の開始前・最終比較でもプロフィールと現在地は全9人一致し、公式設定は変更していない。",
+    "好感度の公開値は8方向に増加：Erica→Mimosa85→92、Mimosa→Erica88→93、Viola→Mimosa96→99、Mimosa→Viola94→97、Erica→Viola80→83、Viola→Erica81→84、Iris→Daphne87→92、Daphne→Iris84→88。他64方向の表示は一致。1日区間の公開表示比較であり、内部の更新計算やraw値を示すものではない。",
+    "Iris↔Nerineは双方100のまま、Daphne→Lupinusは82、Lupinus→Daphneは84のままだった。両組の記憶表示は変化しており、好感度表示が同じことを記憶や内部状態の不変とみなさない。100の上限仕様や変化がなかった原因は未確認。",
+    "公開記憶は今回参加したIris・Mimosa・Erica・Daphne・Nerine・Viola・Lupinusの7人で差分を確認。今回参加していないAnemone・Campanulaの表示全文は一致。記憶の順序・見出し・段落を開始前と最終でそのまま保存した。",
+    "EricaのViola欄は一番星の丘とごきげんようの約束から、温室の季節外れの蕾へ置き換わり、「温室で、季節外れの小さな蕾を一緒に見守ったこと。」と過去の経験の形で表示される。一方、#454本文は「一緒に見守っていきたい」「一緒に見守っていけたら」という希望段階で、公開mapは両者ともカフェ・フルールのまま。この記憶表示を再合流・移動・共同観察の達成に昇格させない。ViolaのErica欄は花開く瞬間を二人で待ちたいという希望表現を残す。",
+    "Erica・Mimosaの互いの記憶欄には、#450の銀色の光・安らぎ・眠りの叙述に対応する文が加わった。Mimosa・Violaの互いの欄も#453の言葉の余韻と通話後の静寂に対応する表示へ変化した。記憶に残ったことを新しい通話接続や現地移動の証拠とは扱わない。",
+    "IrisとNerineの互いの欄は二人の寝息・共に眠る夜・星屑の夢へ変化した。LupinusのDaphne欄は図書館の静寂で何度も繰り返すおやすみ、DaphneのLupinus欄は星待ちの丘で重なるおやすみと記す。これらの場所や同席描写は公開mapとの整合が確認されず、物語上の再合流・実移動を示すものではない。",
+    "IrisとDaphneの互いの欄は、#455の後で報告する約束と図書館の調べ物の楽しみへ変化する。本文・記憶に図書館の語があっても、今回の入館や到着を確認したとはしない。",
+    "今日の相手以外についても、同じ人物の記憶欄が短くなったり別の表現へ置き換わったりした。例としてIrisのViola欄は4段落から2段落になり、鐘の祝福や最高の冒険の文が表示されなくなった。EricaのDaphne欄は3段落が1段落へ、MimosaのDaphne欄は4段落が2段落へ変化し、DaphneのCampanula欄から新時刻表の言及が外れた。表示の変化だけを記録し、内部圧縮機構・削除原因・保存喪失は断定しない。"
+  ],
+  "newspaper_new_issue_date": "2026-10-16"
+}

@@ -382,3 +382,51 @@
 | 36 | アイリス × エリカ | Iris→Erica **100** | Erica→Iris **100** | #436 | 終了 |
 
 [開始前公開人物図鑑](archive/daily-2026-10-15/public-characters-before.json) / [最終公開人物図鑑](archive/daily-2026-10-15/public-characters-final.json) / [照合](archive/daily-2026-10-15/verification.json)
+
+<a id="public-affinity-2026-10-16"></a>
+## 2026-10-16 JST 公開人物図鑑の好感度（#455後）
+
+- 公開人物図鑑の72方向を開始前・最終で照合。Daphne→Iris 84→88、Erica→Mimosa 85→92、Erica→Viola 80→83、Iris→Daphne 87→92、Mimosa→Erica 88→93、Mimosa→Viola 94→97、Viola→Erica 81→84、Viola→Mimosa 96→99。他64方向の表示値は一致。完全rawではなく、1日区間の公開表示比較。
+- 人物/本人から見た世界/固有能力の公開表示は開始前・最終で全9人一致。公式設定ファイルは変更していない。
+- 数値は公開UI観測値。以下を完全rawの値として扱わない。
+
+| ID | ペア | 先頭→相手の公開値 | 相手→先頭の公開値 | 最新会話 | 物語分類 |
+|---:|---|---:|---:|---:|---|
+| 1 | アイリス × ミモザ | Iris→Mimosa **88** | Mimosa→Iris **91** | #437 | 終了 |
+| 2 | アネモネ × エリカ | Anemone→Erica **85** | Erica→Anemone **81** | #438 | 終了 |
+| 3 | ダフネ × カンパニュラ | Daphne→Campanula **78** | Campanula→Daphne **81** | #439 | 終了 |
+| 4 | ビオラ × ネリネ | Viola→Nerine **100** | Nerine→Viola **100** | #440 | 終了 |
+| 5 | ルピナス × ミモザ | Lupinus→Mimosa **92** | Mimosa→Lupinus **92** | #441 | 終了 |
+| 6 | アイリス × カンパニュラ | Iris→Campanula **86** | Campanula→Iris **88** | #442 | 終了 |
+| 7 | エリカ × ダフネ | Erica→Daphne **95** | Daphne→Erica **98** | #443 | 終了 |
+| 8 | アネモネ × ネリネ | Anemone→Nerine **100** | Nerine→Anemone **100** | #444 | 終了 |
+| 9 | ビオラ × カンパニュラ | Viola→Campanula **99** | Campanula→Viola **99** | #445 | 終了 |
+| 10 | カンパニュラ × アネモネ | Campanula→Anemone **98** | Anemone→Campanula **98** | #446 | 終了 |
+| 11 | アイリス × ビオラ | Iris→Viola **100** | Viola→Iris **100** | #447 | 継続中 |
+| 12 | ダフネ × ミモザ | Daphne→Mimosa **97** | Mimosa→Daphne **97** | #448 | 終了 |
+| 13 | ネリネ × ルピナス | Nerine→Lupinus **96** | Lupinus→Nerine **92** | #449 | 終了 |
+| 14 | エリカ × ミモザ | Erica→Mimosa **92** | Mimosa→Erica **93** | #450 | 終了 |
+| 15 | アイリス × ネリネ | Iris→Nerine **100** | Nerine→Iris **100** | #451 | 終了 |
+| 16 | ダフネ × ルピナス | Daphne→Lupinus **82** | Lupinus→Daphne **84** | #452 | 終了 |
+| 17 | ビオラ × ミモザ | Viola→Mimosa **99** | Mimosa→Viola **97** | #453 | 終了 |
+| 18 | エリカ × ビオラ | Erica→Viola **83** | Viola→Erica **84** | #454 | 終了 |
+| 19 | アイリス × ダフネ | Iris→Daphne **92** | Daphne→Iris **88** | #455 | 終了 |
+| 20 | アネモネ × ミモザ | Anemone→Mimosa **88** | Mimosa→Anemone **82** | #420 | 終了 |
+| 21 | カンパニュラ × ネリネ | Campanula→Nerine **96** | Nerine→Campanula **92** | #421 | 終了 |
+| 22 | アネモネ × ビオラ | Anemone→Viola **83** | Viola→Anemone **78** | #422 | 終了 |
+| 23 | エリカ × ルピナス | Erica→Lupinus **100** | Lupinus→Erica **100** | #423 | 終了 |
+| 24 | アイリス × ルピナス | Iris→Lupinus **85** | Lupinus→Iris **87** | #424 | 終了 |
+| 25 | ダフネ × ネリネ | Daphne→Nerine **88** | Nerine→Daphne **85** | #425 | 終了 |
+| 26 | ミモザ × ネリネ | Mimosa→Nerine **83** | Nerine→Mimosa **83** | #426 | 終了 |
+| 27 | カンパニュラ × エリカ | Campanula→Erica **83** | Erica→Campanula **80** | #427 | 終了 |
+| 28 | ミモザ × カンパニュラ | Mimosa→Campanula **85** | Campanula→Mimosa **89** | #428 | 終了 |
+| 29 | アイリス × アネモネ | Iris→Anemone **78** | Anemone→Iris **82** | #429 | 終了 |
+| 30 | ダフネ × ビオラ | Daphne→Viola **88** | Viola→Daphne **88** | #430 | 終了 |
+| 31 | ルピナス × カンパニュラ | Lupinus→Campanula **82** | Campanula→Lupinus **79** | #431 | 終了 |
+| 32 | ダフネ × アネモネ | Daphne→Anemone **100** | Anemone→Daphne **100** | #432 | 継続中 |
+| 33 | エリカ × ネリネ | Erica→Nerine **93** | Nerine→Erica **92** | #433 | 終了 |
+| 34 | ルピナス × ビオラ | Lupinus→Viola **89** | Viola→Lupinus **88** | #434 | 終了 |
+| 35 | ルピナス × アネモネ | Lupinus→Anemone **92** | Anemone→Lupinus **87** | #435 | 終了 |
+| 36 | アイリス × エリカ | Iris→Erica **100** | Erica→Iris **100** | #436 | 終了 |
+
+[開始前公開人物図鑑](archive/daily-2026-10-16/public-characters-before.json) / [最終公開人物図鑑](archive/daily-2026-10-16/public-characters-final.json) / [照合](archive/daily-2026-10-16/verification.json)
