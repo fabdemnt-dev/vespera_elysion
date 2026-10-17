@@ -1,0 +1,268 @@
+{
+  "capture_loaded": true,
+  "incomplete_capture_note": null,
+  "schema": "elysion_public_ui_snapshot_v1",
+  "source_mode": "saved_public_ui_dom",
+  "source_file": "public-world-after-461.html",
+  "source_saved_file_mtime_utc": "2026-10-17T02:30:08.326419+00:00",
+  "source_sha256": "d554f82b1ef5754e7c7ef68e63b62163255d5bff84961a4da13b524dbdecc8fc",
+  "observed_at": "2026-10-17T02:28:31.585Z",
+  "active_panes": [
+    "map"
+  ],
+  "pane_visibility_at_save": {
+    "map": {
+      "hidden_at_save": false
+    },
+    "news": {
+      "hidden_at_save": true
+    },
+    "events": {
+      "hidden_at_save": true
+    },
+    "villagers": {
+      "hidden_at_save": true
+    },
+    "items": {
+      "hidden_at_save": true
+    }
+  },
+  "scope_note": "通常UIで切替可能な公開paneの保存DOM。script/style・非公開内部rawは抽出していない。hidden paneは保存時のDOM格納を示し、その時点で画面表示していたとは扱わない。",
+  "weather_display": "2026-10-17 ・ 通り雨・30°C",
+  "map_locations_display": [
+    {
+      "character_display": "ミモザ",
+      "location_display": "エテルニテ広場"
+    },
+    {
+      "character_display": "アネモネ",
+      "location_display": "花咲く街の駅"
+    },
+    {
+      "character_display": "アイリス",
+      "location_display": "カフェ・フルール"
+    },
+    {
+      "character_display": "エリカ",
+      "location_display": "カフェ・フルール"
+    },
+    {
+      "character_display": "ダフネ",
+      "location_display": "カフェ・フルール"
+    },
+    {
+      "character_display": "ビオラ",
+      "location_display": "カフェ・フルール"
+    },
+    {
+      "character_display": "ネリネ",
+      "location_display": "花眠りの庭"
+    },
+    {
+      "character_display": "カンパニュラ",
+      "location_display": "時告げの鐘楼"
+    },
+    {
+      "character_display": "ルピナス",
+      "location_display": "星待ちの丘"
+    }
+  ],
+  "events_display": {
+    "displayed_count": 20,
+    "entries": [
+      {
+        "meta_display": "10/17 02:25",
+        "text": "温室のガラス越しに、柔らかな陽光が差し込んだ。",
+        "participants_display": "アネモネ、ビオラ"
+      },
+      {
+        "meta_display": "10/17 02:23",
+        "text": "温室のガラス越しに、満天の星空が映り込んでいる。",
+        "participants_display": "アネモネ、ミモザ"
+      },
+      {
+        "meta_display": "10/16 09:40・カフェ・フルール",
+        "text": "温室の中で、季節外れの珍しい花が静かに蕾を膨らませた。",
+        "participants_display": "エリカ、ビオラ"
+      },
+      {
+        "meta_display": "10/15 00:31",
+        "text": "鐘楼から、朝の訪れを告げる澄んだ鐘の音が響き渡った。",
+        "participants_display": "ルピナス、ネリネ"
+      },
+      {
+        "meta_display": "10/15 00:23・カフェ・フルール",
+        "text": "鐘楼の鐘が、ゆっくりと夜の訪れを告げる音を響かせた。",
+        "participants_display": "アイリス、ビオラ"
+      },
+      {
+        "meta_display": "10/14 02:44",
+        "text": "鐘楼の鐘が、朝の訪れを告げる柔らかな音色を響かせた。",
+        "participants_display": "カンパニュラ、アイリス"
+      },
+      {
+        "meta_display": "10/14 02:26",
+        "text": "駅の構内に、新しい時刻表を知らせる掲示が貼り出された。",
+        "participants_display": "カンパニュラ、ダフネ"
+      },
+      {
+        "meta_display": "10/13 00:14",
+        "text": "駅の待合室で、夜行列車の到着を待つ静かな時間が流れた。",
+        "participants_display": "アイリス、ミモザ"
+      },
+      {
+        "meta_display": "10/13 00:12",
+        "text": "駅のホームに、夜明け前の澄んだ空気が流れ込んできた。",
+        "participants_display": "アネモネ、ルピナス"
+      },
+      {
+        "meta_display": "10/13 00:10",
+        "text": "街の広場に、朝の光を浴びて朝露に濡れた花々が咲き誇った。",
+        "participants_display": "エリカ、ネリネ"
+      },
+      {
+        "meta_display": "10/12 09:46",
+        "text": "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+        "participants_display": "カンパニュラ、ルピナス"
+      },
+      {
+        "meta_display": "10/09 01:06",
+        "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+        "participants_display": "ミモザ、ネリネ"
+      },
+      {
+        "meta_display": "10/09 01:02",
+        "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+        "participants_display": "アイリス、ルピナス"
+      },
+      {
+        "meta_display": "10/07 00:13",
+        "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+        "participants_display": "アネモネ、ビオラ"
+      },
+      {
+        "meta_display": "10/07 00:07・カフェ・フルール",
+        "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+        "participants_display": "ダフネ、アイリス"
+      },
+      {
+        "meta_display": "10/06 01:39",
+        "text": "温室のガラス越しに、月明かりが植物を静かに照らした。",
+        "participants_display": "ミモザ、ビオラ"
+      },
+      {
+        "meta_display": "10/06 01:34",
+        "text": "湖のほとりで、水面に映る月が静かに揺れている。",
+        "participants_display": "エリカ、ミモザ"
+      },
+      {
+        "meta_display": "10/06 01:30",
+        "text": "時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+        "participants_display": "ダフネ、ミモザ"
+      },
+      {
+        "meta_display": "10/05 00:34",
+        "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。",
+        "participants_display": "カンパニュラ、ビオラ"
+      },
+      {
+        "meta_display": "10/05 00:29",
+        "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+        "participants_display": "カンパニュラ、アイリス"
+      }
+    ],
+    "empty_message": null,
+    "completeness": "displayed_public_ui_only"
+  },
+  "pending_display": {
+    "displayed_count": 3,
+    "entries": [
+      {
+        "text": "学院の中庭で、学生たちが午後の読書を楽しんでいる。",
+        "hint": "ページをめくる音とともに、穏やかな知恵が風に乗って運ばれるでしょう。"
+      },
+      {
+        "text": "学院の中庭で、夜露に濡れた草花が朝の光を浴びて輝き始めた。",
+        "hint": "眠れる緑が、光の雫を纏って目覚めの時を待っている。"
+      },
+      {
+        "text": "学院の中庭で、学生たちが新しい季節の準備を始めた。",
+        "hint": "柔らかな光に誘われ、新しい芽吹きが静かに動き出す予感。"
+      }
+    ],
+    "empty_message": null,
+    "completeness": "displayed_public_ui_only"
+  },
+  "movements_display": {
+    "displayed_count": 8,
+    "entries": [
+      {
+        "meta_display": "08/17 06:37",
+        "text": "アネモネが花眠りの庭から花咲く街の駅へ"
+      },
+      {
+        "meta_display": "08/15 02:39",
+        "text": "アネモネがカフェ・フルールから花眠りの庭へ"
+      },
+      {
+        "meta_display": "08/13 06:00",
+        "text": "アイリスが花眠りの庭からカフェ・フルールへ"
+      },
+      {
+        "meta_display": "08/13 06:00",
+        "text": "エリカが花守りの教会からカフェ・フルールへ"
+      },
+      {
+        "meta_display": "08/12 12:24",
+        "text": "ビオラがベルフローラ・クロイスターからカフェ・フルールへ"
+      },
+      {
+        "meta_display": "08/12 09:15",
+        "text": "ダフネが木漏れ日の図書館からカフェ・フルールへ"
+      },
+      {
+        "meta_display": "08/12 09:15",
+        "text": "アネモネが花咲く街の駅からカフェ・フルールへ"
+      },
+      {
+        "meta_display": "08/10 14:30",
+        "text": "アイリスが花灯りの小路から花眠りの庭へ"
+      }
+    ],
+    "empty_message": null,
+    "completeness": "displayed_public_ui_only"
+  },
+  "items_display": {
+    "displayed_count": 0,
+    "entries": [],
+    "empty_message": "アイテムはありません",
+    "completeness": "displayed_public_ui_only"
+  },
+  "rumors_display": {
+    "displayed_count": 0,
+    "entries": [],
+    "empty_message": "まだ噂は聞こえてきません",
+    "completeness": "displayed_public_ui_only"
+  },
+  "overheard_display": {
+    "displayed_count": 0,
+    "entries": [],
+    "empty_message": "まだ誰も立ち聞きしていません",
+    "completeness": "displayed_public_ui_only"
+  },
+  "newspaper": {
+    "issue_date_display": "2026-10-17",
+    "text": "花咲く街エリュシオン新聞\n2026年10月17日号\n【速報】温室に奇跡の予感！季節外れの「謎の蕾」が発見される\n街の憩いの場である温室にて、昨日、季節の移ろいに抗うかのような、極めて珍しい光景が目撃された。静寂に包まれた温室の片隅で、本来の開花時期とは異なる「季節外れの蕾」が、力強く、かつ優雅に膨らみを増していることが判明したのだ。\nこの神秘的な蕾に対し、植物を愛する住民たちの間では、一体どのような色彩と香りが解き放たれるのか、期待と驚きの声が広がっている。温室の関係者は「命がゆっくりと、一歩ずつ広がっていく様子を見守りたい」と語っており、開花の瞬間は街の大きなイベントとなる予感だ。\nシルヴェーヌ湖、銀色の月光に包まれる至福の夜\n昨夜、シルヴェーヌ湖畔では、言葉では言い表せないほど幻想的な夜が繰り広げられた。湖面に映る月光が銀色のさざ波となり、まるで世界が眠りに落ちるのを祝福しているかのような、静謐な時間が流れていたという。\n目撃者によれば、湖畔の空気は清らかに澄み渡り、訪れる者の心を洗い流すような深い安らぎに満ちていた。この夜の静寂は、エリュシオンの街全体を優しく抱擁し、住民たちにこれまでにない穏やかな休息をもたらしたようだ。\n図書館の静かな熱気、調べ物の秋\n昨日の図書館では、知識を求める住人たちの熱心な姿が見受けられた。特に、調べ物に没頭する者と、それを見守る者との間で、穏やかで知的な交流が行われていたとの報告がある。\n窓の外に広がる静かな街並みとは対照的に、書架の間には新たな発見を待ち望む高揚感が漂っていた。知的好奇心が満たされる秋の夜長、図書館は今日もまた、街の知恵の灯火として輝き続けている。\n*\n街の噂\n特になし"
+  },
+  "unobserved": [
+    "complete_raw_world_state",
+    "turns_since_event",
+    "all_72_affinity_values",
+    "raw_event_tags_and_location",
+    "raw_event_timestamps_and_timezone",
+    "pending_created_at",
+    "raw_array_total_counts",
+    "system_ended_flags"
+  ],
+  "display_timestamp_timezone": "unverified"
+}

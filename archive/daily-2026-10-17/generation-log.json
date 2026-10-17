@@ -1,0 +1,38 @@
+[
+  {
+    "record": 456,
+    "pair": 20,
+    "requested_at": "2026-10-17T02:23:01.247Z",
+    "turns": 4
+  },
+  {
+    "record": 457,
+    "pair": 21,
+    "requested_at": "2026-10-17T02:24:19.395Z",
+    "turns": 4
+  },
+  {
+    "record": 458,
+    "pair": 22,
+    "requested_at": "2026-10-17T02:25:16.007Z",
+    "turns": 4
+  },
+  {
+    "record": 459,
+    "pair": 23,
+    "requested_at": "2026-10-17T02:26:11.953Z",
+    "turns": 4
+  },
+  {
+    "record": 460,
+    "pair": 24,
+    "requested_at": "2026-10-17T02:27:11.687Z",
+    "turns": 4
+  },
+  {
+    "record": 461,
+    "pair": 25,
+    "requested_at": "2026-10-17T02:28:05.738Z",
+    "turns": 4
+  }
+]

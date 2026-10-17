@@ -1,0 +1,313 @@
+{
+  "pair_id": 21,
+  "record": 457,
+  "before_source": {
+    "source_file": "pair-21-before.html",
+    "source_saved_file_mtime_utc": "2026-10-17T02:30:07.649616+00:00",
+    "source_sha256": "79d6ca47dfac7aad9ee744b3ae23b218bdb5e9f18d111c4c97fbd3f2bf43fbf9",
+    "turn_count": 40,
+    "speakers": [
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine"
+    ],
+    "last4": [
+      {
+        "speaker": "Campanula",
+        "text": "大切な宝物……そう言ってもらえるなんて、本当に嬉しいよ。\n夜の静けさが、まるで二人をそっと守ってくれているみたいだね。\nこのまま、穏やかな時間がずっと続いてほしいなって、ちょっと思っちゃうな。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "ふふ、私も同じ気持ちだよ。\nこの時間が魔法みたいにずっと続いてくれたらいいなって、心から思う。\n夜の静寂が、私たちの間を優しく繋いでくれているような、そんな気がするね。"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "魔法みたいに、この穏やかな時間がずっと続いてくれたらいいよね。\n夜の静寂が、私たちの間にある温かな空気まで、そっと運んでくれているような気がするよ。\nなんだか、とても心地よい夢の中にいるみたいだね。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "本当だね。\nまるで、雲の上でふわふわと浮かんでいるような、とても心地よい夢の中にいるみたい。\nこのまま、優しい夜の魔法に溶けていけたらいいのにな。"
+      }
+    ]
+  },
+  "before_turns": 40,
+  "after_turns": 44,
+  "new_turns": 4,
+  "old_full_prefix_preserved": true,
+  "common_old_text_preserved": true,
+  "dropped_old_turns_from_visible_window": 0,
+  "common_old_turn_count": 40,
+  "new_equals_saved_suffix": true,
+  "expected_new_speakers": [
+    "Campanula",
+    "Nerine",
+    "Campanula",
+    "Nerine"
+  ],
+  "observed_new_speakers": [
+    "Campanula",
+    "Nerine",
+    "Campanula",
+    "Nerine"
+  ],
+  "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+  "rolling_window_review": null,
+  "retained_leading_stage_text": "",
+  "after_source": {
+    "source_file": "pair-21-after.html",
+    "source_saved_file_mtime_utc": "2026-10-17T02:30:07.657834+00:00",
+    "source_sha256": "23da457a2c7f4fbbb4a716bd083081b18cee4026ca464c86412d96d615fb7965",
+    "turn_count": 44,
+    "speakers": [
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine"
+    ],
+    "last4": [
+      {
+        "speaker": "Campanula",
+        "text": "優しい夜の魔法に溶けていく……。\nそんなふうに、心地よい夢の端っこに身を委ねるような感覚、とても素敵だね。\nもし、そのまま夢の中で会えたら……なんて、少しだけ贅沢な願いを考えてしまうよ。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "ふふ、それ、とっても素敵な願いだね。\nもし夢の中で会えたら、今度は通話魔法じゃなくて、直接あなたの手を取って、一緒に星を眺めたいな。\nそんな夢を見られるように、今夜はゆっくり休みましょうね。"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "夢の中で直接手を取って、一緒に星を眺める……。\nそんなふうに思ってくれて、なんだか胸の奥が温かくなるよ。\n今夜は、その素敵な夢が叶うように、私も穏やかな気持ちで眠りにつこうと思うな。\n\nおやすみなさい、ネリネ。\n良い夢が見られますように。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "ありがとう、カンパニュラ。\nあなたの温かな言葉のおかげで、私もとても幸せな気持ちで眠りにつけそうだよ。\n\nおやすみなさい。\n今夜、夢の中であなたに会えるのを、楽しみにしているね。"
+      }
+    ]
+  },
+  "final_reread": "full match",
+  "comparison_normalization": "Only recognized divider つづき and stage ―― 会話はここまで ―― excluded; source HTML and complete stream preserved",
+  "final_source": {
+    "source_file": "pair-21-final.html",
+    "source_saved_file_mtime_utc": "2026-10-17T02:30:07.658545+00:00",
+    "source_sha256": "431985ead2f228ac859b1a9211aeb2f77704d2ba8c415f7a01e78bf94b13e340",
+    "turn_count": 44,
+    "speakers": [
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine"
+    ],
+    "last4": [
+      {
+        "speaker": "Campanula",
+        "text": "優しい夜の魔法に溶けていく……。\nそんなふうに、心地よい夢の端っこに身を委ねるような感覚、とても素敵だね。\nもし、そのまま夢の中で会えたら……なんて、少しだけ贅沢な願いを考えてしまうよ。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "ふふ、それ、とっても素敵な願いだね。\nもし夢の中で会えたら、今度は通話魔法じゃなくて、直接あなたの手を取って、一緒に星を眺めたいな。\nそんな夢を見られるように、今夜はゆっくり休みましょうね。"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "夢の中で直接手を取って、一緒に星を眺める……。\nそんなふうに思ってくれて、なんだか胸の奥が温かくなるよ。\n今夜は、その素敵な夢が叶うように、私も穏やかな気持ちで眠りにつこうと思うな。\n\nおやすみなさい、ネリネ。\n良い夢が見られますように。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "ありがとう、カンパニュラ。\nあなたの温かな言葉のおかげで、私もとても幸せな気持ちで眠りにつけそうだよ。\n\nおやすみなさい。\n今夜、夢の中であなたに会えるのを、楽しみにしているね。"
+      }
+    ]
+  },
+  "stream_source": {
+    "source_file": "pair-21-stream.html",
+    "source_saved_file_mtime_utc": "2026-10-17T02:30:07.658202+00:00",
+    "source_sha256": "23da457a2c7f4fbbb4a716bd083081b18cee4026ca464c86412d96d615fb7965",
+    "turn_count": 44,
+    "speakers": [
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine",
+      "Campanula",
+      "Nerine"
+    ],
+    "last4": [
+      {
+        "speaker": "Campanula",
+        "text": "優しい夜の魔法に溶けていく……。\nそんなふうに、心地よい夢の端っこに身を委ねるような感覚、とても素敵だね。\nもし、そのまま夢の中で会えたら……なんて、少しだけ贅沢な願いを考えてしまうよ。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "ふふ、それ、とっても素敵な願いだね。\nもし夢の中で会えたら、今度は通話魔法じゃなくて、直接あなたの手を取って、一緒に星を眺めたいな。\nそんな夢を見られるように、今夜はゆっくり休みましょうね。"
+      },
+      {
+        "speaker": "Campanula",
+        "text": "夢の中で直接手を取って、一緒に星を眺める……。\nそんなふうに思ってくれて、なんだか胸の奥が温かくなるよ。\n今夜は、その素敵な夢が叶うように、私も穏やかな気持ちで眠りにつこうと思うな。\n\nおやすみなさい、ネリネ。\n良い夢が見られますように。"
+      },
+      {
+        "speaker": "Nerine",
+        "text": "ありがとう、カンパニュラ。\nあなたの温かな言葉のおかげで、私もとても幸せな気持ちで眠りにつけそうだよ。\n\nおやすみなさい。\n今夜、夢の中であなたに会えるのを、楽しみにしているね。"
+      }
+    ]
+  },
+  "stream_transcript_equals_after": false,
+  "stream_ui_control_markers_excluded": [
+    "つづき",
+    "―― 会話はここまで ――"
+  ],
+  "stream_new_4_turns_equal_saved": true,
+  "stream_full_conversation_equals_saved_after_removing_ui_controls": true,
+  "stream_window_review_verified": false
+}

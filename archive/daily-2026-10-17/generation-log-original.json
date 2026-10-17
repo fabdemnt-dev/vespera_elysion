@@ -1,0 +1,44 @@
+[
+  {
+    "record": 456,
+    "pair_id": 20,
+    "clicked_at_utc": "2026-10-17T02:23:01.247Z",
+    "turns": 4,
+    "action": "通常画面の会話を始める"
+  },
+  {
+    "record": 457,
+    "pair_id": 21,
+    "clicked_at_utc": "2026-10-17T02:24:19.395Z",
+    "turns": 4,
+    "action": "通常画面の会話を始める"
+  },
+  {
+    "record": 458,
+    "pair_id": 22,
+    "clicked_at_utc": "2026-10-17T02:25:16.007Z",
+    "turns": 4,
+    "action": "通常画面の会話を始める"
+  },
+  {
+    "record": 459,
+    "pair_id": 23,
+    "turns": 4,
+    "action": "通常画面の会話を始める",
+    "clicked_at_utc": "2026-10-17T02:26:11.953Z"
+  },
+  {
+    "record": 460,
+    "pair_id": 24,
+    "turns": 4,
+    "action": "通常画面の会話を始める",
+    "clicked_at_utc": "2026-10-17T02:27:11.687Z"
+  },
+  {
+    "record": 461,
+    "pair_id": 25,
+    "turns": 4,
+    "action": "通常画面の会話を始める",
+    "clicked_at_utc": "2026-10-17T02:28:05.738Z"
+  }
+]

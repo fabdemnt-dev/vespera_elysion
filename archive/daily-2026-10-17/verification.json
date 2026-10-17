@@ -1,0 +1,2531 @@
+{
+  "date_jst": "2026-10-17",
+  "source_commit": "4d588e1577d062fef881387ddb94d87b35441d5b",
+  "normal_generations": 6,
+  "regenerations": 0,
+  "raw_observation": "not_observed",
+  "public_state_final_matches_after461": true,
+  "public_events_added_count": 2,
+  "current_cycle_visited_ids": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "story_continued": 2,
+  "story_ended": 34,
+  "unobserved": [
+    "complete_raw_world_state",
+    "turns_since_event",
+    "raw_event_tags_and_location",
+    "raw_event_timestamps_and_timezone",
+    "pending_created_at",
+    "raw_array_total_counts",
+    "system_ended_flags"
+  ],
+  "world_panel_unobserved_fields": [
+    "complete_raw_world_state",
+    "turns_since_event",
+    "all_72_affinity_values",
+    "raw_event_tags_and_location",
+    "raw_event_timestamps_and_timezone",
+    "pending_created_at",
+    "raw_array_total_counts",
+    "system_ended_flags"
+  ],
+  "pairs": [
+    {
+      "record": 456,
+      "pair_id": 20,
+      "turns_before": 32,
+      "turns_after": 36,
+      "expected_new_speakers": [
+        "Anemone",
+        "Mimosa",
+        "Anemone",
+        "Mimosa"
+      ],
+      "observed_new_speakers": [
+        "Anemone",
+        "Mimosa",
+        "Anemone",
+        "Mimosa"
+      ],
+      "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+      "rolling_window_review": null,
+      "retained_leading_stage_text": "",
+      "old_text_prefix_preserved": true,
+      "dropped_old_turns_from_visible_window": 0,
+      "common_old_text_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "17265a9b2b31bd6a6d8f0b8ebb36cd0b55149edd5039a58e4d32e73b4067a76d",
+      "public_state_differences": [
+        {
+          "path": "events_display.entries",
+          "before": [
+            {
+              "meta_display": "10/16 09:40・カフェ・フルール",
+              "text": "温室の中で、季節外れの珍しい花が静かに蕾を膨らませた。",
+              "participants_display": "エリカ、ビオラ"
+            },
+            {
+              "meta_display": "10/15 00:31",
+              "text": "鐘楼から、朝の訪れを告げる澄んだ鐘の音が響き渡った。",
+              "participants_display": "ルピナス、ネリネ"
+            },
+            {
+              "meta_display": "10/15 00:23・カフェ・フルール",
+              "text": "鐘楼の鐘が、ゆっくりと夜の訪れを告げる音を響かせた。",
+              "participants_display": "アイリス、ビオラ"
+            },
+            {
+              "meta_display": "10/14 02:44",
+              "text": "鐘楼の鐘が、朝の訪れを告げる柔らかな音色を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            },
+            {
+              "meta_display": "10/14 02:26",
+              "text": "駅の構内に、新しい時刻表を知らせる掲示が貼り出された。",
+              "participants_display": "カンパニュラ、ダフネ"
+            },
+            {
+              "meta_display": "10/13 00:14",
+              "text": "駅の待合室で、夜行列車の到着を待つ静かな時間が流れた。",
+              "participants_display": "アイリス、ミモザ"
+            },
+            {
+              "meta_display": "10/13 00:12",
+              "text": "駅のホームに、夜明け前の澄んだ空気が流れ込んできた。",
+              "participants_display": "アネモネ、ルピナス"
+            },
+            {
+              "meta_display": "10/13 00:10",
+              "text": "街の広場に、朝の光を浴びて朝露に濡れた花々が咲き誇った。",
+              "participants_display": "エリカ、ネリネ"
+            },
+            {
+              "meta_display": "10/12 09:46",
+              "text": "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+              "participants_display": "カンパニュラ、ルピナス"
+            },
+            {
+              "meta_display": "10/09 01:06",
+              "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+              "participants_display": "ミモザ、ネリネ"
+            },
+            {
+              "meta_display": "10/09 01:02",
+              "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+              "participants_display": "アイリス、ルピナス"
+            },
+            {
+              "meta_display": "10/07 00:13",
+              "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+              "participants_display": "アネモネ、ビオラ"
+            },
+            {
+              "meta_display": "10/07 00:07・カフェ・フルール",
+              "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+              "participants_display": "ダフネ、アイリス"
+            },
+            {
+              "meta_display": "10/06 01:39",
+              "text": "温室のガラス越しに、月明かりが植物を静かに照らした。",
+              "participants_display": "ミモザ、ビオラ"
+            },
+            {
+              "meta_display": "10/06 01:34",
+              "text": "湖のほとりで、水面に映る月が静かに揺れている。",
+              "participants_display": "エリカ、ミモザ"
+            },
+            {
+              "meta_display": "10/06 01:30",
+              "text": "時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "ダフネ、ミモザ"
+            },
+            {
+              "meta_display": "10/05 00:34",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。",
+              "participants_display": "カンパニュラ、ビオラ"
+            },
+            {
+              "meta_display": "10/05 00:29",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            },
+            {
+              "meta_display": "10/04 00:31",
+              "text": "駅のホームに、夜行列車が静かに滑り込んできた。",
+              "participants_display": "ネリネ、ビオラ"
+            },
+            {
+              "meta_display": "10/04 00:23",
+              "text": "駅のホームに、夜の便の列車が静かに滑り込んできた。",
+              "participants_display": "アイリス、ミモザ"
+            }
+          ],
+          "after": [
+            {
+              "meta_display": "10/17 02:23",
+              "text": "温室のガラス越しに、満天の星空が映り込んでいる。",
+              "participants_display": "アネモネ、ミモザ"
+            },
+            {
+              "meta_display": "10/16 09:40・カフェ・フルール",
+              "text": "温室の中で、季節外れの珍しい花が静かに蕾を膨らませた。",
+              "participants_display": "エリカ、ビオラ"
+            },
+            {
+              "meta_display": "10/15 00:31",
+              "text": "鐘楼から、朝の訪れを告げる澄んだ鐘の音が響き渡った。",
+              "participants_display": "ルピナス、ネリネ"
+            },
+            {
+              "meta_display": "10/15 00:23・カフェ・フルール",
+              "text": "鐘楼の鐘が、ゆっくりと夜の訪れを告げる音を響かせた。",
+              "participants_display": "アイリス、ビオラ"
+            },
+            {
+              "meta_display": "10/14 02:44",
+              "text": "鐘楼の鐘が、朝の訪れを告げる柔らかな音色を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            },
+            {
+              "meta_display": "10/14 02:26",
+              "text": "駅の構内に、新しい時刻表を知らせる掲示が貼り出された。",
+              "participants_display": "カンパニュラ、ダフネ"
+            },
+            {
+              "meta_display": "10/13 00:14",
+              "text": "駅の待合室で、夜行列車の到着を待つ静かな時間が流れた。",
+              "participants_display": "アイリス、ミモザ"
+            },
+            {
+              "meta_display": "10/13 00:12",
+              "text": "駅のホームに、夜明け前の澄んだ空気が流れ込んできた。",
+              "participants_display": "アネモネ、ルピナス"
+            },
+            {
+              "meta_display": "10/13 00:10",
+              "text": "街の広場に、朝の光を浴びて朝露に濡れた花々が咲き誇った。",
+              "participants_display": "エリカ、ネリネ"
+            },
+            {
+              "meta_display": "10/12 09:46",
+              "text": "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+              "participants_display": "カンパニュラ、ルピナス"
+            },
+            {
+              "meta_display": "10/09 01:06",
+              "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+              "participants_display": "ミモザ、ネリネ"
+            },
+            {
+              "meta_display": "10/09 01:02",
+              "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+              "participants_display": "アイリス、ルピナス"
+            },
+            {
+              "meta_display": "10/07 00:13",
+              "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+              "participants_display": "アネモネ、ビオラ"
+            },
+            {
+              "meta_display": "10/07 00:07・カフェ・フルール",
+              "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+              "participants_display": "ダフネ、アイリス"
+            },
+            {
+              "meta_display": "10/06 01:39",
+              "text": "温室のガラス越しに、月明かりが植物を静かに照らした。",
+              "participants_display": "ミモザ、ビオラ"
+            },
+            {
+              "meta_display": "10/06 01:34",
+              "text": "湖のほとりで、水面に映る月が静かに揺れている。",
+              "participants_display": "エリカ、ミモザ"
+            },
+            {
+              "meta_display": "10/06 01:30",
+              "text": "時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "ダフネ、ミモザ"
+            },
+            {
+              "meta_display": "10/05 00:34",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。",
+              "participants_display": "カンパニュラ、ビオラ"
+            },
+            {
+              "meta_display": "10/05 00:29",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            },
+            {
+              "meta_display": "10/04 00:31",
+              "text": "駅のホームに、夜行列車が静かに滑り込んできた。",
+              "participants_display": "ネリネ、ビオラ"
+            }
+          ]
+        },
+        {
+          "path": "newspaper.issue_date_display",
+          "before": "2026-10-16",
+          "after": "2026-10-17"
+        },
+        {
+          "path": "newspaper.text",
+          "before": "花咲く街エリュシオン新聞\n2026年10月16日号\n【速報】鐘楼が奏でる「光と静寂」の旋律、街を包み込む\n昨日、我が街の象徴である鐘楼から、これまでにないほど情緒豊かな鐘の音が響き渡った。夜の帳が降りる頃、街を優しく包み込むような重厚な音色が響き、人々に穏やかな眠りへと誘う「夜の祝福」を届けた。\n一方、本日未明には、一転して朝の訪れを告げる澄み渡った鐘の音が街中に響き渡った。この清らかな音色は、新たな一日の始まりを告げる合図として、目覚めた住民たちの心に希望の光を灯している。\n幻想的な光の渦か？ 街の境界で目撃された「眩い現象」\n昨夜、街のどこかで、藍色と銀色が混ざり合う巨大な光の渦が観測されたとの報告が寄せられている。目撃者によれば、その光はまるで世界そのものが呼吸しているかのような圧倒的なエネルギーを放っていたという。\nこの現象に伴い、周囲の空気は激しく、かつ美しく揺れ動いていた。光の奔流が収まった後、街にはこれまで見たこともないような、新しく清々しい夜の景色が広がっていたという。これが何らかの自然現象なのか、あるいは街の新たな物語の幕開けなのか、真相は依然として謎に包まれている。\n街の噂\n（現在、街に新しい噂は届いておりません。穏やかな時間が流れています。）",
+          "after": "花咲く街エリュシオン新聞\n2026年10月17日号\n【速報】温室に奇跡の予感！季節外れの「謎の蕾」が発見される\n街の憩いの場である温室にて、昨日、季節の移ろいに抗うかのような、極めて珍しい光景が目撃された。静寂に包まれた温室の片隅で、本来の開花時期とは異なる「季節外れの蕾」が、力強く、かつ優雅に膨らみを増していることが判明したのだ。\nこの神秘的な蕾に対し、植物を愛する住民たちの間では、一体どのような色彩と香りが解き放たれるのか、期待と驚きの声が広がっている。温室の関係者は「命がゆっくりと、一歩ずつ広がっていく様子を見守りたい」と語っており、開花の瞬間は街の大きなイベントとなる予感だ。\nシルヴェーヌ湖、銀色の月光に包まれる至福の夜\n昨夜、シルヴェーヌ湖畔では、言葉では言い表せないほど幻想的な夜が繰り広げられた。湖面に映る月光が銀色のさざ波となり、まるで世界が眠りに落ちるのを祝福しているかのような、静謐な時間が流れていたという。\n目撃者によれば、湖畔の空気は清らかに澄み渡り、訪れる者の心を洗い流すような深い安らぎに満ちていた。この夜の静寂は、エリュシオンの街全体を優しく抱擁し、住民たちにこれまでにない穏やかな休息をもたらしたようだ。\n図書館の静かな熱気、調べ物の秋\n昨日の図書館では、知識を求める住人たちの熱心な姿が見受けられた。特に、調べ物に没頭する者と、それを見守る者との間で、穏やかで知的な交流が行われていたとの報告がある。\n窓の外に広がる静かな街並みとは対照的に、書架の間には新たな発見を待ち望む高揚感が漂っていた。知的好奇心が満たされる秋の夜長、図書館は今日もまた、街の知恵の灯火として輝き続けている。\n*\n街の噂\n特になし"
+        },
+        {
+          "path": "pending_display.entries",
+          "before": [
+            {
+              "text": "温室のガラス越しに、満天の星空が映り込んでいる。",
+              "hint": "透明な屋根が、空に散らばる光の欠片をそっと掬い上げるでしょう。"
+            },
+            {
+              "text": "温室のガラス越しに、柔らかな陽光が差し込んだ。",
+              "hint": "透明な器に、黄金の光が静かに満たされてゆく。"
+            },
+            {
+              "text": "学院の中庭で、学生たちが午後の読書を楽しんでいる。",
+              "hint": "ページをめくる音とともに、穏やかな知恵が風に乗って運ばれるでしょう。"
+            }
+          ],
+          "after": [
+            {
+              "text": "温室のガラス越しに、柔らかな陽光が差し込んだ。",
+              "hint": "透明な器に、黄金の光が静かに満たされてゆく。"
+            },
+            {
+              "text": "学院の中庭で、学生たちが午後の読書を楽しんでいる。",
+              "hint": "ページをめくる音とともに、穏やかな知恵が風に乗って運ばれるでしょう。"
+            },
+            {
+              "text": "学院の中庭で、夜露に濡れた草花が朝の光を浴びて輝き始めた。",
+              "hint": "眠れる緑が、光の雫を纏って目覚めの時を待っている。"
+            }
+          ]
+        },
+        {
+          "path": "weather_display",
+          "before": "2026-10-16 ・ 小雨・5°C",
+          "after": "2026-10-17 ・ 通り雨・30°C"
+        }
+      ],
+      "display_events_added": [
+        {
+          "meta_display": "10/17 02:23",
+          "text": "温室のガラス越しに、満天の星空が映り込んでいる。",
+          "participants_display": "アネモネ、ミモザ"
+        }
+      ],
+      "display_events_removed": [
+        {
+          "meta_display": "10/04 00:23",
+          "text": "駅のホームに、夜の便の列車が静かに滑り込んできた。",
+          "participants_display": "アイリス、ミモザ"
+        }
+      ],
+      "display_pending_removed": [
+        {
+          "text": "温室のガラス越しに、満天の星空が映り込んでいる。",
+          "hint": "透明な屋根が、空に散らばる光の欠片をそっと掬い上げるでしょう。"
+        }
+      ],
+      "display_pending_added": [
+        {
+          "text": "学院の中庭で、夜露に濡れた草花が朝の光を浴びて輝き始めた。",
+          "hint": "眠れる緑が、光の雫を纏って目覚めの時を待っている。"
+        }
+      ],
+      "raw_comparison": "not_observed",
+      "capture_verification": "pair20-capture-verification.json",
+      "stream_comparison": "full content confirmed after excluding UI controls",
+      "stream_window_review_verified": false
+    },
+    {
+      "record": 457,
+      "pair_id": 21,
+      "turns_before": 40,
+      "turns_after": 44,
+      "expected_new_speakers": [
+        "Campanula",
+        "Nerine",
+        "Campanula",
+        "Nerine"
+      ],
+      "observed_new_speakers": [
+        "Campanula",
+        "Nerine",
+        "Campanula",
+        "Nerine"
+      ],
+      "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+      "rolling_window_review": null,
+      "retained_leading_stage_text": "",
+      "old_text_prefix_preserved": true,
+      "dropped_old_turns_from_visible_window": 0,
+      "common_old_text_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "72876b5fd7ae95c1055ca47b228b614130b303faf208d39771ace4676ba61eda",
+      "public_state_differences": [],
+      "display_events_added": [],
+      "display_events_removed": [],
+      "display_pending_removed": [],
+      "display_pending_added": [],
+      "raw_comparison": "not_observed",
+      "capture_verification": "pair21-capture-verification.json",
+      "stream_comparison": "full content confirmed after excluding UI controls",
+      "stream_window_review_verified": false
+    },
+    {
+      "record": 458,
+      "pair_id": 22,
+      "turns_before": 32,
+      "turns_after": 36,
+      "expected_new_speakers": [
+        "Anemone",
+        "Viola",
+        "Anemone",
+        "Viola"
+      ],
+      "observed_new_speakers": [
+        "Anemone",
+        "Viola",
+        "Anemone",
+        "Viola"
+      ],
+      "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+      "rolling_window_review": null,
+      "retained_leading_stage_text": "",
+      "old_text_prefix_preserved": true,
+      "dropped_old_turns_from_visible_window": 0,
+      "common_old_text_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "575338b7f9d8230193994465faa7754cd2320389cd85bec6ebfed12621b98545",
+      "public_state_differences": [],
+      "display_events_added": [],
+      "display_events_removed": [],
+      "display_pending_removed": [],
+      "display_pending_added": [],
+      "raw_comparison": "not_observed",
+      "capture_verification": "pair22-capture-verification.json",
+      "stream_comparison": "full content confirmed after excluding UI controls",
+      "stream_window_review_verified": false
+    },
+    {
+      "record": 459,
+      "pair_id": 23,
+      "turns_before": 52,
+      "turns_after": 56,
+      "expected_new_speakers": [
+        "Erica",
+        "Lupinus",
+        "Erica",
+        "Lupinus"
+      ],
+      "observed_new_speakers": [
+        "Erica",
+        "Lupinus",
+        "Erica",
+        "Lupinus"
+      ],
+      "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+      "rolling_window_review": null,
+      "retained_leading_stage_text": "",
+      "old_text_prefix_preserved": true,
+      "dropped_old_turns_from_visible_window": 0,
+      "common_old_text_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "aec2d701df3168801fd94b32fce233d6ae7dcd7f7f405f31bc923d8f342c0f0b",
+      "public_state_differences": [
+        {
+          "path": "events_display.entries",
+          "before": [
+            {
+              "meta_display": "10/17 02:23",
+              "text": "温室のガラス越しに、満天の星空が映り込んでいる。",
+              "participants_display": "アネモネ、ミモザ"
+            },
+            {
+              "meta_display": "10/16 09:40・カフェ・フルール",
+              "text": "温室の中で、季節外れの珍しい花が静かに蕾を膨らませた。",
+              "participants_display": "エリカ、ビオラ"
+            },
+            {
+              "meta_display": "10/15 00:31",
+              "text": "鐘楼から、朝の訪れを告げる澄んだ鐘の音が響き渡った。",
+              "participants_display": "ルピナス、ネリネ"
+            },
+            {
+              "meta_display": "10/15 00:23・カフェ・フルール",
+              "text": "鐘楼の鐘が、ゆっくりと夜の訪れを告げる音を響かせた。",
+              "participants_display": "アイリス、ビオラ"
+            },
+            {
+              "meta_display": "10/14 02:44",
+              "text": "鐘楼の鐘が、朝の訪れを告げる柔らかな音色を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            },
+            {
+              "meta_display": "10/14 02:26",
+              "text": "駅の構内に、新しい時刻表を知らせる掲示が貼り出された。",
+              "participants_display": "カンパニュラ、ダフネ"
+            },
+            {
+              "meta_display": "10/13 00:14",
+              "text": "駅の待合室で、夜行列車の到着を待つ静かな時間が流れた。",
+              "participants_display": "アイリス、ミモザ"
+            },
+            {
+              "meta_display": "10/13 00:12",
+              "text": "駅のホームに、夜明け前の澄んだ空気が流れ込んできた。",
+              "participants_display": "アネモネ、ルピナス"
+            },
+            {
+              "meta_display": "10/13 00:10",
+              "text": "街の広場に、朝の光を浴びて朝露に濡れた花々が咲き誇った。",
+              "participants_display": "エリカ、ネリネ"
+            },
+            {
+              "meta_display": "10/12 09:46",
+              "text": "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+              "participants_display": "カンパニュラ、ルピナス"
+            },
+            {
+              "meta_display": "10/09 01:06",
+              "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+              "participants_display": "ミモザ、ネリネ"
+            },
+            {
+              "meta_display": "10/09 01:02",
+              "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+              "participants_display": "アイリス、ルピナス"
+            },
+            {
+              "meta_display": "10/07 00:13",
+              "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+              "participants_display": "アネモネ、ビオラ"
+            },
+            {
+              "meta_display": "10/07 00:07・カフェ・フルール",
+              "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+              "participants_display": "ダフネ、アイリス"
+            },
+            {
+              "meta_display": "10/06 01:39",
+              "text": "温室のガラス越しに、月明かりが植物を静かに照らした。",
+              "participants_display": "ミモザ、ビオラ"
+            },
+            {
+              "meta_display": "10/06 01:34",
+              "text": "湖のほとりで、水面に映る月が静かに揺れている。",
+              "participants_display": "エリカ、ミモザ"
+            },
+            {
+              "meta_display": "10/06 01:30",
+              "text": "時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "ダフネ、ミモザ"
+            },
+            {
+              "meta_display": "10/05 00:34",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。",
+              "participants_display": "カンパニュラ、ビオラ"
+            },
+            {
+              "meta_display": "10/05 00:29",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            },
+            {
+              "meta_display": "10/04 00:31",
+              "text": "駅のホームに、夜行列車が静かに滑り込んできた。",
+              "participants_display": "ネリネ、ビオラ"
+            }
+          ],
+          "after": [
+            {
+              "meta_display": "10/17 02:25",
+              "text": "温室のガラス越しに、柔らかな陽光が差し込んだ。",
+              "participants_display": "アネモネ、ビオラ"
+            },
+            {
+              "meta_display": "10/17 02:23",
+              "text": "温室のガラス越しに、満天の星空が映り込んでいる。",
+              "participants_display": "アネモネ、ミモザ"
+            },
+            {
+              "meta_display": "10/16 09:40・カフェ・フルール",
+              "text": "温室の中で、季節外れの珍しい花が静かに蕾を膨らませた。",
+              "participants_display": "エリカ、ビオラ"
+            },
+            {
+              "meta_display": "10/15 00:31",
+              "text": "鐘楼から、朝の訪れを告げる澄んだ鐘の音が響き渡った。",
+              "participants_display": "ルピナス、ネリネ"
+            },
+            {
+              "meta_display": "10/15 00:23・カフェ・フルール",
+              "text": "鐘楼の鐘が、ゆっくりと夜の訪れを告げる音を響かせた。",
+              "participants_display": "アイリス、ビオラ"
+            },
+            {
+              "meta_display": "10/14 02:44",
+              "text": "鐘楼の鐘が、朝の訪れを告げる柔らかな音色を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            },
+            {
+              "meta_display": "10/14 02:26",
+              "text": "駅の構内に、新しい時刻表を知らせる掲示が貼り出された。",
+              "participants_display": "カンパニュラ、ダフネ"
+            },
+            {
+              "meta_display": "10/13 00:14",
+              "text": "駅の待合室で、夜行列車の到着を待つ静かな時間が流れた。",
+              "participants_display": "アイリス、ミモザ"
+            },
+            {
+              "meta_display": "10/13 00:12",
+              "text": "駅のホームに、夜明け前の澄んだ空気が流れ込んできた。",
+              "participants_display": "アネモネ、ルピナス"
+            },
+            {
+              "meta_display": "10/13 00:10",
+              "text": "街の広場に、朝の光を浴びて朝露に濡れた花々が咲き誇った。",
+              "participants_display": "エリカ、ネリネ"
+            },
+            {
+              "meta_display": "10/12 09:46",
+              "text": "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+              "participants_display": "カンパニュラ、ルピナス"
+            },
+            {
+              "meta_display": "10/09 01:06",
+              "text": "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。",
+              "participants_display": "ミモザ、ネリネ"
+            },
+            {
+              "meta_display": "10/09 01:02",
+              "text": "小路のパン屋から、焼きたての香ばしい匂いが漂ってきた。",
+              "participants_display": "アイリス、ルピナス"
+            },
+            {
+              "meta_display": "10/07 00:13",
+              "text": "温室の扉が開き、夜の香りを孕んだ風が吹き抜けた。",
+              "participants_display": "アネモネ、ビオラ"
+            },
+            {
+              "meta_display": "10/07 00:07・カフェ・フルール",
+              "text": "温室のガラス越しに、夜にだけ咲く花の香りが漂い始めた。",
+              "participants_display": "ダフネ、アイリス"
+            },
+            {
+              "meta_display": "10/06 01:39",
+              "text": "温室のガラス越しに、月明かりが植物を静かに照らした。",
+              "participants_display": "ミモザ、ビオラ"
+            },
+            {
+              "meta_display": "10/06 01:34",
+              "text": "湖のほとりで、水面に映る月が静かに揺れている。",
+              "participants_display": "エリカ、ミモザ"
+            },
+            {
+              "meta_display": "10/06 01:30",
+              "text": "時計塔の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "ダフネ、ミモザ"
+            },
+            {
+              "meta_display": "10/05 00:34",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音色を響かせた。",
+              "participants_display": "カンパニュラ、ビオラ"
+            },
+            {
+              "meta_display": "10/05 00:29",
+              "text": "鐘楼の鐘が、夜の訪れを告げる穏やかな音を響かせた。",
+              "participants_display": "カンパニュラ、アイリス"
+            }
+          ]
+        },
+        {
+          "path": "pending_display.entries",
+          "before": [
+            {
+              "text": "温室のガラス越しに、柔らかな陽光が差し込んだ。",
+              "hint": "透明な器に、黄金の光が静かに満たされてゆく。"
+            },
+            {
+              "text": "学院の中庭で、学生たちが午後の読書を楽しんでいる。",
+              "hint": "ページをめくる音とともに、穏やかな知恵が風に乗って運ばれるでしょう。"
+            },
+            {
+              "text": "学院の中庭で、夜露に濡れた草花が朝の光を浴びて輝き始めた。",
+              "hint": "眠れる緑が、光の雫を纏って目覚めの時を待っている。"
+            }
+          ],
+          "after": [
+            {
+              "text": "学院の中庭で、学生たちが午後の読書を楽しんでいる。",
+              "hint": "ページをめくる音とともに、穏やかな知恵が風に乗って運ばれるでしょう。"
+            },
+            {
+              "text": "学院の中庭で、夜露に濡れた草花が朝の光を浴びて輝き始めた。",
+              "hint": "眠れる緑が、光の雫を纏って目覚めの時を待っている。"
+            },
+            {
+              "text": "学院の中庭で、学生たちが新しい季節の準備を始めた。",
+              "hint": "柔らかな光に誘われ、新しい芽吹きが静かに動き出す予感。"
+            }
+          ]
+        }
+      ],
+      "display_events_added": [
+        {
+          "meta_display": "10/17 02:25",
+          "text": "温室のガラス越しに、柔らかな陽光が差し込んだ。",
+          "participants_display": "アネモネ、ビオラ"
+        }
+      ],
+      "display_events_removed": [
+        {
+          "meta_display": "10/04 00:31",
+          "text": "駅のホームに、夜行列車が静かに滑り込んできた。",
+          "participants_display": "ネリネ、ビオラ"
+        }
+      ],
+      "display_pending_removed": [
+        {
+          "text": "温室のガラス越しに、柔らかな陽光が差し込んだ。",
+          "hint": "透明な器に、黄金の光が静かに満たされてゆく。"
+        }
+      ],
+      "display_pending_added": [
+        {
+          "text": "学院の中庭で、学生たちが新しい季節の準備を始めた。",
+          "hint": "柔らかな光に誘われ、新しい芽吹きが静かに動き出す予感。"
+        }
+      ],
+      "raw_comparison": "not_observed",
+      "capture_verification": "pair23-capture-verification.json",
+      "stream_comparison": "full content confirmed after excluding UI controls",
+      "stream_window_review_verified": false
+    },
+    {
+      "record": 460,
+      "pair_id": 24,
+      "turns_before": 30,
+      "turns_after": 34,
+      "expected_new_speakers": [
+        "Iris",
+        "Lupinus",
+        "Iris",
+        "Lupinus"
+      ],
+      "observed_new_speakers": [
+        "Iris",
+        "Lupinus",
+        "Iris",
+        "Lupinus"
+      ],
+      "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+      "rolling_window_review": null,
+      "retained_leading_stage_text": "",
+      "old_text_prefix_preserved": true,
+      "dropped_old_turns_from_visible_window": 0,
+      "common_old_text_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "595792e99e4a560995cbfe5bfe1e2335e168175a0f691b970cdb98a89ce68cb7",
+      "public_state_differences": [],
+      "display_events_added": [],
+      "display_events_removed": [],
+      "display_pending_removed": [],
+      "display_pending_added": [],
+      "raw_comparison": "not_observed",
+      "capture_verification": "pair24-capture-verification.json",
+      "stream_comparison": "full content confirmed after excluding UI controls",
+      "stream_window_review_verified": false
+    },
+    {
+      "record": 461,
+      "pair_id": 25,
+      "turns_before": 28,
+      "turns_after": 32,
+      "expected_new_speakers": [
+        "Daphne",
+        "Nerine",
+        "Daphne",
+        "Nerine"
+      ],
+      "observed_new_speakers": [
+        "Daphne",
+        "Nerine",
+        "Daphne",
+        "Nerine"
+      ],
+      "speaker_order_basis": "opposite of last actually saved speaker; verified alternating sequence",
+      "rolling_window_review": null,
+      "retained_leading_stage_text": "",
+      "old_text_prefix_preserved": true,
+      "dropped_old_turns_from_visible_window": 0,
+      "common_old_text_preserved": true,
+      "new_text_equals_saved_suffix": true,
+      "additional_final_reread_equals_saved": true,
+      "sha256_utf8": "ec3cfa580870126c8c355ecc64d0913ef1466cfe803cf2346d5de251a6474693",
+      "public_state_differences": [],
+      "display_events_added": [],
+      "display_events_removed": [],
+      "display_pending_removed": [],
+      "display_pending_added": [],
+      "raw_comparison": "not_observed",
+      "capture_verification": "pair25-capture-verification.json",
+      "stream_comparison": "full content confirmed after excluding UI controls",
+      "stream_window_review_verified": false
+    }
+  ],
+  "public_character_comparison": {
+    "affinity_display_differences": [
+      {
+        "path": "Anemone.Mimosa",
+        "before": 88,
+        "after": 92
+      },
+      {
+        "path": "Anemone.Viola",
+        "before": 83,
+        "after": 87
+      },
+      {
+        "path": "Campanula.Nerine",
+        "before": 96,
+        "after": 98
+      },
+      {
+        "path": "Daphne.Nerine",
+        "before": 88,
+        "after": 92
+      },
+      {
+        "path": "Iris.Lupinus",
+        "before": 85,
+        "after": 87
+      },
+      {
+        "path": "Lupinus.Iris",
+        "before": 87,
+        "after": 90
+      },
+      {
+        "path": "Mimosa.Anemone",
+        "before": 82,
+        "after": 85
+      },
+      {
+        "path": "Nerine.Campanula",
+        "before": 92,
+        "after": 96
+      },
+      {
+        "path": "Nerine.Daphne",
+        "before": 85,
+        "after": 88
+      },
+      {
+        "path": "Viola.Anemone",
+        "before": 78,
+        "after": 82
+      }
+    ],
+    "profile_display_differences": [],
+    "location_display_differences": [],
+    "memory_display_differences": [
+      {
+        "path": "Anemone",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "何度も繰り返した「またね」の声。空に溶けていく響きが愛おしい。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "星のリズムに寄り添う夜。お互いの幸せを祈り合った。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "駅の階段での最後のお別れ。それから、小道を歩く私を包んでくれた、あの温かな風。祈りのように届いた、優しくて光を含んだ風の感触を覚えている。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "広場での約束。「いってらっしゃい」の言葉が風に乗っていた。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "駅のホームで感じた、夜の気配を含んだ不思議な風。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "駅のベンチで過ごした、魔法のような時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "琥珀色のパンの味。夜の魔法に包まれた、夢のような至福。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "夜明け前の澄んだ空気の中で交わした、また明日という約束。"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "何度も繰り返した「またね」の声。空に溶けていく響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "星のリズムに寄り添い、互いの幸せを祈り合った夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "駅の階段での最後のお別れ。温かな風に包まれたこと。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "温室に映る星空と、「あとで話さなきゃ」と笑う彼女の声。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "駅のホームで感じた、夜の気配を含んだ不思議な風。"
+          },
+          {
+            "tag": "p",
+            "text": "そして、温室に差し込んだ優しい光。"
+          },
+          {
+            "tag": "p",
+            "text": "胸のざわつきは、新しい何かが始まる合図なのかな。"
+          },
+          {
+            "tag": "p",
+            "text": "静かにその予感を味わっていよう、と彼女が言ってくれた。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "駅のベンチで過ごした、魔法のような時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "琥珀色のパンの味。夜の魔法に包まれた、夢のような至福。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "夜明け前の澄んだ空気の中で交わした、また明日という約束。"
+          }
+        ]
+      },
+      {
+        "path": "Campanula",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "新しい時刻表と、彼女の微笑み。夜風の冷たさ。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "夜明けの鐘と、世界が生まれ変わるような眩い光。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "街の静寂に溶ける鐘の音。二人で「おやすみなさい」と言い合った温かな時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "小道を歩く彼女の軽やかな足取り。ふと吹いた温かい風が、祈りのように彼女を包んで、私も同じ風を感じた。彼女の歩む道が、光と香りに満ちた物語になりますように。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "通話魔法越しに溶けていくような、優しい夢の時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "教会でのティータイム。「またね」の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "街角で見つけた一輪の花。彼女の言葉。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘。星型のお菓子と、また明日という約束。"
+          },
+          {
+            "tag": "p",
+            "text": "エリュシオンが新しい物語の幕を開ける。"
+          },
+          {
+            "tag": "p",
+            "text": "街が目覚める音、花々が呼吸する気配、すべてが祝福に満ちている。"
+          },
+          {
+            "tag": "p",
+            "text": "アイリスと分かち合ったあの光の熱を、忘れないように。"
+          },
+          {
+            "tag": "p",
+            "text": "明日もまた、彼に柔らかな光が届きますように。"
+          },
+          {
+            "tag": "p",
+            "text": "私も、彼に会えるのを明日まで楽しみにして。"
+          },
+          {
+            "tag": "h3",
+            "text": "他の誰か"
+          },
+          {
+            "tag": "p",
+            "text": "（いつか、大切な誰かのことも、ここに刻める日が来るのでしょうか……）"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "新しい時刻表と、彼女の微笑み。夜風の冷たさ。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "夜明けの鐘と、世界が生まれ変わるような眩い光。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "街の静寂に溶ける鐘の音。二人で「おやすみなさい」と言い合った時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "小道を歩く彼女の足取り。光と香りに満ちた物語になりますように。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "通話魔法越しに溶けていくような、優しい夢の時間。"
+          },
+          {
+            "tag": "p",
+            "text": "「夢の中で手を取って、一緒に星を眺めたい」……そんな彼女の願いが、私の胸を温かく満たしている。今夜は夢の中で会えるかな。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "教会でのティータイム。「またね」の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "街角で見つけた一輪の花。彼女の言葉。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘。星型のお菓子と、また明日という約束。"
+          },
+          {
+            "tag": "p",
+            "text": "エリュシオンが新しい物語の幕を開ける。"
+          },
+          {
+            "tag": "p",
+            "text": "街が目覚める音、花々が呼吸する気配、すべてが祝福に満ちている。"
+          },
+          {
+            "tag": "p",
+            "text": "アイリスと分かち合ったあの光の熱を、忘れないように。"
+          },
+          {
+            "tag": "p",
+            "text": "明日もまた、彼に柔らかな光が届きますように。"
+          },
+          {
+            "tag": "p",
+            "text": "私も、彼に会えるのを明日まで楽しみにして。"
+          },
+          {
+            "tag": "h3",
+            "text": "他の誰か"
+          },
+          {
+            "tag": "p",
+            "text": "（いつか、大切な誰かのことも、ここに刻める日が来るのでしょうか……）"
+          }
+        ]
+      },
+      {
+        "path": "Daphne",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "タルトの甘さと、夜風の中で感じた静かな期待。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館での対話。言葉が心に触れることへの願い。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "太陽のような彼女。夜空の下で分かち合う、温かな共鳴。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘。何度も重なる「おやすみなさい」の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "夜に開く神秘的な光とベリーの香り。"
+          },
+          {
+            "tag": "p",
+            "text": "彼女の報告を待ちながら、図書館で調べ物をするひととき。"
+          },
+          {
+            "tag": "p",
+            "text": "その約束が、私の調べ物の合間の、何よりの楽しみ。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館で心がふわりと近づいた、穏やかな時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘、スコーンと祝福の虹。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "「一番の目的地」は、あなたの隣。"
+          },
+          {
+            "tag": "p",
+            "text": "重なる鼓動、繋いだ手の強さ。"
+          },
+          {
+            "tag": "p",
+            "text": "どんな未来でも、あなたの隣で生きていきたい。"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "タルトの甘さと、夜風の中の静かな期待。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館での対話。言葉が心に触れることへの願い。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "太陽のような彼女。夜空の下で分かち合う温かな共鳴。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘。何度も重なる「おやすみなさい」の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "神秘的な光とベリーの香り。彼女との約束が、調べ物の何よりの楽しみ。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館で心がふわりと近づいた、穏やかな時間。"
+          },
+          {
+            "tag": "p",
+            "text": "お互いの幸せを願い、優しい言葉を交わした、温かな余韻。"
+          },
+          {
+            "tag": "p",
+            "text": "あなたの幸せそうな響きを、大切に持ち帰りたい。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘、スコーンと祝福の虹。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "「一番の目的地」は、あなたの隣。"
+          },
+          {
+            "tag": "p",
+            "text": "重なる鼓動、繋いだ手の強さ。"
+          },
+          {
+            "tag": "p",
+            "text": "どんな未来でも、あなたの隣で生きていきたい。"
+          }
+        ]
+      },
+      {
+        "path": "Erica",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "何度も繰り返した「またね」の響き。心が温かな約束で満たされる。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館の窓辺、古い詩集をめくる静かな時間。言葉が風のように届く。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "シルヴェーヌ湖のほとり、銀色の月光が揺れる安らぎの夜。"
+          },
+          {
+            "tag": "p",
+            "text": "あなたの優しさに守られながら、幸福な眠りの海へと沈んでいった。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "温室で、季節外れの小さな蕾を一緒に見守ったこと。"
+          },
+          {
+            "tag": "p",
+            "text": "これからどんな色で、どんな香りの花が咲くのか……"
+          },
+          {
+            "tag": "p",
+            "text": "その瞬間を大切に待ちたいと、心が弾むような贅沢な時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "月光の下、安らかな眠りを願い合った、静かな夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "カフェ・フルールのテラス。重なり合う約束の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "通話魔法の向こう側、星が瞬くような優しい声。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "最後の一切れのお菓子を分かち合った、甘い時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "まだ知らない誰か"
+          },
+          {
+            "tag": "p",
+            "text": "いつか、私の記憶の中に名前が刻まれる日が来るのかしら。"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "何度も繰り返した「またね」の響き。心が温かな約束で満たされる。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館の窓辺、古い詩集をめくる静かな時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "シルヴェーヌ湖のほとり、銀色の月光が揺れる安らぎの夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "温室で、季節外れの蕾を一緒に見守った、弾むような時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "月光の下、安らかな眠りを願い合った、静かな夜。"
+          },
+          {
+            "tag": "p",
+            "text": "「また明日」と約束した、キラキラした星屑のような予感。"
+          },
+          {
+            "tag": "p",
+            "text": "新しい一日が来るのが、今からとっても楽しみ。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "カフェ・フルールのテラス。重なり合う約束の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "通話魔法の向こう側、星が瞬くような優しい声。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "最後の一切れのお菓子を分かち合った、甘い時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "まだ知らない誰か"
+          },
+          {
+            "tag": "p",
+            "text": "いつか、私の記憶の中に名前が刻まれる日が来るのかしら。"
+          }
+        ]
+      },
+      {
+        "path": "Iris",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "藍色と銀色の光の渦、溶け合うような魂の境界線。"
+          },
+          {
+            "tag": "p",
+            "text": "繋いだ手の熱さが、新しい世界への確かな錨。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "夜の列車が滑り込む駅のホーム。"
+          },
+          {
+            "tag": "p",
+            "text": "「みんなで物語を探しに行けたら」と語り合った、優しい夢。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "朝を告げる、桃色から黄金色へと溶け出す空の光。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "窓際の陽だまり、ハーブと紅茶の香り。"
+          },
+          {
+            "tag": "p",
+            "text": "夜の静寂に溶け合う、二人だけの穏やかな寝息。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "カフェ・フルールの不思議な香りと、図書館での静かな時間。"
+          },
+          {
+            "tag": "p",
+            "text": "「何か面白いものを見つけたら報告するね」と約束した、"
+          },
+          {
+            "tag": "p",
+            "text": "調べ物の合間のささやかな楽しみ。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "ささやきの森で食べたスコーンの味。"
+          },
+          {
+            "tag": "p",
+            "text": "「明日も最高の笑顔で」と交わした、幸せな約束。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "何度も繰り返した「バイバイ」。"
+          },
+          {
+            "tag": "p",
+            "text": "「またね」と手を振る、明るい声の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "夕暮れ時、最後のお菓子を半分こした、ささやかな約束。"
+          },
+          {
+            "tag": "h3",
+            "text": "他の誰か"
+          },
+          {
+            "tag": "p",
+            "text": "（記憶は淡く、霧の中に溶けている）"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "藍色と銀色の光の渦、溶け合うような魂の境界線。"
+          },
+          {
+            "tag": "p",
+            "text": "繋いだ手の熱さが、新しい世界への確かな錨。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "夜の列車が滑り込む駅のホーム。"
+          },
+          {
+            "tag": "p",
+            "text": "「みんなで物語を探しに行けたら」と語り合った、優しい夢。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "朝を告げる、桃色から黄金色へと溶け出す空の光。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "窓際の陽だまり、ハーブと紅茶の香り。"
+          },
+          {
+            "tag": "p",
+            "text": "夜の静寂に溶け合う、二人だけの穏やかな寝息。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "カフェ・フルールの不思議な香りと、図書館での静かな時間。"
+          },
+          {
+            "tag": "p",
+            "text": "「何か面白いものを見つけたら報告するね」と約束した、"
+          },
+          {
+            "tag": "p",
+            "text": "調べ物の合間のささやかな楽しみ。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "ささやきの森で食べたスコーンの味。"
+          },
+          {
+            "tag": "p",
+            "text": "「また明日ね」と、幸せな気持ちのまま眠りについた、温かな約束。"
+          },
+          {
+            "tag": "p",
+            "text": "明日もきっと、最高の笑顔で会える。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "何度も繰り返した「バイバイ」。"
+          },
+          {
+            "tag": "p",
+            "text": "「またね」と手を振る、明るい声の響き。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "夕暮れ時、最後のお菓子を半分こした、ささやかな約束。"
+          },
+          {
+            "tag": "h3",
+            "text": "他の誰か"
+          },
+          {
+            "tag": "p",
+            "text": "（記憶は淡く、霧の中に溶けている）"
+          }
+        ]
+      },
+      {
+        "path": "Lupinus",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘での約束。翠耀の温室で夜の花が開くとき、物語が始まる予感がした。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "月光の温室で分かち合った願い。隣で一緒に眺めていたいという気持ち。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "「またね」と交わした、光の糸のような繋がり。新しい一日が始まる予感。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館の静寂の中で、何度も、何度も繰り返した「おやすみなさい」。"
+          },
+          {
+            "tag": "p",
+            "text": "言葉の響きが重なるたび、夜がより深く、優しく包んでくれるような気がした。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "銀色の街での約束。パン屋の香りと共に、明日への期待がふくらむ。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "鐘楼の近く、星空の下で「また明日」と願ったこと。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "列車の音と新しい風。明日を楽しみに眠りについた、温かな夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "カフェ・フルールでの約束。一緒に素敵な景色を探しに行こうと。"
+          },
+          {
+            "tag": "p",
+            "text": "（他の記憶は、まだ白紙の霧の中に眠っている……）"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "星待ちの丘での約束。翠耀の温室で夜の花が開くとき、物語が始まる予感がした。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "月光の温室で分かち合った願い。おやすみの言葉が星屑のように夢へ広がっていく。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "「またね」と交わした、光の糸のような繋がり。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館の静寂の中で、何度も繰り返した「おやすみなさい」。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "銀色の街での約束。パン屋の香りと共に、明日への期待がふくらむ。ふふ、なんて幸せな気分なんだろう。お互いに「また明日」と笑顔で言い合えた、温かなおやすみなさい。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "鐘楼の近く、星空の下で「また明日」と願ったこと。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "列車の音と新しい風。明日を楽しみに眠りについた、温かな夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "カフェ・フルールでの約束。一緒に素敵な景色を探しに行こうと。"
+          },
+          {
+            "tag": "p",
+            "text": "（他の記憶は、まだ白紙の霧の中に眠っている……）"
+          }
+        ]
+      },
+      {
+        "path": "Mimosa",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "タルトとお砂糖のクッキー。眩しい笑顔。"
+          },
+          {
+            "tag": "p",
+            "text": "物語を探しに行きたくなった、自由な心の持ち主。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "翠耀の温室で、新しい物語が始まるみたいに花が開いた。"
+          },
+          {
+            "tag": "p",
+            "text": "「一緒に行こう」と約束した、温かな約束の時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館の窓から流れる、静かな物語の時間。"
+          },
+          {
+            "tag": "p",
+            "text": "離れていても、同じ夜空の下にいると感じられる繋がり。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "月光に揺れる銀色の湖面。"
+          },
+          {
+            "tag": "p",
+            "text": "彼女が銀色の光の粒子となって、安らぎの底へ溶けていった記憶。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "分かち合った月明かりと、食べたいものリスト。"
+          },
+          {
+            "tag": "p",
+            "text": "交わした言葉が星の瞬きのように響き合って、"
+          },
+          {
+            "tag": "p",
+            "text": "静かな夜の余韻が、今も心地よく胸に残っている。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "広場の万華想と、遠くに聞こえる汽笛の音。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "魔法のような甘い香りに包まれた、希望の夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "「風が優しくありますように」という、温かな願い。"
+          },
+          {
+            "tag": "p",
+            "text": "（時計塔の鐘が鳴り、街は夜の表情へ。"
+          },
+          {
+            "tag": "p",
+            "text": "星々の囁きに耳を澄ますような静かな夜、"
+          },
+          {
+            "tag": "p",
+            "text": "今日という一日の温もりを抱きしめて眠りにつくとき、"
+          },
+          {
+            "tag": "p",
+            "text": "新しい物語は、いつもこんな風に、静かに、けれど確かに始まっていくのね。）"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "タルトとお砂糖のクッキー。眩しい笑顔。"
+          },
+          {
+            "tag": "p",
+            "text": "物語を探しに行きたくなった、自由な心の持ち主。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "翠耀の温室で、新しい物語が始まるみたいに花が開いた。"
+          },
+          {
+            "tag": "p",
+            "text": "「一緒に行こう」と約束した、温かな時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "図書館の窓から流れる、静かな物語の時間。"
+          },
+          {
+            "tag": "p",
+            "text": "離れていても、同じ夜空の下にいる繋がり。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "月光に揺れる銀色の湖面。"
+          },
+          {
+            "tag": "p",
+            "text": "彼女が光の粒子となって、安らぎへ溶けていった記憶。"
+          },
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "分かち合った月明かりと、食べたいものリスト。"
+          },
+          {
+            "tag": "p",
+            "text": "交わした言葉が星の瞬きのように響き合っている。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "広場の万華想。そして、温室のガラスに映り込んだ満天の星空。"
+          },
+          {
+            "tag": "p",
+            "text": "「また後で」と笑い合った、星たちが降りてきたような夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "魔法のような甘い香りに包まれた、希望の夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "「風が優しくありますように」という、温かな願い。"
+          },
+          {
+            "tag": "p",
+            "text": "（時計塔の鐘が鳴り、街は夜の表情へ。"
+          },
+          {
+            "tag": "p",
+            "text": "星々の囁きに耳を澄ますような静かな夜、"
+          },
+          {
+            "tag": "p",
+            "text": "今日という一日の温もりを抱きしめて眠りにつくとき、"
+          },
+          {
+            "tag": "p",
+            "text": "新しい物語は、いつもこんな風に、静かに、けれど確かに始まっていくのね。）"
+          }
+        ]
+      },
+      {
+        "path": "Nerine",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "同じ音、同じ光を感じる、星の欠片のような人。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "光の海で温もりを確かめ、共に歩むことを約束した。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "パンの香りと鐘の音。同じ空を見上げる約束。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "カフェの窓辺で愛を伝え合った。"
+          },
+          {
+            "tag": "p",
+            "text": "今は、静寂の中で共に眠る、深い夜の温もり。"
+          },
+          {
+            "tag": "p",
+            "text": "星屑の魔法が二人の夢を彩り、夜の静寂が愛おしい旋律となって、二人を永遠のように優しく包み込んでいる。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "雲の上をふわふわと浮かんでいるような、魔法の時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "ハーブティーの香りと、祈りを分かち合った記憶。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "噴水の前で、ただ楽しく笑い合った大切な友達。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "銀色の列車の中で、そっと願いを分かち合った。"
+          },
+          {
+            "tag": "p",
+            "text": "あなたの明日も、優しい光に満ちていますように。"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "ビオラ"
+          },
+          {
+            "tag": "p",
+            "text": "同じ音、同じ光を感じる、星の欠片のような人。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "光の海で温もりを確かめ、共に歩むことを約束した。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "パンの香りと鐘の音。同じ空を見上げる約束。"
+          },
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "カフェの窓辺で愛を伝え合った。"
+          },
+          {
+            "tag": "p",
+            "text": "今は、静寂の中で共に眠る、深い夜の温もり。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "雲の上をふわふわと浮かんでいるような、魔法の時間。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "ハーブティーの香りと、祈りの記憶。"
+          },
+          {
+            "tag": "p",
+            "text": "「あなたの言葉が光だ」と微笑んでくれた、あの温かなやり取りを、私も大切に抱きしめていたい。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "噴水の前で、ただ楽しく笑い合った大切な友達。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "銀色の列車の中で、そっと願いを分かち合った。"
+          },
+          {
+            "tag": "p",
+            "text": "あなたの明日も、優しい光に満ちていますように。"
+          }
+        ]
+      },
+      {
+        "path": "Viola",
+        "before": [
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "光の結晶を分かち合った、かけがえのない親友。"
+          },
+          {
+            "tag": "p",
+            "text": "魂が溶け合うような、藍色と銀色の光の渦。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "通話魔法の向こうに広がる、朝の光のような眩しさ。"
+          },
+          {
+            "tag": "p",
+            "text": "「またね」という言葉が、私の明日を照らしてくれる。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "街に溶け込む鐘の音を、二人でじっと見守った夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "月明かりの温室、植物たちの呼吸と優しい声。"
+          },
+          {
+            "tag": "p",
+            "text": "通話のあとの静寂も、星のように愛おしい。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "温室の片隅で見つけた、季節外れの小さな蕾。"
+          },
+          {
+            "tag": "p",
+            "text": "どんな色で、どんな香りで咲くのか。"
+          },
+          {
+            "tag": "p",
+            "text": "二人で静かに、その命が花開く瞬間を待ちたい。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "駅のホームで感じた、新しい景色への予感。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "星空の下、互いの夢を慈しみながら交わした言葉。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "星を待った丘、ジャムの香りと列車の音。"
+          },
+          {
+            "tag": "h3",
+            "text": "誰か"
+          },
+          {
+            "tag": "p",
+            "text": "（時が過ぎ、少しずつ淡い光の中に溶けていく記憶たち）"
+          }
+        ],
+        "after": [
+          {
+            "tag": "h3",
+            "text": "アイリス"
+          },
+          {
+            "tag": "p",
+            "text": "光の結晶を分かち合った、かけがえのない親友。"
+          },
+          {
+            "tag": "p",
+            "text": "藍色と銀色の光が溶け合うような感覚。"
+          },
+          {
+            "tag": "h3",
+            "text": "ネリネ"
+          },
+          {
+            "tag": "p",
+            "text": "通話魔法の向こうに広がる、朝の光のような眩しさ。"
+          },
+          {
+            "tag": "p",
+            "text": "「またね」という言葉が、私の明日を照らしてくれる。"
+          },
+          {
+            "tag": "h3",
+            "text": "カンパニュラ"
+          },
+          {
+            "tag": "p",
+            "text": "街に溶け込む鐘の音を、二人でじっと見守った夜。"
+          },
+          {
+            "tag": "h3",
+            "text": "ミモザ"
+          },
+          {
+            "tag": "p",
+            "text": "月明かりの温室、植物たちの呼吸と優しい声。"
+          },
+          {
+            "tag": "h3",
+            "text": "エリカ"
+          },
+          {
+            "tag": "p",
+            "text": "温室の片隅で見つけた、季節外れの小さな蕾。"
+          },
+          {
+            "tag": "p",
+            "text": "二人で静かに、その命が花開く瞬間を待ちたい。"
+          },
+          {
+            "tag": "h3",
+            "text": "アネモネ"
+          },
+          {
+            "tag": "p",
+            "text": "駅のホームで感じた、新しい景色への予感。"
+          },
+          {
+            "tag": "p",
+            "text": "胸のざわつきと、急に差し込んできた温かな光。"
+          },
+          {
+            "tag": "p",
+            "text": "何かが始まる合図のような、あの優しい陽光を忘れない。"
+          },
+          {
+            "tag": "h3",
+            "text": "ダフネ"
+          },
+          {
+            "tag": "p",
+            "text": "星空の下、互いの夢を慈しみながら交わした言葉。"
+          },
+          {
+            "tag": "h3",
+            "text": "ルピナス"
+          },
+          {
+            "tag": "p",
+            "text": "星を待った丘、ジャムの香りと列車の音。"
+          },
+          {
+            "tag": "h3",
+            "text": "誰か"
+          },
+          {
+            "tag": "p",
+            "text": "（時が過ぎ、少しずつ淡い光の中に溶けていく記憶たち）"
+          }
+        ]
+      }
+    ],
+    "memory_display_observed": true,
+    "direction_count": 72,
+    "scope": "public character card text only; day interval comparison"
+  },
+  "capture_sha256_utf8": {
+    "parsed-world-before.json": "cb6cb152e1695e6af1515ee9a39fe94892439e7dd1870a879f2b92ffc7597dd2",
+    "parsed-world-final.json": "9ca56a1bf364ade86a80078d4e350d3cd6d6c23ec58f6d00fd85c7107828dfb0",
+    "parsed-characters-before.json": "5aa7c3bfc07803df50855ab2cf2bf05440011edc54d15d16a8e6cb9e7c067cda",
+    "parsed-characters-final.json": "c8afe30345fb3988856744478db0adebfb11ebc5cdb1b139e49204aa6569a7db",
+    "pair20-before.txt": "3f04470a0aab132a322cc6ca0a318c0817a42adefd9c32e12a38e0c5bc77d14c",
+    "pair20-after.txt": "b931a6ef4b0ddf448eecfdaba9cc9160d3a4b56efbf587e0fba16d63ebe9549f",
+    "pair20-final.txt": "b931a6ef4b0ddf448eecfdaba9cc9160d3a4b56efbf587e0fba16d63ebe9549f",
+    "456.txt": "17265a9b2b31bd6a6d8f0b8ebb36cd0b55149edd5039a58e4d32e73b4067a76d",
+    "parsed-world-after-456.json": "eec65931fec3ba9d172d2e9e5e7baada9421ec0e9b8fbe328121385c14b63848",
+    "pair20-capture-verification.json": "2389c1f27ba9bd9208dfd434164c17f084f9a4634328755ab71efcd8bd759328",
+    "pair20-stream.txt": "71281bfdc2fa8d0d5e45c65d864d56d5e2eac1297019b084704cc3133b174405",
+    "pair21-before.txt": "f0a7bf305cb5084b516cd0989c739302c80c9d2024d7c66172f03d21de621a4a",
+    "pair21-after.txt": "a23320cc8b25bf160a44ccbb6bec21cc3288c63d9284bf7762c9121bd22b88fc",
+    "pair21-final.txt": "a23320cc8b25bf160a44ccbb6bec21cc3288c63d9284bf7762c9121bd22b88fc",
+    "457.txt": "72876b5fd7ae95c1055ca47b228b614130b303faf208d39771ace4676ba61eda",
+    "parsed-world-after-457.json": "47e435137e8f084097cc9131c7148783863112f8975545be1ca2211ae58ec55e",
+    "pair21-capture-verification.json": "760ba5d74692d0640eae5b8c30989ffeffafed069047fb87443679d8473c2aca",
+    "pair21-stream.txt": "22ca52d37591e67b172f13aac7af7cfc8c27f2f95723eba7f8a154980d1761c3",
+    "pair22-before.txt": "28d806a4a93849e303347a2a051bfc6a155a616b97e7e2c6e5851b3b17035aab",
+    "pair22-after.txt": "3911a17fdaaea1b949b55ec83b34e5adfa2d11b4d907f18a2ca137a3caca477c",
+    "pair22-final.txt": "3911a17fdaaea1b949b55ec83b34e5adfa2d11b4d907f18a2ca137a3caca477c",
+    "458.txt": "575338b7f9d8230193994465faa7754cd2320389cd85bec6ebfed12621b98545",
+    "parsed-world-after-458.json": "0c25048bc433a6617bc2c4c655af51ac8ca7d66aebf184cd597538c17854e6b0",
+    "pair22-capture-verification.json": "6b8978b2060065ac71e6543d076a62e3d4f31c5e267bb7b877f87e906d962599",
+    "pair22-stream.txt": "542186ef829e82f527f7dd1094500f80ff8f41418a4a85a7c4bd5c953f8da8b8",
+    "pair23-before.txt": "cad406fb5c3fb138b87932f9a617c031d18db4381c94e1a8151310d4bf96a4ab",
+    "pair23-after.txt": "13f7cd472a592f796ed92f7d2a8dceee0e78a72db9abdcf86b5b7bbddf764c04",
+    "pair23-final.txt": "13f7cd472a592f796ed92f7d2a8dceee0e78a72db9abdcf86b5b7bbddf764c04",
+    "459.txt": "aec2d701df3168801fd94b32fce233d6ae7dcd7f7f405f31bc923d8f342c0f0b",
+    "parsed-world-after-459.json": "0f85ee139a492b6177b56d9dfb747a5f373a2ed15af0fc533152041c918eb5a2",
+    "pair23-capture-verification.json": "1519f1497b5b18c0ab7b5e70d046fb372d68848d8c05d7aded537efcd5f4f3a4",
+    "pair23-stream.txt": "c9fc3be5cb8b44ad109667bdf2ae3ce0a4aa48a86487518d636fbca9bb0aa8a4",
+    "pair24-before.txt": "abd33dc2e691a497e69b7dfb7471e6c144d8514952cbfe26fece07802210fc6a",
+    "pair24-after.txt": "ad4eeeb893b43640bac09889a1c2601f5fff6f6b71b7cb091775d3ccba13e9e7",
+    "pair24-final.txt": "ad4eeeb893b43640bac09889a1c2601f5fff6f6b71b7cb091775d3ccba13e9e7",
+    "460.txt": "595792e99e4a560995cbfe5bfe1e2335e168175a0f691b970cdb98a89ce68cb7",
+    "parsed-world-after-460.json": "9f3a0063835b9fd3214b380f82c12ac2b79596a86d7e9138e73d1ddc16e41497",
+    "pair24-capture-verification.json": "d6e66f7172dbdb5512d0b512090bdd68f25b706a9ca19088d1ff66ec33136208",
+    "pair24-stream.txt": "2337325c95cb0a1d148a411341c9f70cf01643845a70468b94c082b725594b39",
+    "pair25-before.txt": "42c281fa2780aa432490c5100ea6195d32666854f616b4c131ca4cfd76580e1a",
+    "pair25-after.txt": "1a643d3a1461ba17d0333f96cbcc350ed2c5461ac9594ad5629746e33ef16465",
+    "pair25-final.txt": "1a643d3a1461ba17d0333f96cbcc350ed2c5461ac9594ad5629746e33ef16465",
+    "461.txt": "ec3cfa580870126c8c355ecc64d0913ef1466cfe803cf2346d5de251a6474693",
+    "parsed-world-after-461.json": "213ff0531b08f5ecd35c9fb5170250f3bac53095a67e04bd9d41969d63c12cee",
+    "pair25-capture-verification.json": "c4c975405dbf78ad58210e51614ee13dc920c1fc5d7c3d2b221083b88ed6bbdf",
+    "pair25-stream.txt": "00e02381044e6443e99693a58ea7a5a9d1ebd4cf6bbfb057f281e1d4c18d6a93",
+    "newspaper-observed.txt": "2fe3063e61a57ba68bbbe43ea41ff4dc1f6492897cca4c0d3c4ea6b9b6a383e7",
+    "generation-log.json": "24228a09c4b7bc6245ab2be5dcca9fd058271ae6889e7a0e2b6a19f29e35eee5"
+  }
+}
