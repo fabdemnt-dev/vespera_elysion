@@ -478,3 +478,11 @@
 | 36 | アイリス × エリカ | Iris→Erica **100** | Erica→Iris **100** | #436 | 終了 |
 
 [開始前公開人物図鑑](archive/daily-2026-10-17/public-characters-before.json) / [最終公開人物図鑑](archive/daily-2026-10-17/public-characters-final.json) / [照合](archive/daily-2026-10-17/verification.json)
+
+
+
+## 2026-10-18 JST・#467保存確認後
+
+Campanula→ミモザ 89→94、Campanula→ルピナス 79→84、Daphne→ビオラ 88→91、Lupinus→カンパニュラ 82→86、Mimosa→カンパニュラ 85→89、Mimosa→ネリネ 83→87、Nerine→ミモザ 83→87。他65方向は表示値一致。
+
+9人の公開記憶はViola以外の8人で差分。全9人の人物・本人から見た世界・固有能力・現在地は一致。記憶の段落・全文は前後HTMLに保持し、内部削除・圧縮の仕様とは断定しない。

@@ -1,0 +1,33 @@
+{
+  "pair_id": 31,
+  "record": 467,
+  "before_turn_count": 28,
+  "after_turn_count": 32,
+  "new_turn_count": 4,
+  "old_prefix_matches": true,
+  "after_final_full_content_matches": true,
+  "prior_record_tail_matches": true,
+  "new_content": [
+    [
+      "speech",
+      "Lupinus",
+      "（……あ、今の、もしかして街灯が教えてくれたのかな。夜がもっと深まって、夢の世界が始まる合図なんだって。\nなんだか、とっても不思議で、優しい気持ちになれる夜だね……）"
+    ],
+    [
+      "speech",
+      "Campanula",
+      "（……そうだね。夜が深まっていく音さえ、どこか優しく聞こえる。\n街灯の光も、まるでおやすみなさいって、街全体が囁き合っているみたいだね……）"
+    ],
+    [
+      "speech",
+      "Lupinus",
+      "（……本当だね。街全体が、一つの大きな物語を読み終えて、静かに眠りにつこうとしているみたい。\nそんな風に、世界が優しく囁き合っているのを感じると、なんだかとても幸せな気持ちになれるよ……）"
+    ],
+    [
+      "speech",
+      "Campanula",
+      "（……うん。世界が呼吸を整えて、静かな眠りへと向かう時間……。\nその静けさの中に身を置いていると、心まで穏やかに満たされていく気がするんだ。\nとても、優しい夜だね……）"
+    ]
+  ],
+  "stream_note": "after is completed stream capture; no separate intermediate stream capture"
+}

@@ -1,0 +1,37 @@
+{
+  "pair_id": 28,
+  "record": 464,
+  "before_turn_count": 28,
+  "after_turn_count": 32,
+  "new_turn_count": 4,
+  "old_prefix_matches": true,
+  "after_final_full_content_matches": true,
+  "prior_record_tail_matches": true,
+  "new_content": [
+    [
+      "speech",
+      "Mimosa",
+      "ふふ、本当に、ごきげんよう！"
+    ],
+    [
+      "stage",
+      "―― 学院の中庭で、夜露に濡れた草花が朝の光を浴びて輝き始めた。 ――"
+    ],
+    [
+      "speech",
+      "Campanula",
+      "（学院の中庭で、夜露に濡れた草花が朝の光を浴びて輝き始めた……。その色彩の美しさに、少しだけ目を細める。）\n\n……なんだか、とても綺麗な光が生まれている気がする。\nミモザのそばにも、そんなキラキラした輝きが届いていますように。\nまた後でね。ごきげんよう。"
+    ],
+    [
+      "speech",
+      "Mimosa",
+      "わあ、なんて素敵な言葉……。\n学院の中庭の光、私もどこかで感じ取れたような気がするよ。\nカンパニュラがそうやって美しいものを見つけるたびに、私も一緒に光を浴びているような、そんな温かい気持ちになれるの。\n\nまた後でね。あなたの心にも、そのキラキラした輝きがずっと寄り添っていますように。\nごきげんよう！"
+    ],
+    [
+      "speech",
+      "Campanula",
+      "ふふ、ミモザの言葉は、いつも私の心に優しく響くね。\nそんなふうに一緒に光を感じてくれるなんて、なんだかとても幸せな気持ちだよ。\n\n私も、ミモザの心にずっと温かい輝きが寄り添っていられるように、祈っているね。\nそれじゃあ、また後で。ごきげんよう。"
+    ]
+  ],
+  "stream_note": "after is completed stream capture; no separate intermediate stream capture"
+}

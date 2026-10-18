@@ -1,0 +1,33 @@
+[
+  {
+    "pair_id": 26,
+    "record": 462,
+    "clicked_at_utc": "2026-10-18T00:07:49.053Z"
+  },
+  {
+    "pair_id": 27,
+    "record": 463,
+    "clicked_at_utc": "2026-10-18T00:08:43.750Z"
+  },
+  {
+    "pair_id": 28,
+    "record": 464,
+    "clicked_at_utc": "2026-10-18T00:09:24.870Z"
+  },
+  {
+    "pair_id": 29,
+    "record": 465,
+    "clicked_at_utc": "2026-10-18T00:10:07.627Z"
+  },
+  {
+    "pair_id": 30,
+    "record": 466,
+    "clicked_at_utc": "2026-10-18T00:11:04.529Z"
+  },
+  {
+    "pair_id": 31,
+    "record": 467,
+    "clicked_at_utc": "2026-10-18T00:11:47.251Z",
+    "completed_observed_at_utc": "2026-10-18T00:12:13.103Z"
+  }
+]

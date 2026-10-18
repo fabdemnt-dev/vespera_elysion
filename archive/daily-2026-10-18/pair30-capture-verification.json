@@ -1,0 +1,33 @@
+{
+  "pair_id": 30,
+  "record": 466,
+  "before_turn_count": 28,
+  "after_turn_count": 32,
+  "new_turn_count": 4,
+  "old_prefix_matches": true,
+  "after_final_full_content_matches": true,
+  "prior_record_tail_matches": true,
+  "new_content": [
+    [
+      "speech",
+      "Daphne",
+      "おやすみなさい。\nまた明日、あなたの穏やかな笑顔に会えるのを楽しみにしているわね。"
+    ],
+    [
+      "speech",
+      "Viola",
+      "私も、明日ダフネの笑顔に会えるのを、とっても楽しみにしているわ。\nそれでは、本当におやすみなさい。"
+    ],
+    [
+      "speech",
+      "Daphne",
+      "本当におやすみなさい。\n素敵な夢を見てね。"
+    ],
+    [
+      "speech",
+      "Viola",
+      "ありがとう。\nダフネも、どうか素敵な夢を見てね。\nおやすみなさい。"
+    ]
+  ],
+  "stream_note": "after is completed stream capture; no separate intermediate stream capture"
+}

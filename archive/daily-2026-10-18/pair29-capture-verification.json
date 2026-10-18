@@ -1,0 +1,33 @@
+{
+  "pair_id": 29,
+  "record": 465,
+  "before_turn_count": 28,
+  "after_turn_count": 32,
+  "new_turn_count": 4,
+  "old_prefix_matches": true,
+  "after_final_full_content_matches": true,
+  "prior_record_tail_matches": true,
+  "new_content": [
+    [
+      "speech",
+      "Iris",
+      "バイバイ！またね！"
+    ],
+    [
+      "speech",
+      "Anemone",
+      "バイバイ！またね！"
+    ],
+    [
+      "speech",
+      "Iris",
+      "バイバイ！またね！"
+    ],
+    [
+      "speech",
+      "Anemone",
+      "バイバイ！またね！"
+    ]
+  ],
+  "stream_note": "after is completed stream capture; no separate intermediate stream capture"
+}

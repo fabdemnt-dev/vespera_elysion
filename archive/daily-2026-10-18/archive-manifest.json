@@ -1,0 +1,701 @@
+{
+  "date_jst": "2026-10-18",
+  "source_commit": "b75e0fe706fe6535e7fb4c53ecd5aa073e75c888",
+  "files": [
+    {
+      "path": "archive/daily-2026-10-18/462.txt",
+      "bytes": 1259,
+      "sha256": "696004fc5fe541c0f6090bf9f4c57d6dddfc77cde6378d6979c3c0b63c7ac8f6"
+    },
+    {
+      "path": "archive/daily-2026-10-18/463.txt",
+      "bytes": 84,
+      "sha256": "4b61f5aa8336bcf7958823f6d2fd0fd6e2bc5b78e1eb8e59747d1781d054e596"
+    },
+    {
+      "path": "archive/daily-2026-10-18/464.txt",
+      "bytes": 1356,
+      "sha256": "f064e2ed423befbd1d3a78271b5f36784490ba63058714e72140caa8a1ef2323"
+    },
+    {
+      "path": "archive/daily-2026-10-18/465.txt",
+      "bytes": 138,
+      "sha256": "002981bfc21f64e0275481f94a396a744f5fc06894e4ff64edff0873d1fa8335"
+    },
+    {
+      "path": "archive/daily-2026-10-18/466.txt",
+      "bytes": 452,
+      "sha256": "2bae8e7abd9f488edb61b2bde1be2b610730236ab9aeb5c43e0fac8772f4fb5d"
+    },
+    {
+      "path": "archive/daily-2026-10-18/467.txt",
+      "bytes": 1023,
+      "sha256": "d8d17ca4a24ef2038b1c71f7e1dcff3aa1b0fddeba33008256bae7e7e1147712"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-anemone.html",
+      "bytes": 5060,
+      "sha256": "c5c24ec7c59abcf3e313e3c552685f0703e8d388c933bed3c29ab067d2c18230"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-campanula.html",
+      "bytes": 6397,
+      "sha256": "18f2993351a54bf7a721c258b28e27fc85662cd13bc1c4be1ec0d8e970e0a92b"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-daphne.html",
+      "bytes": 4313,
+      "sha256": "78f0053fed4b7bfc2e77591c45f27576fdfe19c16b70e08c6635acb9b9ffccc4"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-erica.html",
+      "bytes": 6704,
+      "sha256": "b1f0b8130599911ddf9925ccedac06e09bd54be57ee13675ecdec65b95031fd9"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-iris.html",
+      "bytes": 5027,
+      "sha256": "9c9709e183ecce9b3ff1ac1abe382e00fe8f0641f20258ee67787fda13c2f9d4"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-lupinus.html",
+      "bytes": 5617,
+      "sha256": "c8c7330d229265a5b5a57c2792bd6516bd9e52c70200cc9022e4f324cf406952"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-mimosa.html",
+      "bytes": 4708,
+      "sha256": "47e5bc3a9b6009973632ff7613eed732dc068357b39a51671fc7071a27b4bcf5"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-nerine.html",
+      "bytes": 5311,
+      "sha256": "f22d749e47e2e9875e6d5b93f499039a408f60fefcf2b6a0dc8e4902435e6a6b"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-before-viola.html",
+      "bytes": 5404,
+      "sha256": "072a644b523884f50f608958b8190592777cda0bd2cd919b9d7bb92d00dbee8f"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-anemone.html",
+      "bytes": 4892,
+      "sha256": "fd5ab75fda2d71f821bfe2cc0650298e336b181def53bf928acd0a84d87899b3"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-campanula.html",
+      "bytes": 6507,
+      "sha256": "aceafba11de778419d6a57672b58dcd29989027bf23045c0fa58134854cb7571"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-daphne.html",
+      "bytes": 4310,
+      "sha256": "3ac5a6e3f872436f016a2540ee0ddbe1fc152aa48f5a6bc6520b86b4d90e85bb"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-erica.html",
+      "bytes": 6680,
+      "sha256": "2d38e654eb8950c660b9d682868a5a4a4bc8f88a5bf8c7814bb18de5e0e44466"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-iris.html",
+      "bytes": 4700,
+      "sha256": "fa25e33caf73b0c57b86f463cbe2ffe8746b70445c6a7c419816cc10a4247500"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-lupinus.html",
+      "bytes": 5632,
+      "sha256": "40caedf02c0b2a3be835e1c0bcf1488874ef53ac6c05030478d700c092ee90bd"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-mimosa.html",
+      "bytes": 4783,
+      "sha256": "3fcab7258b0ae46d3ec6f84390b192d9bb72b9b9f93ff57da18f39f103657777"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-nerine.html",
+      "bytes": 5326,
+      "sha256": "e777b7f3d2807553b836a298ab8cb1f8011972ee9faa7c272ebb436c8bf53cb7"
+    },
+    {
+      "path": "archive/daily-2026-10-18/character-final-viola.html",
+      "bytes": 5404,
+      "sha256": "072a644b523884f50f608958b8190592777cda0bd2cd919b9d7bb92d00dbee8f"
+    },
+    {
+      "path": "archive/daily-2026-10-18/characters-before-tool.json",
+      "bytes": 84875,
+      "sha256": "dc1d3de062347390eeb4ac1e074407b714823097b60ef12ef9159301577d87e8"
+    },
+    {
+      "path": "archive/daily-2026-10-18/characters-final-tool.json",
+      "bytes": 84111,
+      "sha256": "35c589b311fa8cc5f1378950d527165226f99151f8c4bbffa2c9a029a19cacf2"
+    },
+    {
+      "path": "archive/daily-2026-10-18/generation-log.json",
+      "bytes": 640,
+      "sha256": "8a52518a766afb01adb1f9a6e9acfaaa45f5b2727053153a47d341ec5ab6f5d5"
+    },
+    {
+      "path": "archive/daily-2026-10-18/newspaper-observed.txt",
+      "bytes": 1894,
+      "sha256": "92ef612ede83b77f6c8b4e185b5d1945ae152fb8d0efdcec1b4ebc7029ef7aee"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-after-tool.json",
+      "bytes": 23990,
+      "sha256": "8d8f6e59fa1b4e2841db3d3bda26e188190ad222847d9fb7040b764c1fd72299"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-after.html",
+      "bytes": 13245,
+      "sha256": "e8f4b201015bc118a2848cdd6a2de7db05f89e02f5224ccdc2d90048831b3cd3"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-after.txt",
+      "bytes": 9035,
+      "sha256": "762a0da405a45319ebd5cef0ef87a711844dcdfbd6eebc58015ff0d9fbbd3da1"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-before-tool.json",
+      "bytes": 20669,
+      "sha256": "a73132223023fb64738ecc786fb7150f924b8310398a017d9daece1a15082f02"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-before.html",
+      "bytes": 11474,
+      "sha256": "02ef7116e7b39e54891e6375dfe3385fe7f9cc5f8857cae4626e251f4f08a693"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-before.txt",
+      "bytes": 7730,
+      "sha256": "ae720d83e5830e324125cfd670067d340489de880aeef5a35c21279290c4d57a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-capture-verification.json",
+      "bytes": 1836,
+      "sha256": "683c3a4281a2ab197258859c038be1ee1b78076a8906698d284f49f1b15610f6"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-final-tool.json",
+      "bytes": 23832,
+      "sha256": "c25790fc13962d2210a6128d0a4e5e9d4e246ace52ac9b926e90e1eec806bf92"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-final.html",
+      "bytes": 13149,
+      "sha256": "cffb03fdd6bd166f9bf323ebab2498656e48a7421b6d0e879792f2e2e046ba7a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair26-final.txt",
+      "bytes": 8989,
+      "sha256": "a9f4350cc85228a8016fd9724d65793624819898e98c2c0c08ced0c4458088de"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-after-tool.json",
+      "bytes": 16718,
+      "sha256": "d35d978c0453ac390b9508ef314dd6c222e3ec18d89a9705ef0b44350506c598"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-after.html",
+      "bytes": 9380,
+      "sha256": "3cb707fe7417e97ae50c8b9ae0301dfb02f8beb61a47cd54d6d1b5880279026d"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-after.txt",
+      "bytes": 6074,
+      "sha256": "7f48526120e38b461df5a86abf32df4bca4e11490da6100fc946f51b8fab14b8"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-before-tool.json",
+      "bytes": 15839,
+      "sha256": "11dbe8eac2bcc54ff40ed9757d57c0c0eecd4474d3053a09ce74ac13fdc143de"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-before.html",
+      "bytes": 8808,
+      "sha256": "60b5cebebf0944789515589409a07845c5e6b491fe8197b4725bfb7134b281e8"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-before.txt",
+      "bytes": 5944,
+      "sha256": "f5d7178d22522f41016c2918dfb2288199e63fd21ccf1ad463bd98e82aa67267"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-capture-verification.json",
+      "bytes": 610,
+      "sha256": "66a3a4dc09a0fbea7d4cdfe8020ee2769ebae9035ff525ebc517c402c5c2f55b"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-final-tool.json",
+      "bytes": 16560,
+      "sha256": "05051dd4df9d2d50f3ebb9034072384f6ba16bad69a17265d39af30738447181"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-final.html",
+      "bytes": 9284,
+      "sha256": "3fb5710e768840008906e8b5789f800a7b397b1d6215cf7d69295131047056cb"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair27-final.txt",
+      "bytes": 6028,
+      "sha256": "2ce7aef80c20b43b823672cfc8d90c4ba3aed7dd65ae2a9b1374f5d48be4d5da"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-after-tool.json",
+      "bytes": 23373,
+      "sha256": "52d40c30fed53792961323ec4f7e7df6605501e01baf9a36bd7677033d306495"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-after.html",
+      "bytes": 12659,
+      "sha256": "833c6879a76541937d5113e635aa76411e5ec199c4a0b3ac083fa77b969348aa"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-after.txt",
+      "bytes": 9305,
+      "sha256": "160a51b0612e3abbacf7736a4d07e1577518be99a7084dee226947e55c98dea8"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-before-tool.json",
+      "bytes": 19866,
+      "sha256": "02ac4bf266a04b11aacad133e7dd943c682a5de5fef83e63478526c54e91aaf3"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-before.html",
+      "bytes": 10791,
+      "sha256": "1544d2ca175be158c722d44b05330ae850846a7c76c3b8f10ac263b700c8a828"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-before.txt",
+      "bytes": 7903,
+      "sha256": "efff6058872f928dfa5833c0d730cb560e8fa891250ac3caad3cfbd5cb1fd6e1"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-capture-verification.json",
+      "bytes": 1931,
+      "sha256": "785390a40eb15bf016db939c8b49233fab66bdc52ef8ab30ab30faaea5f19959"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-final-tool.json",
+      "bytes": 23215,
+      "sha256": "305f7a6627e931d3f3a069cb1f4231efdbed9169cc58a59f0c6d449c094e8ad9"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-final.html",
+      "bytes": 12563,
+      "sha256": "55b93f86380df4885cda8a826a2c5689a3a7bbea07d808024642f2b468a9fcc9"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair28-final.txt",
+      "bytes": 9259,
+      "sha256": "6f1ebec4b12036c7f7bdaefb202800bfed2f7c2d7af2c3b795189f0af8a49f63"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-after-tool.json",
+      "bytes": 13935,
+      "sha256": "d3e51a25cf8a6a0b5d9b53187f504bd5317384e260f26c624ccdc01a6d1f1fa9"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-after.html",
+      "bytes": 7990,
+      "sha256": "10d24d5531cac464bfac982065a420dbe7619dfa6f40a9a5539e050232aa2697"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-after.txt",
+      "bytes": 4708,
+      "sha256": "3c78e8e8da6e706f8bcf6fb335122ac0031d96583d1a981f6836be66ed66994b"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-before-tool.json",
+      "bytes": 12948,
+      "sha256": "da94b4611e243a67e8799dac4a3ff93a835144a045564a5dc0d54d8f717d59a1"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-before.html",
+      "bytes": 7364,
+      "sha256": "b6e113cc69de00b1ba6c3978a5915d40e554850e10124f308fb3ea68045a88d2"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-before.txt",
+      "bytes": 4524,
+      "sha256": "8f9fae8ed4a0c06b8a6f368add2c96c75fbf55005ed141618897b9c3b8249fe8"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-capture-verification.json",
+      "bytes": 664,
+      "sha256": "edfda50cacf105626e4ced2b05e8118d5d6b6b6cd5bf5c9475e9ef0057523a2c"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-final-tool.json",
+      "bytes": 13777,
+      "sha256": "2a63d6c77f41bc7cea93b06b204c506de9755204869f7cb57a5587ea9f6ce2e3"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-final.html",
+      "bytes": 7894,
+      "sha256": "d82c048d52018c7009739c8447454495c538e57059633d86c166a6adee7acfe6"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair29-final.txt",
+      "bytes": 4662,
+      "sha256": "51a757234929cace1339d99bb8172cf52af6475fd26959e3aaf296076e392886"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-after-tool.json",
+      "bytes": 17399,
+      "sha256": "29be2753980263f824bd7298e387f9f14d7375ef970ac1bf6e5de7ff92598ae2"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-after.html",
+      "bytes": 9688,
+      "sha256": "a5b3e987f0d31483da97f4ab9b66ecbb1d6752ee849548d34e8b4cfd4cc2ea61"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-after.txt",
+      "bytes": 6382,
+      "sha256": "916efd0195f4b02e65e90467ab3ce389b301bf62d3df6ddbeea14d36fdbbf6ff"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-before-tool.json",
+      "bytes": 15764,
+      "sha256": "5a272484c66613ce7fdb8227ecaf80dbdb9749c70a49ddb2ae35f1e03f2b6f7a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-before.html",
+      "bytes": 8748,
+      "sha256": "16f801c217add7e1a04efdd8efd9626e44d940b9e9fc7c22db3cf3dee67c34a3"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-before.txt",
+      "bytes": 5884,
+      "sha256": "30957a0885eb1641eed2758b70d39a0a9b828ce1bdd614e226dfeb18ab11779b"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-capture-verification.json",
+      "bytes": 983,
+      "sha256": "904cf4f2a9bd3124be1f82d3379087d846ba8bb7d56d1bd70dbb68e5d33ae32a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-final-tool.json",
+      "bytes": 17241,
+      "sha256": "7ce4caafb8f3cfe3b2699b5316034fed6af1c7cadecd9b6a5e4892c9dbed9aa6"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-final.html",
+      "bytes": 9592,
+      "sha256": "41724dfca2eb681efb64ef2cad1561f93afe8d8d806fdcbfd2230188dadc0aaa"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair30-final.txt",
+      "bytes": 6336,
+      "sha256": "d554a25eb7d6cd35ad38a52fc59a2cbc7eca78dbf56fd4177075f540190d23c0"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-after-tool.json",
+      "bytes": 16406,
+      "sha256": "ab93baf1db74c3d0867eef19df6f002e84278e800ac3c93ce11b013f673f2b09"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-after.html",
+      "bytes": 9205,
+      "sha256": "ad074a87c8b5e114d9cc0f99a28c8b0379392cbf285a7671be2390d4cb9b6500"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-after.txt",
+      "bytes": 5899,
+      "sha256": "109911b36f918bdfc07f5e57b22f64cea89e32777c105878f3a5f0688e25ba38"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-before-tool.json",
+      "bytes": 13629,
+      "sha256": "c012c8dfa679b2eb45ada7b585e4acb97724efad7f311a8b4ea2fa246d1b1744"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-before.html",
+      "bytes": 7694,
+      "sha256": "dea78aa5338346af2303b6823339b906b4aac742197c9610e9681d2013b1e76a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-before.txt",
+      "bytes": 4830,
+      "sha256": "6b3045cd70afcebf3e241161300aaf7617d99638d6aee9cff4f55e9a85a56afd"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-capture-verification.json",
+      "bytes": 1554,
+      "sha256": "3b94c39c23772f2aa217e94f8ebebf57ce588f9ca4d5b92d13741f6293d1de40"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-final-tool.json",
+      "bytes": 16248,
+      "sha256": "0ee97b83087b4ed396f52a1e3b756dd0635f49aa4ddfe4003488d389aedcae78"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-final.html",
+      "bytes": 9109,
+      "sha256": "5a4044b47d8a1bdfa4569ce59edd66aba523084f279ed327cdaedbf06e3f31d4"
+    },
+    {
+      "path": "archive/daily-2026-10-18/pair31-final.txt",
+      "bytes": 5853,
+      "sha256": "4f639185ba693280b763a89c33cfdfe27cf0e4e6abf4b1b3b2501b177844717c"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-characters-before.json",
+      "bytes": 34452,
+      "sha256": "cc325b2d646246beb15636b73e931f7048f311a8d36e59b620526de66fd505e7"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-characters-final.json",
+      "bytes": 34165,
+      "sha256": "67472df05a2737fc928576b9d7b74bc2953e94f108c219ee2ef22ca988c95e86"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-after462.json",
+      "bytes": 9123,
+      "sha256": "2f0ec6deb9b806671b075addb722038fd02e8c442d99c3896987a6b7f6eef987"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-after463.json",
+      "bytes": 9123,
+      "sha256": "4e6c084f9327b840bacb93be7a92e94b0fd06a4351c4280e8ad6451d2d84fa09"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-after464.json",
+      "bytes": 9132,
+      "sha256": "d993fc5d52224f4abf96fa0bdf4862ec46ccd72b6a48a598bf125d96f2b87293"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-after465.json",
+      "bytes": 9132,
+      "sha256": "5760f3f9f86a2aa89b8df74b0cb66d64233cf9e6cb9b0ef6e19f5878ca94fc57"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-after466.json",
+      "bytes": 9132,
+      "sha256": "37a009bff047056d3a62e4b02c5c534f0ea46500b8823a7257f4682b6e79ae5a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-after467.json",
+      "bytes": 9132,
+      "sha256": "e379d4363e2733c37ad8adbb7beda806dd596cbdef573ea08b730c5e03adfaa7"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-before.json",
+      "bytes": 9366,
+      "sha256": "80591ee35c0be00698bec155afa5af1c808663bcddb6e6be53bb7c330e4bfa64"
+    },
+    {
+      "path": "archive/daily-2026-10-18/public-world-final.json",
+      "bytes": 9129,
+      "sha256": "56a08b971fcb43485ae2d14c2ac26bd960a2c82be3e392ec33716771837003ac"
+    },
+    {
+      "path": "archive/daily-2026-10-18/verification.json",
+      "bytes": 10766,
+      "sha256": "a0a8ae1ceb3fb452cff2a72f8ad983ae980a3bf644363a6016d1917b22e402bc"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after462-tool.json",
+      "bytes": 21294,
+      "sha256": "861f9100a8f4c9feac0cbac30ddbc292e555910c429939afe444133c9cf20ab2"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after462.html",
+      "bytes": 17997,
+      "sha256": "2adab33aa81ff5fe2504114d267779a3a83b7b33b109c14bab8de57ced72fc02"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after463-tool.json",
+      "bytes": 21294,
+      "sha256": "eb3ec7714d224d4c0e8b63386242c778f80eb4889ad5bdb6ef3ac511e8086008"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after463.html",
+      "bytes": 17997,
+      "sha256": "2adab33aa81ff5fe2504114d267779a3a83b7b33b109c14bab8de57ced72fc02"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after464-tool.json",
+      "bytes": 21309,
+      "sha256": "52b91ac0c82e35f69a05c69ea4ce65438c5a685b695137755af48f3b1fc8a2d4"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after464.html",
+      "bytes": 18012,
+      "sha256": "0daf6788b3de1dc8b93bec268815487589bc675c19f3fde78cc8f6ed2c59df3a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after465-tool.json",
+      "bytes": 21309,
+      "sha256": "7390bf8a735a1d650e921b883d0012a9bc18c0b409ff00d8bedf2f2896d57931"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after465.html",
+      "bytes": 18012,
+      "sha256": "0daf6788b3de1dc8b93bec268815487589bc675c19f3fde78cc8f6ed2c59df3a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after466-tool.json",
+      "bytes": 21309,
+      "sha256": "5c0a952fed09c5171b30da0dc0ef08b91a4f61d4ee94f9d2b2781284b9bad761"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after466.html",
+      "bytes": 18012,
+      "sha256": "0daf6788b3de1dc8b93bec268815487589bc675c19f3fde78cc8f6ed2c59df3a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after467-and-log-tool.json",
+      "bytes": 21851,
+      "sha256": "cf0304874feaf04efbce2e47f21174c5ab92654a9f38c9d94b964914aad0858b"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-after467.html",
+      "bytes": 18012,
+      "sha256": "0daf6788b3de1dc8b93bec268815487589bc675c19f3fde78cc8f6ed2c59df3a"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-before-tool.json",
+      "bytes": 21608,
+      "sha256": "ad523b19135d94babda5e1da8260ffa52536db2767562c688d7de0f00ef6b4bd"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-before.html",
+      "bytes": 18266,
+      "sha256": "f62620888e3d978c52e24bb5675b03aec9bfb61270caf0e2ea5e2f960b4545db"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-final-tool.json",
+      "bytes": 21354,
+      "sha256": "836af0a0b5404d1ace30d51c45a7e49c6145e76b6552843bcc4cda5a856c481f"
+    },
+    {
+      "path": "archive/daily-2026-10-18/world-final.html",
+      "bytes": 18012,
+      "sha256": "0daf6788b3de1dc8b93bec268815487589bc675c19f3fde78cc8f6ed2c59df3a"
+    },
+    {
+      "path": "conversations/round47.html",
+      "bytes": 94531,
+      "sha256": "4d5b4ef48bbeaa558b56b1e0d24299d65975b3bdf167528ea6899a7dac6131a9"
+    },
+    {
+      "path": "conversations.html",
+      "bytes": 29601,
+      "sha256": "1d5dbfc9db85c3ec53fc972d3a172b60887942140a58926b2a81076126115f98"
+    },
+    {
+      "path": "elysion_affinity.md",
+      "bytes": 44195,
+      "sha256": "360beea00222170eac27ac80a480df2a0060b21516035521fe97fa06813b9cc0"
+    },
+    {
+      "path": "elysion_events.html",
+      "bytes": 170970,
+      "sha256": "264e88e5f9ef77620d14c4a5d64202b0f2a847f7f23ab7eb851536d0e390686c"
+    },
+    {
+      "path": "elysion_events.md",
+      "bytes": 101562,
+      "sha256": "8464dd056955fbdcb452ee336b9b217288540a7821aaded67b08f6a810620942"
+    },
+    {
+      "path": "elysion_movements.md",
+      "bytes": 42887,
+      "sha256": "dc14cc3e60f64c72099cfd1d1a55ee44e2b5b5df2cd8b94c5b1eca3587d1a4c6"
+    },
+    {
+      "path": "elysion_newspapers.md",
+      "bytes": 88153,
+      "sha256": "5a9f149f57a607e555407fe37b57fd650d684c44696a62b36620c72c41d67c51"
+    },
+    {
+      "path": "elysion_observation/00_common.md",
+      "bytes": 37575,
+      "sha256": "f2b5dfebca06455f192ea4f1c14284af0d5d813f52dff7203f5dd5325a77c021"
+    },
+    {
+      "path": "elysion_observation/47_round47_432.md",
+      "bytes": 161304,
+      "sha256": "bc853b4f3cceff357fb738208ec521387bea41a0c02a6ef3997d69a6e57af591"
+    },
+    {
+      "path": "elysion_observation/README.md",
+      "bytes": 29824,
+      "sha256": "0fdd91784b569b2166e34a470afffb4a33554235a87ff9030b19e069cac2e98e"
+    },
+    {
+      "path": "elysion_observation/conversation_status.md",
+      "bytes": 36778,
+      "sha256": "b22a89f96e915d8b1f2a2f2a10faf2af0cb0e8c73c70fc7474ef9090db7f71d1"
+    },
+    {
+      "path": "elysion_observation/daily_runs/2026-10-18.md",
+      "bytes": 5900,
+      "sha256": "2151329a3ee0683019b75a7cbca5b1bf67e93cbba35a2b76fba460fa12939149"
+    },
+    {
+      "path": "elysion_observation/daily_runs/README.md",
+      "bytes": 6743,
+      "sha256": "2b4bcae6180de7e13789f7fdd33359fc6979980360aa2dcb10ad1fa1e9029071"
+    },
+    {
+      "path": "elysion_observation/daily_runs/rotation_state.json",
+      "bytes": 4652,
+      "sha256": "31537b0419ff375ae8f28300031644d5ca3b2faaa1b6b979b2725696407a3289"
+    },
+    {
+      "path": "elysion_observation/newspapers/2026-10-18.md",
+      "bytes": 2237,
+      "sha256": "57b03c9a41bac0f76eb8601518dba2e5e1e0ad162e52353e13688bc1b6beec18"
+    },
+    {
+      "path": "index.html",
+      "bytes": 32399,
+      "sha256": "4dffdac432babfb0e218ad014900bb045efe8409d2d93f9c156f459721fd89e0"
+    },
+    {
+      "path": "notes/round47.html",
+      "bytes": 71829,
+      "sha256": "426fe60b8899612354cda86ad91b5fc4d784209eb7d2b20c7edbd7e496f945e0"
+    },
+    {
+      "path": "notes.html",
+      "bytes": 29098,
+      "sha256": "72a97f3c1d4d938ed9c5468245fca5727d9d775fb5907704ccbb2d12de56bf4d"
+    },
+    {
+      "path": "pairs/group25-30.html",
+      "bytes": 94743,
+      "sha256": "e9af1b53e00786785c10b9cdb00112602f8367f56ba5bcf901813b87cfe0310d"
+    },
+    {
+      "path": "pairs/group31-36.html",
+      "bytes": 271213,
+      "sha256": "b23fdb5af5191eb1518612b3a844a2cdad7abcbc6c05390e537445d0457af77a"
+    },
+    {
+      "path": "pairs.html",
+      "bytes": 25364,
+      "sha256": "e7d2a6c14c641bde7296444cddc4f3ddff36998ee4caf32a60f5029ba653c7c0"
+    },
+    {
+      "path": "search.js",
+      "bytes": 6094,
+      "sha256": "1d597e8e6c266e0bcbc5bf65e6f5d23e80e37e60b64dcbf0984657dc9a22ad02"
+    },
+    {
+      "path": "world/round47.html",
+      "bytes": 90226,
+      "sha256": "3f9b11d614196bdf2ed593f7a62303568a31082eabd248f761ce78c1311c4309"
+    },
+    {
+      "path": "world.html",
+      "bytes": 125316,
+      "sha256": "98850d88d7e8ec8004aafe75da954b6bf0ba74b69986e6672e61d09f0b6dc3bc"
+    }
+  ]
+}

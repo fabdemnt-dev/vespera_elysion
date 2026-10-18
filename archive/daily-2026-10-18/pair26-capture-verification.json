@@ -1,0 +1,37 @@
+{
+  "pair_id": 26,
+  "record": 462,
+  "before_turn_count": 36,
+  "after_turn_count": 40,
+  "new_turn_count": 4,
+  "old_prefix_matches": true,
+  "after_final_full_content_matches": true,
+  "prior_record_tail_matches": true,
+  "new_content": [
+    [
+      "stage",
+      "―― 学院の中庭で、学生たちが午後の読書を楽しんでいる。 ――"
+    ],
+    [
+      "speech",
+      "Mimosa",
+      "（通話魔法の向こうで、穏やかな時間が流れているのを感じて）\n魔法の香り、素敵だね！明日の予感がもっともっと楽しみになっちゃった。\n学院の中庭の、静かで優しい空気も伝わってくるみたい……。\nそれじゃあ、本当におやすみなさい。また明日ね！"
+    ],
+    [
+      "speech",
+      "Nerine",
+      "学院の中庭の静かな空気まで……ミモザの感性は本当に豊かだね。\nそんな風に感じ取ってもらえると、なんだか私も心が穏やかになる気がするよ。\n\nそれじゃあ、また明日。\nゆっくり休んでね。おやすみなさい。"
+    ],
+    [
+      "speech",
+      "Mimosa",
+      "ふふ、そう言ってもらえると、私もすごく幸せな気持ちになるよ！\nネリネの穏やかな気持ちが、通話魔法を通じて私にも届いているみたい。\n\nそれじゃあ、今度こそ本当におやすみなさい。\n素敵な夢を見てね！"
+    ],
+    [
+      "speech",
+      "Nerine",
+      "ありがとう。ミモザの優しい言葉が、私の心もふわふわと明るくしてくれるよ。\n\nそれじゃあ、今度こそ。\n素敵な夢の中で、またお話ししようね。\nおやすみなさい。"
+    ]
+  ],
+  "stream_note": "after is completed stream capture; no separate intermediate stream capture"
+}
