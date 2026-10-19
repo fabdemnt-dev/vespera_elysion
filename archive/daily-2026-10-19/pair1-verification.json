@@ -1,0 +1,19 @@
+{
+  "pair_id": 1,
+  "record": 473,
+  "before_count": 36,
+  "after_count": 40,
+  "final_count": 40,
+  "final_window_trimmed": 0,
+  "overlap_count": 36,
+  "new_turns": 4,
+  "speakers": [
+    "Iris",
+    "Mimosa",
+    "Iris",
+    "Mimosa"
+  ],
+  "old_tail_matches_canonical": true,
+  "final_matches_after": true,
+  "sha256": "e2a997e394bd723f089b40d72b5846994f7816e7c9ef1374017ed97c6108b9b7"
+}

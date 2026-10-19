@@ -1,0 +1,19 @@
+{
+  "pair_id": 34,
+  "record": 470,
+  "before_count": 36,
+  "after_count": 40,
+  "final_count": 40,
+  "final_window_trimmed": 0,
+  "overlap_count": 36,
+  "new_turns": 4,
+  "speakers": [
+    "Lupinus",
+    "Viola",
+    "Lupinus",
+    "Viola"
+  ],
+  "old_tail_matches_canonical": true,
+  "final_matches_after": true,
+  "sha256": "420019529dee48fb6a70e02890019bfe4259273bc9ff654b44e34fd77ac36856"
+}

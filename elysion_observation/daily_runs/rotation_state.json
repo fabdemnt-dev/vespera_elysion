@@ -1,8 +1,8 @@
 {
-  "as_of_jst": "2026-10-18",
-  "current_operational_round": 47,
-  "latest_record": 467,
-  "next_record_candidate": 468,
+  "as_of_jst": "2026-10-19",
+  "current_operational_round": 48,
+  "latest_record": 473,
+  "next_record_candidate": 474,
   "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
   "first_cycle_visited_ids": [
     11,
@@ -165,12 +165,12 @@
     }
   },
   "next_pair_ids": [
-    32,
-    33,
-    34,
-    35,
-    36,
-    1
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
   ],
   "remaining_first_cycle_order": [],
   "story_continued_ids": [
@@ -183,17 +183,39 @@
   "max_pairs_per_run": 6,
   "turns_per_pair": 4,
   "first_cycle_remainder_only": false,
-  "pace_evaluation": "10月18日はID26〜31の6組を各4ターン、#462〜#467・新規24ターンとして保存確認。通常生成6回、再生成0回。第47周は36/36組・144ターンで完了。本日はここで停止。次回候補は第48周ID32・33・34・35・36・1、次番号#468。",
+  "pace_evaluation": "通常生成の初回クリック11:33:59.468 JST〜最終完了表示11:40:14.701 JST、約6分15秒。途中の世界確認と不完全だった図鑑の再取得を含み、前日の約4分24秒とは純粋な生成時間として直接比較しない。今回、長期継続1組に就寝への収束、3組にscene挿入、終了済み5組は明示再接続なし。6組各4ターンは暫定運用を維持し、最適とは断定しない。最終原文再読・記録整合・GitHub/Pages検証はこの時間とは別。",
   "first_cycle_complete": true,
   "stopped_after_first_cycle": false,
-  "current_cycle": 2,
+  "current_cycle": 3,
   "current_cycle_visited_ids": [
     32,
     33,
     34,
     35,
     36,
-    1,
+    1
+  ],
+  "current_cycle_visited_sources": {
+    "2026-10-19": {
+      "pair_ids": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        1
+      ],
+      "records": [
+        468,
+        469,
+        470,
+        471,
+        472,
+        473
+      ]
+    }
+  },
+  "remaining_current_cycle_order": [
     2,
     3,
     4,
@@ -225,7 +247,8 @@
     30,
     31
   ],
-  "current_cycle_visited_sources": {
+  "current_cycle_complete": false,
+  "previous_cycle_visited_sources": {
     "2026-10-13": {
       "pair_ids": [
         32,
@@ -334,7 +357,5 @@
         467
       ]
     }
-  },
-  "remaining_current_cycle_order": [],
-  "current_cycle_complete": true
+  }
 }

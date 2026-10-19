@@ -1,0 +1,19 @@
+{
+  "pair_id": 32,
+  "record": 468,
+  "before_count": 93,
+  "after_count": 97,
+  "final_count": 93,
+  "final_window_trimmed": 4,
+  "overlap_count": 93,
+  "new_turns": 4,
+  "speakers": [
+    "Daphne",
+    "Anemone",
+    "Daphne",
+    "Anemone"
+  ],
+  "old_tail_matches_canonical": true,
+  "final_matches_after": true,
+  "sha256": "73d859449f185724498929c89b833d72f4a0153c60d29b522f993837e27bb5fd"
+}

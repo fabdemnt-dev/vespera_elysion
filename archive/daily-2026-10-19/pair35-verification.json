@@ -1,0 +1,19 @@
+{
+  "pair_id": 35,
+  "record": 471,
+  "before_count": 32,
+  "after_count": 36,
+  "final_count": 36,
+  "final_window_trimmed": 0,
+  "overlap_count": 32,
+  "new_turns": 4,
+  "speakers": [
+    "Lupinus",
+    "Anemone",
+    "Lupinus",
+    "Anemone"
+  ],
+  "old_tail_matches_canonical": true,
+  "final_matches_after": true,
+  "sha256": "a1a3c23317f3793878b92529312baa54854010a90534ad71db9e08c647c29c51"
+}

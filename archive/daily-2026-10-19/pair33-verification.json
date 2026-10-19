@@ -1,0 +1,19 @@
+{
+  "pair_id": 33,
+  "record": 469,
+  "before_count": 32,
+  "after_count": 36,
+  "final_count": 36,
+  "final_window_trimmed": 0,
+  "overlap_count": 32,
+  "new_turns": 4,
+  "speakers": [
+    "Erica",
+    "Nerine",
+    "Erica",
+    "Nerine"
+  ],
+  "old_tail_matches_canonical": true,
+  "final_matches_after": true,
+  "sha256": "48d67fe3c583b86b13a4c9d80e3f3867e1cf6b56c1bf7d88f506b0c871d7c9fb"
+}

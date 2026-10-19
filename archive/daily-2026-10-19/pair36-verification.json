@@ -1,0 +1,19 @@
+{
+  "pair_id": 36,
+  "record": 472,
+  "before_count": 68,
+  "after_count": 72,
+  "final_count": 72,
+  "final_window_trimmed": 0,
+  "overlap_count": 68,
+  "new_turns": 4,
+  "speakers": [
+    "Iris",
+    "Erica",
+    "Iris",
+    "Erica"
+  ],
+  "old_tail_matches_canonical": true,
+  "final_matches_after": true,
+  "sha256": "0c128fc2eb83517ae1f43a56ef82b14cfc6207bd9761ac45e59b11166335343d"
+}
