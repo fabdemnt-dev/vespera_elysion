@@ -1,0 +1,52 @@
+[
+  {
+    "pair_id": 2,
+    "number": 474,
+    "before_speeches": 36,
+    "after_speeches": 40,
+    "old_speech_prefix_equal": true,
+    "new_speeches": 4,
+    "independent_reread": "not_performed_blocked",
+    "save_status": "generated_display_captured_not_independently_verified"
+  },
+  {
+    "pair_id": 3,
+    "number": 475,
+    "before_speeches": 36,
+    "after_speeches": 40,
+    "old_speech_prefix_equal": true,
+    "new_speeches": 4,
+    "independent_reread": "not_performed_blocked",
+    "save_status": "generated_display_captured_not_independently_verified"
+  },
+  {
+    "pair_id": 4,
+    "number": 476,
+    "before_speeches": 68,
+    "after_speeches": 72,
+    "old_speech_prefix_equal": true,
+    "new_speeches": 4,
+    "independent_reread": "not_performed_blocked",
+    "save_status": "generated_display_captured_not_independently_verified"
+  },
+  {
+    "pair_id": 5,
+    "number": 477,
+    "before_speeches": 40,
+    "after_speeches": 44,
+    "old_speech_prefix_equal": true,
+    "new_speeches": 4,
+    "independent_reread": "not_performed_blocked",
+    "save_status": "generated_display_captured_not_independently_verified"
+  },
+  {
+    "pair_id": 6,
+    "number": 478,
+    "before_speeches": 40,
+    "after_speeches": 44,
+    "old_speech_prefix_equal": true,
+    "new_speeches": 4,
+    "independent_reread": "not_performed_blocked",
+    "save_status": "generated_display_captured_not_independently_verified"
+  }
+]

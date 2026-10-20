@@ -357,5 +357,33 @@
         467
       ]
     }
+  },
+  "pending_execution": {
+    "as_of_jst": "2026-10-20",
+    "status": "verification_interrupted",
+    "same_day_completed": false,
+    "attempted_pair_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "generated_display_captured_records": [
+      474,
+      475,
+      476,
+      477,
+      478
+    ],
+    "captured_new_speeches": 20,
+    "independent_save_verification": "not_performed",
+    "incomplete_record": 479,
+    "incomplete_pair_id": 7,
+    "incomplete_record_status": "three_speeches_and_fourth_speaker_label_observed_finish_and_save_unknown",
+    "retry_generation": false,
+    "next_action": "Read current state and saved history for ID7 first; independently reread all six attempted pairs, then final world, characters and newspaper. Do not repeat generation or advance the rotation before verification.",
+    "confirmed_cursor_note": "Top-level as_of_jst, latest_record, next_record_candidate and cycle counts remain the Oct19 confirmed checkpoint; pending_execution must be resolved before using that cursor."
   }
 }
