@@ -1,0 +1,75 @@
+{
+  "weather_before": "2026-10-20 ・ 霧・7°C",
+  "weather_after": "2026-10-21 ・ 星月夜・12°C",
+  "new_displayed_events": [
+    "鐘楼の鐘が、街の夜の訪れを告げる穏やかな音を響かせた。",
+    "駅の改札口で、旅人の荷物が置かれる乾いた音が響いた。"
+  ],
+  "events_dropped_from_display": [
+    "小路の街灯が、夜の帳に溶けるように淡く灯った。",
+    "カフェ・フルールのテラスに、温かいハーブティーが運ばれてきた。"
+  ],
+  "affinity_differences": [
+    {
+      "from": "Anemone",
+      "to": "カンパニュラ",
+      "before": "98",
+      "after": "100"
+    },
+    {
+      "from": "Campanula",
+      "to": "ビオラ",
+      "before": "99",
+      "after": "100"
+    },
+    {
+      "from": "Campanula",
+      "to": "アネモネ",
+      "before": "98",
+      "after": "99"
+    },
+    {
+      "from": "Daphne",
+      "to": "ミモザ",
+      "before": "97",
+      "after": "99"
+    },
+    {
+      "from": "Lupinus",
+      "to": "ネリネ",
+      "before": "92",
+      "after": "96"
+    },
+    {
+      "from": "Mimosa",
+      "to": "ダフネ",
+      "before": "97",
+      "after": "99"
+    },
+    {
+      "from": "Nerine",
+      "to": "ルピナス",
+      "before": "96",
+      "after": "98"
+    },
+    {
+      "from": "Viola",
+      "to": "カンパニュラ",
+      "before": "99",
+      "after": "100"
+    }
+  ],
+  "memory_changed_characters": [
+    "Anemone",
+    "Campanula",
+    "Daphne",
+    "Iris",
+    "Lupinus",
+    "Mimosa",
+    "Nerine",
+    "Viola"
+  ],
+  "persona_or_location_changes": [],
+  "world_summary": "公開天気は「2026-10-20 ・ 霧・7°C」から「2026-10-21 ・ 星月夜・12°C」へ更新。公開出来事表示への追加は2件：鐘楼の鐘が、街の夜の訪れを告げる穏やかな音を響かせた。／駅の改札口で、旅人の荷物が置かれる乾いた音が響いた。。公開mapの位置表示は全9人一致。公開表示窓の比較であり内部総件数・発火条件・raw counterは未確認。",
+  "affinity_summary": "公開好感度は8方向に差分：Anemone→カンパニュラ 98→100、Campanula→ビオラ 99→100、Campanula→アネモネ 98→99、Daphne→ミモザ 97→99、Lupinus→ネリネ 92→96、Mimosa→ダフネ 97→99、Nerine→ルピナス 96→98、Viola→カンパニュラ 99→100。他64方向は表示値一致。公開記憶は8人で差分（Anemone,Campanula,Daphne,Iris,Lupinus,Mimosa,Nerine,Viola）。人物・本人から見た世界・能力・現在地の見出し前全文は全9人一致。記憶の原文は前後資料に保持し、内部記憶の削除・圧縮の仕様は未確認。"
+}

@@ -50,5 +50,21 @@
     "pair4-verification.json": "ad918bd3d0d593f06ec595b2ff2f6be3316d69759825efa7fb2d146207b215d7",
     "pair5-verification.json": "4402f1ec94630bd130625ef3d384981f619d1485c4ef5914586338d4baaf7d28",
     "pair3-after.json": "e2d3ca1cb4784816090b4d1da79cdbcade24fea114cb56b70048ed93d1df35be"
+  },
+  "resolution": {
+    "verified_on_jst": "2026-10-21",
+    "status": "all_six_saved_histories_verified",
+    "records": [
+      474,
+      475,
+      476,
+      477,
+      478,
+      479
+    ],
+    "saved_speeches": 24,
+    "regeneration_calls": 0,
+    "evidence_directory": "verified-2026-10-21",
+    "note": "確認日は10月21日。10月20日当日の独立再読完了とは扱わず、当日中断の記録を下に保持する。生成完了UIの過去の未観測部分を補完せず、保存履歴に基づく確認である。10月21日新規生成前の公開世界・人物図鑑・新聞も別証拠として保存し、内部raw総数・終了フラグは未確認のままとする。"
   }
 }

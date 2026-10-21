@@ -1,0 +1,130 @@
+[
+  {
+    "pair_id": 8,
+    "record": 480,
+    "prior_record": 444,
+    "prior_original_suffix_exact": true,
+    "old_prefix_exact": true,
+    "new_speeches": 4,
+    "saved_new_original_exact": true,
+    "saved_window_suffix_exact": true,
+    "saved_sha256": "d3938f065dd79355e7576a7b266f2354be31f64575f969c81b6c7000028c5184",
+    "run_log": [
+      {
+        "record": 480,
+        "pair_id": 8,
+        "event": "click_start",
+        "at": "2026-10-21T00:12:23.449Z"
+      },
+      {
+        "record": 480,
+        "pair_id": 8,
+        "event": "batch_complete_visible",
+        "at": "2026-10-21T00:12:41.446Z"
+      },
+      {
+        "record": 480,
+        "pair_id": 8,
+        "event": "saved_history_reread",
+        "at": "2026-10-21T00:13:10.803Z"
+      }
+    ]
+  },
+  {
+    "pair_id": 9,
+    "record": 481,
+    "prior_record": 445,
+    "prior_original_suffix_exact": true,
+    "old_prefix_exact": true,
+    "new_speeches": 4,
+    "saved_new_original_exact": true,
+    "saved_window_suffix_exact": true,
+    "saved_sha256": "aec76356dcc8f6c4fa46744f67101e50d9b8bce0188c4f4c3772215ad2eed350",
+    "run_log": [
+      {
+        "record": 480,
+        "pair_id": 8,
+        "event": "click_start",
+        "at": "2026-10-21T00:12:23.449Z"
+      },
+      {
+        "record": 480,
+        "pair_id": 8,
+        "event": "batch_complete_visible",
+        "at": "2026-10-21T00:12:41.446Z"
+      },
+      {
+        "record": 480,
+        "pair_id": 8,
+        "event": "saved_history_reread",
+        "at": "2026-10-21T00:13:10.803Z"
+      },
+      {
+        "record": 481,
+        "pair_id": 9,
+        "event": "click_start",
+        "at": "2026-10-21T00:13:52.379Z"
+      },
+      {
+        "record": 481,
+        "pair_id": 9,
+        "event": "batch_complete_visible",
+        "at": "2026-10-21T00:14:23.815Z"
+      },
+      {
+        "record": 481,
+        "pair_id": 9,
+        "event": "saved_history_reread",
+        "at": "2026-10-21T00:14:43.989Z"
+      }
+    ]
+  },
+  {
+    "pair_id": 10,
+    "record": 482,
+    "prior_record": 446,
+    "prior_original_suffix_exact": true,
+    "old_prefix_exact": true,
+    "new_speeches": 4,
+    "saved_new_original_exact": true,
+    "saved_window_suffix_exact": true,
+    "saved_sha256": "ef7117929ee8b4ec21940dd243abfb3bf50489a20f49e962836f553255da533e",
+    "run_log": []
+  },
+  {
+    "pair_id": 11,
+    "record": 483,
+    "prior_record": 447,
+    "prior_original_suffix_exact": true,
+    "old_prefix_exact": true,
+    "new_speeches": 4,
+    "saved_new_original_exact": true,
+    "saved_window_suffix_exact": true,
+    "saved_sha256": "8a26277ea610fed2a53fec438a4a92e41775ebcc0ee10a0657eac90523e9f990",
+    "run_log": []
+  },
+  {
+    "pair_id": 12,
+    "record": 484,
+    "prior_record": 448,
+    "prior_original_suffix_exact": true,
+    "old_prefix_exact": true,
+    "new_speeches": 4,
+    "saved_new_original_exact": true,
+    "saved_window_suffix_exact": true,
+    "saved_sha256": "55a5acf03df308ec7e3bd42aad3895071e1e51f7618ae7726e11a7d69f2e51ec",
+    "run_log": []
+  },
+  {
+    "pair_id": 13,
+    "record": 485,
+    "prior_record": 449,
+    "prior_original_suffix_exact": true,
+    "old_prefix_exact": true,
+    "new_speeches": 4,
+    "saved_new_original_exact": true,
+    "saved_window_suffix_exact": true,
+    "saved_sha256": "f8e6477d594120a820f41900c4294aec20af61b312151c3e9289d4dcbf67bad7",
+    "run_log": []
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "record": 480,
+    "pair_id": 8,
+    "event": "click_start",
+    "at": "2026-10-21T00:12:23.449Z"
+  },
+  {
+    "record": 480,
+    "pair_id": 8,
+    "event": "batch_complete_visible",
+    "at": "2026-10-21T00:12:41.446Z"
+  },
+  {
+    "record": 480,
+    "pair_id": 8,
+    "event": "saved_history_reread",
+    "at": "2026-10-21T00:13:10.803Z"
+  },
+  {
+    "record": 481,
+    "pair_id": 9,
+    "event": "click_start",
+    "at": "2026-10-21T00:13:52.379Z"
+  },
+  {
+    "record": 481,
+    "pair_id": 9,
+    "event": "batch_complete_visible",
+    "at": "2026-10-21T00:14:23.815Z"
+  },
+  {
+    "record": 481,
+    "pair_id": 9,
+    "event": "saved_history_reread",
+    "at": "2026-10-21T00:14:43.989Z"
+  },
+  {
+    "record": 482,
+    "pair_id": 10,
+    "event": "click_start",
+    "at": "2026-10-21T00:15:11.166Z"
+  },
+  {
+    "record": 482,
+    "pair_id": 10,
+    "event": "batch_complete_visible",
+    "at": "2026-10-21T00:17:26.147Z"
+  },
+  {
+    "record": 482,
+    "pair_id": 10,
+    "event": "saved_history_reread",
+    "at": "2026-10-21T00:17:46.511Z"
+  },
+  {
+    "record": 483,
+    "pair_id": 11,
+    "event": "click_start",
+    "at": "2026-10-21T00:18:33.888Z"
+  },
+  {
+    "record": 483,
+    "pair_id": 11,
+    "event": "batch_complete_visible",
+    "at": "2026-10-21T00:19:12.534Z"
+  },
+  {
+    "record": 483,
+    "pair_id": 11,
+    "event": "saved_history_reread",
+    "at": "2026-10-21T00:19:34.141Z"
+  },
+  {
+    "record": 484,
+    "pair_id": 12,
+    "event": "click_start",
+    "at": "2026-10-21T00:20:09.665Z"
+  },
+  {
+    "record": 484,
+    "pair_id": 12,
+    "event": "batch_complete_visible",
+    "at": "2026-10-21T00:22:00.276Z"
+  },
+  {
+    "record": 484,
+    "pair_id": 12,
+    "event": "saved_history_reread",
+    "at": "2026-10-21T00:22:15.606Z"
+  },
+  {
+    "record": 485,
+    "pair_id": 13,
+    "event": "click_start",
+    "at": "2026-10-21T00:22:50.741Z"
+  },
+  {
+    "record": 485,
+    "pair_id": 13,
+    "event": "batch_complete_visible",
+    "at": "2026-10-21T00:23:29.514Z"
+  },
+  {
+    "record": 485,
+    "pair_id": 13,
+    "event": "saved_history_reread",
+    "at": "2026-10-21T00:23:42.317Z"
+  }
+]

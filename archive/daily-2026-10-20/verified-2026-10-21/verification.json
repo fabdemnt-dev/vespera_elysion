@@ -1,0 +1,108 @@
+[
+  {
+    "pair_id": 2,
+    "heading_count": 1,
+    "old_prefix_exact": true,
+    "saved_speeches": 40,
+    "before_speeches": 36,
+    "excluded_ui_dividers": [
+      {
+        "cls": "divider",
+        "text": "つづき"
+      },
+      {
+        "cls": "stage",
+        "text": "―― 会話はここまで ――"
+      }
+    ],
+    "captured_original_exact": true,
+    "saved_sha256": "381a139de8464487f5c9e4a0b60090452dd516d342360b4508728d4628361465"
+  },
+  {
+    "pair_id": 3,
+    "heading_count": 1,
+    "old_prefix_exact": true,
+    "saved_speeches": 40,
+    "before_speeches": 36,
+    "excluded_ui_dividers": [
+      {
+        "cls": "divider",
+        "text": "つづき"
+      },
+      {
+        "cls": "stage",
+        "text": "―― 会話はここまで ――"
+      }
+    ],
+    "captured_original_exact": true,
+    "saved_sha256": "cfb34669a2040272f14709f9c473f60f33ae419c7da5a48486757d32dfb58a63"
+  },
+  {
+    "pair_id": 4,
+    "heading_count": 1,
+    "old_prefix_exact": true,
+    "saved_speeches": 72,
+    "before_speeches": 68,
+    "excluded_ui_dividers": [
+      {
+        "cls": "divider",
+        "text": "つづき"
+      },
+      {
+        "cls": "stage",
+        "text": "―― 会話はここまで ――"
+      }
+    ],
+    "captured_original_exact": true,
+    "saved_sha256": "615356a3a51d87b953eaaf97c4052993193da49826b5c50b857c554b48ca1b84"
+  },
+  {
+    "pair_id": 5,
+    "heading_count": 1,
+    "old_prefix_exact": true,
+    "saved_speeches": 44,
+    "before_speeches": 40,
+    "excluded_ui_dividers": [
+      {
+        "cls": "divider",
+        "text": "つづき"
+      },
+      {
+        "cls": "stage",
+        "text": "―― 会話はここまで ――"
+      }
+    ],
+    "captured_original_exact": true,
+    "saved_sha256": "b1be192497b83238d8ad10ddb00446926da2db4d526571cf13efb3af80f8980c"
+  },
+  {
+    "pair_id": 6,
+    "heading_count": 1,
+    "old_prefix_exact": true,
+    "saved_speeches": 44,
+    "before_speeches": 40,
+    "excluded_ui_dividers": [
+      {
+        "cls": "divider",
+        "text": "つづき"
+      },
+      {
+        "cls": "stage",
+        "text": "―― 会話はここまで ――"
+      }
+    ],
+    "captured_original_exact": true,
+    "saved_sha256": "a7dca5f2967309f102f8e5bcab75ff7aa24da3068cd7b94ff29b0aa3de0ce357"
+  },
+  {
+    "pair_id": 7,
+    "heading_count": 1,
+    "old_prefix_exact": true,
+    "saved_speeches": 44,
+    "before_speeches": 40,
+    "new_speeches": 4,
+    "new_text": "Erica\nありがとう。\nあなたが送ってくれる穏やかな風を、私はいつでもここで、大切に受け止めるね。\nそれでは、また。\nDaphne\nあなたのその言葉を聞けて、とても心強いわ。\n大切に受け止めてくれる人がいると思うだけで、風も、そして私の心も、より優しく、より穏やかになれる気がするの。\nそれでは、また。\n―― 鐘楼の鐘が、夜の静寂を優しく告げる音を響かせた。 ――\nErica\n鐘の音が、とても優しく響いているね。\n夜の静寂が、あなたを包み込んでくれますように。\nそれでは、またね。\nDaphne\n鐘の音が、こんなに優しく響くなんて……。\nまるで、今日という一日を穏やかに締めくくるための、祝福の音のようね。\nエリカも、どうぞ静かな夜をお過ごしになって。\nそれでは、また。",
+    "partial_prefix_exact": true,
+    "saved_sha256": "8a57052876ed7aa30f4f859097c90eac63e4bade4d1183452ad97b97083e6e37"
+  }
+]

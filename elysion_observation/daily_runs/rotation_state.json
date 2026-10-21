@@ -1,8 +1,8 @@
 {
-  "as_of_jst": "2026-10-19",
+  "as_of_jst": "2026-10-21",
   "current_operational_round": 48,
-  "latest_record": 473,
-  "next_record_candidate": 474,
+  "latest_record": 485,
+  "next_record_candidate": 486,
   "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
   "first_cycle_visited_ids": [
     11,
@@ -165,12 +165,12 @@
     }
   },
   "next_pair_ids": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
   ],
   "remaining_first_cycle_order": [],
   "story_continued_ids": [
@@ -183,7 +183,7 @@
   "max_pairs_per_run": 6,
   "turns_per_pair": 4,
   "first_cycle_remainder_only": false,
-  "pace_evaluation": "通常生成の初回クリック11:33:59.468 JST〜最終完了表示11:40:14.701 JST、約6分15秒。途中の世界確認と不完全だった図鑑の再取得を含み、前日の約4分24秒とは純粋な生成時間として直接比較しない。今回、長期継続1組に就寝への収束、3組にscene挿入、終了済み5組は明示再接続なし。6組各4ターンは暫定運用を維持し、最適とは断定しない。最終原文再読・記録整合・GitHub/Pages検証はこの時間とは別。",
+  "pace_evaluation": "本日6組各4ターンの通常生成と独立保存再読を完了。前日分の追確認は別作業として区別。会話内容の自然さ・世界の反映は日次記録を参照。",
   "first_cycle_complete": true,
   "stopped_after_first_cycle": false,
   "current_cycle": 3,
@@ -193,7 +193,19 @@
     34,
     35,
     36,
-    1
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
   ],
   "current_cycle_visited_sources": {
     "2026-10-19": {
@@ -213,21 +225,46 @@
         472,
         473
       ]
+    },
+    "2026-10-20": {
+      "pair_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "records": [
+        474,
+        475,
+        476,
+        477,
+        478,
+        479
+      ],
+      "verified_on_jst": "2026-10-21"
+    },
+    "2026-10-21": {
+      "pair_ids": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "records": [
+        480,
+        481,
+        482,
+        483,
+        484,
+        485
+      ]
     }
   },
   "remaining_current_cycle_order": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
     14,
     15,
     16,
@@ -358,32 +395,45 @@
       ]
     }
   },
-  "pending_execution": {
-    "as_of_jst": "2026-10-20",
-    "status": "verification_interrupted",
-    "same_day_completed": false,
-    "attempted_pair_ids": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "generated_display_captured_records": [
-      474,
-      475,
-      476,
-      477,
-      478
-    ],
-    "captured_new_speeches": 20,
-    "independent_save_verification": "not_performed",
-    "incomplete_record": 479,
-    "incomplete_pair_id": 7,
-    "incomplete_record_status": "three_speeches_and_fourth_speaker_label_observed_finish_and_save_unknown",
-    "retry_generation": false,
-    "next_action": "Read current state and saved history for ID7 first; independently reread all six attempted pairs, then final world, characters and newspaper. Do not repeat generation or advance the rotation before verification.",
-    "confirmed_cursor_note": "Top-level as_of_jst, latest_record, next_record_candidate and cycle counts remain the Oct19 confirmed checkpoint; pending_execution must be resolved before using that cursor."
-  }
+  "resolved_execution_history": [
+    {
+      "as_of_jst": "2026-10-20",
+      "status": "resolved_by_independent_saved_history_readback",
+      "same_day_completed": false,
+      "attempted_pair_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "generated_display_captured_records": [
+        474,
+        475,
+        476,
+        477,
+        478
+      ],
+      "captured_new_speeches": 20,
+      "independent_save_verification": "not_performed",
+      "incomplete_record": 479,
+      "incomplete_pair_id": 7,
+      "incomplete_record_status": "three_speeches_and_fourth_speaker_label_observed_finish_and_save_unknown",
+      "retry_generation": false,
+      "next_action": "Read current state and saved history for ID7 first; independently reread all six attempted pairs, then final world, characters and newspaper. Do not repeat generation or advance the rotation before verification.",
+      "confirmed_cursor_note": "Top-level as_of_jst, latest_record, next_record_candidate and cycle counts remain the Oct19 confirmed checkpoint; pending_execution must be resolved before using that cursor.",
+      "resolved_at_jst": "2026-10-21",
+      "saved_records": [
+        474,
+        475,
+        476,
+        477,
+        478,
+        479
+      ],
+      "saved_new_speeches": 24,
+      "original_interruption_preserved": true
+    }
+  ]
 }

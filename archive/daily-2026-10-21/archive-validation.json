@@ -1,0 +1,17 @@
+{
+  "passed": [
+    "index.html IDs unique",
+    "conversations.html IDs unique",
+    "conversations/round48.html IDs unique",
+    "pairs.html IDs unique",
+    "pairs/group01-06.html IDs unique",
+    "pairs/group07-12.html IDs unique",
+    "pairs/group13-18.html IDs unique",
+    "notes/round48.html IDs unique",
+    "world/round48.html IDs unique",
+    "All twelve latest pair and chronological links exist",
+    "Every pre-existing archive evidence file byte-identical, except manifest resolution metadata",
+    "Rotation state correct with no unresolved pending execution",
+    "All six new originals exactly included in Markdown canonical record"
+  ]
+}
