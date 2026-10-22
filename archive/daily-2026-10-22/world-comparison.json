@@ -1,0 +1,73 @@
+{
+  "map_positions_equal": true,
+  "movement_panel_equal": true,
+  "items_panel_equal": true,
+  "affinity_changes": [
+    {
+      "from": "ダフネ",
+      "to": "アイリス",
+      "before": 88,
+      "after": 90
+    },
+    {
+      "from": "エリカ",
+      "to": "ミモザ",
+      "before": 92,
+      "after": 96
+    },
+    {
+      "from": "エリカ",
+      "to": "ビオラ",
+      "before": 83,
+      "after": 88
+    },
+    {
+      "from": "アイリス",
+      "to": "ダフネ",
+      "before": 92,
+      "after": 95
+    },
+    {
+      "from": "ミモザ",
+      "to": "ビオラ",
+      "before": 97,
+      "after": 98
+    },
+    {
+      "from": "ミモザ",
+      "to": "エリカ",
+      "before": 93,
+      "after": 97
+    },
+    {
+      "from": "ビオラ",
+      "to": "ミモザ",
+      "before": 99,
+      "after": 100
+    },
+    {
+      "from": "ビオラ",
+      "to": "エリカ",
+      "before": 84,
+      "after": 88
+    }
+  ],
+  "unchanged_affinity_directions": 64,
+  "memory_changed_characters": [
+    "ダフネ",
+    "エリカ",
+    "アイリス",
+    "ルピナス",
+    "ミモザ",
+    "ネリネ",
+    "ビオラ"
+  ],
+  "persona_world_ability_location_equal_all9": true,
+  "new_scene_count": 1,
+  "pending_after": [
+    "街灯",
+    "湖の光る花",
+    "学院の夜露に濡れた白い花"
+  ],
+  "limitations": "通常画面の公開表示だけを観察。物語上の終了、生成バッチ完了、保存確認を区別する。内部終了フラグ・発火条件・内部総件数は未確認。全体の継続2組（ID11・32）／終了34組を維持。"
+}

@@ -1,0 +1,17 @@
+{
+  "date_jst": "2026-10-22",
+  "notice_message": "Sentinel_6beb83e853788191b8495c84f51afd6c",
+  "notice_utc": "2026-10-22T00:25:31.942860Z",
+  "normal_generation_count": 6,
+  "regeneration_count": 0,
+  "starts_utc": {
+    "14": "2026-10-22T00:28:20.922Z (pre-click check)",
+    "15": "2026-10-22T00:29:39.153Z",
+    "16": "2026-10-22T00:31:44.900Z",
+    "17": "2026-10-22T00:32:28.180Z",
+    "18": "2026-10-22T00:33:26.376Z",
+    "19": "2026-10-22T00:34:06.428Z"
+  },
+  "last_batch_end_observed_utc": "2026-10-22T00:34:18Z",
+  "verification_note": "ID16 initial transport failure before code executed: click16 undefined and independently reloaded history equal before. Generated once after resolving nonexecution. ID15 reread omitted first old speech in display window; entire remaining suffix and all new speeches exact."
+}
