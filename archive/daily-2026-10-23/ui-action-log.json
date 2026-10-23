@@ -1,0 +1,44 @@
+[
+  {
+    "pair_id": 20,
+    "record": 492,
+    "action": "normal generation once",
+    "started_at_utc": "2026-10-23T00:06:09.945Z",
+    "completed_display_at_utc": "2026-10-23T00:06:41.533Z"
+  },
+  {
+    "pair_id": 21,
+    "record": 493,
+    "action": "normal generation once",
+    "started_at_utc": "2026-10-23T00:07:04.033Z",
+    "completed_display_at_utc": "2026-10-23T00:07:26.103Z"
+  },
+  {
+    "pair_id": 22,
+    "record": 494,
+    "action": "normal generation once",
+    "started_at_utc": "2026-10-23T00:07:54.829Z",
+    "completed_display_at_utc": "2026-10-23T00:08:22.572Z"
+  },
+  {
+    "pair_id": 23,
+    "record": 495,
+    "action": "normal generation once",
+    "started_at_utc": "2026-10-23T00:08:44.361Z",
+    "completed_display_at_utc": "2026-10-23T00:09:04.736Z"
+  },
+  {
+    "pair_id": 24,
+    "record": 496,
+    "action": "normal generation once",
+    "started_at_utc": "2026-10-23T00:09:19.123Z",
+    "completed_display_at_utc": "2026-10-23T00:09:37.191Z"
+  },
+  {
+    "pair_id": 25,
+    "record": 497,
+    "action": "normal generation once after correcting stale history without generating",
+    "started_at_utc": "2026-10-23T00:10:43.191Z",
+    "completed_display_at_utc": "2026-10-23T00:11:04.615Z"
+  }
+]

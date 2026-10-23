@@ -1,0 +1,95 @@
+{
+  "map_weather_before": "2026-10-22 ・ 曇り・18°C",
+  "map_weather_after": "2026-10-23 ・ 星月夜・19°C",
+  "map_positions_equal": true,
+  "movement_panel_equal": true,
+  "items_panel_equal": true,
+  "affinity_changes": [
+    {
+      "from": "アネモネ",
+      "to": "ミモザ",
+      "before": 92,
+      "after": 95
+    },
+    {
+      "from": "アネモネ",
+      "to": "ビオラ",
+      "before": 87,
+      "after": 92
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "ネリネ",
+      "before": 98,
+      "after": 99
+    },
+    {
+      "from": "ダフネ",
+      "to": "ネリネ",
+      "before": 92,
+      "after": 95
+    },
+    {
+      "from": "アイリス",
+      "to": "ルピナス",
+      "before": 87,
+      "after": 89
+    },
+    {
+      "from": "ルピナス",
+      "to": "アイリス",
+      "before": 90,
+      "after": 92
+    },
+    {
+      "from": "ミモザ",
+      "to": "アネモネ",
+      "before": 85,
+      "after": 88
+    },
+    {
+      "from": "ネリネ",
+      "to": "カンパニュラ",
+      "before": 96,
+      "after": 98
+    },
+    {
+      "from": "ネリネ",
+      "to": "ダフネ",
+      "before": 88,
+      "after": 91
+    },
+    {
+      "from": "ビオラ",
+      "to": "アネモネ",
+      "before": 82,
+      "after": 85
+    }
+  ],
+  "unchanged_affinity_directions": 62,
+  "memory_changed_characters": [
+    "アネモネ",
+    "カンパニュラ",
+    "ダフネ",
+    "エリカ",
+    "アイリス",
+    "ルピナス",
+    "ミモザ",
+    "ネリネ",
+    "ビオラ"
+  ],
+  "settings_changed": [],
+  "location_changed": [],
+  "persona_world_ability_location_equal_all9": true,
+  "event_display_before_count": 20,
+  "event_display_after_count": 20,
+  "new_events": [
+    "10/23 00:10\n学院の中庭で、夜露に濡れた白い花が淡く光り始めた。\nダフネ、ネリネ",
+    "10/23 00:08\n湖のほとりで、水面に浮かぶ光る花が静かに揺れた。\nエリカ、ルピナス",
+    "10/23 00:07\n街灯の明かりが、夜の小道を静かに照らし始めた。\nカンパニュラ、ネリネ"
+  ],
+  "pending_before": "街灯の明かりが、夜の小道を静かに照らし始めた。\n眠りにつく街に、柔らかな琥珀色の道標が灯ります。\n湖のほとりで、水面に浮かぶ光る花が静かに揺れた。\n水鏡に映る光の粒が、新しい歩みを優しく照らすでしょう。\n学院の中庭で、夜露に濡れた白い花が淡く光り始めた。\n静かな眠りのなか、白き花びらが銀の光を宿すでしょう。",
+  "pending_after": "学院の庭園で、朝露に濡れた花々が開き始めた。\n眠れる花たちが、柔らかな光に誘われて目覚めの時を迎える。\n学院の中庭で、朝露に濡れた白い花が静かに開いた。\n夜の約束が、清らかな雫とともに目覚めの時を迎えるでしょう。\n街の広場の噴水に、朝の光が反射して小さな虹が生まれた。\n水面の煌めきが、新しい一日の始まりを告げる光の架け橋となるでしょう。",
+  "new_scene_count": 3,
+  "limitations": "通常画面の公開表示のみ。内部終了フラグ・発火条件・内部総件数は未確認。"
+}

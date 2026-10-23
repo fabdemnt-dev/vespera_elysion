@@ -1,8 +1,8 @@
 {
-  "as_of_jst": "2026-10-22",
+  "as_of_jst": "2026-10-23",
   "current_operational_round": 48,
-  "latest_record": 491,
-  "next_record_candidate": 492,
+  "latest_record": 497,
+  "next_record_candidate": 498,
   "rotation_scope": "36 stable pair IDs; execution cursor independent from story-ended classification",
   "first_cycle_visited_ids": [
     11,
@@ -165,12 +165,12 @@
     }
   },
   "next_pair_ids": [
-    20,
-    21,
-    22,
-    23,
-    24,
-    25
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
   ],
   "remaining_first_cycle_order": [],
   "story_continued_ids": [
@@ -183,7 +183,7 @@
   "max_pairs_per_run": 6,
   "turns_per_pair": 4,
   "first_cycle_remainder_only": false,
-  "pace_evaluation": "初回生成開始09:28:20頃から最終バッチ完了表示確認09:34:18まで約5分57秒。6組の切替・確認を含み純生成時間ではない。独立保存再読と最終世界・全人物の採取は09:36:54まで、記録整備・保存確認はその後に別途実施。6組中、2組は眠りの叙述、1組は同一句の別れ4回、1組は通話後の余韻、1組は開花待ち、1組はsceneを受けて別れへ戻る。具体的な開花・再接続・実移動は確認できず、継続中2組は本日の対象外。6組×4は暫定運用を維持し、最適と断定しない。所要と展開・反復を比較し、組数・ターン数の変更は本人と相談する。",
+  "pace_evaluation": "最初の生成開始09:06:09.945 JSTから最終バッチ完了表示09:11:04.615まで約4分55秒。ペア切替・確認とID25の履歴混在の解消を含み、純生成時間ではない。独立保存再読と最終世界・全人物の採取は09:13:28まで、記録整備と公開確認はその後に別途実施。6組中3組は新しいsceneを取り込むが別れへ戻り、1組は前回の星空の余韻から別れへ、1組は陽光への期待の叙述を継続、1組はほぼ同じ別れを反復する。具体的な再接続・合流・実移動は確認できず、継続中2組は今回対象外。6組×4は暫定運用を維持し、最適と断定しない。所要と展開・反復を比較し、組数・ターン数の変更は本人と相談する。",
   "first_cycle_complete": true,
   "stopped_after_first_cycle": false,
   "current_cycle": 3,
@@ -211,7 +211,13 @@
     16,
     17,
     18,
-    19
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
   ],
   "current_cycle_visited_sources": {
     "2026-10-19": {
@@ -286,15 +292,27 @@
         490,
         491
       ]
+    },
+    "2026-10-23": {
+      "pair_ids": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "records": [
+        492,
+        493,
+        494,
+        495,
+        496,
+        497
+      ]
     }
   },
   "remaining_current_cycle_order": [
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
     26,
     27,
     28,
