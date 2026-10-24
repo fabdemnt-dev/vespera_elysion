@@ -1,0 +1,751 @@
+{
+  "date_jst": "2026-10-24",
+  "source_after": "characters-after.json",
+  "characters": {
+    "アネモネ": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 花咲く街の駅",
+      "location_after": "📍 花咲く街の駅",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      }
+    },
+    "カンパニュラ": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 時告げの鐘楼",
+      "location_after": "📍 時告げの鐘楼",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      }
+    },
+    "ダフネ": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 カフェ・フルール",
+      "location_after": "📍 カフェ・フルール",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      }
+    },
+    "エリカ": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 カフェ・フルール",
+      "location_after": "📍 カフェ・フルール",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      }
+    },
+    "アイリス": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 カフェ・フルール",
+      "location_after": "📍 カフェ・フルール",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      }
+    },
+    "ルピナス": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 星待ちの丘",
+      "location_after": "📍 星待ちの丘",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      }
+    },
+    "ミモザ": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 エテルニテ広場",
+      "location_after": "📍 エテルニテ広場",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      }
+    },
+    "ネリネ": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 花眠りの庭",
+      "location_after": "📍 花眠りの庭",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": false,
+        "記憶": false
+      }
+    },
+    "ビオラ": {
+      "name_equal": true,
+      "location_equal": true,
+      "location_before": "📍 カフェ・フルール",
+      "location_after": "📍 カフェ・フルール",
+      "section_html_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      },
+      "section_text_equal": {
+        "人物": true,
+        "本人から見た世界": true,
+        "固有能力": true,
+        "好感度": true,
+        "記憶": false
+      }
+    }
+  },
+  "affinity_directions_compared": 72,
+  "affinity_changes": [
+    {
+      "from": "カンパニュラ",
+      "to": "ミモザ",
+      "before": 94,
+      "after": 96,
+      "changed": true
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "ルピナス",
+      "before": 84,
+      "after": 88,
+      "changed": true
+    },
+    {
+      "from": "ルピナス",
+      "to": "カンパニュラ",
+      "before": 86,
+      "after": 89,
+      "changed": true
+    },
+    {
+      "from": "ミモザ",
+      "to": "カンパニュラ",
+      "before": 89,
+      "after": 92,
+      "changed": true
+    },
+    {
+      "from": "ミモザ",
+      "to": "ネリネ",
+      "before": 87,
+      "after": 90,
+      "changed": true
+    },
+    {
+      "from": "ネリネ",
+      "to": "ミモザ",
+      "before": 87,
+      "after": 90,
+      "changed": true
+    }
+  ],
+  "affinity_unchanged_count": 66,
+  "affinity_all_directions": [
+    {
+      "from": "アネモネ",
+      "to": "ネリネ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "アネモネ",
+      "to": "カンパニュラ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "アネモネ",
+      "to": "ダフネ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "アネモネ",
+      "to": "ミモザ",
+      "before": 95,
+      "after": 95,
+      "changed": false
+    },
+    {
+      "from": "アネモネ",
+      "to": "ビオラ",
+      "before": 92,
+      "after": 92,
+      "changed": false
+    },
+    {
+      "from": "アネモネ",
+      "to": "ルピナス",
+      "before": 90,
+      "after": 90,
+      "changed": false
+    },
+    {
+      "from": "アネモネ",
+      "to": "エリカ",
+      "before": 85,
+      "after": 85,
+      "changed": false
+    },
+    {
+      "from": "アネモネ",
+      "to": "アイリス",
+      "before": 82,
+      "after": 82,
+      "changed": false
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "ビオラ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "アネモネ",
+      "before": 99,
+      "after": 99,
+      "changed": false
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "ネリネ",
+      "before": 99,
+      "after": 99,
+      "changed": false
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "ミモザ",
+      "before": 94,
+      "after": 96,
+      "changed": true
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "アイリス",
+      "before": 92,
+      "after": 92,
+      "changed": false
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "ダフネ",
+      "before": 85,
+      "after": 85,
+      "changed": false
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "ルピナス",
+      "before": 84,
+      "after": 88,
+      "changed": true
+    },
+    {
+      "from": "カンパニュラ",
+      "to": "エリカ",
+      "before": 83,
+      "after": 83,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "エリカ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "アネモネ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "ミモザ",
+      "before": 99,
+      "after": 99,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "ネリネ",
+      "before": 95,
+      "after": 95,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "ビオラ",
+      "before": 91,
+      "after": 91,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "アイリス",
+      "before": 90,
+      "after": 90,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "カンパニュラ",
+      "before": 82,
+      "after": 82,
+      "changed": false
+    },
+    {
+      "from": "ダフネ",
+      "to": "ルピナス",
+      "before": 82,
+      "after": 82,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "ルピナス",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "アイリス",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "ダフネ",
+      "before": 97,
+      "after": 97,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "ミモザ",
+      "before": 96,
+      "after": 96,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "ネリネ",
+      "before": 96,
+      "after": 96,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "ビオラ",
+      "before": 88,
+      "after": 88,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "アネモネ",
+      "before": 81,
+      "after": 81,
+      "changed": false
+    },
+    {
+      "from": "エリカ",
+      "to": "カンパニュラ",
+      "before": 80,
+      "after": 80,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "ビオラ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "ネリネ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "エリカ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "ダフネ",
+      "before": 95,
+      "after": 95,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "ミモザ",
+      "before": 92,
+      "after": 92,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "カンパニュラ",
+      "before": 89,
+      "after": 89,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "ルピナス",
+      "before": 89,
+      "after": 89,
+      "changed": false
+    },
+    {
+      "from": "アイリス",
+      "to": "アネモネ",
+      "before": 78,
+      "after": 78,
+      "changed": false
+    },
+    {
+      "from": "ルピナス",
+      "to": "エリカ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ルピナス",
+      "to": "ネリネ",
+      "before": 96,
+      "after": 96,
+      "changed": false
+    },
+    {
+      "from": "ルピナス",
+      "to": "ミモザ",
+      "before": 95,
+      "after": 95,
+      "changed": false
+    },
+    {
+      "from": "ルピナス",
+      "to": "アネモネ",
+      "before": 95,
+      "after": 95,
+      "changed": false
+    },
+    {
+      "from": "ルピナス",
+      "to": "アイリス",
+      "before": 92,
+      "after": 92,
+      "changed": false
+    },
+    {
+      "from": "ルピナス",
+      "to": "ビオラ",
+      "before": 92,
+      "after": 92,
+      "changed": false
+    },
+    {
+      "from": "ルピナス",
+      "to": "カンパニュラ",
+      "before": 86,
+      "after": 89,
+      "changed": true
+    },
+    {
+      "from": "ルピナス",
+      "to": "ダフネ",
+      "before": 84,
+      "after": 84,
+      "changed": false
+    },
+    {
+      "from": "ミモザ",
+      "to": "ダフネ",
+      "before": 99,
+      "after": 99,
+      "changed": false
+    },
+    {
+      "from": "ミモザ",
+      "to": "ビオラ",
+      "before": 98,
+      "after": 98,
+      "changed": false
+    },
+    {
+      "from": "ミモザ",
+      "to": "エリカ",
+      "before": 97,
+      "after": 97,
+      "changed": false
+    },
+    {
+      "from": "ミモザ",
+      "to": "アイリス",
+      "before": 94,
+      "after": 94,
+      "changed": false
+    },
+    {
+      "from": "ミモザ",
+      "to": "ルピナス",
+      "before": 94,
+      "after": 94,
+      "changed": false
+    },
+    {
+      "from": "ミモザ",
+      "to": "カンパニュラ",
+      "before": 89,
+      "after": 92,
+      "changed": true
+    },
+    {
+      "from": "ミモザ",
+      "to": "アネモネ",
+      "before": 88,
+      "after": 88,
+      "changed": false
+    },
+    {
+      "from": "ミモザ",
+      "to": "ネリネ",
+      "before": 87,
+      "after": 90,
+      "changed": true
+    },
+    {
+      "from": "ネリネ",
+      "to": "ビオラ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ネリネ",
+      "to": "アネモネ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ネリネ",
+      "to": "アイリス",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ネリネ",
+      "to": "ルピナス",
+      "before": 98,
+      "after": 98,
+      "changed": false
+    },
+    {
+      "from": "ネリネ",
+      "to": "カンパニュラ",
+      "before": 98,
+      "after": 98,
+      "changed": false
+    },
+    {
+      "from": "ネリネ",
+      "to": "エリカ",
+      "before": 96,
+      "after": 96,
+      "changed": false
+    },
+    {
+      "from": "ネリネ",
+      "to": "ダフネ",
+      "before": 91,
+      "after": 91,
+      "changed": false
+    },
+    {
+      "from": "ネリネ",
+      "to": "ミモザ",
+      "before": 87,
+      "after": 90,
+      "changed": true
+    },
+    {
+      "from": "ビオラ",
+      "to": "ネリネ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ビオラ",
+      "to": "カンパニュラ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ビオラ",
+      "to": "アイリス",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ビオラ",
+      "to": "ミモザ",
+      "before": 100,
+      "after": 100,
+      "changed": false
+    },
+    {
+      "from": "ビオラ",
+      "to": "ルピナス",
+      "before": 92,
+      "after": 92,
+      "changed": false
+    },
+    {
+      "from": "ビオラ",
+      "to": "ダフネ",
+      "before": 90,
+      "after": 90,
+      "changed": false
+    },
+    {
+      "from": "ビオラ",
+      "to": "エリカ",
+      "before": 88,
+      "after": 88,
+      "changed": false
+    },
+    {
+      "from": "ビオラ",
+      "to": "アネモネ",
+      "before": 85,
+      "after": 85,
+      "changed": false
+    }
+  ],
+  "memory_changed_characters": [
+    "アネモネ",
+    "カンパニュラ",
+    "ダフネ",
+    "エリカ",
+    "アイリス",
+    "ルピナス",
+    "ミモザ",
+    "ネリネ",
+    "ビオラ"
+  ],
+  "scope_note": "公開画面の前後比較。内部記憶の削除・圧縮方式や会話との因果を断定しない。",
+  "comparison_basis": "公開人物図鑑の開始前後比較。採取証拠は非公開で保持。"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "pair_id": 26,
+    "record": 498,
+    "new_speeches": 4,
+    "old_display_prefix_match": true,
+    "independent_saved_suffix_match": true,
+    "evidence_scope": "Full before/after/independent-read evidence retained locally; public extract contains only four new utterances.",
+    "public_extract": "498.txt"
+  },
+  {
+    "pair_id": 27,
+    "record": 499,
+    "new_speeches": 4,
+    "old_display_prefix_match": true,
+    "independent_saved_suffix_match": true,
+    "evidence_scope": "Full before/after/independent-read evidence retained locally; public extract contains only four new utterances.",
+    "public_extract": "499.txt"
+  },
+  {
+    "pair_id": 28,
+    "record": 500,
+    "new_speeches": 4,
+    "old_display_prefix_match": true,
+    "independent_saved_suffix_match": true,
+    "evidence_scope": "Full before/after/independent-read evidence retained locally; public extract contains only four new utterances.",
+    "public_extract": "500.txt"
+  },
+  {
+    "pair_id": 29,
+    "record": 501,
+    "new_speeches": 4,
+    "old_display_prefix_match": true,
+    "independent_saved_suffix_match": true,
+    "evidence_scope": "Full before/after/independent-read evidence retained locally; public extract contains only four new utterances.",
+    "public_extract": "501.txt"
+  },
+  {
+    "pair_id": 30,
+    "record": 502,
+    "new_speeches": 4,
+    "old_display_prefix_match": true,
+    "independent_saved_suffix_match": true,
+    "evidence_scope": "Full before/after/independent-read evidence retained locally; public extract contains only four new utterances.",
+    "public_extract": "502.txt"
+  },
+  {
+    "pair_id": 31,
+    "record": 503,
+    "new_speeches": 4,
+    "old_display_prefix_match": true,
+    "independent_saved_suffix_match": true,
+    "evidence_scope": "Full before/after/independent-read evidence retained locally; public extract contains only four new utterances.",
+    "public_extract": "503.txt"
+  }
+]
